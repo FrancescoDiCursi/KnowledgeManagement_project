@@ -1,0 +1,842 @@
+phylum,classe,ordine,famiglia,specie_lat,specie_it,L. 157/92 art. 2,L. 157/92,79/409 CEE Ap.1,79/409 CEE Ap.2/I,79/409 CEE Ap.2/II,79/409 CEE Ap.3/I,79/409 CEE Ap.3/II,BERNA Ap.2,BERNA Ap.3,CITES All. A,CITES All. B,CITES All. D,BONN Ap.1,BONN Ap.2,HABITAT Ap.2,HABITAT Ap.4,HABITAT Ap.5,BARCELLONA all. 2,ENDEMICA,CHECKLIST,IUCN
+Annelida,HIRUDINEA,GNATHOBDELLAE,Hirudinidae,"Hirudo medicinalis (Linnaeus, 1758)",Sanguisuga,,,,,,,,,x,,x,,,,,,,,,,"A minor rischio, Quasi a rischio"
+Arthropoda,CRUSTACEA,DECAPODA,Astacidae,"Astacus astacus (Linnaeus, 1758)",Astice,,,,,,,,,x,,,,,,,,x,,,,Vulnerabile
+Arthropoda,CRUSTACEA,DECAPODA,Astacidae,"Austropotamobius pallipes (Lereboullet, 1858)",Gambero di fiume,,,,,,,,,x,,,,,,x,,x,,,,Vulnerabile
+Arthropoda,CRUSTACEA,DECAPODA,Majidae,"Maja squinado (Herbst, 1788)",Granceola,,,,,,,,,x,,,,,,,,,,,,None
+Arthropoda,CRUSTACEA,DECAPODA,Nephropidae,"Homarus gammarus (Linnaeus, 1758)",Astice,,,,,,,,,x,,,,,,,,,,,,None
+Arthropoda,CRUSTACEA,DECAPODA,Ocypodidae,"Ocypode cursor (Linnaeus, 1758)",Granchio fantasma,,,,,,,,x,,,,,,,,,,,,,None
+Arthropoda,CRUSTACEA,DECAPODA,Palinuridae,"Palinurus elephas (Fabricius, 1787)",Aragosta,,,,,,,,,x,,,,,,,,,,,,None
+Arthropoda,CRUSTACEA,DECAPODA,Scyllaridae,"Scyllarides latus (Latreille,1803)",Cicala grande,,,,,,,,,x,,,,,,,,x,,,,None
+Arthropoda,CRUSTACEA,DECAPODA,Scyllaridae,"Scyllarus arctus (Linnaeus, 1758)",Cicala di mare,,,,,,,,,x,,,,,,,,,,,,None
+Arthropoda,CRUSTACEA,DECAPODA,Scyllaridae,"Scyllarus pygmaeus (Bate, 1888)",Cicala minore,,,,,,,,,x,,,,,,,,,,,,None
+Arthropoda,HEXAPODA,COLEOPTERA,Bostrichidae,"Stephanopachys substriatus (Paykull, 1800)",,,,,,,,,x,,,,,,,x,x,,,,,None
+Arthropoda,HEXAPODA,COLEOPTERA,Buprestidae,"Buprestis splendens Fabricius, 1774",,,,,,,,,x,,,,,,,x,x,,,,,None
+Arthropoda,HEXAPODA,COLEOPTERA,Carabidae,"Carabus olympiae * Sella, 1855",,,,,,,,,x,,,,,,,x,x,,,x,,Vulnerabile
+Arthropoda,HEXAPODA,COLEOPTERA,Cerambycidae,"Cerambyx cerdo (Linnaeus, 1758)",,,,,,,,,x,,,,,,,x,x,,,,,Vulnerabile
+Arthropoda,HEXAPODA,COLEOPTERA,Cerambycidae,"Morimus funereus (Mulsant, 1863)",,,,,,,,,,,,,,,,x,,,,,,None
+Arthropoda,HEXAPODA,COLEOPTERA,Cerambycidae,"Rosalia alpina   * (Linnaeus, 1758)",,,,,,,,,x,,,,,,,x,x,,,,,Vulnerabile
+Arthropoda,HEXAPODA,COLEOPTERA,Cetoniidae,"Osmoderma eremita   * (Scopoli, 1763)",,,,,,,,,x,,,,,,,x,x,,,,,Vulnerabile
+Arthropoda,HEXAPODA,COLEOPTERA,Cucujidae,"Cucujus cinnaberinus (Scopoli, 1763)",,,,,,,,,x,,,,,,,x,x,,,,R,None
+Arthropoda,HEXAPODA,COLEOPTERA,Dytiscidae,"Dytiscus latissimus (Linnaeus, 1758)",,,,,,,,,x,,,,,,,x,x,,,,,Vulnerabile
+Arthropoda,HEXAPODA,COLEOPTERA,Dytiscidae,"Graphoderus bilineatus (De Geer, 1774)",,,,,,,,,x,,,,,,,x,x,,,,,Vulnerabile
+Arthropoda,HEXAPODA,COLEOPTERA,Lucanidae,"Lucanus cervus (Linnaeus, 1758)",,,,,,,,,,x,,,,,,x,,,,,,None
+Arthropoda,HEXAPODA,LEPIDOPTERA,Arctiidae,"Euplagia quadripunctaria   * (Poda, 1761)",,,,,,,,,,,,,,,,x,,,,,,None
+Arthropoda,HEXAPODA,LEPIDOPTERA,Lasiocampidae,"Eriogaster catax (Linnaeus, 1758)",,,,,,,,,x,,,,,,,x,x,,,,,Dati insufficienti
+Arthropoda,HEXAPODA,LEPIDOPTERA,Lycaenidae,"Lycaena dispar (Haworth, 1803)",,,,,,,,,x,,,,,,,x,x,,,,M,"A minor rischio, Quasi a rischio"
+Arthropoda,HEXAPODA,LEPIDOPTERA,Lycaenidae,"Maculinea arion (Linnaeus, 1758)  ",,,,,,,,,·,,,,,,,,x,,,,,"A minor rischio, Quasi a rischio"
+Arthropoda,HEXAPODA,LEPIDOPTERA,Lycaenidae,"Maculinea teleius (Bergstrasser, 1779)",,,,,,,,,x,,,,,,,x,x,,,,M,"A minor rischio, Quasi a rischio"
+Arthropoda,HEXAPODA,LEPIDOPTERA,Lycaenidae,"Maculinea teleius (Bergstrasser, 1799)",,,,,,,,,x,,,,,,,x,x,,,,M,"A minor rischio, Quasi a rischio"
+Arthropoda,HEXAPODA,LEPIDOPTERA,Nymphalidae,"Argynnis elisa Godart, 1823",,,,,,,,,x,,,,,,,,x,,,x,,None
+Arthropoda,HEXAPODA,LEPIDOPTERA,Nymphalidae,"Euphydryas aurinia (Rottemburg,1775)",,,,,,,,,x,,,,,,,x,,,,,,None
+Arthropoda,HEXAPODA,LEPIDOPTERA,Papilionidae,"Papilio alexanor Esper, 1799",,,,,,,,,x,,,,,,,,x,,,,M,None
+Arthropoda,HEXAPODA,LEPIDOPTERA,Papilionidae,"Papilio hospiton Géné, 1839",,,,,,,,,x,,x,,,,,x,x,,,x,M,Minacciato
+Arthropoda,HEXAPODA,LEPIDOPTERA,Papilionidae,"Parnassius apollo (Linnaeus, 1758) ",,,,,,,,,x,,x,,,,,,x,,,,,Vulnerabile
+Arthropoda,HEXAPODA,LEPIDOPTERA,Papilionidae,"Parnassius mnemosyne (Linnaeus, 1758)  ",,,,,,,,,x,,,,,,,,x,,,,,None
+Arthropoda,HEXAPODA,LEPIDOPTERA,Papilionidae,"Zerynthia polyxena (Denis & Schiffermuller, 1775)",,,,,,,,,x,,,,,,,,x,,,,,None
+Arthropoda,HEXAPODA,LEPIDOPTERA,Satyridae,"Coenonympha oedippus (Fabricius, 1787)",,,,,,,,,x,,,,,,,x,x,,,,M,"A minor rischio, Quasi a rischio"
+Arthropoda,HEXAPODA,LEPIDOPTERA,Satyridae,"Erebia calcaria Lorkovic, 1949",,,,,,,,,x,,,,,,,x,x,,,x,,None
+Arthropoda,HEXAPODA,LEPIDOPTERA,Satyridae,"Erebia christi Ratzer, 1890",,,,,,,,,x,,,,,,,x,x,,,x,M,"A minor rischio, Quasi a rischio"
+Arthropoda,HEXAPODA,LEPIDOPTERA,Satyridae,"Lasiommata achine (Scopoli, 1763)",,,,,,,,,x,,,,,,,,x,,,,,None
+Arthropoda,HEXAPODA,LEPIDOPTERA,Satyridae,"Melanargia arge (Sulzer, 1776)",,,,,,,,,x,,,,,,,x,x,,,,,None
+Arthropoda,HEXAPODA,LEPIDOPTERA,Sphingidae,"Hyles hippophaes (Esper, 1793)",,,,,,,,,x,,,,,,,,x,,,,,Dati insufficienti
+Arthropoda,HEXAPODA,LEPIDOPTERA,Sphingidae,"Prosperinus proserpinus (Pallas, 1772)",,,,,,,,,x,,,,,,,,x,,,,,Dati insufficienti
+Arthropoda,HEXAPODA,ODONATA,Coenagrionidae,"Coenagrion mercuriale (Charpentier, 1840)",Agrion di Mercurio,,,,,,,,x,,,,,,,x,,,,,,Vulnerabile
+Arthropoda,HEXAPODA,ODONATA,Cordulegastridae,"Cordulegaster trinacriae Waterston, 1976",,,,,,,,,x,,,,,,,x,x,,,x,M,None
+Arthropoda,HEXAPODA,ODONATA,Corduliidae,"Oxygastra curtisii (Dale, 1834)",,,,,,,,,x,,,,,,,x,x,,,,M,Vulnerabile
+Arthropoda,HEXAPODA,ODONATA,Gromphidae,"Gomphus flavipes (Charpentier, 1825) ",,,,,,,,,x,,,,,,,,x,,,,M,None
+Arthropoda,HEXAPODA,ODONATA,Gromphidae,"Lindenia tetraphylla (Van der Linden, 1825)",,,,,,,,,x,,,,,,,x,x,,,,M,None
+Arthropoda,HEXAPODA,ODONATA,Gromphidae,"Ophiogomphus cecilia (Fourcroy, 1785)",,,,,,,,,x,,,,,,,x,x,,,,M,None
+Arthropoda,HEXAPODA,ODONATA,Lestidae,"Sympecma paedisca (Brauer, 1882)",,,,,,,,,x,,,,,,,,,,,,M,None
+Arthropoda,HEXAPODA,ODONATA,Libellulidae,"Leucorrhinia pectoralis (Charpentier, 1825) ",,,,,,,,,x,,,,,,,x,x,,,,M,None
+Arthropoda,HEXAPODA,ORTHOPTERA,Tettigoniidae,"Saga pedo (Pallas, 1771)",Saga,,,,,,,,x,,,,,,,,x,,,,M,Vulnerabile
+Bryozoa,STENOLAEMATA,CYCLOSTOMIDA,Horneridae,Hornera lichenoides,,,,,,,,,,,,,,,,,,,,x,,None
+Chordata,AGNATHA,PETROMYZONTIFORMES,Petromyzontidae,"Lampetra fluviatilis (Linnaeus, 1758)",Lampreda di fiume,,,,,,,,,x,,,,,,x,,x,,,,"A minor rischio, Quasi a rischio"
+Chordata,AGNATHA,PETROMYZONTIFORMES,Petromyzontidae,"Lampetra planeri (Bloch, 1784)",Lampreda comune,,,,,,,,,x,,,,,,x,,,,,,"A minor rischio, Quasi a rischio"
+Chordata,AGNATHA,PETROMYZONTIFORMES,Petromyzontidae,"Lampetra zanandreai (Vladykov, 1955)",Lampreda padana,,,,,,,,x,,,,,,,x,,x,,,,Minacciato
+Chordata,AGNATHA,PETROMYZONTIFORMES,Petromyzontidae,"Lethenteron zanandreai (Vladykov, 1955)",Lampreda di ruscello,,,,,,,,x,,,,,,,x,,x,,x,,Minacciato
+Chordata,AGNATHA,PETROMYZONTIFORMES,Petromyzontidae,"Petromyzon marinus Linnaeus, 1758",Lampreda di mare,,,,,,,,,x,,,,,,x,,,,,,None
+Chordata,AMPHIBIA,ANURA,Bufonidae,"Bufo bufo (Linnaeus, 1758)",Rospo comune,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,AMPHIBIA,ANURA,Bufonidae,"Bufo viridis  Laurenti, 1768",Rospo smeraldino,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,AMPHIBIA,ANURA,Discoglossidae,"Bombina pachypus (Bonaparte, 1838)",Ululone italiano,,,,,,,,,x,,,,,,,,,,x,,None
+Chordata,AMPHIBIA,ANURA,Discoglossidae,"Bombina variegata (Linnaeus, 1758)",Ululone dal  ventre giallo,,,,,,,,x,,,,,,,x,x,,,,,None
+Chordata,AMPHIBIA,ANURA,Discoglossidae,"Discoglossus pictus Otth, 1837",Discoglosso dipinto,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,AMPHIBIA,ANURA,Discoglossidae,"Discoglossus sardus Tschudi, 1837",Discoglosso sardo,,,,,,,,x,,,,,,,x,x,,,,,None
+Chordata,AMPHIBIA,ANURA,Hylidae,"Hyla arborea (Linnaeus, 1758)",Raganella comune,,,,,,,,x,,,,,,,,x,,,,,"A minor rischio, Quasi a rischio"
+Chordata,AMPHIBIA,ANURA,Hylidae,"Hyla intermedia Boulenger, 1882",Raganella italiana,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,AMPHIBIA,ANURA,Hylidae,"Hyla meridionalis Boettger, 1874",Raganella mediterranea,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,AMPHIBIA,ANURA,Hylidae,"Hyla sarda (De Betta, 1853)",Raganella tirrenica,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,AMPHIBIA,ANURA,Pelobatidae,"Pelobates fuscus (Laurenti, 1768)",Pelobate fosco,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,AMPHIBIA,ANURA,Pelobatidae,"Pelobates fuscus insubricus   * Cornalia, 1873",Pelobate padano,,,,,,,,,x,,,,,,x,,,,x,M,None
+Chordata,AMPHIBIA,ANURA,Pelodytidae,"Pelodytes punctatus (Daudin, 1802)",Pelodite punteggiato,,,,,,,,,x,,,,,,,,,,,M,None
+Chordata,AMPHIBIA,ANURA,Ranidae,"Rana arvalis Nilsson, 1758",Rana arvale,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,AMPHIBIA,ANURA,Ranidae,"Rana catesbeiana Saw, 1802",Rana toro,,,,,,,,,x,,x,,,,,,,,,,None
+Chordata,AMPHIBIA,ANURA,Ranidae,"Rana dalmatina Bonaparte, 1840",Rana agile,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,AMPHIBIA,ANURA,Ranidae,"Rana italica Dubois, 1987",Rana appenninica,,,,,,,,x,,,,,,,,x,,,x,,None
+Chordata,AMPHIBIA,ANURA,Ranidae,"Rana latastei Boulenger, 1879",Rana di Lataste,,,,,,,,x,,,,,,,x,x,,,x,M,"A minor rischio, Quasi a rischio"
+Chordata,AMPHIBIA,ANURA,Ranidae,"Rana lessonae Camerano, 1882 ",Rana di Lessona,,,,,,,,,x,,,,,,,x,,,,,None
+Chordata,AMPHIBIA,ANURA,Ranidae,"Rana perezi Seoane, 1885",Rana di Perez,,,,,,,,,x,,,,,,,,x,,,,None
+Chordata,AMPHIBIA,ANURA,Ranidae,"Rana ridibunda Pallas, 1771",Rana ridibonda,,,,,,,,,x,,,,,,,,x,,,,None
+Chordata,AMPHIBIA,ANURA,Ranidae,"Rana temporaria Linnaeus, 1758",Rana temporaria,,,,,,,,,x,,,,,,,,x,,,,None
+Chordata,AMPHIBIA,URODELA,Plethodontidae,"Speleomantes genei (Temminck & Schlegel, 1838)",Geotritone di Gené,,,,,,,,x,,,,,,,x,x,,,x,,"A minor rischio, Quasi a rischio"
+Chordata,AMPHIBIA,URODELA,Plethodontidae,"Speleomantes imperialis (Stefani, 1969)",Geotritone imperiale,,,,,,,,x,,,,,,,x,x,,,x,,"A minor rischio, Quasi a rischio"
+Chordata,AMPHIBIA,URODELA,Plethodontidae,"Speleomantes italicus (Dunn, 1923)",Geotritone italiano,,,,,,,,x,,,,,,,,x,,,x,,None
+Chordata,AMPHIBIA,URODELA,Proteidae,"Proteus anguinus Laurenti, 1768",Proteo,,,,,,,,x,,,,,,,x,x,,,,,Vulnerabile
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Euproctus platycephalus (Gravenhorst, 1829)",Euprotto sardo,,,,,,,,x,,,,,,,,x,,,x,,Gravemente minacciato
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Salamandra atra aurorae   * Trevisan, 1982",Salamandra alpina di Aurora,,,,,,,,,x,,,,,,x,,,,,,None
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Salamandra atra Laurenti, 1768",Salamandra alpina,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Salamandra lanzai Nascetti, Capula & Bullini, 1988",Salamandra del Lanza,,,,,,,,,x,,,,,,,x,,,,,Vulnerabile
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Salamandra salamandra (Linnaeus, 1758)",Salamandra pezzata,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Salamandrina terdigitata (Lacépède, 1788)",Salamandrina dagli occhiali,,,,,,,,x,,,,,,,x,,,,x,,None
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Speleomantes ambrosii (Lanza, 1955)",Geotritone di Ambrosi,,,,,,,,,x,,,,,,x,x,,,x,,None
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Speleomantes flavus (Stefani, 1969)",Geotritone di Monte Albo,,,,,,,,x,,,,,,,x,x,,,x,,Vulnerabile
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Speleomantes genei (Temminck & Schlegel, 1838)",Geotritone dell'Iglesiente,,,,,,,,x,,,,,,,x,x,,,x,,"A minor rischio, Quasi a rischio"
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Speleomantes imperialis (Stefani, 1969)",Geotritone odoroso,,,,,,,,x,,,,,,,x,x,,,x,,"A minor rischio, Quasi a rischio"
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Speleomantes italicus (Dunn, 1923)",Geotritone italico,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Speleomantes strinatii (Aellen, 1958) ",Geotritone di Strinati,,,,,,,,,x,,,,,,x,,,,,,None
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Speleomantes supramonti (Lanza, Nascetti & Bullini, 1986)",Geotritone del Supramonte,,,,,,,,x,,,,,,,x,x,,,,,"A minor rischio, Quasi a rischio"
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Triturus alpestris (Laurenti, 1768)",Tritone alpino,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Triturus carnifex (Laurenti, 1768)",Tritone crestato italiano,,,,,,,,x,,,,,,,x,x,,,,,None
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Triturus italicus (Peracca, 1898)",Tritone italiano,,,,,,,,x,,,,,,,,x,,,x,,None
+Chordata,AMPHIBIA,URODELA,Salamandridae,"Triturus vulgaris (Linnaeus, 1758)",Tritone punteggiato,,,,,,,,,x,,,,,,,,,,x,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Accipiter brevipes (Severtzov, 1850)",Sparviere levantino,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,Accipiter gentilis  arrigonii,Astore ss. di Sardegna e Corsica,x,,x,,,,,,x,,x,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Accipiter gentilis (Linnaeus, 1758)",Astore,x,,,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Accipiter nisus (Linnaeus, 1758)",Sparviere,x,,,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Aegypius monachus (Linnaeus, 1766)",Avvoltoio monaco,x,,x,,,,,,x,x,,,,x,,,,,,,"A minor rischio, Quasi a rischio"
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Aquila chrysaetos (Linnaeus, 1758)",Aquila reale,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Aquila clanga Pallas, 1811",Aquila anatraia maggiore,x,,x,,,,,,x,x,,,x,,,,,,,,Vulnerabile
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Aquila heliaca Savigny, 1809",Aquila imperiale,x,,x,,,,,,x,x,,,x,,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Aquila pomarina Brehm C.L.,1831",Aquila anatraia minore,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Aquila rapax (Temminck, 1828)",Aquila rapace,x,,,,,,,,x,,x,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Buteo buteo (Linnaeus, 1758)",Poiana,x,,,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Buteo lagopus (Pontoppidan, 1763)",Poiana calzata,x,,,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Buteo rufinus (Cretzschmar, 1827)",Poiana codabianca,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Circaetus gallicus (Gmelin, 1788)",Biancone,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Circus aeruginosus (Linnaeus, 1758) ",Falco di palude,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Circus cyaneus (Linnaeus, 1766)",Albanella reale,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Circus macrourus (Gmelin, 1771)",Albanella pallida,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Circus pygargus (Linnaeus, 1758)",Albanella minore,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Elanus caeruleus (Desfontaines, 1789)",Nibbio bianco,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Gypaetus barbatus (Linnaeus, 1758)",Gipeto,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Gyps fulvus (Hablizl, 1783)",Grifone,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Haliaeetus albicilla (Linnaeus, 1758)",Aquila di mare,x,,x,,,,,,x,x,,,x,,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Hieraaetus fasciatus (Vieillot, 1822)",Aquila del Bonelli,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Hieraaetus pennatus (Gmelin, 1788)",Aquila minore,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Milvus migrans (Boddaert, 1783)",Nibbio bruno,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Milvus milvus (Linnaeus, 1758)",Nibbio reale,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Neophron  percnopterus (Linnaeus, 1758)",Capovaccaio,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Accipitridae,"Pernis apivorus (Linnaeus, 1758)",Falco pecchiaiolo,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ACCIPITRIFORMES,Pandionidae,"Pandion haliaetus (Linnaeus, 1758)",Falco pescatore,x,,x,,,,,,x,x,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Aix  galericulata (Linnaeus, 1758)",Anatra mandarina,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Anas acuta Linnaeus, 1758",Codone,,,,x,,,x,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Anas clypeata Linnaeus, 1758",Mestolone,,,,x,,,x,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Anas crecca Linnaeus, 1758",Alzavola,,,,x,,,x,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Anas discors Linnaeus, 1766",Marzaiola americana,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Anas formosa Georgi, 1775",Alzavola asiatica,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Anas penelope Linnaeus, 1758",Fischione,,,,x,,,x,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Anas platyrhynchos Linnaeus, 1758",Germano reale,,,,x,,x,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Anas querquedula Linnaeus, 1758",Marzaiola,,,,x,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Anas strepera Linnaeus, 1758",Canapiglia,,,,x,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Anser albifrons (Scopoli, 1769)",Oca lombardella,,x,,,x,,x,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Anser anser (Linnaeus, 1758)",Oca selvatica,,x,,x,,,x,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Anser brachyrhynchus Baillon, 1833",Oca zamperosee,,x,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Anser caerulescens (Linnaeus, 1758)",Oca delle nevi,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Anser erythropus (Linnaeus, 1758)",Oca lombardella minore,,x,x,,,,,x,,,,,x,,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Anser fabalis (Latham, 1787)",Oca granaiola,,x,,x,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Aythya ferina (Linnaeus, 1758)",Moriglione,,,,x,,,x,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Aythya fuligula (Linnaeus, 1758)",Moretta,,,,x,,,x,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Aythya marila (Linnaeus, 1761)",Moretta grigia,,x,,,x,,x,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Aythya nyroca (Güldenstädt, 1770)",Moretta tabaccata,,x,x,,,,,,x,,,,x,,,,,,,,Vulnerabile
+Chordata,AVES,ANSERIFORMES,Anatidae,"Branta bernicla (Linnaeus, 1758)",Oca colombaccio,,x,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Branta canadensis (Linnaeus, 1758)",Oca del Canada,,x,,x,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Branta leucopsis (Bechstein, 1803)",Oca facciabianca,,x,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Branta ruficollis (Pallas, 1764)",Oca collorosso,,x,x,,,,,x,,x,,,x,,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Bucephala clangula (Linnaeus, 1758)",Quattrocchi,,x,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Clangula hyemalis (Linnaeus, 1758)",Moretta codona,,x,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Cygnus columbianus (Ord, 1815)",Cigno minore,x,,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Cygnus cygnus (Linnaeus, 1758)",Cigno selvatico,x,,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Cygnus olor (Gmelin, 1789)",Cigno reale,x,,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Histrionicus histrionicus (Linnaeus, 1758)",Moretta arlecchino,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Marmaronetta  angustirostris (Ménétriés, 1832)",Anatra marmorizzata,,x,x,,,,,x,,,,,x,,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Melanitta fusca (Linnaeus, 1758)",Orco marino,,x,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Melanitta nigra (Linnaeus, 1758)",Orchetto marino,,x,,,x,,x,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Mergus albellus Linnaeus, 1758",Pesciaiola,,x,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Mergus merganser Linnaeus, 1758",Smergo maggiore,,x,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Mergus serrator Linnaeus, 1758",Smergo minore,,x,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Netta rufina (Pallas, 1773)",Fistione turco,x,,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Oxyura jamaicensis (Gmelin, 1789)",Gobbo della Giamaica,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Oxyura leucocephala (Scopoli, 1769)",Gobbo rugginoso,x,,x,,,,,x,,x,,,x,,,,,,,,Vulnerabile
+Chordata,AVES,ANSERIFORMES,Anatidae,"Somateria mollissima (Linnaeus, 1758)",Edredone,,x,,,x,,x,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Somateria spectabilis (Linnaeus, 1758)",Re degli edredoni,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Tadorna ferruginea (Pallas, 1764)",Casarca,,x,x,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,ANSERIFORMES,Anatidae,"Tadorna tadorna (Linnaeus, 1758)",Volpoca,x,,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,APODIFORMES,Apodidae,"Apus affinis (Gray G.E., 1830)",Rondone indiano,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,APODIFORMES,Apodidae,"Apus apus (Linnaeus, 1758)",Rondone,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,APODIFORMES,Apodidae,"Apus melba (Linnaeus, 1758)",Rondone maggiore,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,APODIFORMES,Apodidae,"Apus pallidus (Shelley, 1870)",Rondone pallido,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CAPRIMULGIFORMES,Caprimulgidae,"Caprimulgus aegyptius Lichtenstein, 1823",Succiacapre isabellino,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CAPRIMULGIFORMES,Caprimulgidae,"Caprimulgus europaeus Linnaeus, 1758",Succiacapre,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CAPRIMULGIFORMES,Caprimulgidae,"Caprimulgus ruficollis Temminck, 1820",Succiacapre collorosso,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Alcidae,"Alca torda Linnaeus, 1758",Gazza marina,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Alcidae,"Alle alle (Linnaeus, 1758)",Gazza marina minore,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Alcidae,"Fratercula arctica (Linnaeus, 1758)",Pulcinella di mare,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Burhinidae,"Burhinus oedicnemus (Linnaeus, 1758)",Occhione,,x,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Charadriidae,"Charadrius alexandrinus Linnaeus, 1758",Fratino,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Charadriidae,"Charadrius asiaticus Pallas, 1773",Corriere asiatico,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Charadriidae,"Charadrius dubius Scopoli, 1786",Corriere piccolo,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Charadriidae,"Charadrius hiaticula Linnaeus, 1758",Corriere grosso,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Charadriidae,"Chettusia gregaria (Pallas, 1771)",Pavoncella gregaria,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Charadriidae,"Chettusia leucura (Lichtenstein, 1823)",Pavoncella codabianca,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Charadriidae,"Eudromias morinellus Linnaeus, 1758",Piviere tortolino,x,,x,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Charadriidae,"Hoplopterus spinosus (Linnaeus, 1758)",Pavoncella armata,,x,,,,,,,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Charadriidae,"Pluvialis apricaria (Linnaeus, 1758)",Piviere dorato,,x,x,,x,,x,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Charadriidae,"Pluvialis dominica (Muller P.L.S., 1776)",Piviere orientale,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Charadriidae,"Pluvialis squatarola (Linnaeus, 1758)",Pivieressa,,x,x,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Charadriidae,"Vanellus vanellus (Linnaeus, 1758)",Pavoncella,,,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Glareolidae,"Cursorius cursor (Latham, 1787)",Corrione biondo,,x,x,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Glareolidae,"Glareola nordmanni Nordmann, 1842",Pernice di mare orientale,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Glareolidae,"Glareola pratincola (Linnaeus, 1766)",Pernice di mare,x,,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Hamatopodidae,"Haematopus ostralegus  Linnaeus, 1758",Beccaccia di mare,,x,,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Larus argentatus Pontoppidan, 1763",Gabbiano reale nordico,,x,,,x,,,,,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Larus audouinii Payraudeau, 1826",Gabbiano corso,x,,x,,,,,x,,,,,x,x,,,,,,,"A minor rischio, Dipendenti dalla protezione"
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Larus cachinnans Pallas, 1811",Gabbiano reale,,x,,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Larus canus Linnaeus, 1758",Gavina,,x,,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Larus fuscus Linnaeus, 1758",Zafferano,,x,,,x,,,,,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Larus genei Breme, 1839",Gabbiano roseo,x,x,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Larus glaucoides Meyer, 1822",Gabbiano d'Islanda,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Larus hyperboreus Gunnerus, 1767",Gabbiano glauco,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Larus ichthyaetus Pallas, 1773",Gabbiano del Pallas,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Larus marinus Linnaeus, 1758",Mugnaiaccio,,x,,,x,,,,,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Larus melanocephalus Temminck, 1820",Gabbiano corallino,x,x,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Larus minutus Pallas, 1776",Gabbianello,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Larus ridibundus Linnaeus, 1766",Gabbiano comune,,x,,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Larus sabini Sabine, 1818",Gabbiano di Sabine,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Pagophila eburnea (Phipps, 1774)",Gabbiano eburneo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Rhodostethia rosea (MacGillivray, 1824)",Gabbiano di Ross,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Laridae,"Rissa tridactyla (Linnaeus, 1758)",Gabbiano tridattilo,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Recurvirostridae,"Himantopus himantopus (Linnaeus, 1758)",Cavaliere d'Italia,x,,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Recurvirostridae,"Recurvirostra avosetta  Linnaeus, 1758",Avocetta,x,,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Actitis hypoleucos (Linnaeus, 1758)",Piro piro piccolo,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Actitis macularia (Linnaeus, 1766)",Piro piro macchiettato,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Arenaria interpres (Linnaeus, 1758)",Voltapietre,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Bartramia longicauda (Bechstein, 1812)",Piro piro codalunga,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Calidris alba (Pallas, 1756)",Piovanello tridattilo,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Calidris alpina (Linnaeus, 1758)",Piovanello pancianera,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Calidris canutus (Linnaeus, 1758)",Piovanello maggiore,,x,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Calidris ferruginea (Pontoppidan, 1763)",Piovanello,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Calidris maritima (Brünnich, 1764) ",Piovanello violetto,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Calidris melanotos (Vieillot, 1819)",Piro piro pettorale,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Calidris minuta (Leisler, 1812)",Gambecchio,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Calidris temminckii (Leisler, 1812)",Gambecchio nano,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Gallinago gallinago (Linnaeus, 1758)",Beccaccino,,,,x,,,x,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Gallinago media (Latham, 1787)",Croccolone,,x,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Limicola falcinellus (Pontoppidan, 1763)",Gambecchio frullino,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Limnodromus scolopaceus (Say, 1823)",Piro piro pettorossiccio,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Limosa lapponica (Linnaeus, 1758)",Pittima minore,,x,x,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Limosa limosa (Linnaeus, 1758)",Pittima reale,,x,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Lymnocryptes minimus (Brünnich, 1764) ",Frullino,,,,x,,,x,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Numenius arquata (Linnaeus, 1758)",Chiurlo,,x,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Numenius phaeopus (Linnaeus, 1758)",Chiurlo piccolo,,x,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Numenius tenuirostris Vieillot, 1817",Chiurlottello,,x,x,,,,,x,,x,,,x,,,,,,,,Gravemente minacciato
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Phalaropus fulicarius (Linnaeus, 1758)",Falaropo becco largo,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Phalaropus lobatus (Linnaeus, 1758)",Falaropo becco sottile,,x,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Phalaropus tricolor (Veilott, 1819)",Falaropo di Wilson,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Philomachus pugnax (Linnaeus, 1758)",Combattente,,,x,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Scolopax rusticola Linnaeus, 1758",Beccaccia,,,,x,,,x,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Tringa erythropus (Pallas, 1746)",Totano moro,,x,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Tringa flavipes (Gmelin, 1789)",Totano zampegialle minore,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Tringa glareola Linnaeus, 1758",Piro piro boschereccio,,x,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Tringa nebularia (Gunnerus, 1767)",Pantana,,x,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Tringa ochropus Linnaeus, 1758",Piro piro culbianco,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Tringa stagnatilis (Bechstein, 1803)",Albastrello,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Tringa totanus (Linnaeus, 1758)",Pettegola,,x,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Tryngites subruficollis (Vieillot, 1819)",Piro piro fulvo,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Scolopacidae,"Xenus cinereus  (Güldenstädt, 1774)",Piro piro di Terek,,x,x,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Stercorariidae,"Stercorarius longicaudus Veilott, 1819",Labbo codalunga,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Stercorariidae,"Stercorarius parasiticus (Linnaeus, 1758)",Labbo,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Stercorariidae,"Stercorarius pomarinus (Temminck, 1815)  ",Stercorario mezzano,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Stercorariidae,"Stercorarius skua (Brünnich, 1764) ",Stercorario maggiore,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Sternidae,"Chlidonias hybridus (Pallas, 1811)",Mignattino piombato,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Sternidae,"Chlidonias leucopterus (Temminck, 1815)",Mignattino alibianche,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Sternidae,"Chlidonias niger (Linnaeus, 1758)",Mignattino,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Sternidae,"Gelochelidon nilotica (Gmelin, 1789)",Sterna zampenere,x,,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Sternidae,"Sterna albifrons Pallas, 1764",Fraticello,,x,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Sternidae,"Sterna bengalensis Lesson, 1831",Sterna del Ruppel,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Sternidae,"Sterna caspia Pallas, 1770",Sterna  maggiore,x,,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Sternidae,"Sterna dougallii Montagu, 1813",Sterna del Dougall,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Sternidae,"Sterna fuscata Linnaeus, 1766",Sterna scura,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Sternidae,"Sterna hirundo Linnaeus, 1758",Sterna comune,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Sternidae,"Sterna paradisaea Pontoppidan, 1763",Sterna codalunga,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CHARADRIIFORMES,Sternidae,"Sterna sandvicensis Latham, 1878",Beccapesci,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CICONIIFORMES,Ardeidae,"Ardea cinerea Linnaeus, 1758",Airone cenerino,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CICONIIFORMES,Ardeidae,"Ardea purpurea Linnaeus, 1766",Airone rosso,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CICONIIFORMES,Ardeidae,"Ardeola ralloides (Scopoli, 1769)",Sgarza ciuffetto,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CICONIIFORMES,Ardeidae,"Botaurus stellaris (Linnaeus, 1758)",Tarabuso,x,,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CICONIIFORMES,Ardeidae,"Bubulcus ibis  (Linnaeus, 1758)",Airone guardabuoi,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CICONIIFORMES,Ardeidae,"Egretta  alba (Linnaeus, 1758)",Airone bianco maggiore,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CICONIIFORMES,Ardeidae,"Egretta garzetta (Linnaeus, 1766)",Garzetta,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CICONIIFORMES,Ardeidae,"Egretta gularis (Bosc, 1792)",Airone schistaceo,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CICONIIFORMES,Ardeidae,"Ixobrychus eurhythmus (Swinhoe, 1873)",Tarabusino orientale,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CICONIIFORMES,Ardeidae,"Ixobrychus minutus (Linnaeus, 1766)",Tarabusino,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CICONIIFORMES,Ardeidae,"Nycticorax nycticorax (Linnaeus, 1758)",Nitticora,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CICONIIFORMES,Ciconiidae,"Ciconia ciconia (Linnaeus, 1758)",Cicogna bianca,x,,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CICONIIFORMES,Ciconiidae,"Ciconia nigra (Linnaeus, 1758)",Cicogna nera,x,,x,,,,,x,,x,,,,x,,,,,,,None
+Chordata,AVES,CICONIIFORMES,Threskiornithidae,"Platalea leucorodia Linnaeus, 1758",Spatola,x,,x,,,,,x,,x,,,,x,,,,,,,None
+Chordata,AVES,CICONIIFORMES,Threskiornithidae,"Plegadis falcinellus (Linnaeus, 1766)",Mignattaio,x,,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,COLUMBIFORMES,Columbidae,"Columba livia Gmelin, 1789",Piccione selvatico,,x,,x,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,COLUMBIFORMES,Columbidae,"Columba oenas Linnaeus, 1758",Colombella,,x,,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,COLUMBIFORMES,Columbidae,"Columba palumbus Linnaeus, 1758",Colombaccio,,,,x,,x,,,,,,,,,,,,,,,None
+Chordata,AVES,COLUMBIFORMES,Columbidae,"Sterptopelia turtur (Linnaeus, 1758)",Tortora,,,,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,COLUMBIFORMES,Columbidae,"Streptopelia decaocto (Frivaldszky, 1838)",Tortora dal collare orientale,,x,,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,COLUMBIFORMES,Columbidae,"Streptopelia orientalis (Latham, 1790)",Tortora orientale,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,COLUMBIFORMES,Columbidae,"Streptopelia senegalensis Linnaeus, 1766",Tortora delle palme,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CORACIIFORMES,Alcedinidae,"Alcedo atthis (Linnaeus, 1758)",Martin pescatore,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CORACIIFORMES,Coraciidae,"Coracias garrulus Linnaeus, 1758",Ghiandaia marina,x,,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CORACIIFORMES,Meropidae,"Merops apiaster Linnaeus, 1758",Gruccione,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,CORACIIFORMES,Meropidae,"Merops superciliosus Linnaeus, 1766",Gruccione  egiziano,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CORACIIFORMES,Upupidae,"Upupa epops Linnaeus, 1758",Upupa,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CUCULIFORMES,Cuculidae,"Clamator glandarius (Linnaeus, 1758)",Cuculo dal ciuffo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,CUCULIFORMES,Cuculidae,"Coccyzus americanus (Linnaeus, 1758)",Cuculo americano,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CUCULIFORMES,Cuculidae,"Coccyzus erythrophthalmus (Wilson, 1811)",Cuculo americano occhirossi,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,CUCULIFORMES,Cuculidae,"Cuculus canorus Linnaeus, 1758",Cuculo,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,FALCONIFORMES,Falconidae,"Falco biarmicus Temminck, 1825",Lanario,x,,x,,,,,x,,x,,,,x,,,,,,,None
+Chordata,AVES,FALCONIFORMES,Falconidae,"Falco cherrug Gray, 1834",Sacro,x,,,,,,,x,,x,,,,x,,,,,,,None
+Chordata,AVES,FALCONIFORMES,Falconidae,"Falco columbarius  Linnaeus, 1758",Smeriglio,x,,x,,,,,x,,x,,,,x,,,,,,,None
+Chordata,AVES,FALCONIFORMES,Falconidae,"Falco eleonorae Géné, 1834",Falco della regina,x,,x,,,,,x,,x,,,,x,,,,,,,None
+Chordata,AVES,FALCONIFORMES,Falconidae,"Falco naumanni Fleischer, 1818",Grillaio,x,,x,,,,,x,,x,,,x,,,,,,,,Vulnerabile
+Chordata,AVES,FALCONIFORMES,Falconidae,"Falco pelegrinoides Temminck, 1829  ",Falcone di Barberia,x,,,,,,,x,,x,,,,x,,,,,,,None
+Chordata,AVES,FALCONIFORMES,Falconidae,"Falco peregrinus Tunstall, 1771",Pellegrino,x,,x,,,,,x,,x,x,,,x,,,,,,,None
+Chordata,AVES,FALCONIFORMES,Falconidae,"Falco subbuteo  Linnaeus, 1758",Lodolaio,x,,,,,,,x,,x,,,,x,,,,,,,None
+Chordata,AVES,FALCONIFORMES,Falconidae,"Falco tinnunculus  Linnaeus, 1758",Gheppio,x,,,,,,,x,,x,,,,x,,,,,,,None
+Chordata,AVES,FALCONIFORMES,Falconidae,"Falco vespertinus  Linnaeus, 1766",Falco cuculo,x,,,,,,,x,,x,,,,x,,,,,,,None
+Chordata,AVES,GALLIFORMES,Phasianidae,"Alectoris barbara (Bonnaterre, 1790)",Pernice sarda,,,x,,x,x,,,x,,,,,,,,,,,,None
+Chordata,AVES,GALLIFORMES,Phasianidae,"Alectoris graeca (Meisner, 1804)",Coturnice,,,,x,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,GALLIFORMES,Phasianidae,Alectoris graeca saxatilis,Coturnice ss. delle Alpi,,,x,,,,,,,,,,,,,,,,,,None
+Chordata,AVES,GALLIFORMES,Phasianidae,Alectoris graeca whitaken,Coturnice ss. di Sicilia,,,x,,,,,,,,,,,,,,,,,,None
+Chordata,AVES,GALLIFORMES,Phasianidae,"Alectoris rufa (Linnaeus, 1758)",Pernice rossa,,,,x,,x,,,x,,,,,,,,,,,,None
+Chordata,AVES,GALLIFORMES,Phasianidae,"Colinus virginianus (Linnaeus, 1758)",Colino della Virginia,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,GALLIFORMES,Phasianidae,"Coturnix coturnix (Linnaeus, 1758)",Quaglia,,,,,x,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,GALLIFORMES,Phasianidae,"Francolinus francolinus (Linnaeus, 1766)",Francolino,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,GALLIFORMES,Phasianidae,"Perdix perdix (Linnaeus, 1758)",Starna,,,,x,,x,,,x,,,,,,,,,,,,None
+Chordata,AVES,GALLIFORMES,Phasianidae,Perdix perdix italica,Starna ss. italiana,,,x,,,,,,,,,,,,,,,,,,None
+Chordata,AVES,GALLIFORMES,Phasianidae,"Phasianus colchicus Linnaeus, 1758",Fagiano comune,,,,x,,x,,,x,,,,,,,,,,,,None
+Chordata,AVES,GALLIFORMES,Tetraonidae,"Bonasa bonasia (Linnaeus, 1758)",Francolino di monte,,x,x,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,GALLIFORMES,Tetraonidae,"Lagopus mutus (Montin, 1776)",Pernice bianca,,,,x,,,x,,x,,,,,,,,,,,,None
+Chordata,AVES,GALLIFORMES,Tetraonidae,Lagopus mutus helveticus,Pernice bianca ss. delle Alpi,,,x,,,,,,,,,,,,,,,,,,None
+Chordata,AVES,GALLIFORMES,Tetraonidae,"Tetrao tetrix  Linnaeus, 1758",Fagiano di monte,,,,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,GALLIFORMES,Tetraonidae,Tetrao tetrix  tetrix,Fagiano di monte ss. continentale,,,x,,,,,,,,,,,,,,,,,,None
+Chordata,AVES,GALLIFORMES,Tetraonidae,"Tetrao urogallus  Linnaeus, 1758",Gallo cedrone,,x,x,,x,,x,,x,,,,,,,,,,,,None
+Chordata,AVES,GAVIIFORMES,Gaviidae,"Gavia adamsii (Gray, 1859) ",Strolaga becco giallo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,GAVIIFORMES,Gaviidae,"Gavia arctica (Linnaeus, 1758)",Strolaga mezzana,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,GAVIIFORMES,Gaviidae,"Gavia immer (Brünnich, 1764)",Strolaga maggiore,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,GAVIIFORMES,Gaviidae,"Gavia stellata (Pontoppidan, 1763)",Strolaga minore,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,GRUIFORMES,Gruidae,"Anthropoides virgo (Linnaeus, 1758)",Damigella di Numidia,,x,,,,,,x,,,x,,,x,,,,,,,None
+Chordata,AVES,GRUIFORMES,Gruidae,"Grus grus (Linnaeus, 1758)",Gru,x,,x,,,,,x,,x,,,,x,,,,,,,None
+Chordata,AVES,GRUIFORMES,Otididae,"Chlamydotis undulata (Jacquin, 1784)",Ubara,,x,x,,,,,x,,,x,,,,,,,,,,None
+Chordata,AVES,GRUIFORMES,Otididae,"Otis tarda  Linnaeus, 1758",Otarda,x,,x,,,,,x,,x,,,x,x,,,,,,,None
+Chordata,AVES,GRUIFORMES,Otididae,"Tetrax tetrax (Linnaeus, 1758)",Gallina prataiola,x,,x,,,,,x,,x,,,,,,,,,,,"A minor rischio, Quasi a rischio"
+Chordata,AVES,GRUIFORMES,Rallidae,"Crex crex (Linnaeus, 1758)",Re di quaglie,,x,x,,,,,x,,,,,,x,,,,,,,Vulnerabile
+Chordata,AVES,GRUIFORMES,Rallidae,"Fulica atra Linnaeus, 1758",Folaga,,,,x,,,x,,x,,,,,x,,,,,,,None
+Chordata,AVES,GRUIFORMES,Rallidae,"Fulica cristata Gmelin, 1789",Folaga cornuta,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,GRUIFORMES,Rallidae,"Gallinula chloropus (Linnaeus, 1758)",Gallinella d'acqua,,,,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,GRUIFORMES,Rallidae,"Porphyrio porphyrio (Linnaeus, 1758)",Pollo sultano,x,,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,GRUIFORMES,Rallidae,"Porphyrula alleni (Thomson, 1842)",Pollo sultano di Allen,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,GRUIFORMES,Rallidae,"Porzana parva (Scopoli, 1769)",Schiribilla,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,GRUIFORMES,Rallidae,"Porzana porzana (Linnaeus, 1766)",Voltolino,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,GRUIFORMES,Rallidae,"Porzana pusilla (Pallas, 1776)",Schiribilla grigiata,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,GRUIFORMES,Rallidae,"Rallus aquaticus Linnaeus, 1758",Porciglione,,,,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,GRUIFORMES,Turnicidae,"Turnix sylvatica (Desfontaines, 1787)",Quaglia tridattila,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Aegithalidae,"Aegithalos caudatus Linnaeus, 1758",Codibugnolo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Alaudidae,"Alaemon alaudipes (Desfontaines, 1748)",Allodola beccocurvo,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Alaudidae,"Alauda arvensis (Linnaeus, 1758)",Allodola,,x,,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Alaudidae,"Ammomanes cincturus (Gould, 1812)",Allodola del deserto minore,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Alaudidae,"Calandrella brachydactyla (Leisler, 1814)",Calandrella,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Alaudidae,"Calandrella rufescens (Vieillot, 1820)",Pispoletta,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Alaudidae,"Chersophilus duponti (Vieillot, 1820)",Allodola del Dupont,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Alaudidae,"Eremophila alpestris (Linnaeus, 1758)",Allodola golagialla,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Alaudidae,"Galerida cristata (Linnaeus, 1758)",Cappellaccia,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Alaudidae,"Lullula arborea (Linnaeus, 1758)",Tottavilla,,x,x,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Alaudidae,"Melanocorypha bimaculata Ménétriés, 1832",Calandra  asiatica,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Alaudidae,"Melanocorypha calandra (Linnaeus, 1766)",Calandra,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Alaudidae,"Melanocorypha leucoptera Pallas, 1811",Calandra  siberiana,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Alaudidae,"Melanocorypha yeltoniensis Forster, 1768",Calandra nera ,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Bombycillidae,"Bombycilla garrulus (Linnaeus, 1758)",Beccofrusone,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Certhiidae,"Certhia brachydactyla Brehm, 1820",Rampichino,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Certhiidae,"Certhia familiaris Linnaeus, 1758",Rampichino alpestre,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Cinclidae,"Cinclus cinclus (Linnaeus, 1758)",Merlo acquaiolo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Corvidae,"Corvus corax  Linnaeus, 1758",Corvo imperiale,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Corvidae,"Corvus frugilegus  Linnaeus, 1758",Corvo,,x,,,,,,,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Corvidae,"Corvus monedula  Linnaeus, 1758",Taccola,,x,,,,,,,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Corvidae,"Nucifraga caryocatactes  (Linnaeus, 1758) ",Nocciolaia,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Corvidae,"Pyrrhocorax graculus  (Linnaeus, 1758) ",Gracchio alpino,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Corvidae,"Pyrrhocorax pyrrhocorax  (Linnaeus, 1758) ",Gracchio corallino,x,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,"Calcarius lapponicus (Linnaeus, 1758) ",Zigolo di Lapponia,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,"Emberiza aureola Pallas, 1766",Zigolo dal collare,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,"Emberiza bruniceps Brandt, 1843",Zigolo testa aranciata,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,Emberiza caesia Cretzschmar,Ortolano grigio,,x,x,,,, ,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,"Emberiza cia Linnaeus, 1758 ",Zigolo muciatto,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,"Emberiza cioides Brandt, 1843",Zigolo muciatto orientale,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,"Emberiza cirlus  Linnaeus, 1758 ",Zigolo nero,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,"Emberiza citrinella  Linnaeus, 1758 ",Zigolo giallo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,"Emberiza hortulana  Linnaeus, 1758 ",Ortolano,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,"Emberiza leucocephalos Gmelin, 1771",Zigolo golarossa,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,"Emberiza melanocephala Scopoli, 1769",Zigolo capinero,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,"Emberiza pusilla Pallas, 1766",Zigolo minore,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,"Emberiza rustica Pallas, 1766",Zigolo boschereccio,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,"Emberiza schoeniclus (Linnaeus, 1758) ",Migliarino di palude,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,"Miliaria calandra (Linnaeus, 1758) ",Strillozzo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,"Plectrophenax nivalis (Linnaeus, 1758) ",Zigolo delle nevi,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Emberizidae,"Zonotrichia iliaca (Merrem, 1786)",Passerella iliaca,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Bucanetes githagineus (Lichtenstein, 1823)",Trombettiere,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Carduelis  chloris (Linnaeus, 1758) ",Verdone,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Carduelis cannabina (Linnaeus, 1758) ",Fanello,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Carduelis carduelis (Linnaeus, 1758) ",Cardellino,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Carduelis flammea (Linnaeus, 1758) ",Organetto,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Carduelis flavirostris (Linnaeus, 1758) ",Fanello nordico,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Carduelis spinus (Linnaeus, 1758) ",Lucarino,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Carpodacus erythrinus (Pallas, 1770)",Ciuffolotto scarlatto,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Coccothraustes coccothraustes (Linnaeus, 1758) ",Frosone,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Fringilla coelebs Linnaeus, 1758",Fringuello,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Fringilla montifringilla Linnaeus, 1758",Peppola,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Loxia curvirostra Linnaeus, 1758",Crociere,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Loxia leucoptera Gmelin, 1789",Crociere fasciato,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Loxia pytyopsittacus Borkhausen, 1793",Crociere delle pinete,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Pinicola enucleator (Linnaeus, 1758) ",Ciuffolotto delle pinete,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Pyirrhula pyirrhula (Linnaeus, 1758) ",Ciuffolotto,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Serinus citrinella (Pallas, 1764)",Venturone,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Fringillidae,"Serinus serinus (Linnaeus, 1766) ",Verzellino,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Hirundinidae,"Delichon urbica (Linnaeus, 1758)",Balestruccio,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Hirundinidae,"Hirundo daurica Linnaeus, 1771",Rondine rossiccia,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Hirundinidae,"Hirundo rustica Linnaeus, 1758",Rondine,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Hirundinidae,"Ptyonoprogne rupestris (Scopoli, 1769)",Rondine montana,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Hirundinidae,"Riparia riparia (Linnaeus, 1758)",Topino,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Icteridae,"Dolichonyx oryzivorus (Linnaeus, 1758)",Bobolink,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Laniidae,"Lanius collurio Linnaeus, 1758",Averla piccola,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Laniidae,"Lanius excubitor Linnaeus, 1758",Averla maggiore,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Laniidae,"Lanius minor Gmelin, 1788",Averla cenerina,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Laniidae,"Lanius senator Linnaeus, 1758",Averla capirossa,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Motacillidae,"Anthus campestris  Linnaeus, 1758",Calandro,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Motacillidae,"Anthus cervinus Pallas, 1811",Pispola golarossa,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Motacillidae,"Anthus novaeseelandiae Bechstein, 1805",Calandro maggiore,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Motacillidae,"Anthus pratensis  Linnaeus, 1758",Pispola,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Motacillidae,"Anthus rubescens Tunstall, 1771",Spioncello americano,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Motacillidae,"Anthus spinoletta  Linnaeus, 1758",Spioncello,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Motacillidae,"Anthus trivialis  Linnaeus, 1758",Prispolone,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Motacillidae,"Motacilla alba  Linnaeus, 1758",Ballerina bianca,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Motacillidae,"Motacilla cinerea Tunstall, 1771",Ballerina gialla,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Motacillidae,"Motacilla citreola Pallas, 1776",Cutrettola testagialla orientale,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Motacillidae,"Motacilla flava  Linnaeus, 1758",Cutrettola,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Muscicapidae,"Ficedula albicollis Temminck, 1815",Balia dal collare,,x,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Muscicapidae,"Ficedula hypoleuca Pallas, 1764 ",Balia nera,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Muscicapidae,"Ficedula parva Bechstein, 1794",Pigliamosche pettirosso,,x,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Muscicapidae,"Ficedula semitorquata (Homeyer, E., 1885)",Balia caucasica,,x,x,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Muscicapidae,"Muscicapa striata Pallas, 1764",Pigliamosche,,x,,,,,,x,,,,,,x,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Oriolidae,"Oriolus oriolus Linnaeus, 1758",Rigogolo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Paridae,"Parus ater Linnaeus, 1758",Cincia mora,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Paridae,"Parus caeruleus Linnaeus, 1758",Cinciarella,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Paridae,"Parus cristatus Linnaeus, 1758",Cincia dal ciuffo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Paridae,"Parus lugubris Temminck, 1820  ",Cincia dalmatina,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Paridae,"Parus major Linnaeus, 1758",Cinciallegra,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Paridae,"Parus montanus Conrad, 1827",Cincia bigia alpestre,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Paridae,"Parus palustris Linnaeus, 1758",Cincia bigia,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Passeridae,"Montifringilla nivalis (Linnaeus, 1766) ",Fringuello alpino,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Passeridae,"Passer domesticus (Linnaeus, 1758) ",Passera oltremontana,,x,,,,,,,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Passeridae,"Passer hispaniolensis (Temminck, 1820)",Passera sarda,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Passeridae,"Passer montanus (Linnaeus, 1758) ",Passera mattugia,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Passeridae,"Petronia petronia (Linnaeus, 1766) ",Passera lagia,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Prunellidae,"Prunella collaris (Scopoli, 1769)",Sordone,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Prunellidae,"Prunella modularis Linnaeus, 1758",Passera scopaiola,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Prunellidae,"Prunella montanella Pallas, 1770",Passera scopaiola asiatica,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Remizidae,"Remiz pendulinus  (Linnaeus, 1758) ",Pendolino,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sittidae,"Sitta europea Linnaeus, 1758",Picchio muratore,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sturnidae,"Sturnus roseus (Linnaeus, 1758) ",Storno roseo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sturnidae,"Sturnus unicolor Temminck, 1820  ",Storno nero,,x,,,x,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sturnidae,"Sturnus vulgaris Linnaeus, 1758",Storno,,x,,,,,,,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Acrocephalus arundinaceus Linnaeus, 1758",Cannareccione,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Acrocephalus dumetorum Blyth, 1849",Cannaiola di Blit,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Acrocephalus melanopogon (Temminck, 1823)",Forapaglie castagnolo,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Acrocephalus paludicola Vieillot, 1817",Pagliarolo,,x,x,,,,,x,,,,,x,x,,,,,,,Vulnerabile
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Acrocephalus palustris Bechstein, 1798",Cannaiola verdognola,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Acrocephalus schoenobaenus Linnaeus, 1758",Forapaglie,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Acrocephalus scirpaceus Herman, 1804",Cannaiola,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Cettia cetti (Temminck, 1820)",Usignolo di fiume,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Cisticola juncidis (Rafinesque, 1810)",Beccamoschino,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Hippolais icterina Vieillot, 1817",Canapino maggiore,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Hippolais olivetorum Strickland, 1837",Canapino levantino,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Hippolais pallida (Hemprich & Ehrenberg, 1833)",Canapino pallido,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Hippolais polyglotta (Vieillot, 1817)",Canapino,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Locustella luscinioides (Savi, 1824)",Salciaiola,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Locustella naevia (Boddaert, 1783)",Forapaglie macchiettato,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Phylloscopus bonelli Vieillot, 1819",Luì bianco,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Phylloscopus borealis (Blasius, 1858)",Luì boreale,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Phylloscopus collybita Vieillot, 1817",Luì piccolo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Phylloscopus fuscatus Blyth, 1842",Luì scuro,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Phylloscopus inornatus Blyth, 1842",Luì forestiero,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Phylloscopus sibilatrix Bechstein, 1795",Luì verde,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Phylloscopus trochilus Linnaeus, 1758",Luì grosso,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Regulus ignicapillus Temminck, 1820 ",Fiorrancino,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Regulus regulus Linnaeus, 1758",Regolo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Sylvia atricapilla Linnaeus, 1758",Capinera,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Sylvia borin Boddaert, 1783",Beccafico,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Sylvia cantillans Pallas, 1784",Sterpazzolina,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Sylvia communis Latham, 1787",Sterpazzola,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Sylvia conspicillata Temminck, 1820",Sterpazzola di Sardegna,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Sylvia curruca Linnaeus, 1758",Bigiarella,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Sylvia hortensis (Gmelin, 1789)",Bigia grossa,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Sylvia melanocephala Gmelin, 1789",Occhiocotto,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Sylvia nana (Hemprich & Ehrenberg, 1833)",Sterpazzola nana,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Sylvia nisoria Bechstein, 1797",Bigia padovana,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Sylvia rueppellii Temminck, 1820",Silvia del Ruppel,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Sylvia sarda Temminck, 1830",Magnanina sarda,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Sylviidae,"Sylvia undata (Boddaert, 1783)",Magnanina,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Tchodromadidae,"Tichodroma muraria Linnaeus, 1766",Picchio muraiolo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Timaliidae,"Panurus biarmicus Linnaeus, 1758",Basettino,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Troglodytidae,"Troglodytes troglodytes (Linnaeus, 1758)",Scricciolo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Catharus minimus (Lafresnaye, 1848)",Tordo di Baird,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Catharus ustulatus Nuttall, 1840",Tordo di Swainson,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Cercotrichas galactotes (Temminck, 1820)",Usignolo d'Africa,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Erithacus rubecula (Linnaeus, 1758)",Pettirosso,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Luscinia calliope Pallas, 1776",Calliope,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Luscinia luscinia Linnaeus, 1758",Usignolo maggiore,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Luscinia megarhynchos  Brehm, 1831",Usignolo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Luscinia svecica Linnaeus, 1758",Pettazzurro,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Monticola saxatilis Linnaeus, 1766",Codirossone,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Monticola solitarius Linnaeus, 1758",Passero solitario,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Oenanthe deserti Temminck, 1825",Monachella del deserto,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Oenanthe hispanica Linnaeus, 1758",Monachella,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Oenanthe isabellina Temminck, 1829",Culbianco isabellino,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Oenanthe leucura Gmelin, 1789",Monachella nera,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Oenanthe oenanthe Linnaeus, 1758",Culbianco,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Oenanthe pleschanka Lepechin, 1770",Monachella dorsonero,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Phoenicurus moussieri Olphe-Galliard, 1852",Codirosso algerino,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Phoenicurus ochrurus Gmellin, 1789",Codirosso spazzacamino,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Phoenicurus phoenicurus Linnaeus, 1758",Codirosso,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Saxicola rubetra Linnaeus, 1758",Stiaccino,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Saxicola torquata Linnaeus, 1758",Saltimpalo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Tarsiger cyanurus Pallas, 1773",Codazzurro,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Turdus iliacus Linnaeus, 1758",Tordo sassello,,,,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Turdus merula Linnaeus, 1758",Merlo,,,,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Turdus naumanni Temminck, 1820",Cesena di Naumann,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Turdus obscurus Gmelin, 1789",Tordo oscuro,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Turdus philomelos Brehm, 1831",Tordo bottaccio,,,,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Turdus pilaris Linnaeus, 1758",Cesena,,,,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Turdus ruficollis Pallas, 1776",Tordo golanera,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Turdus torquatus Linnaeus, 1758",Merlo dal collare,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Turdus viscivorus Linnaeus, 1758",Tordela,,x,,,x,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Zoothera dauma Latham, 1790",Tordo dorato,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PASSERIFORMES,Turdidae,"Zoothera sibirica Pallas, 1776",Tordo siberiano,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PELECANIFORMES,Pelecanidae,"Pelecanus crispus Bruch, 1832",Pellicano riccio,x,,x,,,,,x,,x,,,x,x,,,,,,,None
+Chordata,AVES,PELECANIFORMES,Pelecanidae,"Pelecanus onocrotalus Linnaeus, 1758",Pellicano,x,,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PELECANIFORMES,Phalacrocoracidae,"Phalacrocorax  pygmeus (Pallas, 1773)",Marangone minore,,x,x,,,,,x,,,,,,x,,,,,,,"A minor rischio, Quasi a rischio"
+Chordata,AVES,PELECANIFORMES,Phalacrocoracidae,"Phalacrocorax aristotelis (Linnaeus, 1761) ",Marangone dal ciuffo ,x,,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PELECANIFORMES,Phalacrocoracidae,Phalacrocorax aristotelis desmaresti,Marangone dal ciuffo ss. mediterranea,,x,x,,,,,,,,,,,,,,,,,,None
+Chordata,AVES,PELECANIFORMES,Phalacrocoracidae,"Phalacrocorax carbo (Linnaeus, 1758)",Cormorano,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PELECANIFORMES,Sulidae,"Sula bassana (Linnaeus, 1758)",Sula,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PHOENICOPTERIFORMES,Phoenicopteridae,"Phoenicopterus ruber Linnaeus, 1758",Fenicottero,x,,x,,,,,x,,x,,,,x,,,,,,,None
+Chordata,AVES,PICIFORMES,Picidae,"Dryocopus martius (Linnaeus, 1758)",Picchio nero,x,,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PICIFORMES,Picidae,"Jynx torquilla Linnaeus, 1758",Torcicollo,x,,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PICIFORMES,Picidae,"Picoides leucotos (Bechstein, 1803)",Picchio dorsobianco,x,,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PICIFORMES,Picidae,"Picoides major (Linnaeus, 1758)",Picchio rosso maggiore,x,,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PICIFORMES,Picidae,"Picoides medius (Linnaeus, 1758)",Picchio rosso mezzano,x,,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PICIFORMES,Picidae,"Picoides minor (Linnaeus, 1758)",Picchio rosso minore,x,,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PICIFORMES,Picidae,"Picoides tridactylus (Linnaeus, 1758)",Picchio tridattilo,x,,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PICIFORMES,Picidae,"Picus canus Gmelin, 1788",Picchio cenerino,x,,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PICIFORMES,Picidae,"Picus viridis Linnaeus, 1758",Picchio verde,x,,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PODECIPEDIFORMES,Podicipedidae,"Podiceps auritus (Linnaeus, 1758)",Svasso cornuto,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PODECIPEDIFORMES,Podicipedidae,"Podiceps cristatus (Linnaeus, 1758)",Svasso maggiore,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PODECIPEDIFORMES,Podicipedidae,"Podiceps grisegena (Boddaert, 1783)",Svasso collorosso,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PODECIPEDIFORMES,Podicipedidae,"Podiceps nigricollis (Brehm C.L., 1831)",Svasso piccolo,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PODECIPEDIFORMES,Podicipedidae,"Tachybaptus ruficollis (Pallas, 1764)",Tuffetto,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PROCELLARIIFORMES,Diomedeidae,"Diomedea exulans Linnaeus, 1758",Albatros urlatore,,x,,,,,,,x,,,,,x,,,,,,,None
+Chordata,AVES,PROCELLARIIFORMES,Hydrobatidae,"Hydrobates pelagicus (Linnaeus, 1758)",Uccello delle tempeste,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PROCELLARIIFORMES,Hydrobatidae,"Oceanites oceanicus (Kuhl, 1820)",Uccello delle tempeste di Wilson,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PROCELLARIIFORMES,Hydrobatidae,"Oceanodroma  leucorhoa (Vieillot, 1817)",Uccello delle tempeste codaforcuta,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PROCELLARIIFORMES,Procellariidae,"Bulweria bulwerii (Jardin & Selby, 1828)",Berta di Bulwer,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PROCELLARIIFORMES,Procellariidae,"Bulweria fallax Jouanin, 1955",Berta di Jouanin,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PROCELLARIIFORMES,Procellariidae,"Calonectris diomedea (Scopoli, 1769)",Berta maggiore,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PROCELLARIIFORMES,Procellariidae,"Daption capense (Linnaeus, 1758)",Procellaria del Capo,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PROCELLARIIFORMES,Procellariidae,"Fulmarus glacialis (Linnaeus, 1761)",Fulmaro,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PROCELLARIIFORMES,Procellariidae,"Puffinus assimilis Gould, 1838",Berta minore fosca,,x,x,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PROCELLARIIFORMES,Procellariidae,"Puffinus gravis (O'Reilly, 1818)",Berta dell'Atlantico,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PROCELLARIIFORMES,Procellariidae,"Puffinus griseus (Gmelin, 1789)",Berta grigia,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,AVES,PROCELLARIIFORMES,Procellariidae,"Puffinus puffinus  (Brünnich, 1764) ",Berta minore,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PTEROCLIDIFORMES,Pteroclidae,"Pterocles alchata (Linnaeus, 1766)",Grandule,,x,x,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PTEROCLIDIFORMES,Pteroclidae,"Pterocles senegallus (Linnaeus, 1771)",Grandule del Senegal,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,PTEROCLIDIFORMES,Pteroclidae,"Syrrhaptes paradoxus (Pallas, 1773)",Sirratte,,x,,,,,,x,,,,,,,,,,,,,None
+Chordata,AVES,STRIGIFORMES,Strigidae,"Aegolius funereus (Linnaeus, 1758)",Civetta capogrosso,x,,x,,,,,x,,x,x,,,,,,,,,,None
+Chordata,AVES,STRIGIFORMES,Strigidae,"Asio flammeus (Pontoppidan, 1763)",Gufo di palude,x,,x,,,,,x,,x,x,,,,,,,,,,None
+Chordata,AVES,STRIGIFORMES,Strigidae,"Asio otus (Linnaeus, 1758)",Gufo comune,x,,,,,,,x,,x,x,,,,,,,,,,None
+Chordata,AVES,STRIGIFORMES,Strigidae,"Athene noctua (Scopoli, 1769)",Civetta,x,,,,,,,x,,x,x,,,,,,,,,,None
+Chordata,AVES,STRIGIFORMES,Strigidae,"Bubo bubo (Linnaeus, 1758)",Gufo reale,x,,x,,,,,x,,x,x,,,,,,,,,,None
+Chordata,AVES,STRIGIFORMES,Strigidae,"Glaucidium passerinum (Linnaeus, 1758)",Civetta nana,x,,x,,,,,x,,x,x,,,,,,,,,,None
+Chordata,AVES,STRIGIFORMES,Strigidae,"Otus scops (Linnaeus, 1758)",Assiolo,x,,,,,,,x,,x,x,,,,,,,,,,None
+Chordata,AVES,STRIGIFORMES,Strigidae,"Strix aluco Linnaeus, 1758",Allocco,x,,,,,,,x,,x,x,,,,,,,,,,None
+Chordata,AVES,STRIGIFORMES,Strigidae,"Strix uralensis Pallas, 1771",Allocco degli Urali,x,,x,,,,,x,,x,x,,,,,,,,,,None
+Chordata,AVES,STRIGIFORMES,Tytonidae,"Tyto alba (Scopoli, 1769)",Barbagianni,x,,,,,,,x,,x,x,,,,,,,,,,None
+Chordata,CONDRICHTHYTES,LAMNIFORMES,Carcharhinidae,"Prionace glauca (Linnaeus, 1758)",Verdesca,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,CONDRICHTHYTES,LAMNIFORMES,Lamnidae,"Carcharodon carcharis (Linnaeus, 1758)",Squalo bianco,,,,,,,,x,,,,,,,,,,,,,Vulnerabile
+Chordata,CONDRICHTHYTES,LAMNIFORMES,Lamnidae,"Cetorhinus maximus (Gunnerus, 1765)",Squalo elefante,,,,,,,,x,,,,,,,,,,,,,Vulnerabile
+Chordata,CONDRICHTHYTES,LAMNIFORMES,Lamnidae,"Isurus oxyrinchus Rafinesque, 1810",Squalo mako,,,,,,,,,x,,,,,,,,,,,,"A minor rischio, Quasi a rischio"
+Chordata,CONDRICHTHYTES,LAMNIFORMES,Lamnidae,"Lamna nasus (Bonnaterre,1788)",Smeriglio,,,,,,,,,x,,,,,,,,,,,,"A minor rischio, Quasi a rischio"
+Chordata,CONDRICHTHYTES,RAJIFORMES,Mobulidae,"Mobula mobular (Bonnaterre,1788)",Diavolo di mare,,,,,,,,x,,,,,,,,,,,,,Vulnerabile
+Chordata,CONDRICHTHYTES,RAJIFORMES,Rajidae,"Raja alba Lacépède, 1803",Razza bianca,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,CONDRICHTHYTES,SQUALIFORMES,Squatinidae,"Squatina squatina (Linnaeus, 1758)",Squadro,,,,,,,,,x,,,,,,,,,,,,Vulnerabile
+Chordata,MAMMALIA,ARTIODACTYLA,Bovidae,Capra aegraegus aegraegus Erxleben 1777  ,Capra di Montecristo,,,,,,,,,,,,,,,,x,,,,,None
+Chordata,MAMMALIA,ARTIODACTYLA,Bovidae,"Capra aegraegus Erxleben, 1777  ",Capra selvatica,,,,,,,,,,,,,,,,x,,,,,None
+Chordata,MAMMALIA,ARTIODACTYLA,Bovidae,"Capra hircus (Linnaeus, 1758)  ",Capra di Montecristo,,,,,,,,,,,,,,,,x,,,,,None
+Chordata,MAMMALIA,ARTIODACTYLA,Bovidae,"Capra ibex Linnaeus, 1758  ",Stambecco,,,,,,,,,x,,,,,,,,x,,,,None
+Chordata,MAMMALIA,ARTIODACTYLA,Bovidae,"Ovis orientalis Gmelin, 1774",Muflone,,,,,,,,,,,,,,,,,,,,,Vulnerabile
+Chordata,MAMMALIA,ARTIODACTYLA,Bovidae,Ovis orientalis musimon,Muflone sardo,,,,,,,,,x,,,,,,x,x,,,x,,Vulnerabile
+Chordata,MAMMALIA,ARTIODACTYLA,Bovidae,"Rupicapra pyrenaica Bonaparte, 1845",Camoscio,,,,,,,,,,,,,,,,,,,,,"A minor rischio, Dipendenti dalla protezione"
+Chordata,MAMMALIA,ARTIODACTYLA,Bovidae,Rupicapra pyrenaica ornata  *,Camoscio appenninico,x,,,,,,,x,,x,,,,,x,x,,,x,M,None
+Chordata,MAMMALIA,ARTIODACTYLA,Bovidae,"Rupicapra rupicapra (Linnaeus, 1758)  ",Camoscio alpino,,,,,,,,,x,,,,,,x,,x,,,,None
+Chordata,MAMMALIA,ARTIODACTYLA,Cervidae,"Capreolus capreolus (Linnaeus, 1758)  ",Capriolo,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,ARTIODACTYLA,Cervidae,Capreolus capreolus capreolus,,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,ARTIODACTYLA,Cervidae,Capreolus capreolus italicus,,,,,,,,,,x,,,,,,,,,,x,M,None
+Chordata,MAMMALIA,ARTIODACTYLA,Cervidae,Cervus elaphus corsicanus   *,Cervo sardo,x,,,,,,,x,,,,,,,x,x,,,x,M,None
+Chordata,MAMMALIA,ARTIODACTYLA,Cervidae,Cervus elaphus elaphus,Cervo,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,ARTIODACTYLA,Cervidae,"Cervus elaphus Linnaeus, 1758  ",Cervo nobile,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,ARTIODACTYLA,Cervidae,"Dama dama (Linnaeus, 1758)  ",Daino,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,ARTIODACTYLA,Suidae,"Sus scrofa Linnaeus, 1758  ",Cinghiale,,,,,,,,,,,,,,,,,,,,,None
+Chordata,MAMMALIA,ARTIODACTYLA,Suidae,Sus scrofa meridionalis,Cinghiale ss. meridionale,,,,,,,,,x,,,,,,,,,,x,,None
+Chordata,MAMMALIA,CARNIVORA,Canidae,"Canis aureus Linnaeus, 1758 ",Sciacallo,x,,,,,,,,,,,,,,,,x,,,,None
+Chordata,MAMMALIA,CARNIVORA,Canidae,"Canis lupus   * Linnaeus, 1758",Lupo,x,,,,,,,x,,x,x,,,,x,x,,,x,M,None
+Chordata,MAMMALIA,CARNIVORA,Felidae,Felis silvestris lybica,,x,,,,,,,x,,,x,,,,,x,,,,,None
+Chordata,MAMMALIA,CARNIVORA,Felidae,"Felis silvestris Schreber, 1777",Gatto selvatico,x,,,,,,,x,,,x,,,,,x,,,,,None
+Chordata,MAMMALIA,CARNIVORA,Felidae,Felis silvestris silvestris,,x,,,,,,,x,,,x,,,,,x,,,,,None
+Chordata,MAMMALIA,CARNIVORA,Felidae,"Linx linx (Linnaeus, 1758)  ",Lince eurasiatica,x,,,,,,,,x,x,,,,,x,x,,,,,Quasi a rischio
+Chordata,MAMMALIA,CARNIVORA,Mustelidae,"Lutra lutra (Linnaeus, 1758)  ",Lontra comune,x,,,,,,,x,,x,,,,,x,x,,,,M,None
+Chordata,MAMMALIA,CARNIVORA,Mustelidae,"Martes foina (Erxleben, 1777)",Faina,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,CARNIVORA,Mustelidae,"Martes martes (Linnaeus, 1758)  ",Martora,x,,,,,,,,x,,,,,,,,x,,,,None
+Chordata,MAMMALIA,CARNIVORA,Mustelidae,"Meles meles (Linnaeus, 1758)  ",Tasso,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,CARNIVORA,Mustelidae,"Mustela erminea Linnaeus, 1758 ",Ermellino,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,CARNIVORA,Mustelidae,Mustela nivalis boccamela,,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,CARNIVORA,Mustelidae,"Mustela nivalis Linnaeus, 1766 ",Donnola,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,CARNIVORA,Mustelidae,Mustela nivalis minuta,,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,CARNIVORA,Mustelidae,Mustela nivalis nivalis,,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,CARNIVORA,Mustelidae,"Mustela putorius Linnaeus, 1758  ",Puzzola,x,,,,,,,,x,,,,,,,,x,,,,None
+Chordata,MAMMALIA,CARNIVORA,Mustelidae,"Mustela vison Schreber, 1777",Visone americano,,x,,,,,,,,,,,,,,,,,,,None
+Chordata,MAMMALIA,CARNIVORA,Phocidae,"Monachus monachus   * (Hermann, 1779)",Foca monaca,x,,,,,,,x,,x,,,x,x,x,x,,,,M,Gravemente minacciato
+Chordata,MAMMALIA,CARNIVORA,Ursidae,"Ursus arctos   * Linnaeus, 1758",Orso,x,,,,,,,x,,x,,,,,x,x,,,,,None
+Chordata,MAMMALIA,CARNIVORA,Ursidae,Ursus arctos arctos,Orso bruno,x,,,,,,,x,,x,,,,,,x,,,,M,None
+Chordata,MAMMALIA,CARNIVORA,Ursidae,Ursus arctos marsicanus,Orso marsicano,x,,,,,,,x,,x,,,,,,x,,,x,M,None
+Chordata,MAMMALIA,CARNIVORA,Viverridae,"Genetta genetta (Linnaeus, 1758)  ",Genetta,,x,,,,,,,x,,,,,,,,x,,,,None
+Chordata,MAMMALIA,CARNIVORA,Viverridae,"Herpestes edwarsi (Geoffroy E., 1818)",Mangosta indiana grigia,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,CETACEA,Balenopteridae,"Balaenoptera acutorostrata Lacépède, 1804",Balenottera minore,x,,,,,,,x,,x,,,,,,x,,,,,"A minor rischio, Quasi a rischio"
+Chordata,MAMMALIA,CETACEA,Balenopteridae,"Balaenoptera physalus (Linnaeus, 1758)  ",Balenottera comune,x,,,,,,,x,,x,,,,,,x,,,,M,Minacciato
+Chordata,MAMMALIA,CETACEA,Delphinidae,"Delphinus delphis Linnaeus, 1758  ",Delfino comune,x,,,,,,,x,,x,,,,,,x,,,,,None
+Chordata,MAMMALIA,CETACEA,Delphinidae,"Globicephala melaena (Traill, 1809)",Globicefalo,x,,,,,,,x,,x,,,,,,x,,,,,None
+Chordata,MAMMALIA,CETACEA,Delphinidae,"Grampus griseus (Cuvier G., 1812)",Grampo,x,,,,,,,x,,x,,,,,,x,,,,,Dati insufficienti
+Chordata,MAMMALIA,CETACEA,Delphinidae,"Orcinus orca (Linnaeus, 1758)  ",Orca,x,,,,,,,x,,x,,,,,,x,,,,,"A minor rischio, Dipendenti dalla protezione"
+Chordata,MAMMALIA,CETACEA,Delphinidae,"Pseudorca crassidens (Owen, 1846)",Pseudorca,x,,,,,,,x,,x,,,,,,x,,,,,None
+Chordata,MAMMALIA,CETACEA,Delphinidae,"Stenella coeruleoalba (Meyen, 1833)",Stenella striata,x,,,,,,,x,,x,,,,,,x,,,,,"A minor rischio, Dipendenti dalla protezione"
+Chordata,MAMMALIA,CETACEA,Delphinidae,"Steno bredanensis (Lesson, 1828)",Steno,x,,,,,,,x,,x,,,,,,x,,,,,Dati insufficienti
+Chordata,MAMMALIA,CETACEA,Delphinidae,"Tursiops truncatus (Montagu, 1821)",Tursiope,x,,,,,,,x,,x,,,,,x,x,,,,,Dati insufficienti
+Chordata,MAMMALIA,CETACEA,Physeteridae,"Kogia simus (Owen, 1866)",Cogia di Owen,x,,,,,,,x,,x,,,,,,x,,,,,None
+Chordata,MAMMALIA,CETACEA,Physeteridae,"Physeter catodon Linnaeus, 1758  ",Capodoglio,x,,,,,,,x,,x,,,,,,x,,,,,Vulnerabile
+Chordata,MAMMALIA,CETACEA,Ziphiidae,"Ziphius cavirostris Cuvier G., 1832",Zifio,x,,,,,,,x,,x,,,,,,x,,,,,Dati insufficienti
+Chordata,MAMMALIA,CHIROPTERA,Molossidae,"Tadarida teniotis (Rafinesque, 1814)",Molosso di Cestoni,,x,,,,,,x,,,,,,x,,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Rhinolophidae,"Rhinolophus blasii Peters, 1866",Ferro di cavallo di Blasius,,x,,,,,,x,,,,,,x,x,x,,,,,"A minor rischio, Quasi a rischio"
+Chordata,MAMMALIA,CHIROPTERA,Rhinolophidae,"Rhinolophus euryale Blasius, 1853",Ferro di cavallo euriale,,x,,,,,,x,,,,,,x,x,x,,,,,Vulnerabile
+Chordata,MAMMALIA,CHIROPTERA,Rhinolophidae,"Rhinolophus ferrumequinum (Schreber, 1774)",Ferro di cavallo maggiore,,x,,,,,,x,,,,,,x,x,x,,,,,"A minor rischio, Dipendenti dalla protezione"
+Chordata,MAMMALIA,CHIROPTERA,Rhinolophidae,"Rhinolophus hipposideros (Bechstein, 1800)",Ferro di cavallo minore,,x,,,,,,x,,,,,,x,x,x,,,,,Vulnerabile
+Chordata,MAMMALIA,CHIROPTERA,Rhinolophidae,"Rhinolophus mehelyi Matschie, 1901",Ferro di cavallo di Mehely,,x,,,,,,x,,,,,,x,x,x,,,,,Vulnerabile
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Barbastella barbastellus (Schreber, 1774) ",Barbastello,,x,,,,,,x,,,,,,x,x,x,,,,,Vulnerabile
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Eptesicus nilssoni (Keyserling & Blasius, 1839) ",Serotino di Nilsson,,x,,,,,,x,,,,,,x,,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Eptesicus serotinus (Schreber, 1774)",Serotino comune,,x,,,,,,x,,,,,,x,,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Hypsugo savii (Bonaparte, 1837)",Pipistrello di Savi,,x,,,,,,x,,,,,,x,,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Miniopterus schreibersi (Natterer in Kuhl, 1819) ",Miniottero,,x,,,,,,x,,,,,,x,x,x,,,,,"A minor rischio, Quasi a rischio"
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Myotis bechsteini (Leisler in Kuhl, 1818)",Vespertilio di Bechstein,,x,,,,,,x,,,,,,x,x,x,,,,,Vulnerabile
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Myotis blythi (Tomes, 1857)",Vespertilio di Blyth,,x,,,,,,x,,,,,,x,x,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,Myotis blythi oxygnathus,,,x,,,,,,x,,,,,,x,x,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,Myotis blythi punicus,,,x,,,,,,x,,,,,,x,x,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Myotis brandti (Eversmann, 1845)",Vespertilio di Brandt,,x,,,,,,x,,,,,,x,,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Myotis capaccinii (Bonaparte, 1837)",Vespertilio di Capaccini,,x,,,,,,x,,,,,,x,x,x,,,,,Vulnerabile
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Myotis daubentoni (Leisler in Kuhl, 1819) ",Vespertilio di  Daubenton,,x,,,,,,x,,,,,,x,,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Myotis emarginatus (Geoffroy E., 1806)",Vespertilio smarginato,,x,,,,,,x,,,,,,x,x,x,,,,,Vulnerabile
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Myotis myotis (Borkhausen, 1797)",Vespertilio maggiore,,x,,,,,,x,,,,,,x,x,x,,,,,"A minor rischio, Quasi a rischio"
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Myotis mystacinus (Kuhl, 1817)",Vespertilio mustacchino,,x,,,,,,x,,,,,,x,,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Myotis nattereri (Kuhl, 1818)",Vespertilio di Natterer,,x,,,,,,x,,,,,,x,,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Nyctalus lasiopterus (Schreber, 1780) ",Nottola gigante,,x,,,,,,x,,,,,,x,,x,,,,,"A minor rischio, Quasi a rischio"
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Nyctalus leisleri (Kuhl, 1818) ",Nottola di Leisler,,x,,,,,,x,,,,,,x,,x,,,,,"A minor rischio, Quasi a rischio"
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Nyctalus noctula (Schreber, 1774) ",Nottola comune,,x,,,,,,x,,,,,,x,,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Pipistrellus kuhli (Kuhl, 1817)",Pipistrello albolimbato,,x,,,,,,x,,,,,,x,,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Pipistrellus nathusii (Keyserling & Blasius, 1839)",Pipistrello di Nathusius,,x,,,,,,x,,,,,,x,,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Pipistrellus pipistrellus (Schreber, 1774)",Pipistrello nano,,x,,,,,,,x,,,,,x,,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Pipistrellus pygmaeus (Leach, 1825)",Pipistrello pigmeo,,x,,,,,,x,,,,,,x,,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Plecotus auritus (Linnaeus, 1758)",Orecchione comune,,x,,,,,,x,,,,,,x,,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Plecotus austriacus (Fischer, 1829)",Orecchione meridionale,,x,,,,,,x,,,,,,x,,x,,,,,None
+Chordata,MAMMALIA,CHIROPTERA,Vespertilionidae,"Vespertilio murinus Linnaeus, 1758",Serotino bicolore,,x,,,,,,x,,,,,,x,,x,,,,,None
+Chordata,MAMMALIA,INSECTIVORA,Erinaceidae,"Erinaceus concolor Martin, 1838",Riccio,,x,,,,,,,,,,,,,,,,,,,None
+Chordata,MAMMALIA,INSECTIVORA,Erinaceidae,"Erinaceus europaeus Linnaeus, 1758",Riccio,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,INSECTIVORA,Soricidae,"Crocidura leucodon (Hermann, 1780)",Crocidura ventre bianco,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,INSECTIVORA,Soricidae,"Crocidura russula (Hermann, 1780)",Crocidura rossiccia,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,INSECTIVORA,Soricidae,Crocidura russula cossyrensis,,,x,,,,,,,x,,,,,,,,,,x,,None
+Chordata,MAMMALIA,INSECTIVORA,Soricidae,Crocidura russula ichnusae,,,x,,,,,,,x,,,,,,,,,,x,,None
+Chordata,MAMMALIA,INSECTIVORA,Soricidae,"Crocidura sicula Miller, 1901",Crocidura siciliana,,x,,,,,,,x,,,,,,,,,,x,,None
+Chordata,MAMMALIA,INSECTIVORA,Soricidae,"Crocidura suaveolens (Pallas, 1811) ",Crocidura minore,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,INSECTIVORA,Soricidae,"Neomys anomalus Cabrera, 1907",Toporagno d'acqua di Miller,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,INSECTIVORA,Soricidae,"Neomys fodiens (Pennant, 1771)",Toporagno d'acqua,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,INSECTIVORA,Soricidae,"Sorex alpinus Schinz, 1837",Toporagno alpino,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,INSECTIVORA,Soricidae,"Sorex araneus  Linnaeus, 1758",Toporagno comune,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,INSECTIVORA,Soricidae,"Sorex minutus  Linnaeus, 1766",Toporagno nano,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,INSECTIVORA,Soricidae,"Sorex samniticus Altobello, 1926",Toporagno appenninico,,x,,,,,,,x,,,,,,,,,,x,,None
+Chordata,MAMMALIA,INSECTIVORA,Soricidae,"Suncus etruscus (Savi, 1822)",Mustiolo,,x,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,LOGOMORPHA,Leporidae,"Lepus capensis (Linnaeus, 1758)",,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,MAMMALIA,LOGOMORPHA,Leporidae,Lepus capensis mediterraneus,Lepre sarda,,,,,,,,,x,,,,,,,,,,x,,None
+Chordata,MAMMALIA,LOGOMORPHA,Leporidae,"Lepus timidus Linnaeus, 1758",Lepre bianca,,,,,,,,,x,,,,,,,,x,,,,None
+Chordata,MAMMALIA,RODENTIA,Hystricidae,"Hystrix cristata  (Linnaeus, 1758)  ",Istrice,,x,,,,,,x,,,,,,,,x,,,,,"A minor rischio, Quasi a rischio"
+Chordata,MAMMALIA,RODENTIA,Myocastoridae,"Myocastor coypus (Molina, 1782)",Nutria,,x,,,,,,,,,,,,,,,,,,,None
+Chordata,MAMMALIA,RODENTIA,Myoxidae,"Dryomis nitedula (Pallas, 1779)",Driomio,,x,,,,,,,x,,,,,,,x,,,,,"A minor rischio, Quasi a rischio"
+Chordata,MAMMALIA,RODENTIA,Myoxidae,"Eliomys quercinus (Linnaeus, 1766) ",Quercino,,x,,,,,,,x,,,,,,,,,,,,Vulnerabile
+Chordata,MAMMALIA,RODENTIA,Myoxidae,Eliomys quercinus liparensis,,,x,,,,,,,x,,,,,,,,,,x,M,None
+Chordata,MAMMALIA,RODENTIA,Myoxidae,Eliomys quercinus sardus,,,x,,,,,,,x,,,,,,,,,,x,M,None
+Chordata,MAMMALIA,RODENTIA,Myoxidae,"Muscardinus avellanarius (Linnaeus, 1758) ",Moscardino,,x,,,,,,,x,,,,,,,x,,,,,"A minor rischio, Quasi a rischio"
+Chordata,MAMMALIA,RODENTIA,Myoxidae,"Myoxus glis (Linnaeus, 1766)  ",Ghiro,,x,,,,,,,x,,,,,,,,,,,,"A minor rischio, Quasi a rischio"
+Chordata,MAMMALIA,RODENTIA,Sciuridae,"Marmota marmota (Linnaeus, 1758) ",Marmotta,,x,,,,,,,x,,,,,,,x,,,,,None
+Chordata,MAMMALIA,RODENTIA,Sciuridae,"Sciurus carolinensis Gmelin, 1788",Scoiattolo grigio,,x,,,,,,,,,,,,,,,,,,,None
+Chordata,MAMMALIA,RODENTIA,Sciuridae,"Sciurus vulgaris Linnaeus, 1758",Scoiattolo,,x,,,,,,,x,,,,,,,,,,,,Quasi a rischio
+Chordata,OSTEICHTHYES,ACIPENSERIFORMES,Acipenseridae,"Acipenser naccarii   * Bonaparte,1836",Storione cobice,,,,,,,,x,,,x,,,,x,x,,x,x,,Vulnerabile
+Chordata,OSTEICHTHYES,ACIPENSERIFORMES,Acipenseridae,"Acipenser sturio   * Linnaeus,1758",Storione,,,,,,,,x,,x,,,,,x,x,,x,,,Gravemente minacciato
+Chordata,OSTEICHTHYES,ACIPENSERIFORMES,Acipenseridae,"Acipenser transmontanus Richardson, 1836",Storione bianco,,,,,,,,,,,x,,,,,,x,,,,None
+Chordata,OSTEICHTHYES,ACIPENSERIFORMES,Acipenseridae,"Huso huso (Linnaeus, 1758)",Storione ladano,,,,,,,,,x,,x,,,,,,x,,,M,Minacciato
+Chordata,OSTEICHTHYES,CLUPEIFORMES,Clupeidae,"Alosa  fallax (Lacépède, 1803)",Cheppia,,,,,,,,,x,,,,,,x,,x,,,,Dati insufficienti
+Chordata,OSTEICHTHYES,CLUPEIFORMES,Clupeidae,"Alosa alosa (Linnaeus, 1758)",Alosa,,,,,,,,,x,,,,,,x,,x,,,,Dati insufficienti
+Chordata,OSTEICHTHYES,CYPRINIFORMES,Cobitidae,"Cobitis bilineata (Canestrini, 1865) ",Cobite,,,,,,,,,x,,,,,,x,,,,,,None
+Chordata,OSTEICHTHYES,CYPRINIFORMES,Cobitidae,"Cobitis taenia Linnaeus, 1758 ",Cobite,,,,,,,,,x,,,,,,x,,,,,,None
+Chordata,OSTEICHTHYES,CYPRINIFORMES,Cobitidae,"Sabanejewia larvata (De Filippi, 1859)",Cobite mascherato,,,,,,,,,x,,,,,,x,,,,x,,"A minor rischio, Quasi a rischio"
+Chordata,OSTEICHTHYES,CYPRINIFORMES,Cyprinidae,"Alburnus albidus (Costa, 1838)",Alborella meridionale,,,,,,,,,x,,,,,,x,,,,x,,Vulnerabile
+Chordata,OSTEICHTHYES,CYPRINIFORMES,Cyprinidae,"Barbo plebejus (Bonaparte, 1839)",Barbo,,,,,,,,,x,,,,,,x,,x,,,,"A minor rischio, Quasi a rischio"
+Chordata,OSTEICHTHYES,CYPRINIFORMES,Cyprinidae,"Barbus meridionalis Risso,1826",Barbo canino,,,,,,,,,x,,,,,,x,,x,,,,None
+Chordata,OSTEICHTHYES,CYPRINIFORMES,Cyprinidae,"Chondrostoma genei (Bonaparte, 1839) ",Lasca,,,,,,,,,x,,,,,,x,,,,x,,"A minor rischio, Quasi a rischio"
+Chordata,OSTEICHTHYES,CYPRINIFORMES,Cyprinidae,"Chondrostoma nasus (Linnaeus, 1758)",Naso,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,OSTEICHTHYES,CYPRINIFORMES,Cyprinidae,"Chondrostoma soetta Bonaparte, 1840",Savetta,,,,,,,,,x,,,,,,x,,,,x,,None
+Chordata,OSTEICHTHYES,CYPRINIFORMES,Cyprinidae,"Leuciscus lucumonis Bianco, 1982",Cavedano dell'Ombrone,,,,,,,,,x,,,,,,x,,,,x,,"A minor rischio, Quasi a rischio"
+Chordata,OSTEICHTHYES,CYPRINIFORMES,Cyprinidae,"Leuciscus souffia Risso,1826",Vairone,,,,,,,,,x,,,,,,x,,,,,,None
+Chordata,OSTEICHTHYES,CYPRINIFORMES,Cyprinidae,"Pachychilon pictum (Heckel & Kner, 1858)",Leucisco d'Albania,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,OSTEICHTHYES,CYPRINIFORMES,Cyprinidae,"Rhodeus sericeus (Pallas, 1776)",Rodeo amaro,,,,,,,,,x,,,,,,x,,,,,,None
+Chordata,OSTEICHTHYES,CYPRINIFORMES,Cyprinidae,"Rutilus pigus (Lacépède, 1804)",Pigo,,,,,,,,,x,,,,,,x,,,,,,Dati insufficienti
+Chordata,OSTEICHTHYES,CYPRINIFORMES,Cyprinidae,"Rutilus rubilio (Bonaparte, 1837) ",Rovella,,,,,,,,,x,,,,,,x,,,,x,,None
+Chordata,OSTEICHTHYES,CYPRINODONTIFORMES,Cyprinodontidae,"Aphanius fasciatus Nardo, 1827",Nono,,,,,,,,x,,,,,,,x,,,x,,,Dati insufficienti
+Chordata,OSTEICHTHYES,PERCIFORMES,Gobiidae,"Gobius nigricans Canestrini, 1867",Ghiozzo di ruscello,,,,,,,,,,,,,,,x,,,,,,Vulnerabile
+Chordata,OSTEICHTHYES,PERCIFORMES,Gobiidae,"Knipowitschia  panizzae (Verga, 1841)",Ghiozzetto di laguna,,,,,,,,,,,,,,,x,,,,x,,Dati insufficienti
+Chordata,OSTEICHTHYES,PERCIFORMES,Gobiidae,"Padogobius nigricans (Canestrini, 1867)",Ghiozzo di ruscello,,,,,,,,,,,,,,,x,,,,x,,Vulnerabile
+Chordata,OSTEICHTHYES,PERCIFORMES,Gobiidae,"Podogobius martensi (Günther, 1861)",Giozzo padano,,,,,,,,,x,,,,,,,,,,x,,"A minor rischio, Quasi a rischio"
+Chordata,OSTEICHTHYES,PERCIFORMES,Gobiidae,"Pomatoschistus canestrini (Ninni, 1883)",Ghiozzetto cenerino,,,,,,,,,x,,,,,,x,,,,x,,Dati insufficienti
+Chordata,OSTEICHTHYES,PERCIFORMES,Gobiidae,"Pomatoschistus marmoratus (Risso, 1810)",Ghiozzetto marmorizzato,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,OSTEICHTHYES,PERCIFORMES,Gobiidae,"Pomatoschistus microps (Kroyer, 1838)",Ghiozzetto baltico,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,OSTEICHTHYES,PERCIFORMES,Gobiidae,"Pomatoschistus minutus (Pallas, 1770)",Ghiozzetto minuto,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,OSTEICHTHYES,PERCIFORMES,Sciaenidae,"Sciaena umbra (Linnaeus, 1758) ",Corvina,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,OSTEICHTHYES,PERCIFORMES,Sciaenidae,"Umbrina cirrosa (Linnaeus, 1758)",Ombrina,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,OSTEICHTHYES,SALMONIFORMES,Salmonidae,"Coregonus oxyrhynchus (Linnaeus, 1758)",Bondella,,,,,,,,,x,,,,,,,,x,,,,None
+Chordata,OSTEICHTHYES,SALMONIFORMES,Salmonidae,"Salmo (trutta) macrostigma Duméril, 1858 ",Trota macrostigma,,,,,,,,,,,,,,,x,,,,,M,None
+Chordata,OSTEICHTHYES,SALMONIFORMES,Salmonidae,"Salmo (trutta) marmoratus (Cuvier, 1817)",Trota marmorata,,,,,,,,,,,,,,,x,,,,x,,Dati insufficienti
+Chordata,OSTEICHTHYES,SALMONIFORMES,Salmonidae,"Thymallus thymallus  (Linnaeus, 1758)",Temolo,,,,,,,,,x,,,,,,,,x,,,,None
+Chordata,OSTEICHTHYES,SALMONIFORMES,Siluridae,"Coregonus lavaretus (Linnaeus, 1758)",Coregone,,,,,,,,,x,,,,,,,,x,,,,Dati insufficienti
+Chordata,OSTEICHTHYES,SILURIFORMES,Siluridae,"Silurus glanis  Linnaeus, 1758 ",Siluro,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,OSTEICHTHYES,SYNGNATHIFORMES,Cottidae,"Cottus gobio Linnaeus, 1758 ",Scazzone,,,,,,,,,,,,,,,x,,,,,,None
+Chordata,OSTEICHTHYES,SYNGNATHIFORMES,Syngnathidae,"Hippocampus hippocampus (Linnaeus, 1758) ",Cavalluccio marino,,,,,,,,,,,,x,,,,,,,,,Vulnerabile
+Chordata,OSTEICHTHYES,SYNGNATHIFORMES,Syngnathidae,"Hippocampus ramulosus Leach, 1814",Cavalluccio marino,,,,,,,,,,,,x,,,,,,,,,None
+Chordata,OSTEICHTHYES,SYNGNATHIFORMES,Syngnathidae,"Syngnathus abaster Risso, 1826",Pesce ago di Rio,,,,,,,,,x,,,,,,,,,,,,Dati insufficienti
+Chordata,REPTILIA,SQUAMATA,Anguidae,"Anguis fragilis Linnaeus, 1758",Orbettino,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,REPTILIA,SQUAMATA,Anguidae,"Ophisaurus apodus (Pallas, 1775)",Ofisauro,,,,,,,,,x,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Chamaeleonidae,"Chamaeleo chamaeleon (Linnaeus, 1758)",Camaleonte,,,,,,,,x,,,x,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Coluber gemonensis (Laurenti, 1768)",Colubro dei Balcani,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Coluber hippocrepis Linnaeus, 1758 ",Colubro ferro di cavallo,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Coluber najadum (Eichwald, 1831)",Colubro saetta,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Coluber viridiflavus Lacépède, 1789",Biacco,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Coronella austriaca Laurenti, 1768",Colubro liscio,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Coronella girondica (Daudin, 1803)",Colubro dai riccioli,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Elaphe longissima (Laurenti, 1768)",Saettone,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Elaphe quatuorlineata (Lacépède, 1789)",Cervone,,,,,,,,x,,,,,,,x,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Elaphe scalaris (Schinz, 1822)",Colubro bilineato,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Elaphe situla (Linnaeus, 1758) ",Colubro leopardino,,,,,,,,x,,,,,,,x,x,,,,,Dati insufficienti
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Macroprotodon cucullatus Geoffroy, 1827",Colubro dal cappuccio,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Malpolon monpessulanus (Hermann, 1804)",Colubro lacertino,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Natrix maura (Linnaeus, 1758) ",Natrice viperina,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Natrix natrix (Linnaeus, 1758) ",Natrice dal collare,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Natrix natrix cetti Gené, 1839   (= n. corsa (Hecht, 1930))",Natrice di Cetti,,,,,,,,,,,,,,,,x,,,,,Gravemente minacciato
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Natrix tessellata (Laurenti, 1768)",Natrice tassellata,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Colubridae,"Telescopus fallax (Fleischmann, 1831)",Serpente gatto europeo,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Gekkonidae,"Cyrtopodion (=Cyrtodactylus) kotschyi (Steindachner, 1870)",Geco di Kotschy,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Gekkonidae,"Euleptes europaea (Gené, 1838)",Tarantolino,,,,,,,,x,,,,,,,x,x,,,,,Vulnerabile
+Chordata,REPTILIA,SQUAMATA,Gekkonidae,"Hemidactylus turcicus (Linnaeus, 1758) ",Geco verrucoso,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,REPTILIA,SQUAMATA,Gekkonidae,"Phyllodactylus europaeus Gené, 1830",Tarantolino,,,,,,,,x,,,,,,,x,x,,,,,Vulnerabile
+Chordata,REPTILIA,SQUAMATA,Gekkonidae,"Tarentola mauritanica (Linnaeus, 1758) ",Tarantola muraiola,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Algyroides fitzingeri (Wiegmann, 1834)",Algiroide nano,,,,,,,,x,,,,,,,,x,,,x,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Algyroides nigropunctatus (Duméril & Bibron, 1839)",Algiroide magnifico,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Archaeolacerta bedriagae (Camerano, 1885)",Lucertola di Bedriaga,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Archaeolacerta horvathi (Méhelÿ, 1904)",Lucertola di Horvath,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Lacerta agilis  Linnaeus, 1758",Lucertola degli arbusti,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Lacerta horvathi (Méhelÿ, 1904)",Lucertola di Horvath,,,,,,,,x,,,,,,,,,,,,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Lacerta trilineata Bedriaga, 1886 ",Ramarro gigante,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Lacerta viridis (Laurenti, 1768)",Ramarro,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Podarcis filfolensis (Bedriaga, 1876) ",Lucertola di Malta,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Podarcis melisellensis (Braun, 1877)",Lucertola adriatica,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Podarcis muralis (Laurenti, 1768)",Lucertola muraiola,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Podarcis sicula (Rafinesque, 1810)",Lucertola campestre,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Podarcis tiliguerta (Gmelin, 1789) ",Lucertola tiliguerta,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Podarcis wagleriana Gistel, 1868",Lucertola sicula,,,,,,,,x,,,,,,,,x,,,x,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Psammodromus algirus (Linnaeus, 1758) ",Lucertola striata comune,,,,,,,,,x,,,,,,,,,,x,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Timon lepidus (Daudin, 1802)",Lucertola ocellata,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,REPTILIA,SQUAMATA,Lacertidae,"Zootoca vivipara Jacquin, 1787",Lucertola vivipera,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,REPTILIA,SQUAMATA,Scincidae,"Chalcides chalcides (Linnaeus, 1758) ",Luscengola,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,REPTILIA,SQUAMATA,Scincidae,"Chalcides ocellatus (Forsskål, 1775)",Gongilo,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Scincidae,"Chalcides striatus (Cuvier, 1829)",Gongilo striato,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,REPTILIA,SQUAMATA,Viperidae,"Vipera ammodytes (Linnaeus, 1758) ",Vipera dal corno,,,,,,,,x,,,,,,,,x,,,,,None
+Chordata,REPTILIA,SQUAMATA,Viperidae,"Vipera aspis (Linnaeus, 1758) ",Vipera comune,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,REPTILIA,SQUAMATA,Viperidae,"Vipera berus (Linnaeus, 1758) ",Marasso,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,REPTILIA,SQUAMATA,Viperidae,"Vipera ursinii (Bonaparte, 1835)",Vipera dell'Orsini,,,,,,,,x,,x,,,,,x,x,,,,,Minacciato
+Chordata,REPTILIA,TESTUDINES,Bataguridae,"Mauremys caspica (Gmelin, 1774)",Mauremide caspica,,,,,,,,x,,,,,,,x,x,,,,,None
+Chordata,REPTILIA,TESTUDINES,Bataguridae,"Mauremys leprosa (Schweigger, 1812)",Mauremide occidentale,,,,,,,,,x,,,,,,x,x,,,,,None
+Chordata,REPTILIA,TESTUDINES,Cheloniidae,"Caretta caretta   * (Linnaeus, 1758)",Tartaruga caretta,,,,,,,,x,,x,,,x,,x,x,,,,M,Minacciato
+Chordata,REPTILIA,TESTUDINES,Cheloniidae,"Chelonia mydas (Linnaeus, 1758) ",Tartaruga verde,,,,,,,,x,,x,,,x,,,x,,,,M,Minacciato
+Chordata,REPTILIA,TESTUDINES,Cheloniidae,"Eretmochelys imbricata (Linnaeus, 1766)",Tartaruga  embricata,,,,,,,,x,,x,,,x,,,x,,,,M,Gravemente minacciato
+Chordata,REPTILIA,TESTUDINES,Cheloniidae,"Lepidochelys kempii (Garman, 1880)",Tartaruga bastarda,,,,,,,,x,,x,,,x,,,x,,,,M,Gravemente minacciato
+Chordata,REPTILIA,TESTUDINES,Dermochelydae,"Dermochelys coriacea (Vandelli, 1761)",Tartaruga liuto,,,,,,,,x,,x,,,x,,,x,,,,M,Gravemente minacciato
+Chordata,REPTILIA,TESTUDINES,Emydidae,"Emys orbicularis (Linnaeus, 1758)",Testuggine d'acqua,,,,,,,,x,,,,,,,x,x,,,,,"A minor rischio, Quasi a rischio"
+Chordata,REPTILIA,TESTUDINES,Emydidae,"Trachemys (=Pseudemys) scripta Agassiz, 1857",Testuggine dalle guance rosse,,,,,,,,,x,,,,,,,,,,,,None
+Chordata,REPTILIA,TESTUDINES,Testudinidae,"Testudo graeca Linnaeus, 1758",Testuggine greca,,,,,,,,x,,x,,,,,x,x,,,,M,Vulnerabile
+Chordata,REPTILIA,TESTUDINES,Testudinidae,"Testudo hermanni Gmelin, 1789",Testuggine comune,,,,,,,,x,,x,,,,,x,x,,,,M,"A minor rischio, Quasi a rischio"
+Chordata,REPTILIA,TESTUDINES,Testudinidae,"Testudo marginata Schoepff, 1792",Testuggine marginata,,,,,,,,x,,x,,,,,x,x,,,,M,None
+Cnidaria,ANTHOZOA,ANTIPATHARIA,Antipathidae,"Antipathes dichotoma Pallas, 1766",,,,,,,,,,x,,x,,,,,,,,,,None
+Cnidaria,ANTHOZOA,ANTIPATHARIA,Antipathidae,"Antipathes fragilis Gravier, 1918",,,,,,,,,,x,,x,,,,,,,,,,None
+Cnidaria,ANTHOZOA,ANTIPATHARIA,Antipathidae,"Antipathes subpinnata (Ellis & Solander, 1786)",,,,,,,,,,x,,x,,,,,,,,,,None
+Cnidaria,ANTHOZOA,GORGONACEA,Corallidae,"Corallium rubrum (Linnaeus, 1758)",Corallo rosso,,,,,,,,,x,,,,,,,,x,,,,None
+Cnidaria,ANTHOZOA,SCLERACTINIA,Dendrophylliidae,"Astroides calycularis (Pallas, 1766)",,,,,,,,,x,,,,,,,,,,,,,None
+Cnidaria,ANTHOZOA,ZOANTHARIA,Gerardiidae,"Gerardia savaglia (Bertoloni, 1819)",,,,,,,,,x,,,,,,,,,,,,,None
+Cnidaria,HYDROZOA,ANTHOMEDUSAE,Stylasteridae,Errina aspera,,,,,,,,,x,,,,,,,,,,,,,None
+Echinodermata,ECHINOIDEA,ECHINOIDEA,Diadematidae,"Centrostephanus longispinus (Philippi, 1845)",Riccio di mare,,,,,,,,x,,,,,,,,x,,,,,None
+Echinodermata,ECHINOIDEA,ECHINOIDEA,Echinidae,"Paracentrotus lividus (Lamarck, 1816)",Riccio di mare di roccia,,,,,,,,,x,,,,,,,,,,,,None
+Echinodermata,STELLEROIDEA,ASTEROIDEA,Ophidiasteridae,"Asterina pancerii  (Gasco, 1860)",,,,,,,,,x,,,,,,,,,,,,,None
+Echinodermata,STELLEROIDEA,ASTEROIDEA,Ophidiasteridae,"Ophidiaster ophidianus  (Lamarck, 1816)",,,,,,,,,x,,,,,,,,,,,,,None
+Mollusca,BIVALVA,MYTILOIDA,Mytilidae,"Lithophaga lithophaga (Linnaeus, 1758) ",Dattero di mare,,,,,,,,x,,,,,,,,x,,,,M,None
+Mollusca,BIVALVA,MYTILOIDA,Pinnidae,"Pinna nobilis (Linnaeus, 1758) ",Pinna nobile,,,,,,,,,,,,,,,,x,,,,,None
+Mollusca,BIVALVA,PHOLADINA,Pholadidae,"Pholas dactylus Linnaeus, 1758",Dattero bianco,,,,,,,,x,,,,,,,,,,,,,None
+Mollusca,BIVALVA,UNIONOIDA,Margaritiferidae,"Margaritifera auricularia (Splenger, 1793)",,,,,,,,,,,,,,,,,x,,,,,Gravemente minacciato
+Mollusca,BIVALVA,UNIONOIDA,Unionidae,"Microcondylaea compressa Menke, 1828",Microcondilea,,,,,,,,,x,,,,,,,,x,,,,None
+Mollusca,BIVALVA,UNIONOIDA,Unionidae,"Unio elongatus C.Pfeiffer, 1825",Unione,,,,,,,,,x,,,,,,,,x,,,,None
+Mollusca,GASTROPODA,DOCOGLOSSA,Patellidae,"Patella ferruginea Gmelin, 1791",Patella ferrosa,,,,,,,,x,,,,,,,,x,,,,,None
+Mollusca,GASTROPODA,NEOGASTROPODA,Mitridae,"Mitra zonata Marryat, 1818",Mitra zonata,,,,,,,,x,,,,,,,,,,,,,None
+Mollusca,GASTROPODA,NEOTAENIOGLOSSA,Cypraeidae,"Erosaria spurca (Linnaeus, 1758)",,,,,,,,,x,,,,,,,,,,,,,None
+Mollusca,GASTROPODA,NEOTAENIOGLOSSA,Cypraeidae,"Luria lurida (Linnaeus, 1758)",,,,,,,,,x,,,,,,,,,,,,,None
+Mollusca,GASTROPODA,NEOTAENIOGLOSSA,Cypraeidae,"Schilderia achatidea (Gray in G.B. Sowerby II, 1837)",,,,,,,,,x,,,,,,,,,,,,,None
+Mollusca,GASTROPODA,NEOTAENIOGLOSSA,Cypraeidae,"Zonaria pyrum (Gmelin, 1791)",,,,,,,,,x,,,,,,,,,,,,,None
+Mollusca,GASTROPODA,NEOTAENIOGLOSSA,Ranellidae,"Charonia lampas (Linnaeus, 1758)",,,,,,,,,x,,,,,,,,,,,,,None
+Mollusca,GASTROPODA,NEOTAENIOGLOSSA,Ranellidae,"Charonia tritonis (Linnaeus, 1758)",Tritone lucido,,,,,,,,x,,,,,,,,,,,,,None
+Mollusca,GASTROPODA,NEOTAENIOGLOSSA,Ranellidae,"Ranella olearia (Linnaeus, 1758)",,,,,,,,,x,,,,,,,,,,,,,"A minor rischio, Quasi a rischio"
+Mollusca,GASTROPODA,NEOTAENIOGLOSSA,Tonnidae,"Tonna galea (Linnaeus, 1758)",Elmo,,,,,,,,x,,,,,,,,,,,,,None
+Mollusca,GASTROPODA,NEOTAENIOGLOSSA,Vermetidae,"Dendropoma petraeum (Monterosato,1884)",,,,,,,,,x,,,,,,,,,,,,,None
+Mollusca,GASTROPODA,STYLOMMATOPHORA,Vertiginidae,"Helix pomatia Linnaeus, 1758",Chiocciola,,,,,,,,,x,,,,,,,,x,,,,None
+Mollusca,GASTROPODA,STYLOMMATOPHORA,Vertiginidae,"Vertigo angustior Jeffrreys, 1830",Vertigo sinistrorso minore,,,,,,,,,,,,,,,x,,,,,,"A minor rischio, Dipendenti dalla protezione"
+Mollusca,GASTROPODA,STYLOMMATOPHORA,Vertiginidae,"Vertigo genesii (Gredler, 1856)",Vertigo a stoma tondo,,,,,,,,,,,,,,,x,,,,,,None
+Mollusca,GASTROPODA,STYLOMMATOPHORA,Vertiginidae,"Vertigo geyeri Lindholm, 1925",Vertigo di Geyer,,,,,,,,,,,,,,,x,,,,,,None
+Mollusca,GASTROPODA,STYLOMMATOPHORA,Vertiginidae,"Vertigo moulinsiana (Dupuy, 1849)",Vertigo di Demoulins,,,,,,,,,,,,,,,x,,,,,M,"A minor rischio, Dipendenti dalla protezione"
+Mollusca,GASTROPODA,VETIGASTROPODA,Trochidae,"Gibbula nivosa A.Adams, 1851",Trottola,,,,,,,,x,,,,,,,,,,,,,None
+Porifera,CALCAREA,LITHONIDA,Petrobionidae,Petrobiona massiliana,,,,,,,,,x,,,,,,,,,,,,,None
+Porifera,DEMOSPONGIE,AXINELLIDA,Axinellidae,"Axinella polypoides Schmidt, 1862",,,,,,,,,x,,,,,,,,,,,,,None
+Porifera,DEMOSPONGIE,DICTYOCERATIDA,Spongiidae,"Hippospongia communis (Lamarck, 1813)",Spugna equina,,,,,,,,,x,,,,,,,,,,,,None
+Porifera,DEMOSPONGIE,DICTYOCERATIDA,Spongiidae,"Spongia agaricina Pallas, 1766",Spugna elefante,,,,,,,,,x,,,,,,,,,,,,None
+Porifera,DEMOSPONGIE,DICTYOCERATIDA,Spongiidae,"Spongia officinalis (Linnaeus, 1759)",Spugna da bagno,,,,,,,,,x,,,,,,,,,,,,None
+Porifera,DEMOSPONGIE,DICTYOCERATIDA,Spongiidae,"Spongia zimocca Schmidt, 1862",Spugna,,,,,,,,,x,,,,,,,,,,,,None
+Porifera,DEMOSPONGIE,VERONGIDA,Aplysinidae,"Aplysina cavernicola Vacelet, 1959",,,,,,,,,x,,,,,,,,,,,,,None
