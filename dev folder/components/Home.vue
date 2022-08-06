@@ -5,10 +5,13 @@ import TreemapAnimals from "./TreemapAnimals.vue"
 import ParallelPlotAnimals from "./ParallelPlotAnimals.vue"
 import LineHunters from "./LineHunters.vue"
 import BarSports from "./BarSports.vue"
+import D3CirclesAssociazioni from "./D3CirclesAssociazioni.vue"
+import D3RectVoti from "./D3RectVoti.vue"
+
 export default {
     name:'Home',
     props:{},
-    components:{ MapEu, MapItaly, TreemapAnimals, ParallelPlotAnimals, LineHunters, BarSports },
+    components:{ MapEu, MapItaly, TreemapAnimals, ParallelPlotAnimals, LineHunters, BarSports, D3CirclesAssociazioni, D3RectVoti },
     data(){
         return{
             
@@ -36,8 +39,10 @@ export default {
        <ParallelPlotAnimals></ParallelPlotAnimals>
        <LineHunters></LineHunters>
        <BarSports></BarSports>
-
+       <D3CirclesAssociazioni></D3CirclesAssociazioni>
+       <D3RectVoti></D3RectVoti>
        </b-row>
+       asdasd
     </b-container>
 </template>
 
