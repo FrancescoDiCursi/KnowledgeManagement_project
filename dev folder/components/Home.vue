@@ -42,7 +42,6 @@ export default {
        <D3CirclesAssociazioni></D3CirclesAssociazioni>
        <D3RectVoti></D3RectVoti>
        </b-row>
-       asdasd
     </b-container>
 </template>
 

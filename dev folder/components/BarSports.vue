@@ -77,7 +77,12 @@ export default {
       var layout = {
         xaxis:{
             type:'category',
-            categoryorder:'category ascending'
+            categoryorder:'category ascending',
+        },
+        height:600,
+        margin:{
+            b:300,
+            t:10
         }
       };
 
@@ -101,4 +106,7 @@ export default {
 </template>
 
 <style>
+#bar_sport{
+
+}
 </style>
