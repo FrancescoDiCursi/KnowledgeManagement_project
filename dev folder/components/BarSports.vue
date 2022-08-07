@@ -72,6 +72,19 @@ export default {
         };
         traces.push(temp_);
       });
+
+    var text={
+      mode:'text',
+      x:['Caccia'],
+      y:[15,15],
+      text:['Caccia'],
+      textposition:'top',
+      showlegend:false,
+      textfont:{size:18,color:'firebrick'}
+    }
+
+    traces.push(text)
+
       console.log(traces);
 
       var layout = {
@@ -83,11 +96,24 @@ export default {
         margin:{
             b:300,
             t:10
-        }
+        },
+        shapes:[
+          {type:'rect',
+          x0:3.5,
+          y0:0,
+          x1:4.5,
+          y1:15,
+          line:{
+            color:'firebrick',
+            width:3,
+            dash:'dashdot'
+          }
+          }
+        ]
       };
 
       var config = {
-        displayModeBar: false,
+        displayModeBar: true,
       };
 
       Plotly.newPlot("bar_sport", traces, layout, config);

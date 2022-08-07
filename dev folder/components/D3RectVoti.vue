@@ -72,9 +72,10 @@ export default {
         .attr("stroke-width", 3)
         .attr("stroke-dasharray", "6");
       //si line
+      /*
       svg
         .append("path")
-        .attr("class", "no_line")
+        .attr("class", "si_line")
         .attr("d", `M ${this.offsets_no[0] - 10} 385 V 530 h 101`)
         .attr("stroke", "green")
         .attr("fill", "transparent")
@@ -98,43 +99,60 @@ export default {
         .attr("fill", "transparent")
         .attr("stroke-width", 3)
         .attr("stroke-dasharray", "3");
-        //line textes
-
+      */
+        //line texts
             svg
             .append('text')
-            .attr('class','legend_labels')
+            .attr('class','l_labels')
             .attr('x',335)
-            .attr('y',530)
+            .attr('y',420)
+            .attr('stroke','green')
+            .text(this.rect_labels[3])
+            .attr('font-size',20)
+
+          //legend
+            svg
+            .append('text')
+            .attr('class','l_labels')
+            .attr('x',800)
+            .attr('y',0)
             .attr('stroke','green')
             .text(this.rect_labels[0])
             .attr('font-size',20)
 
             svg
             .append('text')
-            .attr('class','legend_labels')
-            .attr('x',335)
-            .attr('y',500)
+            .attr('class','l_labels')
+            .attr('x',800)
+            .attr('y',30)
             .attr('stroke','red')
             .text(this.rect_labels[1])
             .attr('font-size',20)
 
             svg
             .append('text')
-            .attr('class','legend_labels')
-            .attr('x',335)
-            .attr('y',460)
+            .attr('class','l_labels')
+            .attr('x',800)
+            .attr('y',60)
             .attr('stroke','grey')
             .text(this.rect_labels[2])
             .attr('font-size',20)
 
-            svg
-            .append('text')
-            .attr('class','legend_labels')
-            .attr('x',335)
-            .attr('y',420)
-            .attr('stroke','green')
-            .text(this.rect_labels[3])
-            .attr('font-size',20)
+            //legend rects
+            svg.selectAll('.l_rects')
+            .data(['green','red','grey'])
+            .enter()
+            .append('rect')
+            .attr('class','l_rects')
+            .attr('x',780)
+            .attr('y',(d,i)=>(i*30)-15)
+            .attr('height',15)
+            .attr('width',15)
+            .attr('fill',(d,i)=>d)
+            .attr('stroke','black')
+
+
+
       //
       svg
         .selectAll(".vote_el_yes")
@@ -188,7 +206,118 @@ export default {
             .attr('y',5)
             .attr('stroke','black')
 */
+
+  //text perc
+  //si
+      svg.append('text')
+      .attr('class','el_perc')
+      .attr('x',100)
+      .attr('y',-5)
+      .attr('stroke','green')
+      .attr('font-size',15)
+      .text(this.voti_csv.map(d=> String(((d['Si']/d['Totale elettori'])*100).toFixed(1))+'%')[0])
+
+      svg.append('text')
+      .attr('class','el_perc')
+      .attr('x',100)
+      .attr('y',135)
+      .attr('stroke','green')
+      .attr('font-size',15)
+      .text(this.voti_csv.map(d=> String(((d['Si']/d['Totale elettori'])*100).toFixed(1))+'%')[1])
+
+      svg.append('text')
+      .attr('class','el_perc')
+      .attr('x',100)
+      .attr('y',275)
+      .attr('stroke','green')
+      .attr('font-size',15)
+      .text(this.voti_csv.map(d=> String(((d['Si']/d['Totale elettori'])*100).toFixed(1))+'%')[2])
+
+      //no
+     svg.append('text')
+      .attr('class','el_perc')
+      .attr('x',235)
+      .attr('y',-5)
+      .attr('stroke','red')
+      .attr('font-size',12)
+      .text(this.voti_csv.map(d=> String(((d['No']/d['Totale elettori'])*100).toFixed(1))+'%')[0])
+
+      svg.append('text')
+      .attr('class','el_perc')
+      .attr('x',235)
+      .attr('y',135)
+      .attr('stroke','red')
+      .attr('font-size',12)
+      .text(this.voti_csv.map(d=> String(((d['No']/d['Totale elettori'])*100).toFixed(1))+'%')[1])
+
+      svg.append('text')
+      .attr('class','el_perc')
+      .attr('x',235)
+      .attr('y',275)
+      .attr('stroke','red')
+      .attr('font-size',12)
+      .text(this.voti_csv.map(d=> String(((d['No']/d['Totale elettori'])*100).toFixed(1))+'%')[2])
+
+            //nulle
+     svg.append('text')
+      .attr('class','el_perc')
+      .attr('x',265)
+      .attr('y',-5)
+      .attr('stroke','grey')
+      .attr('font-size',12)
+      .text(this.voti_csv.map(d=> String(((d['Schede bianche o nulle']/d['Totale elettori'])*100).toFixed(1))+'%')[0])
+
+      svg.append('text')
+      .attr('class','el_perc')
+      .attr('x',260)
+      .attr('y',135)
+      .attr('stroke','grey')
+      .attr('font-size',12)
+      .text(this.voti_csv.map(d=> String(((d['Schede bianche o nulle']/d['Totale elettori'])*100).toFixed(1))+'%')[1])
+
+      svg.append('text')
+      .attr('class','el_perc')
+      .attr('x',260)
+      .attr('y',275)
+      .attr('stroke','grey')
+      .attr('font-size',12)
+      .text(this.voti_csv.map(d=> String(((d['Schede bianche o nulle']/d['Totale elettori'])*100).toFixed(1))+'%')[2])
+
+      //affluenza
+           svg.append('text')
+      .attr('class','el_affluenza')
+      .attr('x',-120)
+      .attr('y',0)
+      .attr('stroke','black')
+      .attr('font-size',20)
+      .text('Affluenza')
+
+           svg.append('text')
+      .attr('class','el_affluenza')
+      .attr('x',-110)
+      .attr('y',50)
+      .attr('stroke','black')
+      .attr('font-size',15)
+      .text(this.voti_csv.map(d=>+d['Affluenza']+'%')[0])
+
+        svg.append('text')
+      .attr('class','el_affluenza')
+      .attr('x',-110)
+      .attr('y',200)
+      .attr('stroke','black')
+      .attr('font-size',15)
+      .text(this.voti_csv.map(d=>+d['Affluenza']+'%')[1])
+
+              svg.append('text')
+      .attr('class','el_affluenza')
+      .attr('x',-110)
+      .attr('y',330)
+      .attr('stroke','black')
+      .attr('font-size',15)
+      .text(this.voti_csv.map(d=>+d['Affluenza']+'%')[2])
+    
     },
+    
   },
   watch: {
     voti_csv: function () {
