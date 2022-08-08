@@ -7,6 +7,7 @@ import LineHunters from "./LineHunters.vue";
 import BarSports from "./BarSports.vue";
 import D3CirclesAssociazioni from "./D3CirclesAssociazioni.vue";
 import D3RectVoti from "./D3RectVoti.vue";
+import LineMacellazioni from "./LineMacellazioni.vue";
 
 export default {
   name: "Home",
@@ -20,7 +21,8 @@ export default {
     BarSports,
     D3CirclesAssociazioni,
     D3RectVoti,
-  },
+    LineMacellazioni
+},
   data() {
     return {};
   },
@@ -35,6 +37,7 @@ export default {
 
       <MapEu></MapEu>
       <LineHunters></LineHunters>
+      <LineMacellazioni></LineMacellazioni>
       <D3RectVoti></D3RectVoti>
 
       <MapItaly></MapItaly>
@@ -43,6 +46,7 @@ export default {
 
       <TreemapAnimals></TreemapAnimals>
       <ParallelPlotAnimals></ParallelPlotAnimals>
+
 
   </b-container>
 </template>
