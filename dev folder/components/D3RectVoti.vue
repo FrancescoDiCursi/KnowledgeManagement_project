@@ -315,8 +315,35 @@ export default {
       .attr('stroke','black')
       .attr('font-size',15)
       .text(this.voti_csv.map(d=>+d['Affluenza']+'%')[2])
+
+           svg.append('text')
+      .attr('class','el_affluenza')
+      .attr('x',-500)
+      .attr('y',50)
+      .attr('stroke','black')
+      .attr('font-size',20)
+      .text('1 - Disciplina della caccia')
+
+        svg.append('text')
+      .attr('class','el_affluenza')
+      .attr('x',-500)
+      .attr('y',200)
+      .attr('stroke','black')
+      .attr('font-size',20)
+      .text('2 - Accesso dei cacciatori a fondi privati')
+
+              svg.append('text')
+      .attr('class','el_affluenza')
+      .attr('x',-500)
+      .attr('y',330)
+      .attr('stroke','black')
+      .attr('font-size',20)
+      .text('3 - Uso dei pesticidi')
     
     },
+             
+
+
     
   },
   watch: {

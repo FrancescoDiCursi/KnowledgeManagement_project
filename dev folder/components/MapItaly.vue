@@ -311,12 +311,8 @@ export default {
 
 <template>
   <b-container id="MapEu" fluid>
-    <div id='it_info'>
-    <span><b>{{this.table_selection}} - </b></span> <span>{{this.table_titles[this.table_selection.split(' ')[1] -1 ]}}</span>
-    <br/> <span><b>Anno -</b> {{this.year_selection}}</span>
-    <br/> <span><b>Attributo -</b> {{this.attribute_selection!='' ?this.attribute_selection :'Seleziona attributo (terza colonna)'}}</span>
-    </div>
-    <b-row>
+    
+    <b-row style="background-color:whitesmoke">
       <b-col>
         <b-form-group id="attributi_it" v-slot="{ ariaDescribedby }">
           {{/*capire dove piazzare i bottoni, cambiare v-model con singoli  bottoni */}}
@@ -359,9 +355,16 @@ export default {
       </b-col>
     </b-row>
     <b-row>
-      <b-col cols="12">
+     <b-col cols="12" style="background-color:whitesmoke">
       <b-button @click="time_animation()" id="animation_btn">Serie temproale</b-button>
       </b-col>
+    </b-row>
+    <div id='it_info'>
+    <span><b>{{this.table_selection}} - </b></span> <span>{{this.table_titles[this.table_selection.split(' ')[1] -1 ]}}</span>
+    <br/> <span><b>Anno -</b> {{this.year_selection}}</span>
+    <br/> <span><b>Attributo -</b> {{this.attribute_selection!='' ?this.attribute_selection :'Seleziona attributo (terza colonna)'}}</span>
+    </div>
+    <b-row>
       <b-col>
         <svg
           xmlns="http://www.w3.org/2000/svg"
