@@ -8,6 +8,7 @@ import BarSports from "./BarSports.vue";
 import D3CirclesAssociazioni from "./D3CirclesAssociazioni.vue";
 import D3RectVoti from "./D3RectVoti.vue";
 import LineMacellazioni from "./LineMacellazioni.vue";
+import MapItalyRiserve from "./MapItalyRiserve.vue";
 
 export default {
   name: "Home",
@@ -21,7 +22,8 @@ export default {
     BarSports,
     D3CirclesAssociazioni,
     D3RectVoti,
-    LineMacellazioni
+    LineMacellazioni,
+    MapItalyRiserve
 },
   data() {
     return {};
@@ -46,6 +48,7 @@ export default {
 
       <TreemapAnimals></TreemapAnimals>
       <ParallelPlotAnimals></ParallelPlotAnimals>
+      <MapItalyRiserve></MapItalyRiserve>
 
 
   </b-container>
