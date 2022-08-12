@@ -58,14 +58,14 @@ export default {
 
       return sorted[middle];
     },
-    color_map(type_) {
+    color_map(type_, legend_values) {
       var values = type_;
       var values_median = this.median(values);
       console.log(values_median);
       var scale_els = [
-        Math.min(...values),
-        Math.round(values.reduce((a, b) => a + b, 0) / values.length),
-        Math.max(...values),
+        Math.min(...legend_values),
+        Math.round(legend_values.reduce((a, b) => a + b, 0) / legend_values.length), //decide if mean or median
+        Math.max(...legend_values),
       ];
       console.log(values, Math.min(...values));
       var colors = d3
@@ -74,12 +74,12 @@ export default {
         .range(["green", "yellow", "red"]);
 
       //legend
-      d3.selectAll('[class*="legend"]').remove();
+      d3.selectAll('[class*="legend_it_tavole"]').remove();
       var svg = d3.select("#svg_it");
 
       svg
         .append("rect")
-        .attr("class", "legend_back")
+        .attr("class", "legend_it_tavole_back")
         .attr("stroke", "white")
         .attr("fill", "white")
         .attr("width", 250)
@@ -89,11 +89,11 @@ export default {
         .attr("opacity", 0.6);
 
       svg
-        .selectAll(".legend_els")
+        .selectAll(".legend_it_tavole_els")
         .data(scale_els)
         .enter()
         .append("circle")
-        .attr("class", "legend_els")
+        .attr("class", "legend_it_tavole_els")
         .attr("cx", 430)
         .attr("cy", (d, i) => 25+ i * 30)
         .attr("r", 10)
@@ -101,11 +101,11 @@ export default {
         .attr("fill", (d) => colors(d));
 
       svg
-        .selectAll(".legend_txt")
+        .selectAll(".legend_it_tavole_txt")
         .data(scale_els)
         .enter()
         .append("text")
-        .attr("class", "legend_txt")
+        .attr("class", "legend_it_tavole_txt")
         .attr("x", 450)
         .attr("y", (d, i) => 32.7 + i * 30)
         //.attr('stroke',d=>colors(d))
@@ -263,6 +263,13 @@ export default {
       var target_values = target_table.map((d) =>
         Object.entries(d).filter((f) => f[0] == this.attribute_selection)
       );
+
+      //median and max
+     var filt_only_by_target=this.table_list[ +this.table_selection.split(" ")[1] - 1].map(d=> Object.entries(d).filter((f) => f[0] == this.attribute_selection))
+     filt_only_by_target=filt_only_by_target.map(d=>d.map(y=>y[1]!='-' ?+y[1] :0))
+     filt_only_by_target=filt_only_by_target.map(d=>d[0])
+     console.log('MAX',filt_only_by_target)
+
       //
       console.log(target_values);
       target_values = target_values.map((d) => Object.values(d));
@@ -273,7 +280,7 @@ export default {
       console.log("target_", target_values);
       //color the map and legend
 
-      this.color_map(target_values);
+      this.color_map(target_values,filt_only_by_target); //add min,median,max as args
     },
    sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));

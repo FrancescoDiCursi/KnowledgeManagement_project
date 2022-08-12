@@ -9,6 +9,7 @@ import D3CirclesAssociazioni from "./D3CirclesAssociazioni.vue";
 import D3RectVoti from "./D3RectVoti.vue";
 import LineMacellazioni from "./LineMacellazioni.vue";
 import MapItalyRiserve from "./MapItalyRiserve.vue";
+import ItalyRiserveHeat from "./ItalyRiserveHeat.vue";
 
 export default {
   name: "Home",
@@ -23,7 +24,8 @@ export default {
     D3CirclesAssociazioni,
     D3RectVoti,
     LineMacellazioni,
-    MapItalyRiserve
+    MapItalyRiserve,
+    ItalyRiserveHeat
 },
   data() {
     return {};
@@ -48,7 +50,9 @@ export default {
 
       <TreemapAnimals></TreemapAnimals>
       <ParallelPlotAnimals></ParallelPlotAnimals>
+      
       <MapItalyRiserve></MapItalyRiserve>
+      <ItalyRiserveHeat></ItalyRiserveHeat>
 
 
   </b-container>
