@@ -10,6 +10,7 @@ import D3RectVoti from "./D3RectVoti.vue";
 import LineMacellazioni from "./LineMacellazioni.vue";
 import MapItalyRiserve from "./MapItalyRiserve.vue";
 import ItalyRiserveHeat from "./ItalyRiserveHeat.vue";
+import LineDemoIt from "./LineDemoIt.vue";
 
 export default {
   name: "Home",
@@ -25,7 +26,8 @@ export default {
     D3RectVoti,
     LineMacellazioni,
     MapItalyRiserve,
-    ItalyRiserveHeat
+    ItalyRiserveHeat,
+    LineDemoIt
 },
   data() {
     return {};
@@ -41,6 +43,7 @@ export default {
 
       <MapEu></MapEu>
       <LineHunters></LineHunters>
+      <LineDemoIt></LineDemoIt>
       <LineMacellazioni></LineMacellazioni>
       <D3RectVoti></D3RectVoti>
 
