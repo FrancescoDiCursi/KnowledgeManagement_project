@@ -42,13 +42,15 @@ export default {
   <b-container id="Home">
 
       <MapEu></MapEu>
+      
       <LineHunters></LineHunters>
       <LineDemoIt></LineDemoIt>
       <LineMacellazioni></LineMacellazioni>
+      <BarSports></BarSports>
       <D3RectVoti></D3RectVoti>
 
       <MapItaly></MapItaly>
-      <BarSports></BarSports>
+
       <D3CirclesAssociazioni></D3CirclesAssociazioni>
 
       <TreemapAnimals></TreemapAnimals>
