@@ -11,6 +11,7 @@ import LineMacellazioni from "./LineMacellazioni.vue";
 import MapItalyRiserve from "./MapItalyRiserve.vue";
 import ItalyRiserveHeat from "./ItalyRiserveHeat.vue";
 import LineDemoIt from "./LineDemoIt.vue";
+import LinePrezzi from "./LinePrezzi.vue";
 
 export default {
   name: "Home",
@@ -27,7 +28,8 @@ export default {
     LineMacellazioni,
     MapItalyRiserve,
     ItalyRiserveHeat,
-    LineDemoIt
+    LineDemoIt,
+    LinePrezzi
 },
   data() {
     return {};
@@ -47,6 +49,7 @@ export default {
       <LineDemoIt></LineDemoIt>
       <LineMacellazioni></LineMacellazioni>
       <BarSports></BarSports>
+      <LinePrezzi></LinePrezzi>
       <D3RectVoti></D3RectVoti>
 
       <MapItaly></MapItaly>

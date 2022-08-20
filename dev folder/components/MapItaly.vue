@@ -2,6 +2,8 @@
 import * as d3 from "https://cdn.skypack.dev/d3@7";
 import * as topojson from "https://cdn.skypack.dev/topojson@3.0.2";
 import chroma from "chroma-js";
+import * as plotly from "https://cdn.plot.ly/plotly-2.11.1.min.js";
+
 export default {
   name: "MapItaly",
   props: {},
@@ -11,6 +13,7 @@ export default {
       tables2: {},
       tables3: {},
       tables4: {},
+      tables4_IT: {},
       table_list: [],
       option_list: [],
       hunters_cols: {},
@@ -24,17 +27,21 @@ export default {
       ],
       year_selection: 2001,
       attribute_selection: "Numero (montagna)",
+
+      line_type_sel: "Numero",
     };
   },
   mounted() {
     Promise.all([
       d3.csv("./static/ISTAT_tutti gli anni_tavole123.csv"),
       d3.csv("./static/ISTAT_tutti gli anni_tavola4.csv"),
+      d3.csv("./static/ISTAT_tutti gli anni_tavola4(IT only).csv"),
     ]).then((data) => {
       this.tables1 = data[0].filter((d) => d.Tavola == "Tavola 1");
       this.tables2 = data[0].filter((d) => d.Tavola == "Tavola 2");
       this.tables3 = data[0].filter((d) => d.Tavola == "Tavola 3");
       this.tables4 = data[1].map((d) => d);
+      this.tables4_IT = data[2].map((d) => d);
       this.table_list = [
         this.tables1,
         this.tables2,
@@ -49,7 +56,8 @@ export default {
   },
   methods: {
     median(numbers) {
-      const sorted = numbers.sort((a, b) => a - b);
+      var temp=numbers
+      const sorted = temp.sort((a, b) => a - b);
       const middle = Math.floor(sorted.length / 2);
 
       if (sorted.length % 2 === 0) {
@@ -58,15 +66,184 @@ export default {
 
       return sorted[middle];
     },
+    draw_bar() {
+      var temp_table = this.table_list[+this.table_selection.split(" ")[1] - 1];
+      var attr_sel_line = this.line_type_sel;
+
+      if (this.table_selection != "Tavola 4") {
+        var regioni = [...new Set(temp_table.map((d) => d.Province))];
+        regioni.sort().reverse()
+
+        var filt_temp_table2 = temp_table.map((d) =>
+          Object.entries(d).filter(
+            (y) =>
+              y[0].includes(attr_sel_line) |
+              ((y[0] == "Anno") | (y[0] == "Province"))
+          )
+        );
+        console.log(temp_table)
+        console.log(filt_temp_table2);
+        var target_idx = [1, 2, 3];
+        var target_names = ["montagna", "collina", "pianura"];
+        var axis_=['x1','x2','x3']
+        var colors_=d3.scaleOrdinal().domain(regioni).range(['red','green','blue']);
+        
+           var signs=['/','.','-']
+
+        var traces=[]
+        for (var j = 0; j < target_names.length; j++) {
+            //var temp_t = filt_temp_table2.filter((d) => d[0][1] == regioni[i]);
+            var temp_t=filt_temp_table2.filter((d)=>d[5][1]==String(this.year_selection))
+            console.log(temp_t)
+            
+
+          
+            var temp_trace = {
+              name: target_names[j],
+              type: "bar",
+              orientation:'h',
+              barmode: "stack",
+              y: temp_t.map((d) => d[0][1]),
+              x: temp_t.map((d) =>
+                d[target_idx[j]][1] != "-" ? +d[target_idx[j]][1] : 0
+              ),
+              //xaxis:axis_[j]
+              showlegend:true,
+              marker: {
+            pattern: {
+              shape: signs[j],
+              bgcolor: 'lightblue',//colors_(regioni[i]),
+              fillmode: "replace",
+                            fgopacity:0.5,
+              
+
+            },
+            color: colors_(j),
+          },
+            };
+            traces.push(temp_trace);
+          
+        }
+        var layout = {
+        barmode: "stack",
+        yaxis:{
+          automargin:true
+        },
+        width:400,
+        height:630,
+        margin:{
+          t:0,
+          
+        }
+        
+        };
+        Plotly.newPlot("bar_tables", traces, layout);
+      }
+    },
+    draw_line() {
+      console.log("Tabbb", this.table_selection);
+      //console.log('LLL',this.table_selection,this.table_list[ +this.table_selection.split(" ")[1] - 1])
+      var temp_table = this.table_list[+this.table_selection.split(" ")[1] - 1];
+      var cols_ = Object.keys(temp_table[0]);
+
+      if (this.table_selection != "Tavola 4") {
+        var target_cols = cols_.slice(1, -2);
+        console.log(target_cols);
+        var attr_sel_line = this.line_type_sel;
+        var filt_temp_table = temp_table.map((d) =>
+          Object.entries(d).filter(
+            (y) => y[0].includes(attr_sel_line) | (y[0] == "Anno")
+          )
+        );
+        var cols_names = filt_temp_table.map((d, i) => d.map((y) => y[0]))[0];
+        console.log("colss", filt_temp_table, cols_names);
+        var yrs_temp = [2001, 2002, 2003, 2004, 2005, 2006, 2007];
+        var yrs_values = [];
+
+        yrs_temp.forEach((anno) => {
+          var temp_filt = filt_temp_table.filter(
+            (d) => d[4][1] == String(anno)
+          );
+          var montagna = temp_filt.map((d) => (d[0][1] != "-" ? +d[0][1] : 0));
+          montagna = montagna.reduce((a, b) => +a + +b);
+
+          var collina = temp_filt.map((d) => (d[1][1] != "-" ? +d[1][1] : 0));
+          collina = collina.reduce((a, b) => +a + +b);
+
+          var pianura = temp_filt.map((d) => (d[2][1] != "-" ? +d[2][1] : 0));
+          pianura = pianura.reduce((a, b) => +a + +b);
+
+          console.log("montagnaa", montagna, collina, pianura);
+          yrs_values.push([montagna, collina, pianura]);
+        });
+
+        console.log("yrss", yrs_values[0]);
+
+        var traces = [];
+
+        for (var i = 0; i < filt_temp_table[0].slice(0, -2).length; i++) {
+          console.log("temp");
+
+          console.log("vals", filt_temp_table, temp_table);
+
+          var temp_trace = {
+            name: cols_names[i],
+            mode: "lines",
+            type: "markers",
+            x: [2001, 2002, 2003, 2004, 2005, 2006, 2007],
+            y: yrs_values.map((d) => d[i]),
+            showlegend: true,
+          };
+          traces.push(temp_trace);
+        }
+
+        var layout = {
+          barmode: "stack",
+        };
+
+        Plotly.newPlot("hist_line_tables", traces, layout);
+      } else {
+        var traces = [];
+        cols_names = [
+          "Densità venatoria per 1000 ha",
+          "Agenti venatori",
+          "Guardie volontarie",
+          "Vigilanza venatoria: numero agenti e/o guardie per 1000 ha",
+        ];
+        for (var i = 0; i < cols_names.length; i++) {
+          console.log("temp");
+
+          console.log("vals", temp_table);
+
+          var temp_trace = {
+            name: cols_names[i],
+            mode: "lines",
+            type: "markers",
+            x: this.tables4_IT.map((d) => +d.Anno),
+            y: this.tables4_IT.map((d) =>
+              d[cols_names[i]] != "-" ? +d[cols_names[i]] : 0
+            ),
+            showlegend: true,
+          };
+          traces.push(temp_trace);
+        }
+        Plotly.newPlot("hist_line_tables", traces);
+      }
+    },
     color_map(type_, legend_values) {
+      console.log(type_)
       var values = type_;
-      var values_median = this.median(values);
-      console.log(values_median);
+      var values_median = values.reduce((a,b)=>a+b)/values.length;
+      console.log(values);
       var scale_els = [
         Math.min(...legend_values),
-        Math.round(legend_values.reduce((a, b) => a + b, 0) / legend_values.length), //decide if mean or median
+        Math.round(
+          legend_values.reduce((a, b) => a + b) / legend_values.length
+        ), //decide if mean or median
         Math.max(...legend_values),
       ];
+            console.log(values)
+
       console.log(values, Math.min(...values));
       var colors = d3
         .scaleLinear()
@@ -95,7 +272,7 @@ export default {
         .append("circle")
         .attr("class", "legend_it_tavole_els")
         .attr("cx", 430)
-        .attr("cy", (d, i) => 25+ i * 30)
+        .attr("cy", (d, i) => 25 + i * 30)
         .attr("r", 10)
         .attr("stroke", (d) => colors(d))
         .attr("fill", (d) => colors(d));
@@ -188,7 +365,7 @@ export default {
               svg.selectAll("[class*=tooltip]").remove();
             })
             .on("click", function (event) {
-              svg.selectAll("[class*=tooltip]").remove()
+              svg.selectAll("[class*=tooltip]").remove();
               console.log(event.clientX, event.clientY);
               d3.select(this).attr("fill", "white");
 
@@ -247,28 +424,35 @@ export default {
                 .text((d) => d)
                 .attr("font-family", "monospace")
                 .style("font-size", "12px");
-            })
+            });
         } catch (error) {
           console.error(error);
         }
       }
-
     },
     update_map() {
-        //filter by year
+      //filter by year
+
       var target_table = this.table_list[
         +this.table_selection.split(" ")[1] - 1
       ].filter((d) => d.Anno == this.year_selection);
+
       //filter by attribute
       var target_values = target_table.map((d) =>
         Object.entries(d).filter((f) => f[0] == this.attribute_selection)
       );
 
       //median and max
-     var filt_only_by_target=this.table_list[ +this.table_selection.split(" ")[1] - 1].map(d=> Object.entries(d).filter((f) => f[0] == this.attribute_selection))
-     filt_only_by_target=filt_only_by_target.map(d=>d.map(y=>y[1]!='-' ?+y[1] :0))
-     filt_only_by_target=filt_only_by_target.map(d=>d[0])
-     console.log('MAX',filt_only_by_target)
+      var filt_only_by_target = this.table_list[
+        +this.table_selection.split(" ")[1] - 1
+      ].map((d) =>
+        Object.entries(d).filter((f) => f[0] == this.attribute_selection)
+      );
+      filt_only_by_target = filt_only_by_target.map((d) =>
+        d.map((y) => (y[1] != "-" ? +y[1] : 0))
+      );
+      filt_only_by_target = filt_only_by_target.map((d) => d[0]);
+      console.log("MAX", filt_only_by_target);
 
       //
       console.log(target_values);
@@ -279,37 +463,49 @@ export default {
       );
       console.log("target_", target_values);
       //color the map and legend
-
-      this.color_map(target_values,filt_only_by_target); //add min,median,max as args
+      this.color_map(target_values, filt_only_by_target); //add min,median,max as args
     },
-   sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-    ,
-    async time_animation(){
-      var btn=document.getElementById('animation_btn')
-      btn.disabled=true
-      var yrs=[2001,2002,2003,2004,2005,2006,2007]
-      var temp=2001
-      for(let i=0;i<yrs.length;i++){
-        this.year_selection=yrs[i]
-        await new Promise(r => setTimeout(() => r(), 1000))
+    sleep(ms) {
+      return new Promise((resolve) => setTimeout(resolve, ms));
+    },
+    async time_animation() {
+      var btn = document.getElementById("animation_btn");
+      btn.disabled = true;
+      var yrs = [2001, 2002, 2003, 2004, 2005, 2006, 2007];
+      var temp = 2001;
+      for (let i = 0; i < yrs.length; i++) {
+        this.year_selection = yrs[i];
+        await new Promise((r) => setTimeout(() => r(), 1000));
       }
-      btn.disabled=false
-
-    }
+      btn.disabled = false;
+    },
   },
   watch: {
     tables1: function () {
+      this.draw_line();
+      this.draw_bar();
       this.update_map();
     },
+    line_type_sel: function () {
+      this.draw_line();
+            this.draw_bar();
+
+    },
     attribute_selection: function () {
+      this.draw_line();
+            this.draw_bar();
+
       this.update_map();
     },
     table_selection: function () {
+      this.draw_line();
+            this.draw_bar();
+
+
       this.update_map();
     },
     year_selection: function () {
+      this.draw_bar()
       this.update_map();
     },
   },
@@ -318,8 +514,9 @@ export default {
 
 <template>
   <b-container id="MapEu" fluid>
-    
-    <b-row style="background-color:whitesmoke">
+   
+
+    <b-row style="background-color: whitesmoke">
       <b-col>
         <b-form-group id="attributi_it" v-slot="{ ariaDescribedby }">
           {{/*capire dove piazzare i bottoni, cambiare v-model con singoli  bottoni */}}
@@ -360,18 +557,54 @@ export default {
           </b-form-radio-group>
         </b-form-group>
       </b-col>
-    </b-row>
-    <b-row>
-     <b-col cols="12" style="background-color:whitesmoke">
-      <b-button @click="time_animation()" id="animation_btn">Serie temproale</b-button>
+
+
+
+        <b-col>
+        <b-form-group id="line_type" v-slot="{ ariaDescribedBy }">
+        <b-form-radio-group
+          id="radio_group_it_line"
+          v-model="line_type_sel"
+          :options="['Numero', 'Superficie']"
+          :aria-describedby="ariaDescribedBy"
+        ></b-form-radio-group>
+      </b-form-group>
       </b-col>
     </b-row>
-    <div id='it_info'>
-    <span><b>{{this.table_selection}} - </b></span> <span>{{this.table_titles[this.table_selection.split(' ')[1] -1 ]}}</span>
-    <br/> <span><b>Anno -</b> {{this.year_selection}}</span>
-    <br/> <span><b>Attributo -</b> {{this.attribute_selection!='' ?this.attribute_selection :'Seleziona attributo (terza colonna)'}}</span>
+
+    
+    <div id="it_info">
+      <span
+        ><b>{{ this.table_selection }} - </b></span
+      >
+      <span>{{
+        this.table_titles[this.table_selection.split(" ")[1] - 1]
+      }}</span>
+      <br />
+      <span><b>Anno -</b> {{ this.year_selection }}</span> <br />
+      <span
+        ><b>Attributo -</b>
+        {{
+          this.attribute_selection != ""
+            ? this.attribute_selection
+            : "Seleziona attributo (terza colonna)"
+        }}</span
+      >
     </div>
+
+ <b-row>
+      <b-col>
+        <div id="hist_line_tables"></div>
+      </b-col>
+    </b-row>
     <b-row>
+          <b-row>
+      <b-col cols="12" style="background-color: whitesmoke">
+        <b-button @click="time_animation()" id="animation_btn"
+          >Serie temporale</b-button
+        >
+      </b-col>
+    </b-row>
       <b-col>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -541,6 +774,7 @@ export default {
           </g>
         </svg>
       </b-col>
+            <b-col><div id="bar_tables"></div></b-col>
     </b-row>
   </b-container>
 </template>
@@ -555,6 +789,10 @@ svg {
   background-color: rgba(0, 105, 1048, 0.4);
   width: 30rem;
 }
+#bar_tables {
+  position:absolute;
+  float:left;
+}
 .form-check {
   padding: 1;
   background-color: whitesmoke;
@@ -562,12 +800,12 @@ svg {
   text-align: left;
   color: black !important;
 }
-#it_info{
-    text-align:left;
-    background-color:whitesmoke;
-    color:black
+#it_info {
+  text-align: left;
+  background-color: whitesmoke;
+  color: black;
 }
-#animation_btn{
+#animation_btn {
   width: 10rem;
 }
 </style>

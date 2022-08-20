@@ -35,12 +35,14 @@ export default {
           name: each,
           barmode: "group",
           showlegend:true,
+          hovertemplate: df_filt_temp.map(d=>'UOMINI' + '<br>'+ d.Sport + ':<br> '+ d.Valori),
           marker: {
             pattern: {
               shape: signs[i],
               bgcolor: 'lightblue',
               fillmode: "replace",
                             fgopacity:0.5,
+              
 
             },
             color: colors[0],
@@ -59,6 +61,8 @@ export default {
           y: df_filt_temp.map((d) => Math.sqrt(+d.Valori)),
           name: each,
           showlegend: true,
+          hovertemplate: df_filt_temp.map(d=>'DONNE'+ '<br>'+ d.Sport + ':<br> '+ d.Valori),
+                          
           marker: {
             pattern: {
               shape: signs[i],
@@ -109,7 +113,8 @@ export default {
             dash:'dashdot'
           }
           }
-        ]
+        ],
+
       };
 
       var config = {
