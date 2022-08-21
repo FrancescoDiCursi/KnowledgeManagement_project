@@ -95,7 +95,7 @@ export default {
         height_ = 1500;
       }
 */
-      var layout = { width: window.innerWidth,margin:{l:400,r:300}}
+      var layout = { width: window.innerWidth,margin:{l:400,r:500}}
 
       Plotly.newPlot("parallel_", data, layout, {displayModeBar: false,});
 
