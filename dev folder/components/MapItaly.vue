@@ -26,9 +26,10 @@ export default {
         "Principali indicatori sulla caccia",
       ],
       year_selection: 2001,
-      attribute_selection: "Numero (montagna)",
+      attribute_selection1: "montagna",
 
-      line_type_sel: "Numero",
+      attribute_selection2: "Numero",
+      attribute_selection: "",
     };
   },
   mounted() {
@@ -52,11 +53,49 @@ export default {
       this.option_list.push(Object.keys(this.table_list[1][0]));
       this.option_list.push(Object.keys(this.table_list[2][0]));
       this.option_list.push(Object.keys(this.table_list[3][0]));
+
+      this.check_attribute();
+      console.log(this.attribute_selection);
     });
   },
   methods: {
+    check_attribute() {
+      if (this.table_selection != "Tavola 4") {
+        document.getElementById("radio_group_it_line").style.display = "block";
+
+        if (
+          !["montagna", "collina", "pianura", "totale"].includes(
+            this.attribute_selection1
+          )
+        ) {
+          //if the target is not in the list
+          this.attribute_selection1 = "montagna";
+        } else {
+          this.attribute_selection =
+            this.attribute_selection2 + " (" + this.attribute_selection1 + ")";
+        }
+        return ["montagna", "collina", "pianura", "totale"];
+      } else if (this.table_selection == "Tavola 4") {
+        document.getElementById("radio_group_it_line").style.display = "none";
+        var temp = this.option_list[+this.table_selection.split(" ")[1] - 1]
+          .map((d) => d)
+          .slice(1, -2);
+        if (
+          ["montagna", "collina", "pianura", "totale"].includes(
+            this.attribute_selection1
+          )
+        ) {
+          this.attribute_selection1 = temp[0];
+          this.attribute_selection = temp[0];
+          //this.update_map()
+        } else {
+          this.attribute_selection = this.attribute_selection1;
+        }
+        return temp;
+      }
+    },
     median(numbers) {
-      var temp=numbers
+      var temp = numbers;
       const sorted = temp.sort((a, b) => a - b);
       const middle = Math.floor(sorted.length / 2);
 
@@ -68,11 +107,11 @@ export default {
     },
     draw_bar() {
       var temp_table = this.table_list[+this.table_selection.split(" ")[1] - 1];
-      var attr_sel_line = this.line_type_sel;
+      var attr_sel_line = this.attribute_selection2;
 
       if (this.table_selection != "Tavola 4") {
         var regioni = [...new Set(temp_table.map((d) => d.Province))];
-        regioni.sort().reverse()
+        regioni.sort().reverse();
 
         var filt_temp_table2 = temp_table.map((d) =>
           Object.entries(d).filter(
@@ -81,61 +120,59 @@ export default {
               ((y[0] == "Anno") | (y[0] == "Province"))
           )
         );
-        console.log(temp_table)
+        console.log(temp_table);
         console.log(filt_temp_table2);
         var target_idx = [1, 2, 3];
         var target_names = ["montagna", "collina", "pianura"];
-        var axis_=['x1','x2','x3']
-        var colors_=d3.scaleOrdinal().domain(regioni).range(['red','green','blue']);
-        
-           var signs=['/','.','-']
+        var axis_ = ["x1", "x2", "x3"];
+        var colors_ = d3
+          .scaleOrdinal()
+          .domain(regioni)
+          .range(["red", "green", "blue"]);
 
-        var traces=[]
+        var signs = ["/", ".", "-"];
+
+        var traces = [];
         for (var j = 0; j < target_names.length; j++) {
-            //var temp_t = filt_temp_table2.filter((d) => d[0][1] == regioni[i]);
-            var temp_t=filt_temp_table2.filter((d)=>d[5][1]==String(this.year_selection))
-            console.log(temp_t)
-            
+          //var temp_t = filt_temp_table2.filter((d) => d[0][1] == regioni[i]);
+          var temp_t = filt_temp_table2.filter(
+            (d) => d[5][1] == String(this.year_selection)
+          );
+          console.log(temp_t);
 
-          
-            var temp_trace = {
-              name: target_names[j],
-              type: "bar",
-              orientation:'h',
-              barmode: "stack",
-              y: temp_t.map((d) => d[0][1]),
-              x: temp_t.map((d) =>
-                d[target_idx[j]][1] != "-" ? +d[target_idx[j]][1] : 0
-              ),
-              //xaxis:axis_[j]
-              showlegend:true,
-              marker: {
-            pattern: {
-              shape: signs[j],
-              bgcolor: 'lightblue',//colors_(regioni[i]),
-              fillmode: "replace",
-                            fgopacity:0.5,
-              
-
+          var temp_trace = {
+            name: target_names[j],
+            type: "bar",
+            orientation: "h",
+            barmode: "stack",
+            y: temp_t.map((d) => d[0][1]),
+            x: temp_t.map((d) =>
+              d[target_idx[j]][1] != "-" ? +d[target_idx[j]][1] : 0
+            ),
+            //xaxis:axis_[j]
+            showlegend: true,
+            marker: {
+              pattern: {
+                shape: signs[j],
+                bgcolor: "lightblue", //colors_(regioni[i]),
+                fillmode: "replace",
+                fgopacity: 0.5,
+              },
+              color: colors_(j),
             },
-            color: colors_(j),
-          },
-            };
-            traces.push(temp_trace);
-          
+          };
+          traces.push(temp_trace);
         }
         var layout = {
-        barmode: "stack",
-        yaxis:{
-          automargin:true
-        },
-        width:400,
-        height:630,
-        margin:{
-          t:0,
-          
-        }
-        
+          barmode: "stack",
+          yaxis: {
+            automargin: true,
+          },
+          width: 400,
+          height: 630,
+          margin: {
+            t: 0,
+          },
         };
         Plotly.newPlot("bar_tables", traces, layout);
       }
@@ -149,7 +186,7 @@ export default {
       if (this.table_selection != "Tavola 4") {
         var target_cols = cols_.slice(1, -2);
         console.log(target_cols);
-        var attr_sel_line = this.line_type_sel;
+        var attr_sel_line = this.attribute_selection2;
         var filt_temp_table = temp_table.map((d) =>
           Object.entries(d).filter(
             (y) => y[0].includes(attr_sel_line) | (y[0] == "Anno")
@@ -231,9 +268,9 @@ export default {
       }
     },
     color_map(type_, legend_values) {
-      console.log(type_)
+      console.log(type_);
       var values = type_;
-      var values_median = values.reduce((a,b)=>a+b)/values.length;
+      var values_median = values.reduce((a, b) => a + b) / values.length;
       console.log(values);
       var scale_els = [
         Math.min(...legend_values),
@@ -242,7 +279,7 @@ export default {
         ), //decide if mean or median
         Math.max(...legend_values),
       ];
-            console.log(values)
+      console.log(values);
 
       console.log(values, Math.min(...values));
       var colors = d3
@@ -486,26 +523,29 @@ export default {
       this.draw_bar();
       this.update_map();
     },
-    line_type_sel: function () {
+    attribute_selection2: function () {
+      this.check_attribute();
       this.draw_line();
-            this.draw_bar();
-
+      this.draw_bar();
+      this.update_map();
     },
-    attribute_selection: function () {
+    attribute_selection1: function () {
+      this.check_attribute();
       this.draw_line();
-            this.draw_bar();
+      this.draw_bar();
 
       this.update_map();
     },
     table_selection: function () {
+      this.check_attribute();
       this.draw_line();
-            this.draw_bar();
-
+      this.draw_bar();
 
       this.update_map();
     },
     year_selection: function () {
-      this.draw_bar()
+      this.check_attribute();
+      this.draw_bar();
       this.update_map();
     },
   },
@@ -514,8 +554,6 @@ export default {
 
 <template>
   <b-container id="MapEu" fluid>
-   
-
     <b-row style="background-color: whitesmoke">
       <b-col>
         <b-form-group id="attributi_it" v-slot="{ ariaDescribedby }">
@@ -546,33 +584,26 @@ export default {
           {{/*capire dove piazzare i bottoni, cambiare v-model con singoli  bottoni */}}
           <b-form-radio-group
             id="radio_group_it_attr"
-            v-model="attribute_selection"
-            :options="
-              option_list[+table_selection.split(' ')[1] - 1]
-                .map((d) => d)
-                .slice(1, -2)
-            "
+            v-model="attribute_selection1"
+            :options="[...check_attribute()]"
             :aria-describedby="ariaDescribedby"
           >
           </b-form-radio-group>
         </b-form-group>
       </b-col>
 
-
-
-        <b-col>
+      <b-col>
         <b-form-group id="line_type" v-slot="{ ariaDescribedBy }">
-        <b-form-radio-group
-          id="radio_group_it_line"
-          v-model="line_type_sel"
-          :options="['Numero', 'Superficie']"
-          :aria-describedby="ariaDescribedBy"
-        ></b-form-radio-group>
-      </b-form-group>
+          <b-form-radio-group
+            id="radio_group_it_line"
+            v-model="attribute_selection2"
+            :options="['Numero', 'Superficie']"
+            :aria-describedby="ariaDescribedBy"
+          ></b-form-radio-group>
+        </b-form-group>
       </b-col>
     </b-row>
 
-    
     <div id="it_info">
       <span
         ><b>{{ this.table_selection }} - </b></span
@@ -592,19 +623,19 @@ export default {
       >
     </div>
 
- <b-row>
+    <b-row>
       <b-col>
         <div id="hist_line_tables"></div>
       </b-col>
     </b-row>
     <b-row>
-          <b-row>
-      <b-col cols="12" style="background-color: whitesmoke">
-        <b-button @click="time_animation()" id="animation_btn"
-          >Serie temporale</b-button
-        >
-      </b-col>
-    </b-row>
+      <b-row>
+        <b-col cols="12" style="background-color: whitesmoke">
+          <b-button @click="time_animation()" id="animation_btn"
+            >Serie temporale</b-button
+          >
+        </b-col>
+      </b-row>
       <b-col>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -774,7 +805,7 @@ export default {
           </g>
         </svg>
       </b-col>
-            <b-col><div id="bar_tables"></div></b-col>
+      <b-col><div id="bar_tables"></div></b-col>
     </b-row>
   </b-container>
 </template>
@@ -790,8 +821,8 @@ svg {
   width: 30rem;
 }
 #bar_tables {
-  position:absolute;
-  float:left;
+  position: absolute;
+  float: left;
 }
 .form-check {
   padding: 1;
