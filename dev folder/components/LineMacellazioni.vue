@@ -242,7 +242,7 @@ export default {
     }]
     
       };
-      Plotly.newPlot("line_macellazioni", traces_, layout);
+      Plotly.newPlot("line_macellazioni", traces_, layout,{displayModeBar:false});
     },
     scale_selection(){
         this.scale_sel=!this.scale_sel

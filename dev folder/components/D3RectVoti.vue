@@ -108,35 +108,35 @@ export default {
             .attr('y',420)
             .attr('stroke','green')
             .text(this.rect_labels[3])
-            .attr('font-size',20)
+            .attr('font-size',30)
 
           //legend
             svg
             .append('text')
             .attr('class','l_labels')
-            .attr('x',800)
+            .attr('x',700)
             .attr('y',0)
             .attr('stroke','green')
             .text(this.rect_labels[0])
-            .attr('font-size',20)
+            .attr('font-size',30)
 
             svg
             .append('text')
             .attr('class','l_labels')
-            .attr('x',800)
+            .attr('x',700)
             .attr('y',30)
             .attr('stroke','red')
             .text(this.rect_labels[1])
-            .attr('font-size',20)
+            .attr('font-size',30)
 
             svg
             .append('text')
             .attr('class','l_labels')
-            .attr('x',800)
+            .attr('x',700)
             .attr('y',60)
             .attr('stroke','grey')
             .text(this.rect_labels[2])
-            .attr('font-size',20)
+            .attr('font-size',25)
 
             //legend rects
             svg.selectAll('.l_rects')
@@ -144,7 +144,7 @@ export default {
             .enter()
             .append('rect')
             .attr('class','l_rects')
-            .attr('x',780)
+            .attr('x',680)
             .attr('y',(d,i)=>(i*30)-15)
             .attr('height',15)
             .attr('width',15)
@@ -214,7 +214,7 @@ export default {
       .attr('x',100)
       .attr('y',-5)
       .attr('stroke','green')
-      .attr('font-size',15)
+      .attr('font-size',30)
       .text(this.voti_csv.map(d=> String(((d['Si']/d['Totale elettori'])*100).toFixed(1))+'%')[0])
 
       svg.append('text')
@@ -222,7 +222,7 @@ export default {
       .attr('x',100)
       .attr('y',135)
       .attr('stroke','green')
-      .attr('font-size',15)
+      .attr('font-size',30)
       .text(this.voti_csv.map(d=> String(((d['Si']/d['Totale elettori'])*100).toFixed(1))+'%')[1])
 
       svg.append('text')
@@ -230,41 +230,41 @@ export default {
       .attr('x',100)
       .attr('y',275)
       .attr('stroke','green')
-      .attr('font-size',15)
+      .attr('font-size',30)
       .text(this.voti_csv.map(d=> String(((d['Si']/d['Totale elettori'])*100).toFixed(1))+'%')[2])
 
       //no
      svg.append('text')
       .attr('class','el_perc')
-      .attr('x',235)
+      .attr('x',215)
       .attr('y',-5)
       .attr('stroke','red')
-      .attr('font-size',12)
+      .attr('font-size',20)
       .text(this.voti_csv.map(d=> String(((d['No']/d['Totale elettori'])*100).toFixed(1))+'%')[0])
 
       svg.append('text')
       .attr('class','el_perc')
-      .attr('x',235)
+      .attr('x',215)
       .attr('y',135)
       .attr('stroke','red')
-      .attr('font-size',12)
+      .attr('font-size',20)
       .text(this.voti_csv.map(d=> String(((d['No']/d['Totale elettori'])*100).toFixed(1))+'%')[1])
 
       svg.append('text')
       .attr('class','el_perc')
-      .attr('x',235)
+      .attr('x',215)
       .attr('y',275)
       .attr('stroke','red')
-      .attr('font-size',12)
+      .attr('font-size',20)
       .text(this.voti_csv.map(d=> String(((d['No']/d['Totale elettori'])*100).toFixed(1))+'%')[2])
 
             //nulle
      svg.append('text')
       .attr('class','el_perc')
-      .attr('x',265)
+      .attr('x',260)
       .attr('y',-5)
       .attr('stroke','grey')
-      .attr('font-size',12)
+      .attr('font-size',20)
       .text(this.voti_csv.map(d=> String(((d['Schede bianche o nulle']/d['Totale elettori'])*100).toFixed(1))+'%')[0])
 
       svg.append('text')
@@ -272,7 +272,7 @@ export default {
       .attr('x',260)
       .attr('y',135)
       .attr('stroke','grey')
-      .attr('font-size',12)
+      .attr('font-size',20)
       .text(this.voti_csv.map(d=> String(((d['Schede bianche o nulle']/d['Totale elettori'])*100).toFixed(1))+'%')[1])
 
       svg.append('text')
@@ -280,16 +280,16 @@ export default {
       .attr('x',260)
       .attr('y',275)
       .attr('stroke','grey')
-      .attr('font-size',12)
+      .attr('font-size',20)
       .text(this.voti_csv.map(d=> String(((d['Schede bianche o nulle']/d['Totale elettori'])*100).toFixed(1))+'%')[2])
 
       //affluenza
            svg.append('text')
       .attr('class','el_affluenza')
-      .attr('x',-120)
+      .attr('x',-135)
       .attr('y',0)
       .attr('stroke','black')
-      .attr('font-size',20)
+      .attr('font-size',30)
       .text('Affluenza')
 
            svg.append('text')
@@ -297,7 +297,7 @@ export default {
       .attr('x',-110)
       .attr('y',50)
       .attr('stroke','black')
-      .attr('font-size',15)
+      .attr('font-size',25)
       .text(this.voti_csv.map(d=>+d['Affluenza']+'%')[0])
 
         svg.append('text')
@@ -305,7 +305,7 @@ export default {
       .attr('x',-110)
       .attr('y',200)
       .attr('stroke','black')
-      .attr('font-size',15)
+      .attr('font-size',25)
       .text(this.voti_csv.map(d=>+d['Affluenza']+'%')[1])
 
               svg.append('text')
@@ -313,7 +313,7 @@ export default {
       .attr('x',-110)
       .attr('y',330)
       .attr('stroke','black')
-      .attr('font-size',15)
+      .attr('font-size',25)
       .text(this.voti_csv.map(d=>+d['Affluenza']+'%')[2])
 
            svg.append('text')
@@ -321,7 +321,7 @@ export default {
       .attr('x',-500)
       .attr('y',50)
       .attr('stroke','black')
-      .attr('font-size',20)
+      .attr('font-size',25)
       .text('1 - Disciplina della caccia')
 
         svg.append('text')
@@ -329,7 +329,7 @@ export default {
       .attr('x',-500)
       .attr('y',200)
       .attr('stroke','black')
-      .attr('font-size',20)
+      .attr('font-size',21)
       .text('2 - Accesso dei cacciatori a fondi privati')
 
               svg.append('text')
@@ -337,7 +337,7 @@ export default {
       .attr('x',-500)
       .attr('y',330)
       .attr('stroke','black')
-      .attr('font-size',20)
+      .attr('font-size',25)
       .text('3 - Uso dei pesticidi')
     
     },
@@ -355,8 +355,11 @@ export default {
 </script>
 
 <template>
-  <svg id="rects_votes" width="1000" height="400" viewBox="200 -50 50 600"></svg>
+  <svg id="rects_votes" width="1000" height="400" viewBox="150 -50 50 870"></svg>
 </template>
 
 <style scoped>
+#rects_votes{
+width:40rem
+}
 </style>

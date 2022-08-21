@@ -30,6 +30,7 @@ export default {
 
       attribute_selection2: "Numero",
       attribute_selection: "",
+      attribute_options1: [],
     };
   },
   mounted() {
@@ -54,8 +55,8 @@ export default {
       this.option_list.push(Object.keys(this.table_list[2][0]));
       this.option_list.push(Object.keys(this.table_list[3][0]));
 
-      this.check_attribute();
-      console.log(this.attribute_selection);
+      this.attribute_options1 = [...this.check_attribute()];
+      console.log(this.attribute_options1[1][0].toUpperCase());
     });
   },
   methods: {
@@ -64,29 +65,34 @@ export default {
         document.getElementById("radio_group_it_line").style.display = "block";
 
         if (
-          !["montagna", "collina", "pianura", "totale"].includes(
+          !["Montagna", "Collina", "Pianura", "Totale"].includes(
             this.attribute_selection1
           )
         ) {
           //if the target is not in the list
-          this.attribute_selection1 = "montagna";
+          this.attribute_selection1 = "Montagna";
         } else {
           this.attribute_selection =
-            this.attribute_selection2 + " (" + this.attribute_selection1 + ")";
+            this.attribute_selection2 +
+            " (" +
+            this.attribute_selection1[0].toLowerCase() +
+            this.attribute_selection1.slice(1) +
+            ")";
         }
-        return ["montagna", "collina", "pianura", "totale"];
+        return ["Montagna", "Collina", "Pianura", "Totale"];
       } else if (this.table_selection == "Tavola 4") {
         document.getElementById("radio_group_it_line").style.display = "none";
         var temp = this.option_list[+this.table_selection.split(" ")[1] - 1]
           .map((d) => d)
           .slice(1, -2);
         if (
-          ["montagna", "collina", "pianura", "totale"].includes(
+          ["Montagna", "Collina", "Pianura", "Totale"].includes(
             this.attribute_selection1
           )
         ) {
           this.attribute_selection1 = temp[0];
           this.attribute_selection = temp[0];
+          console.log("ppp", this.attribute_selection1);
           //this.update_map()
         } else {
           this.attribute_selection = this.attribute_selection1;
@@ -96,7 +102,7 @@ export default {
     },
     median(numbers) {
       var temp = numbers;
-      const sorted = temp.sort((a, b) => a - b);
+      const sorted = [...temp].sort((a, b) => a - b);
       const middle = Math.floor(sorted.length / 2);
 
       if (sorted.length % 2 === 0) {
@@ -108,18 +114,20 @@ export default {
     draw_bar() {
       var temp_table = this.table_list[+this.table_selection.split(" ")[1] - 1];
       var attr_sel_line = this.attribute_selection2;
+      var regioni = [...new Set(temp_table.map((d) => d.Province))];
+
+      //regioni.sort().reverse();
+
+
 
       if (this.table_selection != "Tavola 4") {
-        var regioni = [...new Set(temp_table.map((d) => d.Province))];
-        regioni.sort().reverse();
-
-        var filt_temp_table2 = temp_table.map((d) =>
-          Object.entries(d).filter(
-            (y) =>
-              y[0].includes(attr_sel_line) |
-              ((y[0] == "Anno") | (y[0] == "Province"))
-          )
-        );
+              var filt_temp_table2 = temp_table.map((d) =>
+        Object.entries(d).filter(
+          (y) =>
+            y[0].includes(attr_sel_line) |
+            ((y[0] == "Anno") | (y[0] == "Province"))
+        )
+      );
         console.log(temp_table);
         console.log(filt_temp_table2);
         var target_idx = [1, 2, 3];
@@ -174,7 +182,67 @@ export default {
             t: 0,
           },
         };
-        Plotly.newPlot("bar_tables", traces, layout);
+        Plotly.newPlot("bar_tables", traces, layout, {displayModeBar:false});
+      } else if (this.table_selection == "Tavola 4") {
+        var target_names = ['Cacciatori','Densità venatoria per 1000ha','Agenti venatori','Guardie volontarie','Vigilanza venatoria: numero agenti e/o guardie per 1000 ha'];
+
+              var filt_temp_table2 = temp_table.map((d) =>
+        Object.entries(d)
+      );
+        var colors_ = d3
+          .scaleOrdinal()
+          .domain(regioni)
+          .range(["red", "orange",'green','yellow','blue']);
+
+        var signs=['/','.','x','-','|']
+        var target_idx=[3,4,5,6,7]
+
+        var traces = [];
+        console.log(filt_temp_table2)
+         for (var j = 0; j < target_names.length; j++) {
+          //var temp_t = filt_temp_table2.filter((d) => d[0][1] == regioni[i]);
+          var temp_t = filt_temp_table2.filter(
+            (d) => d[8][1] == String(this.year_selection)
+          );
+          console.log(temp_t);
+
+          var temp_trace = {
+            name: target_names[j],
+            type: "bar",
+            orientation: "h",
+            barmode: "stack",
+            y: temp_t.map((d) => d[0][1]),
+            x: temp_t.map((d) =>
+              d[target_idx[j]][1] != "-" ? +d[target_idx[j]][1] : 0
+            ),
+            //xaxis:axis_[j]
+            showlegend: true,
+            marker: {
+              pattern: {
+                shape: signs[j],
+                bgcolor: "lightblue", //colors_(regioni[i]),
+                fillmode: "replace",
+                fgopacity: 0.5,
+              },
+              color: colors_(j),
+            },
+          };
+          traces.push(temp_trace);
+        }
+        var layout = {
+          barmode: "stack",
+          yaxis: {
+            automargin: true,
+          },
+          width: 400,
+          height: 630,
+          margin: {
+            t: 0,
+          },
+        };
+        Plotly.newPlot("bar_tables", traces, layout,{displayModeBar:false});
+
+        console.log('bar t4', temp_table)
       }
     },
     draw_line() {
@@ -236,9 +304,10 @@ export default {
 
         var layout = {
           barmode: "stack",
+          height: 300,
         };
 
-        Plotly.newPlot("hist_line_tables", traces, layout);
+        Plotly.newPlot("hist_line_tables", traces, layout,{displayModeBar:false});
       } else {
         var traces = [];
         cols_names = [
@@ -264,13 +333,13 @@ export default {
           };
           traces.push(temp_trace);
         }
-        Plotly.newPlot("hist_line_tables", traces);
+        Plotly.newPlot("hist_line_tables", traces,{},{displayModeBar:false});
       }
     },
     color_map(type_, legend_values) {
       console.log(type_);
       var values = type_;
-      var values_median = values.reduce((a, b) => a + b) / values.length;
+      var values_median =  this.median(values)//values.reduce((a, b) => a + b) / values.length;
       console.log(values);
       var scale_els = [
         Math.min(...legend_values),
@@ -519,6 +588,7 @@ export default {
   },
   watch: {
     tables1: function () {
+      document.getElementById("");
       this.draw_line();
       this.draw_bar();
       this.update_map();
@@ -585,7 +655,11 @@ export default {
           <b-form-radio-group
             id="radio_group_it_attr"
             v-model="attribute_selection1"
-            :options="[...check_attribute()]"
+            :options="
+              table_selection != 'Tavola 4'
+                ? attribute_options1
+                : [...check_attribute()]
+            "
             :aria-describedby="ariaDescribedby"
           >
           </b-form-radio-group>
@@ -815,6 +889,7 @@ export default {
 }
 svg {
   margin-left: -1rem;
+  
 }
 #svg_it {
   background-color: rgba(0, 105, 1048, 0.4);

@@ -47,7 +47,7 @@ export default {
         height:window.innerHeight
     }
 
-Plotly.newPlot('tree_animals', data,layout);
+Plotly.newPlot('tree_animals', data,layout,{displayModeBar:false});
         }
     },
     watch:{

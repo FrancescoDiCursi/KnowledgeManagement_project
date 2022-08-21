@@ -118,7 +118,7 @@ export default {
       };
 
       var config = {
-        displayModeBar: true,
+        displayModeBar: false,
       };
 
       Plotly.newPlot("bar_sport", traces, layout, config);

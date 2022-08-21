@@ -44,7 +44,7 @@ export default {
   },
   methods: {
     median(numbers) {
-      const sorted = numbers.sort((a, b) => a - b);
+      const sorted = [...numbers].sort((a, b) => a - b);
       const middle = Math.floor(sorted.length / 2);
 
       if (sorted.length % 2 === 0) {
