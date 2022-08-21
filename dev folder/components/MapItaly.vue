@@ -70,7 +70,7 @@ export default {
           )
         ) {
           //if the target is not in the list
-          this.attribute_selection1 = "Montagna";
+          this.attribute_selection1 = "Totale";
         } else {
           this.attribute_selection =
             this.attribute_selection2 +
@@ -79,7 +79,7 @@ export default {
             this.attribute_selection1.slice(1) +
             ")";
         }
-        return ["Montagna", "Collina", "Pianura", "Totale"];
+        return ["Totale", "Collina", "Pianura", "Montagna"];
       } else if (this.table_selection == "Tavola 4") {
         document.getElementById("radio_group_it_line").style.display = "none";
         var temp = this.option_list[+this.table_selection.split(" ")[1] - 1]

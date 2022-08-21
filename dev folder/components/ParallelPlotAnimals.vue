@@ -134,7 +134,7 @@ export default {
 #parallel_{
   display: block;
   height: 1000px;
-  width:100vw;
+  width:90vw;
   margin-left:-13%
 }
 </style>
