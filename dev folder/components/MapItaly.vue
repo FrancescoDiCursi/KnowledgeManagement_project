@@ -188,6 +188,7 @@ export default {
           barmode: "stack",
           yaxis: {
             automargin: true,
+            categoryorder:'category descending'
           },
           width: 400,
           height: 630,
