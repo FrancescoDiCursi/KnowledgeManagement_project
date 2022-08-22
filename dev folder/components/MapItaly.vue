@@ -130,15 +130,28 @@ export default {
       );
         console.log(temp_table);
         console.log(filt_temp_table2);
-        var target_idx = [1, 2, 3];
+        var temp_target_names=['montagna','collina','pianura']
+        var temp_colors=['red','green','blue']
+        var signs = ["/", ".", "-"];
+        if (this.attribute_selection1=='Totale'){
+                  var target_idx = [1, 2, 3];
         var target_names = ["montagna", "collina", "pianura"];
+        }
+        else{
+          var target_idx=[temp_target_names.indexOf(this.attribute_selection1[0].toLocaleLowerCase()+this.attribute_selection1.slice(1)) +1]
+          var target_names=[this.attribute_selection1[0].toLocaleLowerCase()+this.attribute_selection1.slice(1)]
+          temp_colors=[temp_colors[target_idx-1]]
+          signs=[signs[target_idx-1]]
+            console.log(target_idx,target_names)
+
+        }
         var axis_ = ["x1", "x2", "x3"];
         var colors_ = d3
           .scaleOrdinal()
           .domain(regioni)
-          .range(["red", "green", "blue"]);
+          .range(temp_colors);
 
-        var signs = ["/", ".", "-"];
+        
 
         var traces = [];
         for (var j = 0; j < target_names.length; j++) {
