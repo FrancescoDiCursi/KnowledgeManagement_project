@@ -472,7 +472,10 @@ var colors_=[          "red",
               console.log(event.clientX, event.clientY);
               d3.select(this).attr("fill", "white");
 
-              console.log(window.innerWidth);
+              var rel_x=top.innerWidth / 2 - (top.innerWidth / 3)   //ex window.innerWidth or self.innerWidth.
+              var rel_y=(top.innerHeight / 2 - (top.innerHeight / 3.5))
+
+              console.log(self.innerWidth);
               svg
                 .append("rect")
                 .attr("class", "country_tooltip")
@@ -480,8 +483,8 @@ var colors_=[          "red",
                 .attr("fill", colors(type_[k]))
                 .attr("width", 250)
                 .attr("height", 60)
-                .attr("x", event.clientX - (window.innerWidth / 2 - 200))
-                .attr("y", event.clientY - (window.innerHeight / 2 - 200))
+                .attr("x", event.clientX - rel_x)
+                .attr("y", event.clientY - rel_y)
                 .attr("opacity", 0.6);
 
               var len_word = this.attributes[1].nodeValue.length;
@@ -495,11 +498,11 @@ var colors_=[          "red",
                 .attr("x", (d, i) =>
                   i != 0
                     ? event.clientX -
-                      (window.innerWidth / 2 - 200) +
+                     rel_x +
                       ((i * 10) / 2) * 2.5
-                    : event.clientX - (window.innerWidth / 2 - 200)
+                    : event.clientX - rel_x
                 )
-                .attr("y", event.clientY - (window.innerHeight / 2 - 200) + 15)
+                .attr("y", event.clientY - rel_y + 15)
                 .attr("stroke", "black")
                 .attr("fill", "black")
                 .text((d) => d)
@@ -517,11 +520,11 @@ var colors_=[          "red",
                 .attr("x", (d, i) =>
                   i != 0
                     ? event.clientX -
-                      (window.innerWidth / 2 - 200) +
+                      rel_x +
                       ((i * 10) / 2) * 1.5
-                    : event.clientX - (window.innerWidth / 2 - 200)
+                    : event.clientX -rel_x
                 )
-                .attr("y", event.clientY - (window.innerHeight / 2 - 200) + 40)
+                .attr("y", event.clientY - rel_y + 40)
                 .attr("stroke", "black")
                 .attr("fill", "black")
                 .text((d) => d)
@@ -538,7 +541,7 @@ var colors_=[          "red",
               console.log(event.clientX, event.clientY);
               d3.select(this).attr("fill", "white");
 
-              console.log(window.innerWidth);
+              console.log(self.innerWidth);
               svg
                 .append("rect")
                 .attr("class", "country_tooltip")
@@ -546,8 +549,8 @@ var colors_=[          "red",
                 .attr("fill", colors(type_[k]))
                 .attr("width", 250)
                 .attr("height", 60)
-                .attr("x", event.clientX - (window.innerWidth / 2 - 200))
-                .attr("y", event.clientY - (window.innerHeight / 2 - 200))
+                .attr("x", event.clientX - rel_x)
+                .attr("y", event.clientY - rel_y)
                 .attr("opacity", 0.6);
 
               var len_word = this.attributes[1].nodeValue.length;
@@ -561,11 +564,11 @@ var colors_=[          "red",
                 .attr("x", (d, i) =>
                   i != 0
                     ? event.clientX -
-                      (window.innerWidth / 2 - 200) +
+                     rel_x +
                       ((i * 10) / 2) * 2.5
-                    : event.clientX - (window.innerWidth / 2 - 200)
+                    : event.clientX - rel_x
                 )
-                .attr("y", event.clientY - (window.innerHeight / 2 - 200) + 15)
+                .attr("y", event.clientY -rel_y + 15)
                 .attr("stroke", "black")
                 .attr("fill", "black")
                 .text((d) => d)
@@ -583,11 +586,11 @@ var colors_=[          "red",
                 .attr("x", (d, i) =>
                   i != 0
                     ? event.clientX -
-                      (window.innerWidth / 2 - 200) +
+                      rel_x +
                       ((i * 10) / 2) * 1.5
-                    : event.clientX - (window.innerWidth / 2 - 200)
+                    : event.clientX -rel_x
                 )
-                .attr("y", event.clientY - (window.innerHeight / 2 - 200) + 40)
+                .attr("y", event.clientY - rel_y + 40)
                 .attr("stroke", "black")
                 .attr("fill", "black")
                 .text((d) => d)
