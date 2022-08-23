@@ -198,22 +198,24 @@ export default {
         };
         Plotly.newPlot("bar_tables", traces, layout, {displayModeBar:false});
       } else if (this.table_selection == "Tavola 4") {
-        var target_names = ['Cacciatori','Densità venatoria per 1000ha','Agenti venatori','Guardie volontarie','Vigilanza venatoria: numero agenti e/o guardie per 1000 ha'];
+        var target_names = ['Superficie territoriale','Superficie aziendale agro-forestale','Cacciatori','Densità venatoria per 1000 ha','Agenti venatori','Guardie volontarie','Vigilanza venatoria: numero agenti e/o guardie per 1000 ha'];
 
               var filt_temp_table2 = temp_table.map((d) =>
         Object.entries(d)
       );
-        var colors_ = d3
-          .scaleOrdinal()
-          .domain(regioni)
-          .range(["red", "orange",'green','yellow','blue']);
+var colors_=[          "red",
+          "blue",
+          "green",
+          "cyan",
+          "orange",
+          "violet",
+          "indigo"]
 
         var signs=['/','.','x','-','|']
-        var target_idx=[3,4,5,6,7]
+        var target_idx=[1,2,3,4,5,6,7]
 
         var traces = [];
         console.log(filt_temp_table2)
-         for (var j = 0; j < target_names.length; j++) {
           //var temp_t = filt_temp_table2.filter((d) => d[0][1] == regioni[i]);
           var temp_t = filt_temp_table2.filter(
             (d) => d[8][1] == String(this.year_selection)
@@ -221,32 +223,33 @@ export default {
           console.log(temp_t);
 
           var temp_trace = {
-            name: target_names[j],
+            name: target_names[target_names.indexOf(this.attribute_selection1)],
             type: "bar",
             orientation: "h",
             barmode: "stack",
             y: temp_t.map((d) => d[0][1]),
             x: temp_t.map((d) =>
-              d[target_idx[j]][1] != "-" ? +d[target_idx[j]][1] : 0
+              d[target_idx[target_names.indexOf(this.attribute_selection1)]][1] != "-" ? +d[target_idx[target_names.indexOf(this.attribute_selection1)]][1] : 0
             ),
             //xaxis:axis_[j]
             showlegend: true,
             marker: {
               pattern: {
-                shape: signs[j],
+                shape: signs[0],
                 bgcolor: "lightblue", //colors_(regioni[i]),
                 fillmode: "replace",
                 fgopacity: 0.5,
               },
-              color: colors_(j),
+              color: colors_[target_names.indexOf(this.attribute_selection1)],
             },
           };
           traces.push(temp_trace);
-        }
+        
         var layout = {
           barmode: "stack",
           yaxis: {
             automargin: true,
+            categoryorder:'category descending'
           },
           width: 400,
           height: 630,
@@ -278,29 +281,53 @@ export default {
         console.log("colss", filt_temp_table, cols_names);
         var yrs_temp = [2001, 2002, 2003, 2004, 2005, 2006, 2007];
         var yrs_values = [];
+        if (this.attribute_selection1=='Totale'){
+        var idx_cols=[0,1,2]
+                var colors_=['red','green','blue']
+
+        } else if(this.attribute_selection1=='Montagna'){
+        var idx_cols=[0]
+                var colors_=['red']
+
+
+        }else if(this.attribute_selection1=='Collina'){
+                  var idx_cols=[1]
+        var colors_=['green']
+
+        }else if(this.attribute_selection1=='Pianura'){
+                  var idx_cols=[2]
+                          var colors_=['blue']
+
+
+        }
 
         yrs_temp.forEach((anno) => {
           var temp_filt = filt_temp_table.filter(
             (d) => d[4][1] == String(anno)
           );
-          var montagna = temp_filt.map((d) => (d[0][1] != "-" ? +d[0][1] : 0));
-          montagna = montagna.reduce((a, b) => +a + +b);
+         var temp_list=[]
+         console.log('ttt',temp_filt)
+          for(var each of idx_cols){
 
-          var collina = temp_filt.map((d) => (d[1][1] != "-" ? +d[1][1] : 0));
-          collina = collina.reduce((a, b) => +a + +b);
+          var attr_temp = temp_filt.map((d) => (d[each][1] != "-" ? +d[each][1] : 0));
+          attr_temp = attr_temp.reduce((a, b) => +a + +b);
+          console.log('attr_temp', attr_temp)
+          temp_list.push(attr_temp)
+          console.log(temp_list)
+          }
 
-          var pianura = temp_filt.map((d) => (d[2][1] != "-" ? +d[2][1] : 0));
-          pianura = pianura.reduce((a, b) => +a + +b);
-
-          console.log("montagnaa", montagna, collina, pianura);
-          yrs_values.push([montagna, collina, pianura]);
+          yrs_values.push(temp_list);
         });
+        
 
-        console.log("yrss", yrs_values[0]);
+
+
+        console.log("yrss", yrs_values);
 
         var traces = [];
 
-        for (var i = 0; i < filt_temp_table[0].slice(0, -2).length; i++) {
+        for (var i of idx_cols) {
+          var t_idx=idx_cols.length>1 ?i :0
           console.log("temp");
 
           console.log("vals", filt_temp_table, temp_table);
@@ -310,11 +337,15 @@ export default {
             mode: "lines",
             type: "markers",
             x: [2001, 2002, 2003, 2004, 2005, 2006, 2007],
-            y: yrs_values.map((d) => d[i]),
+            y: yrs_values.map((d) => d[t_idx]),
             showlegend: true,
+            line:{
+              color:colors_[t_idx]
+            }
           };
           traces.push(temp_trace);
         }
+        console.log(traces)
 
         var layout = {
           barmode: "stack",
@@ -325,28 +356,46 @@ export default {
       } else {
         var traces = [];
         cols_names = [
+          "Superficie territoriale",
+          "Superficie aziendale agro-forestale",
+          "Cacciatori",
           "Densità venatoria per 1000 ha",
           "Agenti venatori",
           "Guardie volontarie",
           "Vigilanza venatoria: numero agenti e/o guardie per 1000 ha",
         ];
-        for (var i = 0; i < cols_names.length; i++) {
+
+        var colors_=[
+          "red",
+          "blue",
+          "green",
+          "lightblue",
+          "orange",
+          "violet",
+          "indigo"
+        ]
+
           console.log("temp");
 
           console.log("vals", temp_table);
+          console.log('t4 lines', cols_names.indexOf(this.attribute_selection1))
 
           var temp_trace = {
-            name: cols_names[i],
+            name: cols_names[cols_names.indexOf(this.attribute_selection1)],
             mode: "lines",
             type: "markers",
             x: this.tables4_IT.map((d) => +d.Anno),
             y: this.tables4_IT.map((d) =>
-              d[cols_names[i]] != "-" ? +d[cols_names[i]] : 0
+              d[cols_names[cols_names.indexOf(this.attribute_selection1)]] != "-" ? +d[cols_names[cols_names.indexOf(this.attribute_selection1)]] : 0
             ),
             showlegend: true,
+            line:{
+              color:colors_[cols_names.indexOf(this.attribute_selection1)]
+            }
           };
           traces.push(temp_trace);
-        }
+          console.log(traces)
+    
         Plotly.newPlot("hist_line_tables", traces,{},{displayModeBar:false});
       }
     },
