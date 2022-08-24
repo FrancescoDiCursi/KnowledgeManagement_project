@@ -14,6 +14,7 @@ export default {
       tables3: {},
       tables4: {},
       tables4_IT: {},
+      tables123_IT:{},
       table_list: [],
       option_list: [],
       hunters_cols: {},
@@ -38,12 +39,14 @@ export default {
       d3.csv("./static/ISTAT_tutti gli anni_tavole123.csv"),
       d3.csv("./static/ISTAT_tutti gli anni_tavola4.csv"),
       d3.csv("./static/ISTAT_tutti gli anni_tavola4(IT only).csv"),
+      d3.csv("./static/ISTAT_tutti gli anni_tavole123 (IT only).csv")
     ]).then((data) => {
       this.tables1 = data[0].filter((d) => d.Tavola == "Tavola 1");
       this.tables2 = data[0].filter((d) => d.Tavola == "Tavola 2");
       this.tables3 = data[0].filter((d) => d.Tavola == "Tavola 3");
       this.tables4 = data[1].map((d) => d);
       this.tables4_IT = data[2].map((d) => d);
+      this.tables123_IT=data[3].map(d=>d)
       this.table_list = [
         this.tables1,
         this.tables2,
@@ -118,9 +121,13 @@ export default {
 
       //regioni.sort().reverse();
 
-
+              var max_=[... temp_table].map(d=>d[this.attribute_selection] != '-' ?+d[this.attribute_selection] :0).sort((a,b)=>b-a)[0]
+              var min_=[... temp_table].map(d=>d[this.attribute_selection] != '-' ?+d[this.attribute_selection] :0).sort((a,b)=>a-b)[0]
 
       if (this.table_selection != "Tavola 4") {
+              console.log(this.attribute_selection,)
+
+              console.log(max_,min_)
               var filt_temp_table2 = temp_table.map((d) =>
         Object.entries(d).filter(
           (y) =>
@@ -190,6 +197,9 @@ export default {
             automargin: true,
             categoryorder:'category descending'
           },
+          xaxis:{
+            range:[min_,max_]
+          },
           width: 400,
           height: 630,
           margin: {
@@ -199,7 +209,13 @@ export default {
         Plotly.newPlot("bar_tables", traces, layout, {displayModeBar:false});
       } else if (this.table_selection == "Tavola 4") {
         var target_names = ['Superficie territoriale','Superficie aziendale agro-forestale','Cacciatori','Densità venatoria per 1000 ha','Agenti venatori','Guardie volontarie','Vigilanza venatoria: numero agenti e/o guardie per 1000 ha'];
-
+                var legend_names=[          "Superficie territoriale",
+          "Superficie aziendale<br>agro-forestale",
+          "Cacciatori",
+          "Densità venatoria<br>per 1000 ha",
+          "Agenti venatori",
+          "Guardie volontarie",
+          "Vigilanza venatoria: <br> numero agenti e/o guardie<br>per 1000 ha",]
               var filt_temp_table2 = temp_table.map((d) =>
         Object.entries(d)
       );
@@ -223,7 +239,7 @@ var colors_=[          "red",
           console.log(temp_t);
 
           var temp_trace = {
-            name: target_names[target_names.indexOf(this.attribute_selection1)],
+            name: legend_names[target_names.indexOf(this.attribute_selection1)],
             type: "bar",
             orientation: "h",
             barmode: "stack",
@@ -251,6 +267,9 @@ var colors_=[          "red",
             automargin: true,
             categoryorder:'category descending'
           },
+          xaxis:{
+            range:[0,max_]
+          },
           width: 400,
           height: 630,
           margin: {
@@ -265,10 +284,11 @@ var colors_=[          "red",
     draw_line() {
       console.log("Tabbb", this.table_selection);
       //console.log('LLL',this.table_selection,this.table_list[ +this.table_selection.split(" ")[1] - 1])
-      var temp_table = this.table_list[+this.table_selection.split(" ")[1] - 1];
-      var cols_ = Object.keys(temp_table[0]);
+      var temp_table = this.tables123_IT.filter(d=>d['Tavola']==this.table_selection);
 
       if (this.table_selection != "Tavola 4") {
+              var cols_ = Object.keys(temp_table[0]);
+
         var target_cols = cols_.slice(1, -2);
         console.log(target_cols);
         var attr_sel_line = this.attribute_selection2;
@@ -310,7 +330,7 @@ var colors_=[          "red",
           for(var each of idx_cols){
 
           var attr_temp = temp_filt.map((d) => (d[each][1] != "-" ? +d[each][1] : 0));
-          attr_temp = attr_temp.reduce((a, b) => +a + +b);
+          //attr_temp = attr_temp.reduce((a, b) => +a + +b);
           console.log('attr_temp', attr_temp)
           temp_list.push(attr_temp)
           console.log(temp_list)
@@ -328,7 +348,9 @@ var colors_=[          "red",
 
         for (var i of idx_cols) {
           var t_idx=idx_cols.length>1 ?i :0
-          console.log("temp");
+                    var target_vals=yrs_values.map((d) => d[t_idx])
+
+          console.log("temp", t_idx,target_vals);
 
           console.log("vals", filt_temp_table, temp_table);
 
@@ -337,7 +359,7 @@ var colors_=[          "red",
             mode: "lines",
             type: "markers",
             x: [2001, 2002, 2003, 2004, 2005, 2006, 2007],
-            y: yrs_values.map((d) => d[t_idx]),
+            y: target_vals.map(Number),
             showlegend: true,
             line:{
               color:colors_[t_idx]
@@ -365,6 +387,14 @@ var colors_=[          "red",
           "Vigilanza venatoria: numero agenti e/o guardie per 1000 ha",
         ];
 
+        var legend_names=[          "Superficie territoriale",
+          "Superficie aziendale<br>agro-forestale",
+          "Cacciatori",
+          "Densità venatoria<br>per 1000 ha",
+          "Agenti venatori",
+          "Guardie volontarie",
+          "Vigilanza venatoria:<br>numero agenti e/o guardie<br>per 1000 ha",]
+
         var colors_=[
           "red",
           "blue",
@@ -381,7 +411,7 @@ var colors_=[          "red",
           console.log('t4 lines', cols_names.indexOf(this.attribute_selection1))
 
           var temp_trace = {
-            name: cols_names[cols_names.indexOf(this.attribute_selection1)],
+            name:legend_names[cols_names.indexOf(this.attribute_selection1)],
             mode: "lines",
             type: "markers",
             x: this.tables4_IT.map((d) => +d.Anno),
