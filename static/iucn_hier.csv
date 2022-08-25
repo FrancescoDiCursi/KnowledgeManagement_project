@@ -1,0 +1,291 @@
+id,label,parent,value
+"A minor rischio, Dipendenti dalla protezione_","A minor rischio, Dipendenti dalla protezione",,20
+"A minor rischio, Dipendenti dalla protezione_Bovidae",Bovidae,"A minor rischio, Dipendenti dalla protezione_",0
+"A minor rischio, Dipendenti dalla protezione_Bovidae_Camoscio",Camoscio,"A minor rischio, Dipendenti dalla protezione_Bovidae",0
+"A minor rischio, Dipendenti dalla protezione_Bovidae_Camoscio_Rupicapra pyrenaica Bonaparte, 1845","Rupicapra pyrenaica Bonaparte, 1845","A minor rischio, Dipendenti dalla protezione_Bovidae_Camoscio",0
+"A minor rischio, Dipendenti dalla protezione_Delphinidae",Delphinidae,"A minor rischio, Dipendenti dalla protezione_",8
+"A minor rischio, Dipendenti dalla protezione_Delphinidae_Orca",Orca,"A minor rischio, Dipendenti dalla protezione_Delphinidae",4
+"A minor rischio, Dipendenti dalla protezione_Delphinidae_Orca_Orcinus orca (Linnaeus, 1758)  ","Orcinus orca (Linnaeus, 1758)  ","A minor rischio, Dipendenti dalla protezione_Delphinidae_Orca",4
+"A minor rischio, Dipendenti dalla protezione_Delphinidae_Stenella striata",Stenella striata,"A minor rischio, Dipendenti dalla protezione_Delphinidae",4
+"A minor rischio, Dipendenti dalla protezione_Delphinidae_Stenella striata_Stenella coeruleoalba (Meyen, 1833)","Stenella coeruleoalba (Meyen, 1833)","A minor rischio, Dipendenti dalla protezione_Delphinidae_Stenella striata",4
+"A minor rischio, Dipendenti dalla protezione_Laridae",Laridae,"A minor rischio, Dipendenti dalla protezione_",5
+"A minor rischio, Dipendenti dalla protezione_Laridae_Gabbiano corso",Gabbiano corso,"A minor rischio, Dipendenti dalla protezione_Laridae",5
+"A minor rischio, Dipendenti dalla protezione_Laridae_Gabbiano corso_Larus audouinii Payraudeau, 1826","Larus audouinii Payraudeau, 1826","A minor rischio, Dipendenti dalla protezione_Laridae_Gabbiano corso",5
+"A minor rischio, Dipendenti dalla protezione_Rhinolophidae",Rhinolophidae,"A minor rischio, Dipendenti dalla protezione_",5
+"A minor rischio, Dipendenti dalla protezione_Rhinolophidae_Ferro di cavallo maggiore",Ferro di cavallo maggiore,"A minor rischio, Dipendenti dalla protezione_Rhinolophidae",5
+"A minor rischio, Dipendenti dalla protezione_Rhinolophidae_Ferro di cavallo maggiore_Rhinolophus ferrumequinum (Schreber, 1774)","Rhinolophus ferrumequinum (Schreber, 1774)","A minor rischio, Dipendenti dalla protezione_Rhinolophidae_Ferro di cavallo maggiore",5
+"A minor rischio, Dipendenti dalla protezione_Vertiginidae",Vertiginidae,"A minor rischio, Dipendenti dalla protezione_",2
+"A minor rischio, Dipendenti dalla protezione_Vertiginidae_Vertigo di Demoulins",Vertigo di Demoulins,"A minor rischio, Dipendenti dalla protezione_Vertiginidae",1
+"A minor rischio, Dipendenti dalla protezione_Vertiginidae_Vertigo di Demoulins_Vertigo moulinsiana (Dupuy, 1849)","Vertigo moulinsiana (Dupuy, 1849)","A minor rischio, Dipendenti dalla protezione_Vertiginidae_Vertigo di Demoulins",1
+"A minor rischio, Dipendenti dalla protezione_Vertiginidae_Vertigo sinistrorso minore",Vertigo sinistrorso minore,"A minor rischio, Dipendenti dalla protezione_Vertiginidae",1
+"A minor rischio, Dipendenti dalla protezione_Vertiginidae_Vertigo sinistrorso minore_Vertigo angustior Jeffrreys, 1830","Vertigo angustior Jeffrreys, 1830","A minor rischio, Dipendenti dalla protezione_Vertiginidae_Vertigo sinistrorso minore",1
+"A minor rischio, Quasi a rischio_","A minor rischio, Quasi a rischio",,124
+"A minor rischio, Quasi a rischio_Accipitridae",Accipitridae,"A minor rischio, Quasi a rischio_",5
+"A minor rischio, Quasi a rischio_Accipitridae_Avvoltoio monaco",Avvoltoio monaco,"A minor rischio, Quasi a rischio_Accipitridae",5
+"A minor rischio, Quasi a rischio_Accipitridae_Avvoltoio monaco_Aegypius monachus (Linnaeus, 1766)","Aegypius monachus (Linnaeus, 1766)","A minor rischio, Quasi a rischio_Accipitridae_Avvoltoio monaco",5
+"A minor rischio, Quasi a rischio_Balenopteridae",Balenopteridae,"A minor rischio, Quasi a rischio_",4
+"A minor rischio, Quasi a rischio_Balenopteridae_Balenottera minore",Balenottera minore,"A minor rischio, Quasi a rischio_Balenopteridae",4
+"A minor rischio, Quasi a rischio_Balenopteridae_Balenottera minore_Balaenoptera acutorostrata Lacépède, 1804","Balaenoptera acutorostrata Lacépède, 1804","A minor rischio, Quasi a rischio_Balenopteridae_Balenottera minore",4
+"A minor rischio, Quasi a rischio_Cobitidae",Cobitidae,"A minor rischio, Quasi a rischio_",3
+"A minor rischio, Quasi a rischio_Cobitidae_Cobite mascherato",Cobite mascherato,"A minor rischio, Quasi a rischio_Cobitidae",3
+"A minor rischio, Quasi a rischio_Cobitidae_Cobite mascherato_Sabanejewia larvata (De Filippi, 1859)","Sabanejewia larvata (De Filippi, 1859)","A minor rischio, Quasi a rischio_Cobitidae_Cobite mascherato",3
+"A minor rischio, Quasi a rischio_Cyprinidae",Cyprinidae,"A minor rischio, Quasi a rischio_",9
+"A minor rischio, Quasi a rischio_Cyprinidae_Barbo",Barbo,"A minor rischio, Quasi a rischio_Cyprinidae",3
+"A minor rischio, Quasi a rischio_Cyprinidae_Barbo_Barbo plebejus (Bonaparte, 1839)","Barbo plebejus (Bonaparte, 1839)","A minor rischio, Quasi a rischio_Cyprinidae_Barbo",3
+"A minor rischio, Quasi a rischio_Cyprinidae_Cavedano dell'Ombrone",Cavedano dell'Ombrone,"A minor rischio, Quasi a rischio_Cyprinidae",3
+"A minor rischio, Quasi a rischio_Cyprinidae_Cavedano dell'Ombrone_Leuciscus lucumonis Bianco, 1982","Leuciscus lucumonis Bianco, 1982","A minor rischio, Quasi a rischio_Cyprinidae_Cavedano dell'Ombrone",3
+"A minor rischio, Quasi a rischio_Cyprinidae_Lasca",Lasca,"A minor rischio, Quasi a rischio_Cyprinidae",3
+"A minor rischio, Quasi a rischio_Cyprinidae_Lasca_Chondrostoma genei (Bonaparte, 1839) ","Chondrostoma genei (Bonaparte, 1839) ","A minor rischio, Quasi a rischio_Cyprinidae_Lasca",3
+"A minor rischio, Quasi a rischio_Emydidae",Emydidae,"A minor rischio, Quasi a rischio_",3
+"A minor rischio, Quasi a rischio_Emydidae_Testuggine d'acqua",Testuggine d'acqua,"A minor rischio, Quasi a rischio_Emydidae",3
+"A minor rischio, Quasi a rischio_Emydidae_Testuggine d'acqua_Emys orbicularis (Linnaeus, 1758)","Emys orbicularis (Linnaeus, 1758)","A minor rischio, Quasi a rischio_Emydidae_Testuggine d'acqua",3
+"A minor rischio, Quasi a rischio_Gobiidae",Gobiidae,"A minor rischio, Quasi a rischio_",2
+"A minor rischio, Quasi a rischio_Gobiidae_Giozzo padano",Giozzo padano,"A minor rischio, Quasi a rischio_Gobiidae",2
+"A minor rischio, Quasi a rischio_Gobiidae_Giozzo padano_Podogobius martensi (Günther, 1861)","Podogobius martensi (Günther, 1861)","A minor rischio, Quasi a rischio_Gobiidae_Giozzo padano",2
+"A minor rischio, Quasi a rischio_Hirudinidae",Hirudinidae,"A minor rischio, Quasi a rischio_",2
+"A minor rischio, Quasi a rischio_Hirudinidae_Sanguisuga",Sanguisuga,"A minor rischio, Quasi a rischio_Hirudinidae",2
+"A minor rischio, Quasi a rischio_Hirudinidae_Sanguisuga_Hirudo medicinalis (Linnaeus, 1758)","Hirudo medicinalis (Linnaeus, 1758)","A minor rischio, Quasi a rischio_Hirudinidae_Sanguisuga",2
+"A minor rischio, Quasi a rischio_Hylidae",Hylidae,"A minor rischio, Quasi a rischio_",2
+"A minor rischio, Quasi a rischio_Hylidae_Raganella comune",Raganella comune,"A minor rischio, Quasi a rischio_Hylidae",2
+"A minor rischio, Quasi a rischio_Hylidae_Raganella comune_Hyla arborea (Linnaeus, 1758)","Hyla arborea (Linnaeus, 1758)","A minor rischio, Quasi a rischio_Hylidae_Raganella comune",2
+"A minor rischio, Quasi a rischio_Hystricidae",Hystricidae,"A minor rischio, Quasi a rischio_",3
+"A minor rischio, Quasi a rischio_Hystricidae_Istrice",Istrice,"A minor rischio, Quasi a rischio_Hystricidae",3
+"A minor rischio, Quasi a rischio_Hystricidae_Istrice_Hystrix cristata  (Linnaeus, 1758)  ","Hystrix cristata  (Linnaeus, 1758)  ","A minor rischio, Quasi a rischio_Hystricidae_Istrice",3
+"A minor rischio, Quasi a rischio_Lamnidae",Lamnidae,"A minor rischio, Quasi a rischio_",2
+"A minor rischio, Quasi a rischio_Lamnidae_Smeriglio",Smeriglio,"A minor rischio, Quasi a rischio_Lamnidae",1
+"A minor rischio, Quasi a rischio_Lamnidae_Smeriglio_Lamna nasus (Bonnaterre,1788)","Lamna nasus (Bonnaterre,1788)","A minor rischio, Quasi a rischio_Lamnidae_Smeriglio",1
+"A minor rischio, Quasi a rischio_Lamnidae_Squalo mako",Squalo mako,"A minor rischio, Quasi a rischio_Lamnidae",1
+"A minor rischio, Quasi a rischio_Lamnidae_Squalo mako_Isurus oxyrinchus Rafinesque, 1810","Isurus oxyrinchus Rafinesque, 1810","A minor rischio, Quasi a rischio_Lamnidae_Squalo mako",1
+"A minor rischio, Quasi a rischio_Myoxidae",Myoxidae,"A minor rischio, Quasi a rischio_",8
+"A minor rischio, Quasi a rischio_Myoxidae_Driomio",Driomio,"A minor rischio, Quasi a rischio_Myoxidae",3
+"A minor rischio, Quasi a rischio_Myoxidae_Driomio_Dryomis nitedula (Pallas, 1779)","Dryomis nitedula (Pallas, 1779)","A minor rischio, Quasi a rischio_Myoxidae_Driomio",3
+"A minor rischio, Quasi a rischio_Myoxidae_Ghiro",Ghiro,"A minor rischio, Quasi a rischio_Myoxidae",2
+"A minor rischio, Quasi a rischio_Myoxidae_Ghiro_Myoxus glis (Linnaeus, 1766)  ","Myoxus glis (Linnaeus, 1766)  ","A minor rischio, Quasi a rischio_Myoxidae_Ghiro",2
+"A minor rischio, Quasi a rischio_Myoxidae_Moscardino",Moscardino,"A minor rischio, Quasi a rischio_Myoxidae",3
+"A minor rischio, Quasi a rischio_Myoxidae_Moscardino_Muscardinus avellanarius (Linnaeus, 1758) ","Muscardinus avellanarius (Linnaeus, 1758) ","A minor rischio, Quasi a rischio_Myoxidae_Moscardino",3
+"A minor rischio, Quasi a rischio_Otididae",Otididae,"A minor rischio, Quasi a rischio_",4
+"A minor rischio, Quasi a rischio_Otididae_Gallina prataiola",Gallina prataiola,"A minor rischio, Quasi a rischio_Otididae",4
+"A minor rischio, Quasi a rischio_Otididae_Gallina prataiola_Tetrax tetrax (Linnaeus, 1758)","Tetrax tetrax (Linnaeus, 1758)","A minor rischio, Quasi a rischio_Otididae_Gallina prataiola",4
+"A minor rischio, Quasi a rischio_Petromyzontidae",Petromyzontidae,"A minor rischio, Quasi a rischio_",5
+"A minor rischio, Quasi a rischio_Petromyzontidae_Lampreda comune",Lampreda comune,"A minor rischio, Quasi a rischio_Petromyzontidae",2
+"A minor rischio, Quasi a rischio_Petromyzontidae_Lampreda comune_Lampetra planeri (Bloch, 1784)","Lampetra planeri (Bloch, 1784)","A minor rischio, Quasi a rischio_Petromyzontidae_Lampreda comune",2
+"A minor rischio, Quasi a rischio_Petromyzontidae_Lampreda di fiume",Lampreda di fiume,"A minor rischio, Quasi a rischio_Petromyzontidae",3
+"A minor rischio, Quasi a rischio_Petromyzontidae_Lampreda di fiume_Lampetra fluviatilis (Linnaeus, 1758)","Lampetra fluviatilis (Linnaeus, 1758)","A minor rischio, Quasi a rischio_Petromyzontidae_Lampreda di fiume",3
+"A minor rischio, Quasi a rischio_Phalacrocoracidae",Phalacrocoracidae,"A minor rischio, Quasi a rischio_",4
+"A minor rischio, Quasi a rischio_Phalacrocoracidae_Marangone minore",Marangone minore,"A minor rischio, Quasi a rischio_Phalacrocoracidae",4
+"A minor rischio, Quasi a rischio_Phalacrocoracidae_Marangone minore_Phalacrocorax  pygmeus (Pallas, 1773)","Phalacrocorax  pygmeus (Pallas, 1773)","A minor rischio, Quasi a rischio_Phalacrocoracidae_Marangone minore",4
+"A minor rischio, Quasi a rischio_Plethodontidae",Plethodontidae,"A minor rischio, Quasi a rischio_",8
+"A minor rischio, Quasi a rischio_Plethodontidae_Geotritone di Gené",Geotritone di Gené,"A minor rischio, Quasi a rischio_Plethodontidae",4
+"A minor rischio, Quasi a rischio_Plethodontidae_Geotritone di Gené_Speleomantes genei (Temminck & Schlegel, 1838)","Speleomantes genei (Temminck & Schlegel, 1838)","A minor rischio, Quasi a rischio_Plethodontidae_Geotritone di Gené",4
+"A minor rischio, Quasi a rischio_Plethodontidae_Geotritone imperiale",Geotritone imperiale,"A minor rischio, Quasi a rischio_Plethodontidae",4
+"A minor rischio, Quasi a rischio_Plethodontidae_Geotritone imperiale_Speleomantes imperialis (Stefani, 1969)","Speleomantes imperialis (Stefani, 1969)","A minor rischio, Quasi a rischio_Plethodontidae_Geotritone imperiale",4
+"A minor rischio, Quasi a rischio_Ranidae",Ranidae,"A minor rischio, Quasi a rischio_",4
+"A minor rischio, Quasi a rischio_Ranidae_Rana di Lataste",Rana di Lataste,"A minor rischio, Quasi a rischio_Ranidae",4
+"A minor rischio, Quasi a rischio_Ranidae_Rana di Lataste_Rana latastei Boulenger, 1879","Rana latastei Boulenger, 1879","A minor rischio, Quasi a rischio_Ranidae_Rana di Lataste",4
+"A minor rischio, Quasi a rischio_Rhinolophidae",Rhinolophidae,"A minor rischio, Quasi a rischio_",5
+"A minor rischio, Quasi a rischio_Rhinolophidae_Ferro di cavallo di Blasius",Ferro di cavallo di Blasius,"A minor rischio, Quasi a rischio_Rhinolophidae",5
+"A minor rischio, Quasi a rischio_Rhinolophidae_Ferro di cavallo di Blasius_Rhinolophus blasii Peters, 1866","Rhinolophus blasii Peters, 1866","A minor rischio, Quasi a rischio_Rhinolophidae_Ferro di cavallo di Blasius",5
+"A minor rischio, Quasi a rischio_Salamandridae",Salamandridae,"A minor rischio, Quasi a rischio_",11
+"A minor rischio, Quasi a rischio_Salamandridae_Geotritone del Supramonte",Geotritone del Supramonte,"A minor rischio, Quasi a rischio_Salamandridae",3
+"A minor rischio, Quasi a rischio_Salamandridae_Geotritone del Supramonte_Speleomantes supramonti (Lanza, Nascetti & Bullini, 1986)","Speleomantes supramonti (Lanza, Nascetti & Bullini, 1986)","A minor rischio, Quasi a rischio_Salamandridae_Geotritone del Supramonte",3
+"A minor rischio, Quasi a rischio_Salamandridae_Geotritone dell'Iglesiente",Geotritone dell'Iglesiente,"A minor rischio, Quasi a rischio_Salamandridae",4
+"A minor rischio, Quasi a rischio_Salamandridae_Geotritone dell'Iglesiente_Speleomantes genei (Temminck & Schlegel, 1838)","Speleomantes genei (Temminck & Schlegel, 1838)","A minor rischio, Quasi a rischio_Salamandridae_Geotritone dell'Iglesiente",4
+"A minor rischio, Quasi a rischio_Salamandridae_Geotritone odoroso",Geotritone odoroso,"A minor rischio, Quasi a rischio_Salamandridae",4
+"A minor rischio, Quasi a rischio_Salamandridae_Geotritone odoroso_Speleomantes imperialis (Stefani, 1969)","Speleomantes imperialis (Stefani, 1969)","A minor rischio, Quasi a rischio_Salamandridae_Geotritone odoroso",4
+"A minor rischio, Quasi a rischio_Testudinidae",Testudinidae,"A minor rischio, Quasi a rischio_",4
+"A minor rischio, Quasi a rischio_Testudinidae_Testuggine comune",Testuggine comune,"A minor rischio, Quasi a rischio_Testudinidae",4
+"A minor rischio, Quasi a rischio_Testudinidae_Testuggine comune_Testudo hermanni Gmelin, 1789","Testudo hermanni Gmelin, 1789","A minor rischio, Quasi a rischio_Testudinidae_Testuggine comune",4
+"A minor rischio, Quasi a rischio_Vespertilionidae",Vespertilionidae,"A minor rischio, Quasi a rischio_",18
+"A minor rischio, Quasi a rischio_Vespertilionidae_Miniottero",Miniottero,"A minor rischio, Quasi a rischio_Vespertilionidae",5
+"A minor rischio, Quasi a rischio_Vespertilionidae_Miniottero_Miniopterus schreibersi (Natterer in Kuhl, 1819) ","Miniopterus schreibersi (Natterer in Kuhl, 1819) ","A minor rischio, Quasi a rischio_Vespertilionidae_Miniottero",5
+"A minor rischio, Quasi a rischio_Vespertilionidae_Nottola di Leisler",Nottola di Leisler,"A minor rischio, Quasi a rischio_Vespertilionidae",4
+"A minor rischio, Quasi a rischio_Vespertilionidae_Nottola di Leisler_Nyctalus leisleri (Kuhl, 1818) ","Nyctalus leisleri (Kuhl, 1818) ","A minor rischio, Quasi a rischio_Vespertilionidae_Nottola di Leisler",4
+"A minor rischio, Quasi a rischio_Vespertilionidae_Nottola gigante",Nottola gigante,"A minor rischio, Quasi a rischio_Vespertilionidae",4
+"A minor rischio, Quasi a rischio_Vespertilionidae_Nottola gigante_Nyctalus lasiopterus (Schreber, 1780) ","Nyctalus lasiopterus (Schreber, 1780) ","A minor rischio, Quasi a rischio_Vespertilionidae_Nottola gigante",4
+"A minor rischio, Quasi a rischio_Vespertilionidae_Vespertilio maggiore",Vespertilio maggiore,"A minor rischio, Quasi a rischio_Vespertilionidae",5
+"A minor rischio, Quasi a rischio_Vespertilionidae_Vespertilio maggiore_Myotis myotis (Borkhausen, 1797)","Myotis myotis (Borkhausen, 1797)","A minor rischio, Quasi a rischio_Vespertilionidae_Vespertilio maggiore",5
+Dati insufficienti_,Dati insufficienti,,48
+Dati insufficienti_Clupeidae,Clupeidae,Dati insufficienti_,6
+Dati insufficienti_Clupeidae_Alosa,Alosa,Dati insufficienti_Clupeidae,3
+"Dati insufficienti_Clupeidae_Alosa_Alosa alosa (Linnaeus, 1758)","Alosa alosa (Linnaeus, 1758)",Dati insufficienti_Clupeidae_Alosa,3
+Dati insufficienti_Clupeidae_Cheppia,Cheppia,Dati insufficienti_Clupeidae,3
+"Dati insufficienti_Clupeidae_Cheppia_Alosa  fallax (Lacépède, 1803)","Alosa  fallax (Lacépède, 1803)",Dati insufficienti_Clupeidae_Cheppia,3
+Dati insufficienti_Colubridae,Colubridae,Dati insufficienti_,3
+Dati insufficienti_Colubridae_Colubro leopardino,Colubro leopardino,Dati insufficienti_Colubridae,3
+"Dati insufficienti_Colubridae_Colubro leopardino_Elaphe situla (Linnaeus, 1758) ","Elaphe situla (Linnaeus, 1758) ",Dati insufficienti_Colubridae_Colubro leopardino,3
+Dati insufficienti_Cyprinidae,Cyprinidae,Dati insufficienti_,2
+Dati insufficienti_Cyprinidae_Pigo,Pigo,Dati insufficienti_Cyprinidae,2
+"Dati insufficienti_Cyprinidae_Pigo_Rutilus pigus (Lacépède, 1804)","Rutilus pigus (Lacépède, 1804)",Dati insufficienti_Cyprinidae_Pigo,2
+Dati insufficienti_Cyprinodontidae,Cyprinodontidae,Dati insufficienti_,3
+Dati insufficienti_Cyprinodontidae_Nono,Nono,Dati insufficienti_Cyprinodontidae,3
+"Dati insufficienti_Cyprinodontidae_Nono_Aphanius fasciatus Nardo, 1827","Aphanius fasciatus Nardo, 1827",Dati insufficienti_Cyprinodontidae_Nono,3
+Dati insufficienti_Delphinidae,Delphinidae,Dati insufficienti_,13
+Dati insufficienti_Delphinidae_Grampo,Grampo,Dati insufficienti_Delphinidae,4
+"Dati insufficienti_Delphinidae_Grampo_Grampus griseus (Cuvier G., 1812)","Grampus griseus (Cuvier G., 1812)",Dati insufficienti_Delphinidae_Grampo,4
+Dati insufficienti_Delphinidae_Steno,Steno,Dati insufficienti_Delphinidae,4
+"Dati insufficienti_Delphinidae_Steno_Steno bredanensis (Lesson, 1828)","Steno bredanensis (Lesson, 1828)",Dati insufficienti_Delphinidae_Steno,4
+Dati insufficienti_Delphinidae_Tursiope,Tursiope,Dati insufficienti_Delphinidae,5
+"Dati insufficienti_Delphinidae_Tursiope_Tursiops truncatus (Montagu, 1821)","Tursiops truncatus (Montagu, 1821)",Dati insufficienti_Delphinidae_Tursiope,5
+Dati insufficienti_Gobiidae,Gobiidae,Dati insufficienti_,5
+Dati insufficienti_Gobiidae_Ghiozzetto cenerino,Ghiozzetto cenerino,Dati insufficienti_Gobiidae,3
+"Dati insufficienti_Gobiidae_Ghiozzetto cenerino_Pomatoschistus canestrini (Ninni, 1883)","Pomatoschistus canestrini (Ninni, 1883)",Dati insufficienti_Gobiidae_Ghiozzetto cenerino,3
+Dati insufficienti_Gobiidae_Ghiozzetto di laguna,Ghiozzetto di laguna,Dati insufficienti_Gobiidae,2
+"Dati insufficienti_Gobiidae_Ghiozzetto di laguna_Knipowitschia  panizzae (Verga, 1841)","Knipowitschia  panizzae (Verga, 1841)",Dati insufficienti_Gobiidae_Ghiozzetto di laguna,2
+Dati insufficienti_Salmonidae,Salmonidae,Dati insufficienti_,2
+Dati insufficienti_Salmonidae_Trota marmorata,Trota marmorata,Dati insufficienti_Salmonidae,2
+"Dati insufficienti_Salmonidae_Trota marmorata_Salmo (trutta) marmoratus (Cuvier, 1817)","Salmo (trutta) marmoratus (Cuvier, 1817)",Dati insufficienti_Salmonidae_Trota marmorata,2
+Dati insufficienti_Siluridae,Siluridae,Dati insufficienti_,2
+Dati insufficienti_Siluridae_Coregone,Coregone,Dati insufficienti_Siluridae,2
+"Dati insufficienti_Siluridae_Coregone_Coregonus lavaretus (Linnaeus, 1758)","Coregonus lavaretus (Linnaeus, 1758)",Dati insufficienti_Siluridae_Coregone,2
+Dati insufficienti_Syngnathidae,Syngnathidae,Dati insufficienti_,1
+Dati insufficienti_Syngnathidae_Pesce ago di Rio,Pesce ago di Rio,Dati insufficienti_Syngnathidae,1
+"Dati insufficienti_Syngnathidae_Pesce ago di Rio_Syngnathus abaster Risso, 1826","Syngnathus abaster Risso, 1826",Dati insufficienti_Syngnathidae_Pesce ago di Rio,1
+Dati insufficienti_Ziphiidae,Ziphiidae,Dati insufficienti_,4
+Dati insufficienti_Ziphiidae_Zifio,Zifio,Dati insufficienti_Ziphiidae,4
+"Dati insufficienti_Ziphiidae_Zifio_Ziphius cavirostris Cuvier G., 1832","Ziphius cavirostris Cuvier G., 1832",Dati insufficienti_Ziphiidae_Zifio,4
+Gravemente minacciato_,Gravemente minacciato,,34
+Gravemente minacciato_Acipenseridae,Acipenseridae,Gravemente minacciato_,5
+Gravemente minacciato_Acipenseridae_Storione,Storione,Gravemente minacciato_Acipenseridae,5
+"Gravemente minacciato_Acipenseridae_Storione_Acipenser sturio   * Linnaeus,1758","Acipenser sturio   * Linnaeus,1758",Gravemente minacciato_Acipenseridae_Storione,5
+Gravemente minacciato_Cheloniidae,Cheloniidae,Gravemente minacciato_,8
+Gravemente minacciato_Cheloniidae_Tartaruga  embricata,Tartaruga  embricata,Gravemente minacciato_Cheloniidae,4
+"Gravemente minacciato_Cheloniidae_Tartaruga  embricata_Eretmochelys imbricata (Linnaeus, 1766)","Eretmochelys imbricata (Linnaeus, 1766)",Gravemente minacciato_Cheloniidae_Tartaruga  embricata,4
+Gravemente minacciato_Cheloniidae_Tartaruga bastarda,Tartaruga bastarda,Gravemente minacciato_Cheloniidae,4
+"Gravemente minacciato_Cheloniidae_Tartaruga bastarda_Lepidochelys kempii (Garman, 1880)","Lepidochelys kempii (Garman, 1880)",Gravemente minacciato_Cheloniidae_Tartaruga bastarda,4
+Gravemente minacciato_Colubridae,Colubridae,Gravemente minacciato_,1
+Gravemente minacciato_Colubridae_Natrice di Cetti,Natrice di Cetti,Gravemente minacciato_Colubridae,1
+"Gravemente minacciato_Colubridae_Natrice di Cetti_Natrix natrix cetti Gené, 1839   (= n. corsa (Hecht, 1930))","Natrix natrix cetti Gené, 1839   (= n. corsa (Hecht, 1930))",Gravemente minacciato_Colubridae_Natrice di Cetti,1
+Gravemente minacciato_Dermochelydae,Dermochelydae,Gravemente minacciato_,4
+Gravemente minacciato_Dermochelydae_Tartaruga liuto,Tartaruga liuto,Gravemente minacciato_Dermochelydae,4
+"Gravemente minacciato_Dermochelydae_Tartaruga liuto_Dermochelys coriacea (Vandelli, 1761)","Dermochelys coriacea (Vandelli, 1761)",Gravemente minacciato_Dermochelydae_Tartaruga liuto,4
+Gravemente minacciato_Phocidae,Phocidae,Gravemente minacciato_,7
+Gravemente minacciato_Phocidae_Foca monaca,Foca monaca,Gravemente minacciato_Phocidae,7
+"Gravemente minacciato_Phocidae_Foca monaca_Monachus monachus   * (Hermann, 1779)","Monachus monachus   * (Hermann, 1779)",Gravemente minacciato_Phocidae_Foca monaca,7
+Gravemente minacciato_Salamandridae,Salamandridae,Gravemente minacciato_,3
+Gravemente minacciato_Salamandridae_Euprotto sardo,Euprotto sardo,Gravemente minacciato_Salamandridae,3
+"Gravemente minacciato_Salamandridae_Euprotto sardo_Euproctus platycephalus (Gravenhorst, 1829)","Euproctus platycephalus (Gravenhorst, 1829)",Gravemente minacciato_Salamandridae_Euprotto sardo,3
+Gravemente minacciato_Scolopacidae,Scolopacidae,Gravemente minacciato_,5
+Gravemente minacciato_Scolopacidae_Chiurlottello,Chiurlottello,Gravemente minacciato_Scolopacidae,5
+"Gravemente minacciato_Scolopacidae_Chiurlottello_Numenius tenuirostris Vieillot, 1817","Numenius tenuirostris Vieillot, 1817",Gravemente minacciato_Scolopacidae_Chiurlottello,5
+Minacciato_,Minacciato,,32
+Minacciato_Acipenseridae,Acipenseridae,Minacciato_,3
+Minacciato_Acipenseridae_Storione ladano,Storione ladano,Minacciato_Acipenseridae,3
+"Minacciato_Acipenseridae_Storione ladano_Huso huso (Linnaeus, 1758)","Huso huso (Linnaeus, 1758)",Minacciato_Acipenseridae_Storione ladano,3
+Minacciato_Balenopteridae,Balenopteridae,Minacciato_,4
+Minacciato_Balenopteridae_Balenottera comune,Balenottera comune,Minacciato_Balenopteridae,4
+"Minacciato_Balenopteridae_Balenottera comune_Balaenoptera physalus (Linnaeus, 1758)  ","Balaenoptera physalus (Linnaeus, 1758)  ",Minacciato_Balenopteridae_Balenottera comune,4
+Minacciato_Cheloniidae,Cheloniidae,Minacciato_,9
+Minacciato_Cheloniidae_Tartaruga caretta,Tartaruga caretta,Minacciato_Cheloniidae,5
+"Minacciato_Cheloniidae_Tartaruga caretta_Caretta caretta   * (Linnaeus, 1758)","Caretta caretta   * (Linnaeus, 1758)",Minacciato_Cheloniidae_Tartaruga caretta,5
+Minacciato_Cheloniidae_Tartaruga verde,Tartaruga verde,Minacciato_Cheloniidae,4
+"Minacciato_Cheloniidae_Tartaruga verde_Chelonia mydas (Linnaeus, 1758) ","Chelonia mydas (Linnaeus, 1758) ",Minacciato_Cheloniidae_Tartaruga verde,4
+Minacciato_Petromyzontidae,Petromyzontidae,Minacciato_,7
+Minacciato_Petromyzontidae_Lampreda di ruscello,Lampreda di ruscello,Minacciato_Petromyzontidae,4
+"Minacciato_Petromyzontidae_Lampreda di ruscello_Lethenteron zanandreai (Vladykov, 1955)","Lethenteron zanandreai (Vladykov, 1955)",Minacciato_Petromyzontidae_Lampreda di ruscello,4
+Minacciato_Petromyzontidae_Lampreda padana,Lampreda padana,Minacciato_Petromyzontidae,3
+"Minacciato_Petromyzontidae_Lampreda padana_Lampetra zanandreai (Vladykov, 1955)","Lampetra zanandreai (Vladykov, 1955)",Minacciato_Petromyzontidae_Lampreda padana,3
+Minacciato_Viperidae,Viperidae,Minacciato_,4
+Minacciato_Viperidae_Vipera dell'Orsini,Vipera dell'Orsini,Minacciato_Viperidae,4
+"Minacciato_Viperidae_Vipera dell'Orsini_Vipera ursinii (Bonaparte, 1835)","Vipera ursinii (Bonaparte, 1835)",Minacciato_Viperidae_Vipera dell'Orsini,4
+Quasi a rischio_,Quasi a rischio,,7
+Quasi a rischio_Felidae,Felidae,Quasi a rischio_,5
+Quasi a rischio_Felidae_Lince eurasiatica,Lince eurasiatica,Quasi a rischio_Felidae,5
+"Quasi a rischio_Felidae_Lince eurasiatica_Linx linx (Linnaeus, 1758)  ","Linx linx (Linnaeus, 1758)  ",Quasi a rischio_Felidae_Lince eurasiatica,5
+Quasi a rischio_Sciuridae,Sciuridae,Quasi a rischio_,2
+Quasi a rischio_Sciuridae_Scoiattolo,Scoiattolo,Quasi a rischio_Sciuridae,2
+"Quasi a rischio_Sciuridae_Scoiattolo_Sciurus vulgaris Linnaeus, 1758","Sciurus vulgaris Linnaeus, 1758",Quasi a rischio_Sciuridae_Scoiattolo,2
+Vulnerabile_,Vulnerabile,,143
+Vulnerabile_Accipitridae,Accipitridae,Vulnerabile_,5
+Vulnerabile_Accipitridae_Aquila anatraia maggiore,Aquila anatraia maggiore,Vulnerabile_Accipitridae,5
+"Vulnerabile_Accipitridae_Aquila anatraia maggiore_Aquila clanga Pallas, 1811","Aquila clanga Pallas, 1811",Vulnerabile_Accipitridae_Aquila anatraia maggiore,5
+Vulnerabile_Acipenseridae,Acipenseridae,Vulnerabile_,6
+Vulnerabile_Acipenseridae_Storione cobice,Storione cobice,Vulnerabile_Acipenseridae,6
+"Vulnerabile_Acipenseridae_Storione cobice_Acipenser naccarii   * Bonaparte,1836","Acipenser naccarii   * Bonaparte,1836",Vulnerabile_Acipenseridae_Storione cobice,6
+Vulnerabile_Anatidae,Anatidae,Vulnerabile_,9
+Vulnerabile_Anatidae_Gobbo rugginoso,Gobbo rugginoso,Vulnerabile_Anatidae,5
+"Vulnerabile_Anatidae_Gobbo rugginoso_Oxyura leucocephala (Scopoli, 1769)","Oxyura leucocephala (Scopoli, 1769)",Vulnerabile_Anatidae_Gobbo rugginoso,5
+Vulnerabile_Anatidae_Moretta tabaccata,Moretta tabaccata,Vulnerabile_Anatidae,4
+"Vulnerabile_Anatidae_Moretta tabaccata_Aythya nyroca (Güldenstädt, 1770)","Aythya nyroca (Güldenstädt, 1770)",Vulnerabile_Anatidae_Moretta tabaccata,4
+Vulnerabile_Astacidae,Astacidae,Vulnerabile_,5
+Vulnerabile_Astacidae_Astice,Astice,Vulnerabile_Astacidae,2
+"Vulnerabile_Astacidae_Astice_Astacus astacus (Linnaeus, 1758)","Astacus astacus (Linnaeus, 1758)",Vulnerabile_Astacidae_Astice,2
+Vulnerabile_Astacidae_Gambero di fiume,Gambero di fiume,Vulnerabile_Astacidae,3
+"Vulnerabile_Astacidae_Gambero di fiume_Austropotamobius pallipes (Lereboullet, 1858)","Austropotamobius pallipes (Lereboullet, 1858)",Vulnerabile_Astacidae_Gambero di fiume,3
+Vulnerabile_Bovidae,Bovidae,Vulnerabile_,4
+Vulnerabile_Bovidae_Muflone,Muflone,Vulnerabile_Bovidae,0
+"Vulnerabile_Bovidae_Muflone_Ovis orientalis Gmelin, 1774","Ovis orientalis Gmelin, 1774",Vulnerabile_Bovidae_Muflone,0
+Vulnerabile_Bovidae_Muflone sardo,Muflone sardo,Vulnerabile_Bovidae,4
+Vulnerabile_Bovidae_Muflone sardo_Ovis orientalis musimon,Ovis orientalis musimon,Vulnerabile_Bovidae_Muflone sardo,4
+Vulnerabile_Coenagrionidae,Coenagrionidae,Vulnerabile_,2
+Vulnerabile_Coenagrionidae_Agrion di Mercurio,Agrion di Mercurio,Vulnerabile_Coenagrionidae,2
+"Vulnerabile_Coenagrionidae_Agrion di Mercurio_Coenagrion mercuriale (Charpentier, 1840)","Coenagrion mercuriale (Charpentier, 1840)",Vulnerabile_Coenagrionidae_Agrion di Mercurio,2
+Vulnerabile_Cyprinidae,Cyprinidae,Vulnerabile_,3
+Vulnerabile_Cyprinidae_Alborella meridionale,Alborella meridionale,Vulnerabile_Cyprinidae,3
+"Vulnerabile_Cyprinidae_Alborella meridionale_Alburnus albidus (Costa, 1838)","Alburnus albidus (Costa, 1838)",Vulnerabile_Cyprinidae_Alborella meridionale,3
+Vulnerabile_Falconidae,Falconidae,Vulnerabile_,5
+Vulnerabile_Falconidae_Grillaio,Grillaio,Vulnerabile_Falconidae,5
+"Vulnerabile_Falconidae_Grillaio_Falco naumanni Fleischer, 1818","Falco naumanni Fleischer, 1818",Vulnerabile_Falconidae_Grillaio,5
+Vulnerabile_Gekkonidae,Gekkonidae,Vulnerabile_,6
+Vulnerabile_Gekkonidae_Tarantolino,Tarantolino,Vulnerabile_Gekkonidae,6
+"Vulnerabile_Gekkonidae_Tarantolino_Euleptes europaea (Gené, 1838)","Euleptes europaea (Gené, 1838)",Vulnerabile_Gekkonidae_Tarantolino,3
+"Vulnerabile_Gekkonidae_Tarantolino_Phyllodactylus europaeus Gené, 1830","Phyllodactylus europaeus Gené, 1830",Vulnerabile_Gekkonidae_Tarantolino,3
+Vulnerabile_Gobiidae,Gobiidae,Vulnerabile_,3
+Vulnerabile_Gobiidae_Ghiozzo di ruscello,Ghiozzo di ruscello,Vulnerabile_Gobiidae,3
+"Vulnerabile_Gobiidae_Ghiozzo di ruscello_Gobius nigricans Canestrini, 1867","Gobius nigricans Canestrini, 1867",Vulnerabile_Gobiidae_Ghiozzo di ruscello,1
+"Vulnerabile_Gobiidae_Ghiozzo di ruscello_Padogobius nigricans (Canestrini, 1867)","Padogobius nigricans (Canestrini, 1867)",Vulnerabile_Gobiidae_Ghiozzo di ruscello,2
+Vulnerabile_Lamnidae,Lamnidae,Vulnerabile_,2
+Vulnerabile_Lamnidae_Squalo bianco,Squalo bianco,Vulnerabile_Lamnidae,1
+"Vulnerabile_Lamnidae_Squalo bianco_Carcharodon carcharis (Linnaeus, 1758)","Carcharodon carcharis (Linnaeus, 1758)",Vulnerabile_Lamnidae_Squalo bianco,1
+Vulnerabile_Lamnidae_Squalo elefante,Squalo elefante,Vulnerabile_Lamnidae,1
+"Vulnerabile_Lamnidae_Squalo elefante_Cetorhinus maximus (Gunnerus, 1765)","Cetorhinus maximus (Gunnerus, 1765)",Vulnerabile_Lamnidae_Squalo elefante,1
+Vulnerabile_Mobulidae,Mobulidae,Vulnerabile_,1
+Vulnerabile_Mobulidae_Diavolo di mare,Diavolo di mare,Vulnerabile_Mobulidae,1
+"Vulnerabile_Mobulidae_Diavolo di mare_Mobula mobular (Bonnaterre,1788)","Mobula mobular (Bonnaterre,1788)",Vulnerabile_Mobulidae_Diavolo di mare,1
+Vulnerabile_Myoxidae,Myoxidae,Vulnerabile_,2
+Vulnerabile_Myoxidae_Quercino,Quercino,Vulnerabile_Myoxidae,2
+"Vulnerabile_Myoxidae_Quercino_Eliomys quercinus (Linnaeus, 1766) ","Eliomys quercinus (Linnaeus, 1766) ",Vulnerabile_Myoxidae_Quercino,2
+Vulnerabile_Physeteridae,Physeteridae,Vulnerabile_,4
+Vulnerabile_Physeteridae_Capodoglio,Capodoglio,Vulnerabile_Physeteridae,4
+"Vulnerabile_Physeteridae_Capodoglio_Physeter catodon Linnaeus, 1758  ","Physeter catodon Linnaeus, 1758  ",Vulnerabile_Physeteridae_Capodoglio,4
+Vulnerabile_Proteidae,Proteidae,Vulnerabile_,3
+Vulnerabile_Proteidae_Proteo,Proteo,Vulnerabile_Proteidae,3
+"Vulnerabile_Proteidae_Proteo_Proteus anguinus Laurenti, 1768","Proteus anguinus Laurenti, 1768",Vulnerabile_Proteidae_Proteo,3
+Vulnerabile_Rallidae,Rallidae,Vulnerabile_,4
+Vulnerabile_Rallidae_Re di quaglie,Re di quaglie,Vulnerabile_Rallidae,4
+"Vulnerabile_Rallidae_Re di quaglie_Crex crex (Linnaeus, 1758)","Crex crex (Linnaeus, 1758)",Vulnerabile_Rallidae_Re di quaglie,4
+Vulnerabile_Rhinolophidae,Rhinolophidae,Vulnerabile_,15
+Vulnerabile_Rhinolophidae_Ferro di cavallo di Mehely,Ferro di cavallo di Mehely,Vulnerabile_Rhinolophidae,5
+"Vulnerabile_Rhinolophidae_Ferro di cavallo di Mehely_Rhinolophus mehelyi Matschie, 1901","Rhinolophus mehelyi Matschie, 1901",Vulnerabile_Rhinolophidae_Ferro di cavallo di Mehely,5
+Vulnerabile_Rhinolophidae_Ferro di cavallo euriale,Ferro di cavallo euriale,Vulnerabile_Rhinolophidae,5
+"Vulnerabile_Rhinolophidae_Ferro di cavallo euriale_Rhinolophus euryale Blasius, 1853","Rhinolophus euryale Blasius, 1853",Vulnerabile_Rhinolophidae_Ferro di cavallo euriale,5
+Vulnerabile_Rhinolophidae_Ferro di cavallo minore,Ferro di cavallo minore,Vulnerabile_Rhinolophidae,5
+"Vulnerabile_Rhinolophidae_Ferro di cavallo minore_Rhinolophus hipposideros (Bechstein, 1800)","Rhinolophus hipposideros (Bechstein, 1800)",Vulnerabile_Rhinolophidae_Ferro di cavallo minore,5
+Vulnerabile_Salamandridae,Salamandridae,Vulnerabile_,6
+Vulnerabile_Salamandridae_Geotritone di Monte Albo,Geotritone di Monte Albo,Vulnerabile_Salamandridae,4
+"Vulnerabile_Salamandridae_Geotritone di Monte Albo_Speleomantes flavus (Stefani, 1969)","Speleomantes flavus (Stefani, 1969)",Vulnerabile_Salamandridae_Geotritone di Monte Albo,4
+Vulnerabile_Salamandridae_Salamandra del Lanza,Salamandra del Lanza,Vulnerabile_Salamandridae,2
+"Vulnerabile_Salamandridae_Salamandra del Lanza_Salamandra lanzai Nascetti, Capula & Bullini, 1988","Salamandra lanzai Nascetti, Capula & Bullini, 1988",Vulnerabile_Salamandridae_Salamandra del Lanza,2
+Vulnerabile_Squatinidae,Squatinidae,Vulnerabile_,1
+Vulnerabile_Squatinidae_Squadro,Squadro,Vulnerabile_Squatinidae,1
+"Vulnerabile_Squatinidae_Squadro_Squatina squatina (Linnaeus, 1758)","Squatina squatina (Linnaeus, 1758)",Vulnerabile_Squatinidae_Squadro,1
+Vulnerabile_Sylviidae,Sylviidae,Vulnerabile_,5
+Vulnerabile_Sylviidae_Pagliarolo,Pagliarolo,Vulnerabile_Sylviidae,5
+"Vulnerabile_Sylviidae_Pagliarolo_Acrocephalus paludicola Vieillot, 1817","Acrocephalus paludicola Vieillot, 1817",Vulnerabile_Sylviidae_Pagliarolo,5
+Vulnerabile_Syngnathidae,Syngnathidae,Vulnerabile_,1
+Vulnerabile_Syngnathidae_Cavalluccio marino,Cavalluccio marino,Vulnerabile_Syngnathidae,1
+"Vulnerabile_Syngnathidae_Cavalluccio marino_Hippocampus hippocampus (Linnaeus, 1758) ","Hippocampus hippocampus (Linnaeus, 1758) ",Vulnerabile_Syngnathidae_Cavalluccio marino,1
+Vulnerabile_Testudinidae,Testudinidae,Vulnerabile_,4
+Vulnerabile_Testudinidae_Testuggine greca,Testuggine greca,Vulnerabile_Testudinidae,4
+"Vulnerabile_Testudinidae_Testuggine greca_Testudo graeca Linnaeus, 1758","Testudo graeca Linnaeus, 1758",Vulnerabile_Testudinidae_Testuggine greca,4
+Vulnerabile_Tettigoniidae,Tettigoniidae,Vulnerabile_,2
+Vulnerabile_Tettigoniidae_Saga,Saga,Vulnerabile_Tettigoniidae,2
+"Vulnerabile_Tettigoniidae_Saga_Saga pedo (Pallas, 1771)","Saga pedo (Pallas, 1771)",Vulnerabile_Tettigoniidae_Saga,2
+Vulnerabile_Vespertilionidae,Vespertilionidae,Vulnerabile_,20
+Vulnerabile_Vespertilionidae_Barbastello,Barbastello,Vulnerabile_Vespertilionidae,5
+"Vulnerabile_Vespertilionidae_Barbastello_Barbastella barbastellus (Schreber, 1774) ","Barbastella barbastellus (Schreber, 1774) ",Vulnerabile_Vespertilionidae_Barbastello,5
+Vulnerabile_Vespertilionidae_Vespertilio di Bechstein,Vespertilio di Bechstein,Vulnerabile_Vespertilionidae,5
+"Vulnerabile_Vespertilionidae_Vespertilio di Bechstein_Myotis bechsteini (Leisler in Kuhl, 1818)","Myotis bechsteini (Leisler in Kuhl, 1818)",Vulnerabile_Vespertilionidae_Vespertilio di Bechstein,5
+Vulnerabile_Vespertilionidae_Vespertilio di Capaccini,Vespertilio di Capaccini,Vulnerabile_Vespertilionidae,5
+"Vulnerabile_Vespertilionidae_Vespertilio di Capaccini_Myotis capaccinii (Bonaparte, 1837)","Myotis capaccinii (Bonaparte, 1837)",Vulnerabile_Vespertilionidae_Vespertilio di Capaccini,5
+Vulnerabile_Vespertilionidae_Vespertilio smarginato,Vespertilio smarginato,Vulnerabile_Vespertilionidae,5
+"Vulnerabile_Vespertilionidae_Vespertilio smarginato_Myotis emarginatus (Geoffroy E., 1806)","Myotis emarginatus (Geoffroy E., 1806)",Vulnerabile_Vespertilionidae_Vespertilio smarginato,5

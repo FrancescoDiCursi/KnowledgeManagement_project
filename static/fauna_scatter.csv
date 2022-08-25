@@ -1,0 +1,842 @@
+specie_lat,specie_it,Valori,IUCN
+"Coenagrion mercuriale (Charpentier, 1840)",Agrion di Mercurio,2,Vulnerabile
+"Egretta  alba (Linnaeus, 1758)",Airone bianco maggiore,3,None
+"Ardea cinerea Linnaeus, 1758",Airone cenerino,2,None
+"Bubulcus ibis  (Linnaeus, 1758)",Airone guardabuoi,2,None
+"Ardea purpurea Linnaeus, 1766",Airone rosso,3,None
+"Egretta gularis (Bosc, 1792)",Airone schistaceo,2,None
+"Circus pygargus (Linnaeus, 1758)",Albanella minore,5,None
+"Circus macrourus (Gmelin, 1771)",Albanella pallida,5,None
+"Circus cyaneus (Linnaeus, 1766)",Albanella reale,5,None
+"Tringa stagnatilis (Bechstein, 1803)",Albastrello,3,None
+"Diomedea exulans Linnaeus, 1758",Albatros urlatore,3,None
+"Alburnus albidus (Costa, 1838)",Alborella meridionale,3,Vulnerabile
+"Algyroides nigropunctatus (Duméril & Bibron, 1839)",Algiroide magnifico,2,None
+"Algyroides fitzingeri (Wiegmann, 1834)",Algiroide nano,3,None
+"Strix aluco Linnaeus, 1758",Allocco,4,None
+"Strix uralensis Pallas, 1771",Allocco degli Urali,5,None
+"Alauda arvensis (Linnaeus, 1758)",Allodola,3,None
+"Alaemon alaudipes (Desfontaines, 1748)",Allodola beccocurvo,2,None
+"Chersophilus duponti (Vieillot, 1820)",Allodola del Dupont,3,None
+"Ammomanes cincturus (Gould, 1812)",Allodola del deserto minore,2,None
+"Eremophila alpestris (Linnaeus, 1758)",Allodola golagialla,2,None
+"Alosa alosa (Linnaeus, 1758)",Alosa,3,Dati insufficienti
+"Anas crecca Linnaeus, 1758",Alzavola,4,None
+"Anas formosa Georgi, 1775",Alzavola asiatica,3,None
+"Aix  galericulata (Linnaeus, 1758)",Anatra mandarina,3,None
+"Marmaronetta  angustirostris (Ménétriés, 1832)",Anatra marmorizzata,4,None
+"Aquila clanga Pallas, 1811",Aquila anatraia maggiore,5,Vulnerabile
+"Aquila pomarina Brehm C.L.,1831",Aquila anatraia minore,5,None
+"Hieraaetus fasciatus (Vieillot, 1822)",Aquila del Bonelli,5,None
+"Haliaeetus albicilla (Linnaeus, 1758)",Aquila di mare,5,None
+"Aquila heliaca Savigny, 1809",Aquila imperiale,5,None
+"Hieraaetus pennatus (Gmelin, 1788)",Aquila minore,5,None
+"Aquila rapax (Temminck, 1828)",Aquila rapace,4,None
+"Aquila chrysaetos (Linnaeus, 1758)",Aquila reale,5,None
+"Palinurus elephas (Fabricius, 1787)",Aragosta,1,None
+"Otus scops (Linnaeus, 1758)",Assiolo,4,None
+"Homarus gammarus (Linnaeus, 1758)",Astice,1,None
+"Astacus astacus (Linnaeus, 1758)",Astice,2,Vulnerabile
+"Accipiter gentilis (Linnaeus, 1758)",Astore,4,None
+Accipiter gentilis  arrigonii,Astore ss. di Sardegna e Corsica,5,None
+"Lanius senator Linnaeus, 1758",Averla capirossa,2,None
+"Lanius minor Gmelin, 1788",Averla cenerina,3,None
+"Lanius excubitor Linnaeus, 1758",Averla maggiore,2,None
+"Lanius collurio Linnaeus, 1758",Averla piccola,3,None
+"Recurvirostra avosetta  Linnaeus, 1758",Avocetta,4,None
+"Aegypius monachus (Linnaeus, 1766)",Avvoltoio monaco,5,"A minor rischio, Quasi a rischio"
+"Balaenoptera physalus (Linnaeus, 1758)  ",Balenottera comune,4,Minacciato
+"Balaenoptera acutorostrata Lacépède, 1804",Balenottera minore,4,"A minor rischio, Quasi a rischio"
+"Delichon urbica (Linnaeus, 1758)",Balestruccio,2,None
+"Ficedula semitorquata (Homeyer, E., 1885)",Balia caucasica,4,None
+"Ficedula albicollis Temminck, 1815",Balia dal collare,4,None
+"Ficedula hypoleuca Pallas, 1764 ",Balia nera,3,None
+"Motacilla alba  Linnaeus, 1758",Ballerina bianca,2,None
+"Motacilla cinerea Tunstall, 1771",Ballerina gialla,2,None
+"Tyto alba (Scopoli, 1769)",Barbagianni,4,None
+"Barbastella barbastellus (Schreber, 1774) ",Barbastello,5,Vulnerabile
+"Barbo plebejus (Bonaparte, 1839)",Barbo,3,"A minor rischio, Quasi a rischio"
+"Barbus meridionalis Risso,1826",Barbo canino,3,None
+"Panurus biarmicus Linnaeus, 1758",Basettino,2,None
+"Scolopax rusticola Linnaeus, 1758",Beccaccia,4,None
+"Haematopus ostralegus  Linnaeus, 1758",Beccaccia di mare,3,None
+"Gallinago gallinago (Linnaeus, 1758)",Beccaccino,4,None
+"Sylvia borin Boddaert, 1783",Beccafico,2,None
+"Cisticola juncidis (Rafinesque, 1810)",Beccamoschino,2,None
+"Sterna sandvicensis Latham, 1878",Beccapesci,3,None
+"Bombycilla garrulus (Linnaeus, 1758)",Beccofrusone,2,None
+"Puffinus gravis (O'Reilly, 1818)",Berta dell'Atlantico,2,None
+"Bulweria bulwerii (Jardin & Selby, 1828)",Berta di Bulwer,3,None
+"Bulweria fallax Jouanin, 1955",Berta di Jouanin,2,None
+"Puffinus griseus (Gmelin, 1789)",Berta grigia,2,None
+"Calonectris diomedea (Scopoli, 1769)",Berta maggiore,3,None
+"Puffinus puffinus  (Brünnich, 1764) ",Berta minore,2,None
+"Puffinus assimilis Gould, 1838",Berta minore fosca,3,None
+"Coluber viridiflavus Lacépède, 1789",Biacco,2,None
+"Circaetus gallicus (Gmelin, 1788)",Biancone,5,None
+"Sylvia hortensis (Gmelin, 1789)",Bigia grossa,2,None
+"Sylvia nisoria Bechstein, 1797",Bigia padovana,3,None
+"Sylvia curruca Linnaeus, 1758",Bigiarella,2,None
+"Dolichonyx oryzivorus (Linnaeus, 1758)",Bobolink,2,None
+"Coregonus oxyrhynchus (Linnaeus, 1758)",Bondella,2,None
+"Melanocorypha calandra (Linnaeus, 1766)",Calandra,3,None
+"Melanocorypha bimaculata Ménétriés, 1832",Calandra  asiatica,2,None
+"Melanocorypha leucoptera Pallas, 1811",Calandra  siberiana,2,None
+"Melanocorypha yeltoniensis Forster, 1768",Calandra nera ,2,None
+"Calandrella brachydactyla (Leisler, 1814)",Calandrella,3,None
+"Anthus campestris  Linnaeus, 1758",Calandro,3,None
+"Anthus novaeseelandiae Bechstein, 1805",Calandro maggiore,2,None
+"Luscinia calliope Pallas, 1776",Calliope,2,None
+"Chamaeleo chamaeleon (Linnaeus, 1758)",Camaleonte,3,None
+"Rupicapra pyrenaica Bonaparte, 1845",Camoscio,0,"A minor rischio, Dipendenti dalla protezione"
+"Rupicapra rupicapra (Linnaeus, 1758)  ",Camoscio alpino,3,None
+Rupicapra pyrenaica ornata  *,Camoscio appenninico,6,None
+"Anas strepera Linnaeus, 1758",Canapiglia,3,None
+"Hippolais polyglotta (Vieillot, 1817)",Canapino,2,None
+"Hippolais olivetorum Strickland, 1837",Canapino levantino,3,None
+"Hippolais icterina Vieillot, 1817",Canapino maggiore,2,None
+"Hippolais pallida (Hemprich & Ehrenberg, 1833)",Canapino pallido,2,None
+"Acrocephalus scirpaceus Herman, 1804",Cannaiola,2,None
+"Acrocephalus dumetorum Blyth, 1849",Cannaiola di Blit,2,None
+"Acrocephalus palustris Bechstein, 1798",Cannaiola verdognola,2,None
+"Acrocephalus arundinaceus Linnaeus, 1758",Cannareccione,2,None
+"Sylvia atricapilla Linnaeus, 1758",Capinera,2,None
+"Physeter catodon Linnaeus, 1758  ",Capodoglio,4,Vulnerabile
+"Neophron  percnopterus (Linnaeus, 1758)",Capovaccaio,5,None
+"Galerida cristata (Linnaeus, 1758)",Cappellaccia,2,None
+"Capra hircus (Linnaeus, 1758)  ",Capra di Montecristo,1,None
+Capra aegraegus aegraegus Erxleben 1777  ,Capra di Montecristo,1,None
+"Capra aegraegus Erxleben, 1777  ",Capra selvatica,1,None
+"Capreolus capreolus (Linnaeus, 1758)  ",Capriolo,1,None
+"Carduelis carduelis (Linnaeus, 1758) ",Cardellino,2,None
+"Tadorna ferruginea (Pallas, 1764)",Casarca,4,None
+"Himantopus himantopus (Linnaeus, 1758)",Cavaliere d'Italia,4,None
+"Hippocampus hippocampus (Linnaeus, 1758) ",Cavalluccio marino,1,Vulnerabile
+"Hippocampus ramulosus Leach, 1814",Cavalluccio marino,1,None
+"Leuciscus lucumonis Bianco, 1982",Cavedano dell'Ombrone,3,"A minor rischio, Quasi a rischio"
+Cervus elaphus elaphus,Cervo,1,None
+"Cervus elaphus Linnaeus, 1758  ",Cervo nobile,1,None
+Cervus elaphus corsicanus   *,Cervo sardo,5,None
+"Elaphe quatuorlineata (Lacépède, 1789)",Cervone,3,None
+"Turdus pilaris Linnaeus, 1758",Cesena,2,None
+"Turdus naumanni Temminck, 1820",Cesena di Naumann,2,None
+"Alosa  fallax (Lacépède, 1803)",Cheppia,3,Dati insufficienti
+"Helix pomatia Linnaeus, 1758",Chiocciola,2,None
+"Numenius arquata (Linnaeus, 1758)",Chiurlo,4,None
+"Numenius phaeopus (Linnaeus, 1758)",Chiurlo piccolo,4,None
+"Numenius tenuirostris Vieillot, 1817",Chiurlottello,5,Gravemente minacciato
+"Scyllarus arctus (Linnaeus, 1758)",Cicala di mare,1,None
+"Scyllarides latus (Latreille,1803)",Cicala grande,2,None
+"Scyllarus pygmaeus (Bate, 1888)",Cicala minore,1,None
+"Ciconia ciconia (Linnaeus, 1758)",Cicogna bianca,4,None
+"Ciconia nigra (Linnaeus, 1758)",Cicogna nera,5,None
+"Cygnus columbianus (Ord, 1815)",Cigno minore,3,None
+"Cygnus olor (Gmelin, 1789)",Cigno reale,4,None
+"Cygnus cygnus (Linnaeus, 1758)",Cigno selvatico,4,None
+"Parus palustris Linnaeus, 1758",Cincia bigia,2,None
+"Parus montanus Conrad, 1827",Cincia bigia alpestre,2,None
+"Parus cristatus Linnaeus, 1758",Cincia dal ciuffo,2,None
+"Parus lugubris Temminck, 1820  ",Cincia dalmatina,2,None
+"Parus ater Linnaeus, 1758",Cincia mora,2,None
+"Parus major Linnaeus, 1758",Cinciallegra,2,None
+"Parus caeruleus Linnaeus, 1758",Cinciarella,2,None
+"Sus scrofa Linnaeus, 1758  ",Cinghiale,0,None
+Sus scrofa meridionalis,Cinghiale ss. meridionale,2,None
+"Pyirrhula pyirrhula (Linnaeus, 1758) ",Ciuffolotto,2,None
+"Pinicola enucleator (Linnaeus, 1758) ",Ciuffolotto delle pinete,2,None
+"Carpodacus erythrinus (Pallas, 1770)",Ciuffolotto scarlatto,2,None
+"Athene noctua (Scopoli, 1769)",Civetta,4,None
+"Aegolius funereus (Linnaeus, 1758)",Civetta capogrosso,5,None
+"Glaucidium passerinum (Linnaeus, 1758)",Civetta nana,5,None
+"Cobitis bilineata (Canestrini, 1865) ",Cobite,2,None
+"Cobitis taenia Linnaeus, 1758 ",Cobite,2,None
+"Sabanejewia larvata (De Filippi, 1859)",Cobite mascherato,3,"A minor rischio, Quasi a rischio"
+"Tarsiger cyanurus Pallas, 1773",Codazzurro,2,None
+"Aegithalos caudatus Linnaeus, 1758",Codibugnolo,2,None
+"Phoenicurus phoenicurus Linnaeus, 1758",Codirosso,2,None
+"Phoenicurus moussieri Olphe-Galliard, 1852",Codirosso algerino,2,None
+"Phoenicurus ochrurus Gmellin, 1789",Codirosso spazzacamino,2,None
+"Monticola saxatilis Linnaeus, 1766",Codirossone,2,None
+"Anas acuta Linnaeus, 1758",Codone,4,None
+"Kogia simus (Owen, 1866)",Cogia di Owen,4,None
+"Colinus virginianus (Linnaeus, 1758)",Colino della Virginia,2,None
+"Columba palumbus Linnaeus, 1758",Colombaccio,2,None
+"Columba oenas Linnaeus, 1758",Colombella,3,None
+"Elaphe scalaris (Schinz, 1822)",Colubro bilineato,1,None
+"Coronella girondica (Daudin, 1803)",Colubro dai riccioli,1,None
+"Macroprotodon cucullatus Geoffroy, 1827",Colubro dal cappuccio,1,None
+"Coluber gemonensis (Laurenti, 1768)",Colubro dei Balcani,2,None
+"Coluber hippocrepis Linnaeus, 1758 ",Colubro ferro di cavallo,2,None
+"Malpolon monpessulanus (Hermann, 1804)",Colubro lacertino,1,None
+"Elaphe situla (Linnaeus, 1758) ",Colubro leopardino,3,Dati insufficienti
+"Coronella austriaca Laurenti, 1768",Colubro liscio,2,None
+"Coluber najadum (Eichwald, 1831)",Colubro saetta,2,None
+"Philomachus pugnax (Linnaeus, 1758)",Combattente,4,None
+"Corallium rubrum (Linnaeus, 1758)",Corallo rosso,2,None
+"Coregonus lavaretus (Linnaeus, 1758)",Coregone,2,Dati insufficienti
+"Phalacrocorax carbo (Linnaeus, 1758)",Cormorano,2,None
+"Charadrius asiaticus Pallas, 1773",Corriere asiatico,3,None
+"Charadrius hiaticula Linnaeus, 1758",Corriere grosso,3,None
+"Charadrius dubius Scopoli, 1786",Corriere piccolo,3,None
+"Cursorius cursor (Latham, 1787)",Corrione biondo,3,None
+"Sciaena umbra (Linnaeus, 1758) ",Corvina,1,None
+"Corvus frugilegus  Linnaeus, 1758",Corvo,1,None
+"Corvus corax  Linnaeus, 1758",Corvo imperiale,2,None
+"Alectoris graeca (Meisner, 1804)",Coturnice,2,None
+Alectoris graeca saxatilis,Coturnice ss. delle Alpi,1,None
+Alectoris graeca whitaken,Coturnice ss. di Sicilia,1,None
+"Gallinago media (Latham, 1787)",Croccolone,4,None
+"Crocidura suaveolens (Pallas, 1811) ",Crocidura minore,2,None
+"Crocidura russula (Hermann, 1780)",Crocidura rossiccia,2,None
+"Crocidura sicula Miller, 1901",Crocidura siciliana,3,None
+"Crocidura leucodon (Hermann, 1780)",Crocidura ventre bianco,2,None
+"Loxia curvirostra Linnaeus, 1758",Crociere,2,None
+"Loxia pytyopsittacus Borkhausen, 1793",Crociere delle pinete,2,None
+"Loxia leucoptera Gmelin, 1789",Crociere fasciato,2,None
+"Cuculus canorus Linnaeus, 1758",Cuculo,2,None
+"Coccyzus americanus (Linnaeus, 1758)",Cuculo americano,2,None
+"Coccyzus erythrophthalmus (Wilson, 1811)",Cuculo americano occhirossi,2,None
+"Clamator glandarius (Linnaeus, 1758)",Cuculo dal ciuffo,2,None
+"Oenanthe oenanthe Linnaeus, 1758",Culbianco,2,None
+"Oenanthe isabellina Temminck, 1829",Culbianco isabellino,2,None
+"Motacilla flava  Linnaeus, 1758",Cutrettola,2,None
+"Motacilla citreola Pallas, 1776",Cutrettola testagialla orientale,2,None
+"Dama dama (Linnaeus, 1758)  ",Daino,1,None
+"Anthropoides virgo (Linnaeus, 1758)",Damigella di Numidia,4,None
+"Pholas dactylus Linnaeus, 1758",Dattero bianco,1,None
+"Lithophaga lithophaga (Linnaeus, 1758) ",Dattero di mare,2,None
+"Delphinus delphis Linnaeus, 1758  ",Delfino comune,4,None
+"Mobula mobular (Bonnaterre,1788)",Diavolo di mare,1,Vulnerabile
+"Discoglossus pictus Otth, 1837",Discoglosso dipinto,2,None
+"Discoglossus sardus Tschudi, 1837",Discoglosso sardo,3,None
+"Mustela nivalis Linnaeus, 1766 ",Donnola,2,None
+"Dryomis nitedula (Pallas, 1779)",Driomio,3,"A minor rischio, Quasi a rischio"
+"Somateria mollissima (Linnaeus, 1758)",Edredone,5,None
+"Tonna galea (Linnaeus, 1758)",Elmo,1,None
+"Mustela erminea Linnaeus, 1758 ",Ermellino,2,None
+"Euproctus platycephalus (Gravenhorst, 1829)",Euprotto sardo,3,Gravemente minacciato
+"Phasianus colchicus Linnaeus, 1758",Fagiano comune,3,None
+"Tetrao tetrix  Linnaeus, 1758",Fagiano di monte,2,None
+Tetrao tetrix  tetrix,Fagiano di monte ss. continentale,1,None
+"Martes foina (Erxleben, 1777)",Faina,2,None
+"Phalaropus fulicarius (Linnaeus, 1758)",Falaropo becco largo,3,None
+"Phalaropus lobatus (Linnaeus, 1758)",Falaropo becco sottile,4,None
+"Phalaropus tricolor (Veilott, 1819)",Falaropo di Wilson,3,None
+"Falco vespertinus  Linnaeus, 1766",Falco cuculo,4,None
+"Falco eleonorae Géné, 1834",Falco della regina,5,None
+"Circus aeruginosus (Linnaeus, 1758) ",Falco di palude,5,None
+"Pernis apivorus (Linnaeus, 1758)",Falco pecchiaiolo,5,None
+"Pandion haliaetus (Linnaeus, 1758)",Falco pescatore,5,None
+"Falco pelegrinoides Temminck, 1829  ",Falcone di Barberia,4,None
+"Carduelis cannabina (Linnaeus, 1758) ",Fanello,2,None
+"Carduelis flavirostris (Linnaeus, 1758) ",Fanello nordico,2,None
+"Phoenicopterus ruber Linnaeus, 1758",Fenicottero,5,None
+"Rhinolophus blasii Peters, 1866",Ferro di cavallo di Blasius,5,"A minor rischio, Quasi a rischio"
+"Rhinolophus mehelyi Matschie, 1901",Ferro di cavallo di Mehely,5,Vulnerabile
+"Rhinolophus euryale Blasius, 1853",Ferro di cavallo euriale,5,Vulnerabile
+"Rhinolophus ferrumequinum (Schreber, 1774)",Ferro di cavallo maggiore,5,"A minor rischio, Dipendenti dalla protezione"
+"Rhinolophus hipposideros (Bechstein, 1800)",Ferro di cavallo minore,5,Vulnerabile
+"Regulus ignicapillus Temminck, 1820 ",Fiorrancino,2,None
+"Anas penelope Linnaeus, 1758",Fischione,4,None
+"Netta rufina (Pallas, 1773)",Fistione turco,4,None
+"Monachus monachus   * (Hermann, 1779)",Foca monaca,7,Gravemente minacciato
+"Fulica atra Linnaeus, 1758",Folaga,4,None
+"Fulica cristata Gmelin, 1789",Folaga cornuta,3,None
+"Acrocephalus schoenobaenus Linnaeus, 1758",Forapaglie,2,None
+"Acrocephalus melanopogon (Temminck, 1823)",Forapaglie castagnolo,3,None
+"Locustella naevia (Boddaert, 1783)",Forapaglie macchiettato,2,None
+"Francolinus francolinus (Linnaeus, 1766)",Francolino,2,None
+"Bonasa bonasia (Linnaeus, 1758)",Francolino di monte,4,None
+"Sterna albifrons Pallas, 1764",Fraticello,4,None
+"Charadrius alexandrinus Linnaeus, 1758",Fratino,3,None
+"Fringilla coelebs Linnaeus, 1758",Fringuello,2,None
+"Montifringilla nivalis (Linnaeus, 1766) ",Fringuello alpino,2,None
+"Coccothraustes coccothraustes (Linnaeus, 1758) ",Frosone,2,None
+"Lymnocryptes minimus (Brünnich, 1764) ",Frullino,4,None
+"Fulmarus glacialis (Linnaeus, 1761)",Fulmaro,2,None
+"Larus minutus Pallas, 1776",Gabbianello,2,None
+"Larus ridibundus Linnaeus, 1766",Gabbiano comune,3,None
+"Larus melanocephalus Temminck, 1820",Gabbiano corallino,5,None
+"Larus audouinii Payraudeau, 1826",Gabbiano corso,5,"A minor rischio, Dipendenti dalla protezione"
+"Larus glaucoides Meyer, 1822",Gabbiano d'Islanda,2,None
+"Larus ichthyaetus Pallas, 1773",Gabbiano del Pallas,2,None
+"Rhodostethia rosea (MacGillivray, 1824)",Gabbiano di Ross,2,None
+"Larus sabini Sabine, 1818",Gabbiano di Sabine,2,None
+"Pagophila eburnea (Phipps, 1774)",Gabbiano eburneo,2,None
+"Larus hyperboreus Gunnerus, 1767",Gabbiano glauco,2,None
+"Larus cachinnans Pallas, 1811",Gabbiano reale,3,None
+"Larus argentatus Pontoppidan, 1763",Gabbiano reale nordico,2,None
+"Larus genei Breme, 1839",Gabbiano roseo,5,None
+"Rissa tridactyla (Linnaeus, 1758)",Gabbiano tridattilo,2,None
+"Tetrax tetrax (Linnaeus, 1758)",Gallina prataiola,4,"A minor rischio, Quasi a rischio"
+"Gallinula chloropus (Linnaeus, 1758)",Gallinella d'acqua,2,None
+"Tetrao urogallus  Linnaeus, 1758",Gallo cedrone,5,None
+"Calidris minuta (Leisler, 1812)",Gambecchio,3,None
+"Limicola falcinellus (Pontoppidan, 1763)",Gambecchio frullino,3,None
+"Calidris temminckii (Leisler, 1812)",Gambecchio nano,3,None
+"Austropotamobius pallipes (Lereboullet, 1858)",Gambero di fiume,3,Vulnerabile
+"Egretta garzetta (Linnaeus, 1766)",Garzetta,3,None
+"Felis silvestris Schreber, 1777",Gatto selvatico,4,None
+"Larus canus Linnaeus, 1758",Gavina,3,None
+"Alca torda Linnaeus, 1758",Gazza marina,2,None
+"Alle alle (Linnaeus, 1758)",Gazza marina minore,2,None
+"Cyrtopodion (=Cyrtodactylus) kotschyi (Steindachner, 1870)",Geco di Kotschy,2,None
+"Hemidactylus turcicus (Linnaeus, 1758) ",Geco verrucoso,1,None
+"Genetta genetta (Linnaeus, 1758)  ",Genetta,3,None
+"Speleomantes supramonti (Lanza, Nascetti & Bullini, 1986)",Geotritone del Supramonte,3,"A minor rischio, Quasi a rischio"
+"Speleomantes genei (Temminck & Schlegel, 1838)",Geotritone dell'Iglesiente,4,"A minor rischio, Quasi a rischio"
+"Speleomantes ambrosii (Lanza, 1955)",Geotritone di Ambrosi,4,None
+"Speleomantes genei (Temminck & Schlegel, 1838)",Geotritone di Gené,4,"A minor rischio, Quasi a rischio"
+"Speleomantes flavus (Stefani, 1969)",Geotritone di Monte Albo,4,Vulnerabile
+"Speleomantes strinatii (Aellen, 1958) ",Geotritone di Strinati,2,None
+"Speleomantes imperialis (Stefani, 1969)",Geotritone imperiale,4,"A minor rischio, Quasi a rischio"
+"Speleomantes italicus (Dunn, 1923)",Geotritone italiano,3,None
+"Speleomantes italicus (Dunn, 1923)",Geotritone italico,2,None
+"Speleomantes imperialis (Stefani, 1969)",Geotritone odoroso,4,"A minor rischio, Quasi a rischio"
+"Anas platyrhynchos Linnaeus, 1758",Germano reale,4,None
+"Falco tinnunculus  Linnaeus, 1758",Gheppio,4,None
+"Coracias garrulus Linnaeus, 1758",Ghiandaia marina,4,None
+"Pomatoschistus microps (Kroyer, 1838)",Ghiozzetto baltico,1,None
+"Pomatoschistus canestrini (Ninni, 1883)",Ghiozzetto cenerino,3,Dati insufficienti
+"Knipowitschia  panizzae (Verga, 1841)",Ghiozzetto di laguna,2,Dati insufficienti
+"Pomatoschistus marmoratus (Risso, 1810)",Ghiozzetto marmorizzato,1,None
+"Pomatoschistus minutus (Pallas, 1770)",Ghiozzetto minuto,1,None
+"Padogobius nigricans (Canestrini, 1867)",Ghiozzo di ruscello,2,Vulnerabile
+"Gobius nigricans Canestrini, 1867",Ghiozzo di ruscello,1,Vulnerabile
+"Myoxus glis (Linnaeus, 1766)  ",Ghiro,2,"A minor rischio, Quasi a rischio"
+"Podogobius martensi (Günther, 1861)",Giozzo padano,2,"A minor rischio, Quasi a rischio"
+"Gypaetus barbatus (Linnaeus, 1758)",Gipeto,5,None
+"Globicephala melaena (Traill, 1809)",Globicefalo,4,None
+"Oxyura jamaicensis (Gmelin, 1789)",Gobbo della Giamaica,3,None
+"Oxyura leucocephala (Scopoli, 1769)",Gobbo rugginoso,5,Vulnerabile
+"Chalcides ocellatus (Forsskål, 1775)",Gongilo,2,None
+"Chalcides striatus (Cuvier, 1829)",Gongilo striato,1,None
+"Pyrrhocorax graculus  (Linnaeus, 1758) ",Gracchio alpino,2,None
+"Pyrrhocorax pyrrhocorax  (Linnaeus, 1758) ",Gracchio corallino,4,None
+"Grampus griseus (Cuvier G., 1812)",Grampo,4,Dati insufficienti
+"Maja squinado (Herbst, 1788)",Granceola,1,None
+"Ocypode cursor (Linnaeus, 1758)",Granchio fantasma,1,None
+"Pterocles alchata (Linnaeus, 1766)",Grandule,3,None
+"Pterocles senegallus (Linnaeus, 1771)",Grandule del Senegal,2,None
+"Gyps fulvus (Hablizl, 1783)",Grifone,5,None
+"Falco naumanni Fleischer, 1818",Grillaio,5,Vulnerabile
+"Grus grus (Linnaeus, 1758)",Gru,5,None
+"Merops apiaster Linnaeus, 1758",Gruccione,3,None
+"Merops superciliosus Linnaeus, 1766",Gruccione  egiziano,2,None
+"Asio otus (Linnaeus, 1758)",Gufo comune,4,None
+"Asio flammeus (Pontoppidan, 1763)",Gufo di palude,5,None
+"Bubo bubo (Linnaeus, 1758)",Gufo reale,5,None
+"Hystrix cristata  (Linnaeus, 1758)  ",Istrice,3,"A minor rischio, Quasi a rischio"
+"Stercorarius parasiticus (Linnaeus, 1758)",Labbo,2,None
+"Stercorarius longicaudus Veilott, 1819",Labbo codalunga,2,None
+"Lampetra planeri (Bloch, 1784)",Lampreda comune,2,"A minor rischio, Quasi a rischio"
+"Lampetra fluviatilis (Linnaeus, 1758)",Lampreda di fiume,3,"A minor rischio, Quasi a rischio"
+"Petromyzon marinus Linnaeus, 1758",Lampreda di mare,2,None
+"Lethenteron zanandreai (Vladykov, 1955)",Lampreda di ruscello,4,Minacciato
+"Lampetra zanandreai (Vladykov, 1955)",Lampreda padana,3,Minacciato
+"Falco biarmicus Temminck, 1825",Lanario,5,None
+"Chondrostoma genei (Bonaparte, 1839) ",Lasca,3,"A minor rischio, Quasi a rischio"
+"Lepus timidus Linnaeus, 1758",Lepre bianca,2,None
+Lepus capensis mediterraneus,Lepre sarda,2,None
+"Pachychilon pictum (Heckel & Kner, 1858)",Leucisco d'Albania,1,None
+"Linx linx (Linnaeus, 1758)  ",Lince eurasiatica,5,Quasi a rischio
+"Falco subbuteo  Linnaeus, 1758",Lodolaio,4,None
+"Lutra lutra (Linnaeus, 1758)  ",Lontra comune,5,None
+"Carduelis spinus (Linnaeus, 1758) ",Lucarino,2,None
+"Podarcis melisellensis (Braun, 1877)",Lucertola adriatica,2,None
+"Podarcis sicula (Rafinesque, 1810)",Lucertola campestre,2,None
+"Lacerta agilis  Linnaeus, 1758",Lucertola degli arbusti,2,None
+"Archaeolacerta bedriagae (Camerano, 1885)",Lucertola di Bedriaga,2,None
+"Lacerta horvathi (Méhelÿ, 1904)",Lucertola di Horvath,1,None
+"Archaeolacerta horvathi (Méhelÿ, 1904)",Lucertola di Horvath,2,None
+"Podarcis filfolensis (Bedriaga, 1876) ",Lucertola di Malta,2,None
+"Podarcis muralis (Laurenti, 1768)",Lucertola muraiola,2,None
+"Timon lepidus (Daudin, 1802)",Lucertola ocellata,1,None
+"Podarcis wagleriana Gistel, 1868",Lucertola sicula,3,None
+"Psammodromus algirus (Linnaeus, 1758) ",Lucertola striata comune,2,None
+"Podarcis tiliguerta (Gmelin, 1789) ",Lucertola tiliguerta,2,None
+"Zootoca vivipara Jacquin, 1787",Lucertola vivipera,1,None
+"Canis lupus   * Linnaeus, 1758",Lupo,7,None
+"Chalcides chalcides (Linnaeus, 1758) ",Luscengola,1,None
+"Phylloscopus bonelli Vieillot, 1819",Luì bianco,2,None
+"Phylloscopus borealis (Blasius, 1858)",Luì boreale,2,None
+"Phylloscopus inornatus Blyth, 1842",Luì forestiero,2,None
+"Phylloscopus trochilus Linnaeus, 1758",Luì grosso,2,None
+"Phylloscopus collybita Vieillot, 1817",Luì piccolo,2,None
+"Phylloscopus fuscatus Blyth, 1842",Luì scuro,2,None
+"Phylloscopus sibilatrix Bechstein, 1795",Luì verde,2,None
+"Sylvia undata (Boddaert, 1783)",Magnanina,3,None
+"Sylvia sarda Temminck, 1830",Magnanina sarda,3,None
+"Herpestes edwarsi (Geoffroy E., 1818)",Mangosta indiana grigia,2,None
+"Phalacrocorax aristotelis (Linnaeus, 1761) ",Marangone dal ciuffo ,2,None
+Phalacrocorax aristotelis desmaresti,Marangone dal ciuffo ss. mediterranea,2,None
+"Phalacrocorax  pygmeus (Pallas, 1773)",Marangone minore,4,"A minor rischio, Quasi a rischio"
+"Vipera berus (Linnaeus, 1758) ",Marasso,1,None
+"Marmota marmota (Linnaeus, 1758) ",Marmotta,3,None
+"Alcedo atthis (Linnaeus, 1758)",Martin pescatore,3,None
+"Martes martes (Linnaeus, 1758)  ",Martora,3,None
+"Anas querquedula Linnaeus, 1758",Marzaiola,3,None
+"Anas discors Linnaeus, 1766",Marzaiola americana,3,None
+"Mauremys caspica (Gmelin, 1774)",Mauremide caspica,3,None
+"Mauremys leprosa (Schweigger, 1812)",Mauremide occidentale,3,None
+"Turdus merula Linnaeus, 1758",Merlo,2,None
+"Cinclus cinclus (Linnaeus, 1758)",Merlo acquaiolo,2,None
+"Turdus torquatus Linnaeus, 1758",Merlo dal collare,2,None
+"Anas clypeata Linnaeus, 1758",Mestolone,4,None
+"Microcondylaea compressa Menke, 1828",Microcondilea,2,None
+"Emberiza schoeniclus (Linnaeus, 1758) ",Migliarino di palude,2,None
+"Plegadis falcinellus (Linnaeus, 1766)",Mignattaio,3,None
+"Chlidonias niger (Linnaeus, 1758)",Mignattino,3,None
+"Chlidonias leucopterus (Temminck, 1815)",Mignattino alibianche,2,None
+"Chlidonias hybridus (Pallas, 1811)",Mignattino piombato,3,None
+"Miniopterus schreibersi (Natterer in Kuhl, 1819) ",Miniottero,5,"A minor rischio, Quasi a rischio"
+"Mitra zonata Marryat, 1818",Mitra zonata,1,None
+"Tadarida teniotis (Rafinesque, 1814)",Molosso di Cestoni,4,None
+"Oenanthe hispanica Linnaeus, 1758",Monachella,2,None
+"Oenanthe deserti Temminck, 1825",Monachella del deserto,2,None
+"Oenanthe pleschanka Lepechin, 1770",Monachella dorsonero,2,None
+"Oenanthe leucura Gmelin, 1789",Monachella nera,3,None
+"Aythya fuligula (Linnaeus, 1758)",Moretta,4,None
+"Histrionicus histrionicus (Linnaeus, 1758)",Moretta arlecchino,3,None
+"Clangula hyemalis (Linnaeus, 1758)",Moretta codona,4,None
+"Aythya marila (Linnaeus, 1761)",Moretta grigia,5,None
+"Aythya nyroca (Güldenstädt, 1770)",Moretta tabaccata,4,Vulnerabile
+"Aythya ferina (Linnaeus, 1758)",Moriglione,4,None
+"Muscardinus avellanarius (Linnaeus, 1758) ",Moscardino,3,"A minor rischio, Quasi a rischio"
+"Ovis orientalis Gmelin, 1774",Muflone,0,Vulnerabile
+Ovis orientalis musimon,Muflone sardo,4,Vulnerabile
+"Larus marinus Linnaeus, 1758",Mugnaiaccio,2,None
+"Suncus etruscus (Savi, 1822)",Mustiolo,2,None
+"Chondrostoma nasus (Linnaeus, 1758)",Naso,1,None
+"Natrix natrix (Linnaeus, 1758) ",Natrice dal collare,1,None
+"Natrix natrix cetti Gené, 1839   (= n. corsa (Hecht, 1930))",Natrice di Cetti,1,Gravemente minacciato
+"Natrix tessellata (Laurenti, 1768)",Natrice tassellata,2,None
+"Natrix maura (Linnaeus, 1758) ",Natrice viperina,1,None
+"Elanus caeruleus (Desfontaines, 1789)",Nibbio bianco,5,None
+"Milvus migrans (Boddaert, 1783)",Nibbio bruno,5,None
+"Milvus milvus (Linnaeus, 1758)",Nibbio reale,5,None
+"Nycticorax nycticorax (Linnaeus, 1758)",Nitticora,3,None
+"Nucifraga caryocatactes  (Linnaeus, 1758) ",Nocciolaia,2,None
+"Aphanius fasciatus Nardo, 1827",Nono,3,Dati insufficienti
+"Nyctalus noctula (Schreber, 1774) ",Nottola comune,4,None
+"Nyctalus leisleri (Kuhl, 1818) ",Nottola di Leisler,4,"A minor rischio, Quasi a rischio"
+"Nyctalus lasiopterus (Schreber, 1780) ",Nottola gigante,4,"A minor rischio, Quasi a rischio"
+"Myocastor coypus (Molina, 1782)",Nutria,1,None
+"Branta ruficollis (Pallas, 1764)",Oca collorosso,5,None
+"Branta bernicla (Linnaeus, 1758)",Oca colombaccio,4,None
+"Branta canadensis (Linnaeus, 1758)",Oca del Canada,4,None
+"Anser caerulescens (Linnaeus, 1758)",Oca delle nevi,3,None
+"Branta leucopsis (Bechstein, 1803)",Oca facciabianca,4,None
+"Anser fabalis (Latham, 1787)",Oca granaiola,4,None
+"Anser albifrons (Scopoli, 1769)",Oca lombardella,5,None
+"Anser erythropus (Linnaeus, 1758)",Oca lombardella minore,4,None
+"Anser anser (Linnaeus, 1758)",Oca selvatica,5,None
+"Anser brachyrhynchus Baillon, 1833",Oca zamperosee,4,None
+"Sylvia melanocephala Gmelin, 1789",Occhiocotto,2,None
+"Burhinus oedicnemus (Linnaeus, 1758)",Occhione,4,None
+"Ophisaurus apodus (Pallas, 1775)",Ofisauro,2,None
+"Umbrina cirrosa (Linnaeus, 1758)",Ombrina,1,None
+"Anguis fragilis Linnaeus, 1758",Orbettino,1,None
+"Orcinus orca (Linnaeus, 1758)  ",Orca,4,"A minor rischio, Dipendenti dalla protezione"
+"Melanitta nigra (Linnaeus, 1758)",Orchetto marino,5,None
+"Melanitta fusca (Linnaeus, 1758)",Orco marino,4,None
+"Plecotus auritus (Linnaeus, 1758)",Orecchione comune,4,None
+"Plecotus austriacus (Fischer, 1829)",Orecchione meridionale,4,None
+"Carduelis flammea (Linnaeus, 1758) ",Organetto,2,None
+"Ursus arctos   * Linnaeus, 1758",Orso,5,None
+Ursus arctos arctos,Orso bruno,4,None
+Ursus arctos marsicanus,Orso marsicano,5,None
+"Emberiza hortulana  Linnaeus, 1758 ",Ortolano,3,None
+Emberiza caesia Cretzschmar,Ortolano grigio,3,None
+"Otis tarda  Linnaeus, 1758",Otarda,6,None
+"Acrocephalus paludicola Vieillot, 1817",Pagliarolo,5,Vulnerabile
+"Tringa nebularia (Gunnerus, 1767)",Pantana,4,None
+"Petronia petronia (Linnaeus, 1766) ",Passera lagia,2,None
+"Passer montanus (Linnaeus, 1758) ",Passera mattugia,2,None
+"Passer domesticus (Linnaeus, 1758) ",Passera oltremontana,1,None
+"Passer hispaniolensis (Temminck, 1820)",Passera sarda,2,None
+"Prunella modularis Linnaeus, 1758",Passera scopaiola,2,None
+"Prunella montanella Pallas, 1770",Passera scopaiola asiatica,2,None
+"Zonotrichia iliaca (Merrem, 1786)",Passerella iliaca,2,None
+"Monticola solitarius Linnaeus, 1758",Passero solitario,2,None
+"Patella ferruginea Gmelin, 1791",Patella ferrosa,2,None
+"Vanellus vanellus (Linnaeus, 1758)",Pavoncella,3,None
+"Hoplopterus spinosus (Linnaeus, 1758)",Pavoncella armata,2,None
+"Chettusia leucura (Lichtenstein, 1823)",Pavoncella codabianca,3,None
+"Chettusia gregaria (Pallas, 1771)",Pavoncella gregaria,3,None
+"Falco peregrinus Tunstall, 1771",Pellegrino,6,None
+"Pelecanus onocrotalus Linnaeus, 1758",Pellicano,3,None
+"Pelecanus crispus Bruch, 1832",Pellicano riccio,6,None
+"Pelobates fuscus (Laurenti, 1768)",Pelobate fosco,2,None
+"Pelobates fuscus insubricus   * Cornalia, 1873",Pelobate padano,3,None
+"Pelodytes punctatus (Daudin, 1802)",Pelodite punteggiato,1,None
+"Remiz pendulinus  (Linnaeus, 1758) ",Pendolino,2,None
+"Fringilla montifringilla Linnaeus, 1758",Peppola,2,None
+"Lagopus mutus (Montin, 1776)",Pernice bianca,3,None
+Lagopus mutus helveticus,Pernice bianca ss. delle Alpi,1,None
+"Glareola pratincola (Linnaeus, 1766)",Pernice di mare,4,None
+"Glareola nordmanni Nordmann, 1842",Pernice di mare orientale,3,None
+"Alectoris rufa (Linnaeus, 1758)",Pernice rossa,3,None
+"Alectoris barbara (Bonnaterre, 1790)",Pernice sarda,4,None
+"Syngnathus abaster Risso, 1826",Pesce ago di Rio,1,Dati insufficienti
+"Mergus albellus Linnaeus, 1758",Pesciaiola,4,None
+"Luscinia svecica Linnaeus, 1758",Pettazzurro,3,None
+"Tringa totanus (Linnaeus, 1758)",Pettegola,4,None
+"Erithacus rubecula (Linnaeus, 1758)",Pettirosso,2,None
+"Picus canus Gmelin, 1788",Picchio cenerino,3,None
+"Picoides leucotos (Bechstein, 1803)",Picchio dorsobianco,3,None
+"Tichodroma muraria Linnaeus, 1766",Picchio muraiolo,2,None
+"Sitta europea Linnaeus, 1758",Picchio muratore,2,None
+"Dryocopus martius (Linnaeus, 1758)",Picchio nero,3,None
+"Picoides major (Linnaeus, 1758)",Picchio rosso maggiore,2,None
+"Picoides medius (Linnaeus, 1758)",Picchio rosso mezzano,3,None
+"Picoides minor (Linnaeus, 1758)",Picchio rosso minore,2,None
+"Picoides tridactylus (Linnaeus, 1758)",Picchio tridattilo,3,None
+"Picus viridis Linnaeus, 1758",Picchio verde,2,None
+"Columba livia Gmelin, 1789",Piccione selvatico,3,None
+"Muscicapa striata Pallas, 1764",Pigliamosche,3,None
+"Ficedula parva Bechstein, 1794",Pigliamosche pettirosso,4,None
+"Rutilus pigus (Lacépède, 1804)",Pigo,2,Dati insufficienti
+"Pinna nobilis (Linnaeus, 1758) ",Pinna nobile,1,None
+"Calidris ferruginea (Pontoppidan, 1763)",Piovanello,3,None
+"Calidris canutus (Linnaeus, 1758)",Piovanello maggiore,4,None
+"Calidris alpina (Linnaeus, 1758)",Piovanello pancianera,3,None
+"Calidris alba (Pallas, 1756)",Piovanello tridattilo,3,None
+"Calidris maritima (Brünnich, 1764) ",Piovanello violetto,3,None
+"Pipistrellus kuhli (Kuhl, 1817)",Pipistrello albolimbato,4,None
+"Pipistrellus nathusii (Keyserling & Blasius, 1839)",Pipistrello di Nathusius,4,None
+"Hypsugo savii (Bonaparte, 1837)",Pipistrello di Savi,4,None
+"Pipistrellus pipistrellus (Schreber, 1774)",Pipistrello nano,4,None
+"Pipistrellus pygmaeus (Leach, 1825)",Pipistrello pigmeo,4,None
+"Tringa glareola Linnaeus, 1758",Piro piro boschereccio,4,None
+"Bartramia longicauda (Bechstein, 1812)",Piro piro codalunga,3,None
+"Tringa ochropus Linnaeus, 1758",Piro piro culbianco,3,None
+"Xenus cinereus  (Güldenstädt, 1774)",Piro piro di Terek,4,None
+"Tryngites subruficollis (Vieillot, 1819)",Piro piro fulvo,3,None
+"Actitis macularia (Linnaeus, 1766)",Piro piro macchiettato,3,None
+"Calidris melanotos (Vieillot, 1819)",Piro piro pettorale,3,None
+"Limnodromus scolopaceus (Say, 1823)",Piro piro pettorossiccio,3,None
+"Actitis hypoleucos (Linnaeus, 1758)",Piro piro piccolo,3,None
+"Anthus pratensis  Linnaeus, 1758",Pispola,2,None
+"Anthus cervinus Pallas, 1811",Pispola golarossa,2,None
+"Calandrella rufescens (Vieillot, 1820)",Pispoletta,2,None
+"Limosa lapponica (Linnaeus, 1758)",Pittima minore,5,None
+"Limosa limosa (Linnaeus, 1758)",Pittima reale,4,None
+"Pluvialis apricaria (Linnaeus, 1758)",Piviere dorato,6,None
+"Pluvialis dominica (Muller P.L.S., 1776)",Piviere orientale,3,None
+"Eudromias morinellus Linnaeus, 1758",Piviere tortolino,4,None
+"Pluvialis squatarola (Linnaeus, 1758)",Pivieressa,5,None
+"Buteo buteo (Linnaeus, 1758)",Poiana,4,None
+"Buteo lagopus (Pontoppidan, 1763)",Poiana calzata,4,None
+"Buteo rufinus (Cretzschmar, 1827)",Poiana codabianca,5,None
+"Porphyrio porphyrio (Linnaeus, 1758)",Pollo sultano,3,None
+"Porphyrula alleni (Thomson, 1842)",Pollo sultano di Allen,2,None
+"Rallus aquaticus Linnaeus, 1758",Porciglione,2,None
+"Anthus trivialis  Linnaeus, 1758",Prispolone,2,None
+"Daption capense (Linnaeus, 1758)",Procellaria del Capo,2,None
+"Proteus anguinus Laurenti, 1768",Proteo,3,Vulnerabile
+"Pseudorca crassidens (Owen, 1846)",Pseudorca,4,None
+"Fratercula arctica (Linnaeus, 1758)",Pulcinella di mare,2,None
+"Mustela putorius Linnaeus, 1758  ",Puzzola,3,None
+"Coturnix coturnix (Linnaeus, 1758)",Quaglia,3,None
+"Turnix sylvatica (Desfontaines, 1787)",Quaglia tridattila,3,None
+"Bucephala clangula (Linnaeus, 1758)",Quattrocchi,4,None
+"Eliomys quercinus (Linnaeus, 1766) ",Quercino,2,Vulnerabile
+"Hyla arborea (Linnaeus, 1758)",Raganella comune,2,"A minor rischio, Quasi a rischio"
+"Hyla intermedia Boulenger, 1882",Raganella italiana,1,None
+"Hyla meridionalis Boettger, 1874",Raganella mediterranea,2,None
+"Hyla sarda (De Betta, 1853)",Raganella tirrenica,2,None
+"Lacerta viridis (Laurenti, 1768)",Ramarro,2,None
+"Lacerta trilineata Bedriaga, 1886 ",Ramarro gigante,2,None
+"Certhia brachydactyla Brehm, 1820",Rampichino,2,None
+"Certhia familiaris Linnaeus, 1758",Rampichino alpestre,2,None
+"Rana dalmatina Bonaparte, 1840",Rana agile,2,None
+"Rana italica Dubois, 1987",Rana appenninica,3,None
+"Rana arvalis Nilsson, 1758",Rana arvale,2,None
+"Rana latastei Boulenger, 1879",Rana di Lataste,4,"A minor rischio, Quasi a rischio"
+"Rana lessonae Camerano, 1882 ",Rana di Lessona,2,None
+"Rana perezi Seoane, 1885",Rana di Perez,2,None
+"Rana ridibunda Pallas, 1771",Rana ridibonda,2,None
+"Rana temporaria Linnaeus, 1758",Rana temporaria,2,None
+"Rana catesbeiana Saw, 1802",Rana toro,2,None
+"Raja alba Lacépède, 1803",Razza bianca,1,None
+"Somateria spectabilis (Linnaeus, 1758)",Re degli edredoni,3,None
+"Crex crex (Linnaeus, 1758)",Re di quaglie,4,Vulnerabile
+"Regulus regulus Linnaeus, 1758",Regolo,2,None
+"Erinaceus europaeus Linnaeus, 1758",Riccio,2,None
+"Erinaceus concolor Martin, 1838",Riccio,1,None
+"Centrostephanus longispinus (Philippi, 1845)",Riccio di mare,2,None
+"Paracentrotus lividus (Lamarck, 1816)",Riccio di mare di roccia,1,None
+"Oriolus oriolus Linnaeus, 1758",Rigogolo,2,None
+"Rhodeus sericeus (Pallas, 1776)",Rodeo amaro,2,None
+"Hirundo rustica Linnaeus, 1758",Rondine,2,None
+"Ptyonoprogne rupestris (Scopoli, 1769)",Rondine montana,2,None
+"Hirundo daurica Linnaeus, 1771",Rondine rossiccia,2,None
+"Apus apus (Linnaeus, 1758)",Rondone,2,None
+"Apus affinis (Gray G.E., 1830)",Rondone indiano,2,None
+"Apus melba (Linnaeus, 1758)",Rondone maggiore,2,None
+"Apus pallidus (Shelley, 1870)",Rondone pallido,2,None
+"Bufo bufo (Linnaeus, 1758)",Rospo comune,1,None
+"Bufo viridis  Laurenti, 1768",Rospo smeraldino,2,None
+"Rutilus rubilio (Bonaparte, 1837) ",Rovella,3,None
+"Falco cherrug Gray, 1834",Sacro,4,None
+"Elaphe longissima (Laurenti, 1768)",Saettone,2,None
+"Saga pedo (Pallas, 1771)",Saga,2,Vulnerabile
+"Salamandra atra Laurenti, 1768",Salamandra alpina,2,None
+"Salamandra atra aurorae   * Trevisan, 1982",Salamandra alpina di Aurora,2,None
+"Salamandra lanzai Nascetti, Capula & Bullini, 1988",Salamandra del Lanza,2,Vulnerabile
+"Salamandra salamandra (Linnaeus, 1758)",Salamandra pezzata,1,None
+"Salamandrina terdigitata (Lacépède, 1788)",Salamandrina dagli occhiali,3,None
+"Locustella luscinioides (Savi, 1824)",Salciaiola,2,None
+"Saxicola torquata Linnaeus, 1758",Saltimpalo,2,None
+"Hirudo medicinalis (Linnaeus, 1758)",Sanguisuga,2,"A minor rischio, Quasi a rischio"
+"Chondrostoma soetta Bonaparte, 1840",Savetta,3,None
+"Cottus gobio Linnaeus, 1758 ",Scazzone,1,None
+"Porzana parva (Scopoli, 1769)",Schiribilla,3,None
+"Porzana pusilla (Pallas, 1776)",Schiribilla grigiata,3,None
+"Canis aureus Linnaeus, 1758 ",Sciacallo,2,None
+"Sciurus vulgaris Linnaeus, 1758",Scoiattolo,2,Quasi a rischio
+"Sciurus carolinensis Gmelin, 1788",Scoiattolo grigio,1,None
+"Troglodytes troglodytes (Linnaeus, 1758)",Scricciolo,2,None
+"Vespertilio murinus Linnaeus, 1758",Serotino bicolore,4,None
+"Eptesicus serotinus (Schreber, 1774)",Serotino comune,4,None
+"Eptesicus nilssoni (Keyserling & Blasius, 1839) ",Serotino di Nilsson,4,None
+"Telescopus fallax (Fleischmann, 1831)",Serpente gatto europeo,2,None
+"Ardeola ralloides (Scopoli, 1769)",Sgarza ciuffetto,3,None
+"Silurus glanis  Linnaeus, 1758 ",Siluro,1,None
+"Sylvia rueppellii Temminck, 1820",Silvia del Ruppel,3,None
+"Syrrhaptes paradoxus (Pallas, 1773)",Sirratte,2,None
+"Mergus merganser Linnaeus, 1758",Smergo maggiore,4,None
+"Mergus serrator Linnaeus, 1758",Smergo minore,4,None
+"Falco columbarius  Linnaeus, 1758",Smeriglio,5,None
+"Lamna nasus (Bonnaterre,1788)",Smeriglio,1,"A minor rischio, Quasi a rischio"
+"Prunella collaris (Scopoli, 1769)",Sordone,2,None
+"Accipiter nisus (Linnaeus, 1758)",Sparviere,4,None
+"Accipiter brevipes (Severtzov, 1850)",Sparviere levantino,5,None
+"Platalea leucorodia Linnaeus, 1758",Spatola,5,None
+"Anthus spinoletta  Linnaeus, 1758",Spioncello,2,None
+"Anthus rubescens Tunstall, 1771",Spioncello americano,2,None
+"Spongia zimocca Schmidt, 1862",Spugna,1,None
+"Spongia officinalis (Linnaeus, 1759)",Spugna da bagno,1,None
+"Spongia agaricina Pallas, 1766",Spugna elefante,1,None
+"Hippospongia communis (Lamarck, 1813)",Spugna equina,1,None
+"Squatina squatina (Linnaeus, 1758)",Squadro,1,Vulnerabile
+"Carcharodon carcharis (Linnaeus, 1758)",Squalo bianco,1,Vulnerabile
+"Cetorhinus maximus (Gunnerus, 1765)",Squalo elefante,1,Vulnerabile
+"Isurus oxyrinchus Rafinesque, 1810",Squalo mako,1,"A minor rischio, Quasi a rischio"
+"Capra ibex Linnaeus, 1758  ",Stambecco,2,None
+"Perdix perdix (Linnaeus, 1758)",Starna,3,None
+Perdix perdix italica,Starna ss. italiana,1,None
+"Stenella coeruleoalba (Meyen, 1833)",Stenella striata,4,"A minor rischio, Dipendenti dalla protezione"
+"Steno bredanensis (Lesson, 1828)",Steno,4,Dati insufficienti
+"Stercorarius skua (Brünnich, 1764) ",Stercorario maggiore,2,None
+"Stercorarius pomarinus (Temminck, 1815)  ",Stercorario mezzano,2,None
+"Sterna caspia Pallas, 1770",Sterna  maggiore,3,None
+"Sterna paradisaea Pontoppidan, 1763",Sterna codalunga,3,None
+"Sterna hirundo Linnaeus, 1758",Sterna comune,3,None
+"Sterna dougallii Montagu, 1813",Sterna del Dougall,3,None
+"Sterna bengalensis Lesson, 1831",Sterna del Ruppel,2,None
+"Sterna fuscata Linnaeus, 1766",Sterna scura,2,None
+"Gelochelidon nilotica (Gmelin, 1789)",Sterna zampenere,3,None
+"Sylvia communis Latham, 1787",Sterpazzola,2,None
+"Sylvia conspicillata Temminck, 1820",Sterpazzola di Sardegna,2,None
+"Sylvia nana (Hemprich & Ehrenberg, 1833)",Sterpazzola nana,2,None
+"Sylvia cantillans Pallas, 1784",Sterpazzolina,2,None
+"Saxicola rubetra Linnaeus, 1758",Stiaccino,2,None
+"Acipenser sturio   * Linnaeus,1758",Storione,5,Gravemente minacciato
+"Acipenser transmontanus Richardson, 1836",Storione bianco,2,None
+"Acipenser naccarii   * Bonaparte,1836",Storione cobice,6,Vulnerabile
+"Huso huso (Linnaeus, 1758)",Storione ladano,3,Minacciato
+"Sturnus vulgaris Linnaeus, 1758",Storno,1,None
+"Sturnus unicolor Temminck, 1820  ",Storno nero,3,None
+"Sturnus roseus (Linnaeus, 1758) ",Storno roseo,2,None
+"Miliaria calandra (Linnaeus, 1758) ",Strillozzo,2,None
+"Gavia adamsii (Gray, 1859) ",Strolaga becco giallo,2,None
+"Gavia immer (Brünnich, 1764)",Strolaga maggiore,3,None
+"Gavia arctica (Linnaeus, 1758)",Strolaga mezzana,3,None
+"Gavia stellata (Pontoppidan, 1763)",Strolaga minore,3,None
+"Caprimulgus europaeus Linnaeus, 1758",Succiacapre,3,None
+"Caprimulgus ruficollis Temminck, 1820",Succiacapre collorosso,2,None
+"Caprimulgus aegyptius Lichtenstein, 1823",Succiacapre isabellino,2,None
+"Sula bassana (Linnaeus, 1758)",Sula,2,None
+"Podiceps grisegena (Boddaert, 1783)",Svasso collorosso,2,None
+"Podiceps auritus (Linnaeus, 1758)",Svasso cornuto,3,None
+"Podiceps cristatus (Linnaeus, 1758)",Svasso maggiore,2,None
+"Podiceps nigricollis (Brehm C.L., 1831)",Svasso piccolo,2,None
+"Corvus monedula  Linnaeus, 1758",Taccola,1,None
+"Ixobrychus minutus (Linnaeus, 1766)",Tarabusino,3,None
+"Ixobrychus eurhythmus (Swinhoe, 1873)",Tarabusino orientale,2,None
+"Botaurus stellaris (Linnaeus, 1758)",Tarabuso,3,None
+"Tarentola mauritanica (Linnaeus, 1758) ",Tarantola muraiola,1,None
+"Euleptes europaea (Gené, 1838)",Tarantolino,3,Vulnerabile
+"Phyllodactylus europaeus Gené, 1830",Tarantolino,3,Vulnerabile
+"Eretmochelys imbricata (Linnaeus, 1766)",Tartaruga  embricata,4,Gravemente minacciato
+"Lepidochelys kempii (Garman, 1880)",Tartaruga bastarda,4,Gravemente minacciato
+"Caretta caretta   * (Linnaeus, 1758)",Tartaruga caretta,5,Minacciato
+"Dermochelys coriacea (Vandelli, 1761)",Tartaruga liuto,4,Gravemente minacciato
+"Chelonia mydas (Linnaeus, 1758) ",Tartaruga verde,4,Minacciato
+"Meles meles (Linnaeus, 1758)  ",Tasso,2,None
+"Thymallus thymallus  (Linnaeus, 1758)",Temolo,2,None
+"Testudo hermanni Gmelin, 1789",Testuggine comune,4,"A minor rischio, Quasi a rischio"
+"Emys orbicularis (Linnaeus, 1758)",Testuggine d'acqua,3,"A minor rischio, Quasi a rischio"
+"Trachemys (=Pseudemys) scripta Agassiz, 1857",Testuggine dalle guance rosse,1,None
+"Testudo graeca Linnaeus, 1758",Testuggine greca,4,Vulnerabile
+"Testudo marginata Schoepff, 1792",Testuggine marginata,4,None
+"Riparia riparia (Linnaeus, 1758)",Topino,2,None
+"Sorex alpinus Schinz, 1837",Toporagno alpino,2,None
+"Sorex samniticus Altobello, 1926",Toporagno appenninico,3,None
+"Sorex araneus  Linnaeus, 1758",Toporagno comune,2,None
+"Neomys fodiens (Pennant, 1771)",Toporagno d'acqua,2,None
+"Neomys anomalus Cabrera, 1907",Toporagno d'acqua di Miller,2,None
+"Sorex minutus  Linnaeus, 1766",Toporagno nano,2,None
+"Jynx torquilla Linnaeus, 1758",Torcicollo,2,None
+"Turdus viscivorus Linnaeus, 1758",Tordela,3,None
+"Turdus philomelos Brehm, 1831",Tordo bottaccio,2,None
+"Catharus minimus (Lafresnaye, 1848)",Tordo di Baird,2,None
+"Catharus ustulatus Nuttall, 1840",Tordo di Swainson,2,None
+"Zoothera dauma Latham, 1790",Tordo dorato,2,None
+"Turdus ruficollis Pallas, 1776",Tordo golanera,2,None
+"Turdus obscurus Gmelin, 1789",Tordo oscuro,2,None
+"Turdus iliacus Linnaeus, 1758",Tordo sassello,2,None
+"Zoothera sibirica Pallas, 1776",Tordo siberiano,2,None
+"Sterptopelia turtur (Linnaeus, 1758)",Tortora,2,None
+"Streptopelia decaocto (Frivaldszky, 1838)",Tortora dal collare orientale,3,None
+"Streptopelia senegalensis Linnaeus, 1766",Tortora delle palme,2,None
+"Streptopelia orientalis (Latham, 1790)",Tortora orientale,2,None
+"Tringa erythropus (Pallas, 1746)",Totano moro,4,None
+"Tringa flavipes (Gmelin, 1789)",Totano zampegialle minore,3,None
+"Lullula arborea (Linnaeus, 1758)",Tottavilla,3,None
+"Triturus alpestris (Laurenti, 1768)",Tritone alpino,1,None
+"Triturus carnifex (Laurenti, 1768)",Tritone crestato italiano,3,None
+"Triturus italicus (Peracca, 1898)",Tritone italiano,3,None
+"Charonia tritonis (Linnaeus, 1758)",Tritone lucido,1,None
+"Triturus vulgaris (Linnaeus, 1758)",Tritone punteggiato,2,None
+"Bucanetes githagineus (Lichtenstein, 1823)",Trombettiere,3,None
+"Salmo (trutta) macrostigma Duméril, 1858 ",Trota macrostigma,1,None
+"Salmo (trutta) marmoratus (Cuvier, 1817)",Trota marmorata,2,Dati insufficienti
+"Gibbula nivosa A.Adams, 1851",Trottola,1,None
+"Tachybaptus ruficollis (Pallas, 1764)",Tuffetto,2,None
+"Tursiops truncatus (Montagu, 1821)",Tursiope,5,Dati insufficienti
+"Chlamydotis undulata (Jacquin, 1784)",Ubara,4,None
+"Hydrobates pelagicus (Linnaeus, 1758)",Uccello delle tempeste,3,None
+"Oceanodroma  leucorhoa (Vieillot, 1817)",Uccello delle tempeste codaforcuta,3,None
+"Oceanites oceanicus (Kuhl, 1820)",Uccello delle tempeste di Wilson,2,None
+"Bombina variegata (Linnaeus, 1758)",Ululone dal  ventre giallo,3,None
+"Bombina pachypus (Bonaparte, 1838)",Ululone italiano,2,None
+"Unio elongatus C.Pfeiffer, 1825",Unione,2,None
+"Upupa epops Linnaeus, 1758",Upupa,2,None
+"Luscinia megarhynchos  Brehm, 1831",Usignolo,2,None
+"Cercotrichas galactotes (Temminck, 1820)",Usignolo d'Africa,2,None
+"Cettia cetti (Temminck, 1820)",Usignolo di fiume,2,None
+"Luscinia luscinia Linnaeus, 1758",Usignolo maggiore,2,None
+"Leuciscus souffia Risso,1826",Vairone,2,None
+"Serinus citrinella (Pallas, 1764)",Venturone,2,None
+"Prionace glauca (Linnaeus, 1758)",Verdesca,1,None
+"Carduelis  chloris (Linnaeus, 1758) ",Verdone,2,None
+"Vertigo genesii (Gredler, 1856)",Vertigo a stoma tondo,1,None
+"Vertigo moulinsiana (Dupuy, 1849)",Vertigo di Demoulins,1,"A minor rischio, Dipendenti dalla protezione"
+"Vertigo geyeri Lindholm, 1925",Vertigo di Geyer,1,None
+"Vertigo angustior Jeffrreys, 1830",Vertigo sinistrorso minore,1,"A minor rischio, Dipendenti dalla protezione"
+"Serinus serinus (Linnaeus, 1766) ",Verzellino,2,None
+"Myotis daubentoni (Leisler in Kuhl, 1819) ",Vespertilio di  Daubenton,4,None
+"Myotis bechsteini (Leisler in Kuhl, 1818)",Vespertilio di Bechstein,5,Vulnerabile
+"Myotis blythi (Tomes, 1857)",Vespertilio di Blyth,5,None
+"Myotis brandti (Eversmann, 1845)",Vespertilio di Brandt,4,None
+"Myotis capaccinii (Bonaparte, 1837)",Vespertilio di Capaccini,5,Vulnerabile
+"Myotis nattereri (Kuhl, 1818)",Vespertilio di Natterer,4,None
+"Myotis myotis (Borkhausen, 1797)",Vespertilio maggiore,5,"A minor rischio, Quasi a rischio"
+"Myotis mystacinus (Kuhl, 1817)",Vespertilio mustacchino,4,None
+"Myotis emarginatus (Geoffroy E., 1806)",Vespertilio smarginato,5,Vulnerabile
+"Vipera aspis (Linnaeus, 1758) ",Vipera comune,1,None
+"Vipera ammodytes (Linnaeus, 1758) ",Vipera dal corno,2,None
+"Vipera ursinii (Bonaparte, 1835)",Vipera dell'Orsini,4,Minacciato
+"Mustela vison Schreber, 1777",Visone americano,1,None
+"Tadorna tadorna (Linnaeus, 1758)",Volpoca,3,None
+"Arenaria interpres (Linnaeus, 1758)",Voltapietre,3,None
+"Porzana porzana (Linnaeus, 1766)",Voltolino,3,None
+"Larus fuscus Linnaeus, 1758",Zafferano,2,None
+"Ziphius cavirostris Cuvier G., 1832",Zifio,4,Dati insufficienti
+"Emberiza rustica Pallas, 1766",Zigolo boschereccio,2,None
+"Emberiza melanocephala Scopoli, 1769",Zigolo capinero,2,None
+"Emberiza aureola Pallas, 1766",Zigolo dal collare,2,None
+"Plectrophenax nivalis (Linnaeus, 1758) ",Zigolo delle nevi,2,None
+"Calcarius lapponicus (Linnaeus, 1758) ",Zigolo di Lapponia,2,None
+"Emberiza citrinella  Linnaeus, 1758 ",Zigolo giallo,2,None
+"Emberiza leucocephalos Gmelin, 1771",Zigolo golarossa,2,None
+"Emberiza pusilla Pallas, 1766",Zigolo minore,2,None
+"Emberiza cia Linnaeus, 1758 ",Zigolo muciatto,2,None
+"Emberiza cioides Brandt, 1843",Zigolo muciatto orientale,2,None
+"Emberiza cirlus  Linnaeus, 1758 ",Zigolo nero,2,None
+"Emberiza bruniceps Brandt, 1843",Zigolo testa aranciata,2,None
+"Stephanopachys substriatus (Paykull, 1800)",,3,None
+"Buprestis splendens Fabricius, 1774",,3,None
+"Carabus olympiae * Sella, 1855",,4,Vulnerabile
+"Cerambyx cerdo (Linnaeus, 1758)",,3,Vulnerabile
+"Morimus funereus (Mulsant, 1863)",,1,None
+"Rosalia alpina   * (Linnaeus, 1758)",,3,Vulnerabile
+"Osmoderma eremita   * (Scopoli, 1763)",,3,Vulnerabile
+"Cucujus cinnaberinus (Scopoli, 1763)",,3,None
+"Dytiscus latissimus (Linnaeus, 1758)",,3,Vulnerabile
+"Graphoderus bilineatus (De Geer, 1774)",,3,Vulnerabile
+"Lucanus cervus (Linnaeus, 1758)",,2,None
+"Euplagia quadripunctaria   * (Poda, 1761)",,1,None
+"Eriogaster catax (Linnaeus, 1758)",,3,Dati insufficienti
+"Lycaena dispar (Haworth, 1803)",,3,"A minor rischio, Quasi a rischio"
+"Maculinea arion (Linnaeus, 1758)  ",,1,"A minor rischio, Quasi a rischio"
+"Maculinea teleius (Bergstrasser, 1779)",,3,"A minor rischio, Quasi a rischio"
+"Maculinea teleius (Bergstrasser, 1799)",,3,"A minor rischio, Quasi a rischio"
+"Argynnis elisa Godart, 1823",,3,None
+"Euphydryas aurinia (Rottemburg,1775)",,2,None
+"Papilio alexanor Esper, 1799",,2,None
+"Papilio hospiton Géné, 1839",,5,Minacciato
+"Parnassius apollo (Linnaeus, 1758) ",,3,Vulnerabile
+"Parnassius mnemosyne (Linnaeus, 1758)  ",,2,None
+"Zerynthia polyxena (Denis & Schiffermuller, 1775)",,2,None
+"Coenonympha oedippus (Fabricius, 1787)",,3,"A minor rischio, Quasi a rischio"
+"Erebia calcaria Lorkovic, 1949",,4,None
+"Erebia christi Ratzer, 1890",,4,"A minor rischio, Quasi a rischio"
+"Lasiommata achine (Scopoli, 1763)",,2,None
+"Melanargia arge (Sulzer, 1776)",,3,None
+"Hyles hippophaes (Esper, 1793)",,2,Dati insufficienti
+"Prosperinus proserpinus (Pallas, 1772)",,2,Dati insufficienti
+"Cordulegaster trinacriae Waterston, 1976",,4,None
+"Oxygastra curtisii (Dale, 1834)",,3,Vulnerabile
+"Gomphus flavipes (Charpentier, 1825) ",,2,None
+"Lindenia tetraphylla (Van der Linden, 1825)",,3,None
+"Ophiogomphus cecilia (Fourcroy, 1785)",,3,None
+"Sympecma paedisca (Brauer, 1882)",,1,None
+"Leucorrhinia pectoralis (Charpentier, 1825) ",,3,None
+Hornera lichenoides,,1,None
+Capreolus capreolus capreolus,,1,None
+Capreolus capreolus italicus,,2,None
+Felis silvestris lybica,,4,None
+Felis silvestris silvestris,,4,None
+Mustela nivalis boccamela,,2,None
+Mustela nivalis minuta,,2,None
+Mustela nivalis nivalis,,2,None
+Myotis blythi oxygnathus,,5,None
+Myotis blythi punicus,,5,None
+Crocidura russula cossyrensis,,3,None
+Crocidura russula ichnusae,,3,None
+"Lepus capensis (Linnaeus, 1758)",,1,None
+Eliomys quercinus liparensis,,3,None
+Eliomys quercinus sardus,,3,None
+"Antipathes dichotoma Pallas, 1766",,2,None
+"Antipathes fragilis Gravier, 1918",,2,None
+"Antipathes subpinnata (Ellis & Solander, 1786)",,2,None
+"Astroides calycularis (Pallas, 1766)",,1,None
+"Gerardia savaglia (Bertoloni, 1819)",,1,None
+Errina aspera,,1,None
+"Asterina pancerii  (Gasco, 1860)",,1,None
+"Ophidiaster ophidianus  (Lamarck, 1816)",,1,None
+"Margaritifera auricularia (Splenger, 1793)",,1,Gravemente minacciato
+"Erosaria spurca (Linnaeus, 1758)",,1,None
+"Luria lurida (Linnaeus, 1758)",,1,None
+"Schilderia achatidea (Gray in G.B. Sowerby II, 1837)",,1,None
+"Zonaria pyrum (Gmelin, 1791)",,1,None
+"Charonia lampas (Linnaeus, 1758)",,1,None
+"Ranella olearia (Linnaeus, 1758)",,1,"A minor rischio, Quasi a rischio"
+"Dendropoma petraeum (Monterosato,1884)",,1,None
+Petrobiona massiliana,,1,None
+"Axinella polypoides Schmidt, 1862",,1,None
+"Aplysina cavernicola Vacelet, 1959",,1,None

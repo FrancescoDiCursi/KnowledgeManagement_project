@@ -12,6 +12,7 @@ import MapItalyRiserve from "./MapItalyRiserve.vue";
 import ItalyRiserveHeat from "./ItalyRiserveHeat.vue";
 import LineDemoIt from "./LineDemoIt.vue";
 import LinePrezzi from "./LinePrezzi.vue";
+import ScatterAnimals from "./ScatterAnimals.vue";
 
 export default {
   name: "Home",
@@ -29,7 +30,8 @@ export default {
     MapItalyRiserve,
     ItalyRiserveHeat,
     LineDemoIt,
-    LinePrezzi
+    LinePrezzi,
+    ScatterAnimals
 },
   data() {
     return {};
@@ -62,6 +64,7 @@ export default {
       <MapItalyRiserve></MapItalyRiserve>
       <ItalyRiserveHeat></ItalyRiserveHeat>
 
+      <ScatterAnimals></ScatterAnimals>
 
   </b-container>
 </template>

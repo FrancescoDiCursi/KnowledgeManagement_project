@@ -215,7 +215,7 @@ export default {
           "Densità venatoria<br>per 1000 ha",
           "Agenti venatori",
           "Guardie volontarie",
-          "Vigilanza venatoria: <br> numero agenti e/o guardie<br>per 1000 ha",]
+          "Vigilanza venatoria:<br>numero agenti e/o guardie<br>per 1000 ha",]
               var filt_temp_table2 = temp_table.map((d) =>
         Object.entries(d)
       );
