@@ -56,7 +56,7 @@ export default {
     }];
 
     var layout={
-        width:window.innerWidth/3,
+        width:window.innerWidth/3.5,
         height:window.innerHeight,
         margin:{
             l:l_,
@@ -69,8 +69,8 @@ Plotly.newPlot(html_target, data,layout,{displayModeBar:false});
     },
     watch:{
         values:function(newVal){
-            this.draw_treemap(this.values, this.ids,this.labels,this.parents,'tree_animals1',0,12)
-            this.draw_treemap(this.values_iucn, this.ids_iucn,this.labels_iucn,this.parents_iucn,'tree_animals2',12,0)
+            this.draw_treemap(this.values, this.ids,this.labels,this.parents,'tree_animals1',0,6)
+            this.draw_treemap(this.values_iucn, this.ids_iucn,this.labels_iucn,this.parents_iucn,'tree_animals2',6,0)
 
         },
         window_width:function(newVal){
