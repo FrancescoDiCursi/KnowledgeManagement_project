@@ -53,6 +53,9 @@ export default {
 
       return sorted[middle];
     },
+    mean(numbers){
+      return numbers.reduce((a,b)=>(+a)+ (+b))/numbers.length
+    },
     color_map() {
       var svg = d3.select("#it_map");
 
@@ -67,30 +70,121 @@ export default {
       var path = d3.geoPath().projection(this.proj_);
       console.log("scale", [
         0,
-        this.median(this.riserve_csv.map((d) => +d["N animali"])),
+        this.mean(this.riserve_csv.map((d) => +d["N animali"])),
         13,
       ]);
-      var dimensione_colori = d3
-        .scaleLinear()
-        .domain([
-          0,
-          this.median(this.riserve_csv.map((d) => +d["N animali"])),
-          13,
-        ])
-        .range(["green", "yellow", "red"]);
-      var regioni_colori = d3
-        .scaleLinear()
-        .domain([
-          0,
-          this.median(
-            this.riserve_csv.map((d) => +d["Dimensioni regione"]),
-            Math.max(...this.riserve_csv.map((d) => +d["Dimensioni regione"]))
-          ),
-        ])
-        .range(["green", "yellow", "red"]);
+
+  
+
+
+
+
       //diemnsione punti: Dimensioni riserve in ettari
       //colore punti: N animali cacciabili
       var svg = d3.select("#svg_it_res");
+
+            //legenda
+        var legend_values=this.riserve_csv.map(d=>+d['Dimensioni regione'])
+        var points_legend_values=this.riserve_csv.map(d=>+d['N animali'])
+        var scale_els = [
+        Math.min(...legend_values),
+        Math.round(
+          legend_values.reduce((a, b) => +a + +b) / legend_values.length
+        ), //decide if mean or median
+        Math.max(...legend_values),
+      ];
+              var scale_els_points = [
+        Math.min(...points_legend_values),
+        Math.round(
+         points_legend_values.reduce((a, b) => +a + +b) /points_legend_values.length
+        ), //decide if mean or median
+        Math.max(...points_legend_values),
+      ];
+console.log(scale_els_points)
+          var regioni_colori = d3
+        .scaleLinear()
+        .domain(scale_els)
+        .range(["green", "yellow", "red"]);
+
+              var colors_points = d3
+        .scaleLinear()
+        .domain(scale_els_points)
+        .range(["green", "yellow", "red"]);
+
+
+       svg
+        .append("rect")
+        .attr("class", "legend_it_riserve_back")
+        .attr("stroke", "white")
+        .attr("fill", "white")
+        .attr("width", 250)
+        .attr("height", 120)
+        .attr("x", 400)
+        .attr("y", 0)
+        .attr("opacity", 0.6);
+
+      svg
+        .selectAll(".legend_it_riserve_els")
+        .data(scale_els)
+        .enter()
+        .append("circle")
+        .attr("class", "legend_it_riserve_els")
+        .attr("cx", 430)
+        .attr("cy", (d, i) => 25 + i * 30)
+        .attr("r", 10)
+        .attr("stroke", (d) => regioni_colori(d))
+        .attr("fill", (d) => regioni_colori(d));
+
+      svg
+        .selectAll(".legend_it_riserve_txt")
+        .data(scale_els)
+        .enter()
+        .append("text")
+        .attr("class", "legend_it_riserve_txt")
+        .attr("x", 450)
+        .attr("y", (d, i) => 32.7 + i * 30)
+        //.attr('stroke',d=>regioni_colori(d))
+        //.attr('fill',d=>regioni_colori(d))
+        .text((d) => d)
+        .style("font-size", "20px");
+
+        //legenda colore punti
+        svg
+        .append("rect")
+        .attr("class", "legend_it_riserve_points")
+        .attr("stroke", "white")
+        .attr("fill", "white")
+        .attr("width", 250)
+        .attr("height", 120)
+        .attr("x", 400)
+        .attr("y", 130)
+        .attr("opacity", 0.6);
+
+      svg
+        .selectAll(".legend_it_riserve_points_els")
+        .data(scale_els_points)
+        .enter()
+        .append("circle")
+        .attr("class", "legend_it_riserve_points_els")
+        .attr("cx", 430)
+        .attr("cy", (d, i) =>130+ 25 + i * 30)
+        .attr("r", 10)
+        .attr("stroke", (d) => colors_points(+d))
+        .attr("fill", (d) =>colors_points(+d));
+
+      svg
+        .selectAll(".legend_it_riserve_points_txt")
+        .data(scale_els_points)
+        .enter()
+        .append("text")
+        .attr("class", "legend_it_riserve_points_txt")
+        .attr("x", 450)
+        .attr("y", (d, i) => 130+ 32.7 + i * 30)
+        //.attr('stroke',d=>regioni_colori(d))
+        //.attr('fill',d=>regioni_colori(d))
+        .text((d) => d)
+        .style("font-size", "20px");
+        //
       svg
         .selectAll(".riserve")
         .data(this.riserve_csv)
@@ -101,12 +195,15 @@ export default {
         .attr("cx", (d) => proj_([+d.Long, +d.Lat])[0])
         .attr("cy", (d) => proj_([+d.Long, +d.Lat])[1])
         .attr("stroke", "white")
-        .attr("fill", (d) => dimensione_colori(+d["N animali"]))
+        .attr("fill", (d) => colors_points(+d["N animali"]))
         .attr("opacity", 0.6)
         .on('click',function(){ //CONTINUA DA QUI: cliccando sulla riserva, al lato della mappa descrizione riserva
           console.log(this)
         })
 
+
+
+      //regioni
       var df_filts_ = [];
       for (var i = 0; i < this.regioni_.length; i++) {
         var df_filt = this.riserve_csv.filter(
