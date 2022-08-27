@@ -99,5 +99,5 @@ Plotly.newPlot(html_target, data,layout,{displayModeBar:false});
 </template>
 
 <style>
-#tree_animals{margin-left: 5rem;margin-right:auto;width:30rem}
+#tree_animals1{margin-left: 5rem;margin-right:auto;width:30rem}
 </style>

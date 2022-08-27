@@ -108,20 +108,9 @@ AMPHIBIA_Salamandridae_Tritone italiano,Tritone italiano,AMPHIBIA_Salamandridae,
 AMPHIBIA_Salamandridae_Tritone punteggiato,Tritone punteggiato,AMPHIBIA_Salamandridae,2
 "AMPHIBIA_Salamandridae_Tritone punteggiato_Triturus vulgaris (Linnaeus, 1758)","Triturus vulgaris (Linnaeus, 1758)",AMPHIBIA_Salamandridae_Tritone punteggiato,2
 ANTHOZOA_,ANTHOZOA,,10
-ANTHOZOA_Antipathidae,Antipathidae,ANTHOZOA_,6
-ANTHOZOA_Antipathidae_Non precisato,Non precisato,ANTHOZOA_Antipathidae,6
-"ANTHOZOA_Antipathidae_Non precisato_Antipathes dichotoma Pallas, 1766","Antipathes dichotoma Pallas, 1766",ANTHOZOA_Antipathidae_Non precisato,2
-"ANTHOZOA_Antipathidae_Non precisato_Antipathes fragilis Gravier, 1918","Antipathes fragilis Gravier, 1918",ANTHOZOA_Antipathidae_Non precisato,2
-"ANTHOZOA_Antipathidae_Non precisato_Antipathes subpinnata (Ellis & Solander, 1786)","Antipathes subpinnata (Ellis & Solander, 1786)",ANTHOZOA_Antipathidae_Non precisato,2
 ANTHOZOA_Corallidae,Corallidae,ANTHOZOA_,2
 ANTHOZOA_Corallidae_Corallo rosso,Corallo rosso,ANTHOZOA_Corallidae,2
 "ANTHOZOA_Corallidae_Corallo rosso_Corallium rubrum (Linnaeus, 1758)","Corallium rubrum (Linnaeus, 1758)",ANTHOZOA_Corallidae_Corallo rosso,2
-ANTHOZOA_Dendrophylliidae,Dendrophylliidae,ANTHOZOA_,1
-ANTHOZOA_Dendrophylliidae_Non precisato,Non precisato,ANTHOZOA_Dendrophylliidae,1
-"ANTHOZOA_Dendrophylliidae_Non precisato_Astroides calycularis (Pallas, 1766)","Astroides calycularis (Pallas, 1766)",ANTHOZOA_Dendrophylliidae_Non precisato,1
-ANTHOZOA_Gerardiidae,Gerardiidae,ANTHOZOA_,1
-ANTHOZOA_Gerardiidae_Non precisato,Non precisato,ANTHOZOA_Gerardiidae,1
-"ANTHOZOA_Gerardiidae_Non precisato_Gerardia savaglia (Bertoloni, 1819)","Gerardia savaglia (Bertoloni, 1819)",ANTHOZOA_Gerardiidae_Non precisato,1
 AVES_,AVES,,1380
 AVES_Accipitridae,Accipitridae,AVES_,135
 AVES_Accipitridae_Albanella minore,Albanella minore,AVES_Accipitridae,5
@@ -852,10 +841,10 @@ AVES_Scolopacidae_Frullino,Frullino,AVES_Scolopacidae,4
 "AVES_Scolopacidae_Frullino_Lymnocryptes minimus (Brünnich, 1764) ","Lymnocryptes minimus (Brünnich, 1764) ",AVES_Scolopacidae_Frullino,4
 AVES_Scolopacidae_Gambecchio,Gambecchio,AVES_Scolopacidae,3
 "AVES_Scolopacidae_Gambecchio_Calidris minuta (Leisler, 1812)","Calidris minuta (Leisler, 1812)",AVES_Scolopacidae_Gambecchio,3
-AVES_Scolopacidae_Gambecchio Non precisatoo,Gambecchio Non precisatoo,AVES_Scolopacidae,3
-"AVES_Scolopacidae_Gambecchio Non precisatoo_Calidris temminckii (Leisler, 1812)","Calidris temminckii (Leisler, 1812)",AVES_Scolopacidae_Gambecchio Non precisatoo,3
 AVES_Scolopacidae_Gambecchio frullino,Gambecchio frullino,AVES_Scolopacidae,3
 "AVES_Scolopacidae_Gambecchio frullino_Limicola falcinellus (Pontoppidan, 1763)","Limicola falcinellus (Pontoppidan, 1763)",AVES_Scolopacidae_Gambecchio frullino,3
+AVES_Scolopacidae_Gambecchio nano,Gambecchio nano,AVES_Scolopacidae,3
+"AVES_Scolopacidae_Gambecchio nano_Calidris temminckii (Leisler, 1812)","Calidris temminckii (Leisler, 1812)",AVES_Scolopacidae_Gambecchio nano,3
 AVES_Scolopacidae_Pantana,Pantana,AVES_Scolopacidae,4
 "AVES_Scolopacidae_Pantana_Tringa nebularia (Gunnerus, 1767)","Tringa nebularia (Gunnerus, 1767)",AVES_Scolopacidae_Pantana,4
 AVES_Scolopacidae_Pettegola,Pettegola,AVES_Scolopacidae,4
@@ -944,10 +933,10 @@ AVES_Strigidae_Assiolo,Assiolo,AVES_Strigidae,4
 "AVES_Strigidae_Assiolo_Otus scops (Linnaeus, 1758)","Otus scops (Linnaeus, 1758)",AVES_Strigidae_Assiolo,4
 AVES_Strigidae_Civetta,Civetta,AVES_Strigidae,4
 "AVES_Strigidae_Civetta_Athene noctua (Scopoli, 1769)","Athene noctua (Scopoli, 1769)",AVES_Strigidae_Civetta,4
-AVES_Strigidae_Civetta Non precisatoa,Civetta Non precisatoa,AVES_Strigidae,5
-"AVES_Strigidae_Civetta Non precisatoa_Glaucidium passerinum (Linnaeus, 1758)","Glaucidium passerinum (Linnaeus, 1758)",AVES_Strigidae_Civetta Non precisatoa,5
 AVES_Strigidae_Civetta capogrosso,Civetta capogrosso,AVES_Strigidae,5
 "AVES_Strigidae_Civetta capogrosso_Aegolius funereus (Linnaeus, 1758)","Aegolius funereus (Linnaeus, 1758)",AVES_Strigidae_Civetta capogrosso,5
+AVES_Strigidae_Civetta nana,Civetta nana,AVES_Strigidae,5
+"AVES_Strigidae_Civetta nana_Glaucidium passerinum (Linnaeus, 1758)","Glaucidium passerinum (Linnaeus, 1758)",AVES_Strigidae_Civetta nana,5
 AVES_Strigidae_Gufo comune,Gufo comune,AVES_Strigidae,4
 "AVES_Strigidae_Gufo comune_Asio otus (Linnaeus, 1758)","Asio otus (Linnaeus, 1758)",AVES_Strigidae_Gufo comune,4
 AVES_Strigidae_Gufo di palude,Gufo di palude,AVES_Strigidae,5
@@ -1015,10 +1004,10 @@ AVES_Sylviidae_Luì scuro,Luì scuro,AVES_Sylviidae,2
 "AVES_Sylviidae_Luì scuro_Phylloscopus fuscatus Blyth, 1842","Phylloscopus fuscatus Blyth, 1842",AVES_Sylviidae_Luì scuro,2
 AVES_Sylviidae_Luì verde,Luì verde,AVES_Sylviidae,2
 "AVES_Sylviidae_Luì verde_Phylloscopus sibilatrix Bechstein, 1795","Phylloscopus sibilatrix Bechstein, 1795",AVES_Sylviidae_Luì verde,2
-AVES_Sylviidae_MagNon precisatoina,MagNon precisatoina,AVES_Sylviidae,3
-"AVES_Sylviidae_MagNon precisatoina_Sylvia undata (Boddaert, 1783)","Sylvia undata (Boddaert, 1783)",AVES_Sylviidae_MagNon precisatoina,3
-AVES_Sylviidae_MagNon precisatoina sarda,MagNon precisatoina sarda,AVES_Sylviidae,3
-"AVES_Sylviidae_MagNon precisatoina sarda_Sylvia sarda Temminck, 1830","Sylvia sarda Temminck, 1830",AVES_Sylviidae_MagNon precisatoina sarda,3
+AVES_Sylviidae_Magnanina,Magnanina,AVES_Sylviidae,3
+"AVES_Sylviidae_Magnanina_Sylvia undata (Boddaert, 1783)","Sylvia undata (Boddaert, 1783)",AVES_Sylviidae_Magnanina,3
+AVES_Sylviidae_Magnanina sarda,Magnanina sarda,AVES_Sylviidae,3
+"AVES_Sylviidae_Magnanina sarda_Sylvia sarda Temminck, 1830","Sylvia sarda Temminck, 1830",AVES_Sylviidae_Magnanina sarda,3
 AVES_Sylviidae_Occhiocotto,Occhiocotto,AVES_Sylviidae,2
 "AVES_Sylviidae_Occhiocotto_Sylvia melanocephala Gmelin, 1789","Sylvia melanocephala Gmelin, 1789",AVES_Sylviidae_Occhiocotto,2
 AVES_Sylviidae_Pagliarolo,Pagliarolo,AVES_Sylviidae,5
@@ -1031,10 +1020,10 @@ AVES_Sylviidae_Silvia del Ruppel,Silvia del Ruppel,AVES_Sylviidae,3
 "AVES_Sylviidae_Silvia del Ruppel_Sylvia rueppellii Temminck, 1820","Sylvia rueppellii Temminck, 1820",AVES_Sylviidae_Silvia del Ruppel,3
 AVES_Sylviidae_Sterpazzola,Sterpazzola,AVES_Sylviidae,2
 "AVES_Sylviidae_Sterpazzola_Sylvia communis Latham, 1787","Sylvia communis Latham, 1787",AVES_Sylviidae_Sterpazzola,2
-AVES_Sylviidae_Sterpazzola Non precisatoa,Sterpazzola Non precisatoa,AVES_Sylviidae,2
-"AVES_Sylviidae_Sterpazzola Non precisatoa_Sylvia nana (Hemprich & Ehrenberg, 1833)","Sylvia nana (Hemprich & Ehrenberg, 1833)",AVES_Sylviidae_Sterpazzola Non precisatoa,2
 AVES_Sylviidae_Sterpazzola di Sardegna,Sterpazzola di Sardegna,AVES_Sylviidae,2
 "AVES_Sylviidae_Sterpazzola di Sardegna_Sylvia conspicillata Temminck, 1820","Sylvia conspicillata Temminck, 1820",AVES_Sylviidae_Sterpazzola di Sardegna,2
+AVES_Sylviidae_Sterpazzola nana,Sterpazzola nana,AVES_Sylviidae,2
+"AVES_Sylviidae_Sterpazzola nana_Sylvia nana (Hemprich & Ehrenberg, 1833)","Sylvia nana (Hemprich & Ehrenberg, 1833)",AVES_Sylviidae_Sterpazzola nana,2
 AVES_Sylviidae_Sterpazzolina,Sterpazzolina,AVES_Sylviidae,2
 "AVES_Sylviidae_Sterpazzolina_Sylvia cantillans Pallas, 1784","Sylvia cantillans Pallas, 1784",AVES_Sylviidae_Sterpazzolina,2
 AVES_Sylviidae_Usignolo di fiume,Usignolo di fiume,AVES_Sylviidae,2
@@ -1143,9 +1132,6 @@ AVES_Upupidae,Upupidae,AVES_,2
 AVES_Upupidae_Upupa,Upupa,AVES_Upupidae,2
 "AVES_Upupidae_Upupa_Upupa epops Linnaeus, 1758","Upupa epops Linnaeus, 1758",AVES_Upupidae_Upupa,2
 BIVALVA_,BIVALVA,,9
-BIVALVA_Margaritiferidae,Margaritiferidae,BIVALVA_,1
-BIVALVA_Margaritiferidae_Non precisato,Non precisato,BIVALVA_Margaritiferidae,1
-"BIVALVA_Margaritiferidae_Non precisato_Margaritifera auricularia (Splenger, 1793)","Margaritifera auricularia (Splenger, 1793)",BIVALVA_Margaritiferidae_Non precisato,1
 BIVALVA_Mytilidae,Mytilidae,BIVALVA_,2
 BIVALVA_Mytilidae_Dattero di mare,Dattero di mare,BIVALVA_Mytilidae,2
 "BIVALVA_Mytilidae_Dattero di mare_Lithophaga lithophaga (Linnaeus, 1758) ","Lithophaga lithophaga (Linnaeus, 1758) ",BIVALVA_Mytilidae_Dattero di mare,2
@@ -1160,10 +1146,6 @@ BIVALVA_Unionidae_Microcondilea,Microcondilea,BIVALVA_Unionidae,2
 "BIVALVA_Unionidae_Microcondilea_Microcondylaea compressa Menke, 1828","Microcondylaea compressa Menke, 1828",BIVALVA_Unionidae_Microcondilea,2
 BIVALVA_Unionidae_Unione,Unione,BIVALVA_Unionidae,2
 "BIVALVA_Unionidae_Unione_Unio elongatus C.Pfeiffer, 1825","Unio elongatus C.Pfeiffer, 1825",BIVALVA_Unionidae_Unione,2
-CALCAREA_,CALCAREA,,1
-CALCAREA_Petrobionidae,Petrobionidae,CALCAREA_,1
-CALCAREA_Petrobionidae_Non precisato,Non precisato,CALCAREA_Petrobionidae,1
-CALCAREA_Petrobionidae_Non precisato_Petrobiona massiliana,Petrobiona massiliana,CALCAREA_Petrobionidae_Non precisato,1
 CONDRICHTHYTES_,CONDRICHTHYTES,,8
 CONDRICHTHYTES_Carcharhinidae,Carcharhinidae,CONDRICHTHYTES_,1
 CONDRICHTHYTES_Carcharhinidae_Verdesca,Verdesca,CONDRICHTHYTES_Carcharhinidae,1
@@ -1212,12 +1194,6 @@ CRUSTACEA_Scyllaridae_Cicala grande,Cicala grande,CRUSTACEA_Scyllaridae,2
 CRUSTACEA_Scyllaridae_Cicala minore,Cicala minore,CRUSTACEA_Scyllaridae,1
 "CRUSTACEA_Scyllaridae_Cicala minore_Scyllarus pygmaeus (Bate, 1888)","Scyllarus pygmaeus (Bate, 1888)",CRUSTACEA_Scyllaridae_Cicala minore,1
 DEMOSPONGIE_,DEMOSPONGIE,,6
-DEMOSPONGIE_Aplysinidae,Aplysinidae,DEMOSPONGIE_,1
-DEMOSPONGIE_Aplysinidae_Non precisato,Non precisato,DEMOSPONGIE_Aplysinidae,1
-"DEMOSPONGIE_Aplysinidae_Non precisato_Aplysina cavernicola Vacelet, 1959","Aplysina cavernicola Vacelet, 1959",DEMOSPONGIE_Aplysinidae_Non precisato,1
-DEMOSPONGIE_Axinellidae,Axinellidae,DEMOSPONGIE_,1
-DEMOSPONGIE_Axinellidae_Non precisato,Non precisato,DEMOSPONGIE_Axinellidae,1
-"DEMOSPONGIE_Axinellidae_Non precisato_Axinella polypoides Schmidt, 1862","Axinella polypoides Schmidt, 1862",DEMOSPONGIE_Axinellidae_Non precisato,1
 DEMOSPONGIE_Spongiidae,Spongiidae,DEMOSPONGIE_,4
 DEMOSPONGIE_Spongiidae_Spugna,Spugna,DEMOSPONGIE_Spongiidae,1
 "DEMOSPONGIE_Spongiidae_Spugna_Spongia zimocca Schmidt, 1862","Spongia zimocca Schmidt, 1862",DEMOSPONGIE_Spongiidae_Spugna,1
@@ -1235,12 +1211,6 @@ ECHINOIDEA_Echinidae,Echinidae,ECHINOIDEA_,1
 ECHINOIDEA_Echinidae_Riccio di mare di roccia,Riccio di mare di roccia,ECHINOIDEA_Echinidae,1
 "ECHINOIDEA_Echinidae_Riccio di mare di roccia_Paracentrotus lividus (Lamarck, 1816)","Paracentrotus lividus (Lamarck, 1816)",ECHINOIDEA_Echinidae_Riccio di mare di roccia,1
 GASTROPODA_,GASTROPODA,,19
-GASTROPODA_Cypraeidae,Cypraeidae,GASTROPODA_,4
-GASTROPODA_Cypraeidae_Non precisato,Non precisato,GASTROPODA_Cypraeidae,4
-"GASTROPODA_Cypraeidae_Non precisato_Erosaria spurca (Linnaeus, 1758)","Erosaria spurca (Linnaeus, 1758)",GASTROPODA_Cypraeidae_Non precisato,1
-"GASTROPODA_Cypraeidae_Non precisato_Luria lurida (Linnaeus, 1758)","Luria lurida (Linnaeus, 1758)",GASTROPODA_Cypraeidae_Non precisato,1
-"GASTROPODA_Cypraeidae_Non precisato_Schilderia achatidea (Gray in G.B. Sowerby II, 1837)","Schilderia achatidea (Gray in G.B. Sowerby II, 1837)",GASTROPODA_Cypraeidae_Non precisato,1
-"GASTROPODA_Cypraeidae_Non precisato_Zonaria pyrum (Gmelin, 1791)","Zonaria pyrum (Gmelin, 1791)",GASTROPODA_Cypraeidae_Non precisato,1
 GASTROPODA_Mitridae,Mitridae,GASTROPODA_,1
 GASTROPODA_Mitridae_Mitra zonata,Mitra zonata,GASTROPODA_Mitridae,1
 "GASTROPODA_Mitridae_Mitra zonata_Mitra zonata Marryat, 1818","Mitra zonata Marryat, 1818",GASTROPODA_Mitridae_Mitra zonata,1
@@ -1248,9 +1218,6 @@ GASTROPODA_Patellidae,Patellidae,GASTROPODA_,2
 GASTROPODA_Patellidae_Patella ferrosa,Patella ferrosa,GASTROPODA_Patellidae,2
 "GASTROPODA_Patellidae_Patella ferrosa_Patella ferruginea Gmelin, 1791","Patella ferruginea Gmelin, 1791",GASTROPODA_Patellidae_Patella ferrosa,2
 GASTROPODA_Ranellidae,Ranellidae,GASTROPODA_,3
-GASTROPODA_Ranellidae_Non precisato,Non precisato,GASTROPODA_Ranellidae,2
-"GASTROPODA_Ranellidae_Non precisato_Charonia lampas (Linnaeus, 1758)","Charonia lampas (Linnaeus, 1758)",GASTROPODA_Ranellidae_Non precisato,1
-"GASTROPODA_Ranellidae_Non precisato_Ranella olearia (Linnaeus, 1758)","Ranella olearia (Linnaeus, 1758)",GASTROPODA_Ranellidae_Non precisato,1
 GASTROPODA_Ranellidae_Tritone lucido,Tritone lucido,GASTROPODA_Ranellidae,1
 "GASTROPODA_Ranellidae_Tritone lucido_Charonia tritonis (Linnaeus, 1758)","Charonia tritonis (Linnaeus, 1758)",GASTROPODA_Ranellidae_Tritone lucido,1
 GASTROPODA_Tonnidae,Tonnidae,GASTROPODA_,1
@@ -1259,9 +1226,6 @@ GASTROPODA_Tonnidae_Elmo,Elmo,GASTROPODA_Tonnidae,1
 GASTROPODA_Trochidae,Trochidae,GASTROPODA_,1
 GASTROPODA_Trochidae_Trottola,Trottola,GASTROPODA_Trochidae,1
 "GASTROPODA_Trochidae_Trottola_Gibbula nivosa A.Adams, 1851","Gibbula nivosa A.Adams, 1851",GASTROPODA_Trochidae_Trottola,1
-GASTROPODA_Vermetidae,Vermetidae,GASTROPODA_,1
-GASTROPODA_Vermetidae_Non precisato,Non precisato,GASTROPODA_Vermetidae,1
-"GASTROPODA_Vermetidae_Non precisato_Dendropoma petraeum (Monterosato,1884)","Dendropoma petraeum (Monterosato,1884)",GASTROPODA_Vermetidae_Non precisato,1
 GASTROPODA_Vertiginidae,Vertiginidae,GASTROPODA_,6
 GASTROPODA_Vertiginidae_Chiocciola,Chiocciola,GASTROPODA_Vertiginidae,2
 "GASTROPODA_Vertiginidae_Chiocciola_Helix pomatia Linnaeus, 1758","Helix pomatia Linnaeus, 1758",GASTROPODA_Vertiginidae_Chiocciola,2
@@ -1274,87 +1238,9 @@ GASTROPODA_Vertiginidae_Vertigo di Geyer,Vertigo di Geyer,GASTROPODA_Vertiginida
 GASTROPODA_Vertiginidae_Vertigo sinistrorso minore,Vertigo sinistrorso minore,GASTROPODA_Vertiginidae,1
 "GASTROPODA_Vertiginidae_Vertigo sinistrorso minore_Vertigo angustior Jeffrreys, 1830","Vertigo angustior Jeffrreys, 1830",GASTROPODA_Vertiginidae_Vertigo sinistrorso minore,1
 HEXAPODA_,HEXAPODA,,107
-HEXAPODA_Arctiidae,Arctiidae,HEXAPODA_,1
-HEXAPODA_Arctiidae_Non precisato,Non precisato,HEXAPODA_Arctiidae,1
-"HEXAPODA_Arctiidae_Non precisato_Euplagia quadripunctaria   * (Poda, 1761)","Euplagia quadripunctaria   * (Poda, 1761)",HEXAPODA_Arctiidae_Non precisato,1
-HEXAPODA_Bostrichidae,Bostrichidae,HEXAPODA_,3
-HEXAPODA_Bostrichidae_Non precisato,Non precisato,HEXAPODA_Bostrichidae,3
-"HEXAPODA_Bostrichidae_Non precisato_Stephanopachys substriatus (Paykull, 1800)","Stephanopachys substriatus (Paykull, 1800)",HEXAPODA_Bostrichidae_Non precisato,3
-HEXAPODA_Buprestidae,Buprestidae,HEXAPODA_,3
-HEXAPODA_Buprestidae_Non precisato,Non precisato,HEXAPODA_Buprestidae,3
-"HEXAPODA_Buprestidae_Non precisato_Buprestis splendens Fabricius, 1774","Buprestis splendens Fabricius, 1774",HEXAPODA_Buprestidae_Non precisato,3
-HEXAPODA_Carabidae,Carabidae,HEXAPODA_,4
-HEXAPODA_Carabidae_Non precisato,Non precisato,HEXAPODA_Carabidae,4
-"HEXAPODA_Carabidae_Non precisato_Carabus olympiae * Sella, 1855","Carabus olympiae * Sella, 1855",HEXAPODA_Carabidae_Non precisato,4
-HEXAPODA_Cerambycidae,Cerambycidae,HEXAPODA_,7
-HEXAPODA_Cerambycidae_Non precisato,Non precisato,HEXAPODA_Cerambycidae,7
-"HEXAPODA_Cerambycidae_Non precisato_Cerambyx cerdo (Linnaeus, 1758)","Cerambyx cerdo (Linnaeus, 1758)",HEXAPODA_Cerambycidae_Non precisato,3
-"HEXAPODA_Cerambycidae_Non precisato_Morimus funereus (Mulsant, 1863)","Morimus funereus (Mulsant, 1863)",HEXAPODA_Cerambycidae_Non precisato,1
-"HEXAPODA_Cerambycidae_Non precisato_Rosalia alpina   * (Linnaeus, 1758)","Rosalia alpina   * (Linnaeus, 1758)",HEXAPODA_Cerambycidae_Non precisato,3
-HEXAPODA_Cetoniidae,Cetoniidae,HEXAPODA_,3
-HEXAPODA_Cetoniidae_Non precisato,Non precisato,HEXAPODA_Cetoniidae,3
-"HEXAPODA_Cetoniidae_Non precisato_Osmoderma eremita   * (Scopoli, 1763)","Osmoderma eremita   * (Scopoli, 1763)",HEXAPODA_Cetoniidae_Non precisato,3
 HEXAPODA_Coenagrionidae,Coenagrionidae,HEXAPODA_,2
 HEXAPODA_Coenagrionidae_Agrion di Mercurio,Agrion di Mercurio,HEXAPODA_Coenagrionidae,2
 "HEXAPODA_Coenagrionidae_Agrion di Mercurio_Coenagrion mercuriale (Charpentier, 1840)","Coenagrion mercuriale (Charpentier, 1840)",HEXAPODA_Coenagrionidae_Agrion di Mercurio,2
-HEXAPODA_Cordulegastridae,Cordulegastridae,HEXAPODA_,4
-HEXAPODA_Cordulegastridae_Non precisato,Non precisato,HEXAPODA_Cordulegastridae,4
-"HEXAPODA_Cordulegastridae_Non precisato_Cordulegaster trinacriae Waterston, 1976","Cordulegaster trinacriae Waterston, 1976",HEXAPODA_Cordulegastridae_Non precisato,4
-HEXAPODA_Corduliidae,Corduliidae,HEXAPODA_,3
-HEXAPODA_Corduliidae_Non precisato,Non precisato,HEXAPODA_Corduliidae,3
-"HEXAPODA_Corduliidae_Non precisato_Oxygastra curtisii (Dale, 1834)","Oxygastra curtisii (Dale, 1834)",HEXAPODA_Corduliidae_Non precisato,3
-HEXAPODA_Cucujidae,Cucujidae,HEXAPODA_,3
-HEXAPODA_Cucujidae_Non precisato,Non precisato,HEXAPODA_Cucujidae,3
-"HEXAPODA_Cucujidae_Non precisato_Cucujus cinnaberinus (Scopoli, 1763)","Cucujus cinnaberinus (Scopoli, 1763)",HEXAPODA_Cucujidae_Non precisato,3
-HEXAPODA_Dytiscidae,Dytiscidae,HEXAPODA_,6
-HEXAPODA_Dytiscidae_Non precisato,Non precisato,HEXAPODA_Dytiscidae,6
-"HEXAPODA_Dytiscidae_Non precisato_Dytiscus latissimus (Linnaeus, 1758)","Dytiscus latissimus (Linnaeus, 1758)",HEXAPODA_Dytiscidae_Non precisato,3
-"HEXAPODA_Dytiscidae_Non precisato_Graphoderus bilineatus (De Geer, 1774)","Graphoderus bilineatus (De Geer, 1774)",HEXAPODA_Dytiscidae_Non precisato,3
-HEXAPODA_Gromphidae,Gromphidae,HEXAPODA_,8
-HEXAPODA_Gromphidae_Non precisato,Non precisato,HEXAPODA_Gromphidae,8
-"HEXAPODA_Gromphidae_Non precisato_Gomphus flavipes (Charpentier, 1825) ","Gomphus flavipes (Charpentier, 1825) ",HEXAPODA_Gromphidae_Non precisato,2
-"HEXAPODA_Gromphidae_Non precisato_Lindenia tetraphylla (Van der Linden, 1825)","Lindenia tetraphylla (Van der Linden, 1825)",HEXAPODA_Gromphidae_Non precisato,3
-"HEXAPODA_Gromphidae_Non precisato_Ophiogomphus cecilia (Fourcroy, 1785)","Ophiogomphus cecilia (Fourcroy, 1785)",HEXAPODA_Gromphidae_Non precisato,3
-HEXAPODA_Lasiocampidae,Lasiocampidae,HEXAPODA_,3
-HEXAPODA_Lasiocampidae_Non precisato,Non precisato,HEXAPODA_Lasiocampidae,3
-"HEXAPODA_Lasiocampidae_Non precisato_Eriogaster catax (Linnaeus, 1758)","Eriogaster catax (Linnaeus, 1758)",HEXAPODA_Lasiocampidae_Non precisato,3
-HEXAPODA_Lestidae,Lestidae,HEXAPODA_,1
-HEXAPODA_Lestidae_Non precisato,Non precisato,HEXAPODA_Lestidae,1
-"HEXAPODA_Lestidae_Non precisato_Sympecma paedisca (Brauer, 1882)","Sympecma paedisca (Brauer, 1882)",HEXAPODA_Lestidae_Non precisato,1
-HEXAPODA_Libellulidae,Libellulidae,HEXAPODA_,3
-HEXAPODA_Libellulidae_Non precisato,Non precisato,HEXAPODA_Libellulidae,3
-"HEXAPODA_Libellulidae_Non precisato_Leucorrhinia pectoralis (Charpentier, 1825) ","Leucorrhinia pectoralis (Charpentier, 1825) ",HEXAPODA_Libellulidae_Non precisato,3
-HEXAPODA_Lucanidae,Lucanidae,HEXAPODA_,2
-HEXAPODA_Lucanidae_Non precisato,Non precisato,HEXAPODA_Lucanidae,2
-"HEXAPODA_Lucanidae_Non precisato_Lucanus cervus (Linnaeus, 1758)","Lucanus cervus (Linnaeus, 1758)",HEXAPODA_Lucanidae_Non precisato,2
-HEXAPODA_Lycaenidae,Lycaenidae,HEXAPODA_,10
-HEXAPODA_Lycaenidae_Non precisato,Non precisato,HEXAPODA_Lycaenidae,10
-"HEXAPODA_Lycaenidae_Non precisato_Lycaena dispar (Haworth, 1803)","Lycaena dispar (Haworth, 1803)",HEXAPODA_Lycaenidae_Non precisato,3
-"HEXAPODA_Lycaenidae_Non precisato_Maculinea arion (Linnaeus, 1758)  ","Maculinea arion (Linnaeus, 1758)  ",HEXAPODA_Lycaenidae_Non precisato,1
-"HEXAPODA_Lycaenidae_Non precisato_Maculinea teleius (Bergstrasser, 1779)","Maculinea teleius (Bergstrasser, 1779)",HEXAPODA_Lycaenidae_Non precisato,3
-"HEXAPODA_Lycaenidae_Non precisato_Maculinea teleius (Bergstrasser, 1799)","Maculinea teleius (Bergstrasser, 1799)",HEXAPODA_Lycaenidae_Non precisato,3
-HEXAPODA_Nymphalidae,Nymphalidae,HEXAPODA_,5
-HEXAPODA_Nymphalidae_Non precisato,Non precisato,HEXAPODA_Nymphalidae,5
-"HEXAPODA_Nymphalidae_Non precisato_Argynnis elisa Godart, 1823","Argynnis elisa Godart, 1823",HEXAPODA_Nymphalidae_Non precisato,3
-"HEXAPODA_Nymphalidae_Non precisato_Euphydryas aurinia (Rottemburg,1775)","Euphydryas aurinia (Rottemburg,1775)",HEXAPODA_Nymphalidae_Non precisato,2
-HEXAPODA_Papilionidae,Papilionidae,HEXAPODA_,14
-HEXAPODA_Papilionidae_Non precisato,Non precisato,HEXAPODA_Papilionidae,14
-"HEXAPODA_Papilionidae_Non precisato_Papilio alexanor Esper, 1799","Papilio alexanor Esper, 1799",HEXAPODA_Papilionidae_Non precisato,2
-"HEXAPODA_Papilionidae_Non precisato_Papilio hospiton Géné, 1839","Papilio hospiton Géné, 1839",HEXAPODA_Papilionidae_Non precisato,5
-"HEXAPODA_Papilionidae_Non precisato_Parnassius apollo (Linnaeus, 1758) ","Parnassius apollo (Linnaeus, 1758) ",HEXAPODA_Papilionidae_Non precisato,3
-"HEXAPODA_Papilionidae_Non precisato_Parnassius mnemosyne (Linnaeus, 1758)  ","Parnassius mnemosyne (Linnaeus, 1758)  ",HEXAPODA_Papilionidae_Non precisato,2
-"HEXAPODA_Papilionidae_Non precisato_Zerynthia polyxena (Denis & Schiffermuller, 1775)","Zerynthia polyxena (Denis & Schiffermuller, 1775)",HEXAPODA_Papilionidae_Non precisato,2
-HEXAPODA_Satyridae,Satyridae,HEXAPODA_,16
-HEXAPODA_Satyridae_Non precisato,Non precisato,HEXAPODA_Satyridae,16
-"HEXAPODA_Satyridae_Non precisato_Coenonympha oedippus (Fabricius, 1787)","Coenonympha oedippus (Fabricius, 1787)",HEXAPODA_Satyridae_Non precisato,3
-"HEXAPODA_Satyridae_Non precisato_Erebia calcaria Lorkovic, 1949","Erebia calcaria Lorkovic, 1949",HEXAPODA_Satyridae_Non precisato,4
-"HEXAPODA_Satyridae_Non precisato_Erebia christi Ratzer, 1890","Erebia christi Ratzer, 1890",HEXAPODA_Satyridae_Non precisato,4
-"HEXAPODA_Satyridae_Non precisato_Lasiommata achine (Scopoli, 1763)","Lasiommata achine (Scopoli, 1763)",HEXAPODA_Satyridae_Non precisato,2
-"HEXAPODA_Satyridae_Non precisato_Melanargia arge (Sulzer, 1776)","Melanargia arge (Sulzer, 1776)",HEXAPODA_Satyridae_Non precisato,3
-HEXAPODA_Sphingidae,Sphingidae,HEXAPODA_,4
-HEXAPODA_Sphingidae_Non precisato,Non precisato,HEXAPODA_Sphingidae,4
-"HEXAPODA_Sphingidae_Non precisato_Hyles hippophaes (Esper, 1793)","Hyles hippophaes (Esper, 1793)",HEXAPODA_Sphingidae_Non precisato,2
-"HEXAPODA_Sphingidae_Non precisato_Prosperinus proserpinus (Pallas, 1772)","Prosperinus proserpinus (Pallas, 1772)",HEXAPODA_Sphingidae_Non precisato,2
 HEXAPODA_Tettigoniidae,Tettigoniidae,HEXAPODA_,2
 HEXAPODA_Tettigoniidae_Saga,Saga,HEXAPODA_Tettigoniidae,2
 "HEXAPODA_Tettigoniidae_Saga_Saga pedo (Pallas, 1771)","Saga pedo (Pallas, 1771)",HEXAPODA_Tettigoniidae_Saga,2
@@ -1362,10 +1248,6 @@ HIRUDINEA_,HIRUDINEA,,2
 HIRUDINEA_Hirudinidae,Hirudinidae,HIRUDINEA_,2
 HIRUDINEA_Hirudinidae_Sanguisuga,Sanguisuga,HIRUDINEA_Hirudinidae,2
 "HIRUDINEA_Hirudinidae_Sanguisuga_Hirudo medicinalis (Linnaeus, 1758)","Hirudo medicinalis (Linnaeus, 1758)",HIRUDINEA_Hirudinidae_Sanguisuga,2
-HYDROZOA_,HYDROZOA,,1
-HYDROZOA_Stylasteridae,Stylasteridae,HYDROZOA_,1
-HYDROZOA_Stylasteridae_Non precisato,Non precisato,HYDROZOA_Stylasteridae,1
-HYDROZOA_Stylasteridae_Non precisato_Errina aspera,Errina aspera,HYDROZOA_Stylasteridae_Non precisato,1
 MAMMALIA_,MAMMALIA,,369
 MAMMALIA_Balenopteridae,Balenopteridae,MAMMALIA_,8
 MAMMALIA_Balenopteridae_Balenottera comune,Balenottera comune,MAMMALIA_Balenopteridae,4
@@ -1406,9 +1288,6 @@ MAMMALIA_Cervidae_Cervo sardo,Cervo sardo,MAMMALIA_Cervidae,5
 MAMMALIA_Cervidae_Cervo sardo_Cervus elaphus corsicanus   *,Cervus elaphus corsicanus   *,MAMMALIA_Cervidae_Cervo sardo,5
 MAMMALIA_Cervidae_Daino,Daino,MAMMALIA_Cervidae,1
 "MAMMALIA_Cervidae_Daino_Dama dama (Linnaeus, 1758)  ","Dama dama (Linnaeus, 1758)  ",MAMMALIA_Cervidae_Daino,1
-MAMMALIA_Cervidae_Non precisato,Non precisato,MAMMALIA_Cervidae,3
-MAMMALIA_Cervidae_Non precisato_Capreolus capreolus capreolus,Capreolus capreolus capreolus,MAMMALIA_Cervidae_Non precisato,1
-MAMMALIA_Cervidae_Non precisato_Capreolus capreolus italicus,Capreolus capreolus italicus,MAMMALIA_Cervidae_Non precisato,2
 MAMMALIA_Delphinidae,Delphinidae,MAMMALIA_,33
 MAMMALIA_Delphinidae_Delfino comune,Delfino comune,MAMMALIA_Delphinidae,4
 "MAMMALIA_Delphinidae_Delfino comune_Delphinus delphis Linnaeus, 1758  ","Delphinus delphis Linnaeus, 1758  ",MAMMALIA_Delphinidae_Delfino comune,4
@@ -1435,9 +1314,6 @@ MAMMALIA_Felidae_Gatto selvatico,Gatto selvatico,MAMMALIA_Felidae,4
 "MAMMALIA_Felidae_Gatto selvatico_Felis silvestris Schreber, 1777","Felis silvestris Schreber, 1777",MAMMALIA_Felidae_Gatto selvatico,4
 MAMMALIA_Felidae_Lince eurasiatica,Lince eurasiatica,MAMMALIA_Felidae,5
 "MAMMALIA_Felidae_Lince eurasiatica_Linx linx (Linnaeus, 1758)  ","Linx linx (Linnaeus, 1758)  ",MAMMALIA_Felidae_Lince eurasiatica,5
-MAMMALIA_Felidae_Non precisato,Non precisato,MAMMALIA_Felidae,8
-MAMMALIA_Felidae_Non precisato_Felis silvestris lybica,Felis silvestris lybica,MAMMALIA_Felidae_Non precisato,4
-MAMMALIA_Felidae_Non precisato_Felis silvestris silvestris,Felis silvestris silvestris,MAMMALIA_Felidae_Non precisato,4
 MAMMALIA_Hystricidae,Hystricidae,MAMMALIA_,3
 MAMMALIA_Hystricidae_Istrice,Istrice,MAMMALIA_Hystricidae,3
 "MAMMALIA_Hystricidae_Istrice_Hystrix cristata  (Linnaeus, 1758)  ","Hystrix cristata  (Linnaeus, 1758)  ",MAMMALIA_Hystricidae_Istrice,3
@@ -1446,8 +1322,6 @@ MAMMALIA_Leporidae_Lepre bianca,Lepre bianca,MAMMALIA_Leporidae,2
 "MAMMALIA_Leporidae_Lepre bianca_Lepus timidus Linnaeus, 1758","Lepus timidus Linnaeus, 1758",MAMMALIA_Leporidae_Lepre bianca,2
 MAMMALIA_Leporidae_Lepre sarda,Lepre sarda,MAMMALIA_Leporidae,2
 MAMMALIA_Leporidae_Lepre sarda_Lepus capensis mediterraneus,Lepus capensis mediterraneus,MAMMALIA_Leporidae_Lepre sarda,2
-MAMMALIA_Leporidae_Non precisato,Non precisato,MAMMALIA_Leporidae,1
-"MAMMALIA_Leporidae_Non precisato_Lepus capensis (Linnaeus, 1758)","Lepus capensis (Linnaeus, 1758)",MAMMALIA_Leporidae_Non precisato,1
 MAMMALIA_Molossidae,Molossidae,MAMMALIA_,4
 MAMMALIA_Molossidae_Molosso di Cestoni,Molosso di Cestoni,MAMMALIA_Molossidae,4
 "MAMMALIA_Molossidae_Molosso di Cestoni_Tadarida teniotis (Rafinesque, 1814)","Tadarida teniotis (Rafinesque, 1814)",MAMMALIA_Molossidae_Molosso di Cestoni,4
@@ -1462,10 +1336,6 @@ MAMMALIA_Mustelidae_Lontra comune,Lontra comune,MAMMALIA_Mustelidae,5
 "MAMMALIA_Mustelidae_Lontra comune_Lutra lutra (Linnaeus, 1758)  ","Lutra lutra (Linnaeus, 1758)  ",MAMMALIA_Mustelidae_Lontra comune,5
 MAMMALIA_Mustelidae_Martora,Martora,MAMMALIA_Mustelidae,3
 "MAMMALIA_Mustelidae_Martora_Martes martes (Linnaeus, 1758)  ","Martes martes (Linnaeus, 1758)  ",MAMMALIA_Mustelidae_Martora,3
-MAMMALIA_Mustelidae_Non precisato,Non precisato,MAMMALIA_Mustelidae,6
-MAMMALIA_Mustelidae_Non precisato_Mustela nivalis boccamela,Mustela nivalis boccamela,MAMMALIA_Mustelidae_Non precisato,2
-MAMMALIA_Mustelidae_Non precisato_Mustela nivalis minuta,Mustela nivalis minuta,MAMMALIA_Mustelidae_Non precisato,2
-MAMMALIA_Mustelidae_Non precisato_Mustela nivalis nivalis,Mustela nivalis nivalis,MAMMALIA_Mustelidae_Non precisato,2
 MAMMALIA_Mustelidae_Puzzola,Puzzola,MAMMALIA_Mustelidae,3
 "MAMMALIA_Mustelidae_Puzzola_Mustela putorius Linnaeus, 1758  ","Mustela putorius Linnaeus, 1758  ",MAMMALIA_Mustelidae_Puzzola,3
 MAMMALIA_Mustelidae_Tasso,Tasso,MAMMALIA_Mustelidae,2
@@ -1482,9 +1352,6 @@ MAMMALIA_Myoxidae_Ghiro,Ghiro,MAMMALIA_Myoxidae,2
 "MAMMALIA_Myoxidae_Ghiro_Myoxus glis (Linnaeus, 1766)  ","Myoxus glis (Linnaeus, 1766)  ",MAMMALIA_Myoxidae_Ghiro,2
 MAMMALIA_Myoxidae_Moscardino,Moscardino,MAMMALIA_Myoxidae,3
 "MAMMALIA_Myoxidae_Moscardino_Muscardinus avellanarius (Linnaeus, 1758) ","Muscardinus avellanarius (Linnaeus, 1758) ",MAMMALIA_Myoxidae_Moscardino,3
-MAMMALIA_Myoxidae_Non precisato,Non precisato,MAMMALIA_Myoxidae,6
-MAMMALIA_Myoxidae_Non precisato_Eliomys quercinus liparensis,Eliomys quercinus liparensis,MAMMALIA_Myoxidae_Non precisato,3
-MAMMALIA_Myoxidae_Non precisato_Eliomys quercinus sardus,Eliomys quercinus sardus,MAMMALIA_Myoxidae_Non precisato,3
 MAMMALIA_Myoxidae_Quercino,Quercino,MAMMALIA_Myoxidae,2
 "MAMMALIA_Myoxidae_Quercino_Eliomys quercinus (Linnaeus, 1766) ","Eliomys quercinus (Linnaeus, 1766) ",MAMMALIA_Myoxidae_Quercino,2
 MAMMALIA_Phocidae,Phocidae,MAMMALIA_,7
@@ -1524,11 +1391,6 @@ MAMMALIA_Soricidae_Crocidura ventre bianco,Crocidura ventre bianco,MAMMALIA_Sori
 "MAMMALIA_Soricidae_Crocidura ventre bianco_Crocidura leucodon (Hermann, 1780)","Crocidura leucodon (Hermann, 1780)",MAMMALIA_Soricidae_Crocidura ventre bianco,2
 MAMMALIA_Soricidae_Mustiolo,Mustiolo,MAMMALIA_Soricidae,2
 "MAMMALIA_Soricidae_Mustiolo_Suncus etruscus (Savi, 1822)","Suncus etruscus (Savi, 1822)",MAMMALIA_Soricidae_Mustiolo,2
-MAMMALIA_Soricidae_Non precisato,Non precisato,MAMMALIA_Soricidae,6
-MAMMALIA_Soricidae_Non precisato_Crocidura russula cossyrensis,Crocidura russula cossyrensis,MAMMALIA_Soricidae_Non precisato,3
-MAMMALIA_Soricidae_Non precisato_Crocidura russula ichnusae,Crocidura russula ichnusae,MAMMALIA_Soricidae_Non precisato,3
-MAMMALIA_Soricidae_Toporagno Non precisatoo,Toporagno Non precisatoo,MAMMALIA_Soricidae,2
-"MAMMALIA_Soricidae_Toporagno Non precisatoo_Sorex minutus  Linnaeus, 1766","Sorex minutus  Linnaeus, 1766",MAMMALIA_Soricidae_Toporagno Non precisatoo,2
 MAMMALIA_Soricidae_Toporagno alpino,Toporagno alpino,MAMMALIA_Soricidae,2
 "MAMMALIA_Soricidae_Toporagno alpino_Sorex alpinus Schinz, 1837","Sorex alpinus Schinz, 1837",MAMMALIA_Soricidae_Toporagno alpino,2
 MAMMALIA_Soricidae_Toporagno appenninico,Toporagno appenninico,MAMMALIA_Soricidae,3
@@ -1539,6 +1401,8 @@ MAMMALIA_Soricidae_Toporagno d'acqua,Toporagno d'acqua,MAMMALIA_Soricidae,2
 "MAMMALIA_Soricidae_Toporagno d'acqua_Neomys fodiens (Pennant, 1771)","Neomys fodiens (Pennant, 1771)",MAMMALIA_Soricidae_Toporagno d'acqua,2
 MAMMALIA_Soricidae_Toporagno d'acqua di Miller,Toporagno d'acqua di Miller,MAMMALIA_Soricidae,2
 "MAMMALIA_Soricidae_Toporagno d'acqua di Miller_Neomys anomalus Cabrera, 1907","Neomys anomalus Cabrera, 1907",MAMMALIA_Soricidae_Toporagno d'acqua di Miller,2
+MAMMALIA_Soricidae_Toporagno nano,Toporagno nano,MAMMALIA_Soricidae,2
+"MAMMALIA_Soricidae_Toporagno nano_Sorex minutus  Linnaeus, 1766","Sorex minutus  Linnaeus, 1766",MAMMALIA_Soricidae_Toporagno nano,2
 MAMMALIA_Suidae,Suidae,MAMMALIA_,2
 MAMMALIA_Suidae_Cinghiale,Cinghiale,MAMMALIA_Suidae,0
 "MAMMALIA_Suidae_Cinghiale_Sus scrofa Linnaeus, 1758  ","Sus scrofa Linnaeus, 1758  ",MAMMALIA_Suidae_Cinghiale,0
@@ -1556,9 +1420,6 @@ MAMMALIA_Vespertilionidae_Barbastello,Barbastello,MAMMALIA_Vespertilionidae,5
 "MAMMALIA_Vespertilionidae_Barbastello_Barbastella barbastellus (Schreber, 1774) ","Barbastella barbastellus (Schreber, 1774) ",MAMMALIA_Vespertilionidae_Barbastello,5
 MAMMALIA_Vespertilionidae_Miniottero,Miniottero,MAMMALIA_Vespertilionidae,5
 "MAMMALIA_Vespertilionidae_Miniottero_Miniopterus schreibersi (Natterer in Kuhl, 1819) ","Miniopterus schreibersi (Natterer in Kuhl, 1819) ",MAMMALIA_Vespertilionidae_Miniottero,5
-MAMMALIA_Vespertilionidae_Non precisato,Non precisato,MAMMALIA_Vespertilionidae,10
-MAMMALIA_Vespertilionidae_Non precisato_Myotis blythi oxygnathus,Myotis blythi oxygnathus,MAMMALIA_Vespertilionidae_Non precisato,5
-MAMMALIA_Vespertilionidae_Non precisato_Myotis blythi punicus,Myotis blythi punicus,MAMMALIA_Vespertilionidae_Non precisato,5
 MAMMALIA_Vespertilionidae_Nottola comune,Nottola comune,MAMMALIA_Vespertilionidae,4
 "MAMMALIA_Vespertilionidae_Nottola comune_Nyctalus noctula (Schreber, 1774) ","Nyctalus noctula (Schreber, 1774) ",MAMMALIA_Vespertilionidae_Nottola comune,4
 MAMMALIA_Vespertilionidae_Nottola di Leisler,Nottola di Leisler,MAMMALIA_Vespertilionidae,4
@@ -1569,14 +1430,14 @@ MAMMALIA_Vespertilionidae_Orecchione comune,Orecchione comune,MAMMALIA_Vespertil
 "MAMMALIA_Vespertilionidae_Orecchione comune_Plecotus auritus (Linnaeus, 1758)","Plecotus auritus (Linnaeus, 1758)",MAMMALIA_Vespertilionidae_Orecchione comune,4
 MAMMALIA_Vespertilionidae_Orecchione meridionale,Orecchione meridionale,MAMMALIA_Vespertilionidae,4
 "MAMMALIA_Vespertilionidae_Orecchione meridionale_Plecotus austriacus (Fischer, 1829)","Plecotus austriacus (Fischer, 1829)",MAMMALIA_Vespertilionidae_Orecchione meridionale,4
-MAMMALIA_Vespertilionidae_Pipistrello Non precisatoo,Pipistrello Non precisatoo,MAMMALIA_Vespertilionidae,4
-"MAMMALIA_Vespertilionidae_Pipistrello Non precisatoo_Pipistrellus pipistrellus (Schreber, 1774)","Pipistrellus pipistrellus (Schreber, 1774)",MAMMALIA_Vespertilionidae_Pipistrello Non precisatoo,4
 MAMMALIA_Vespertilionidae_Pipistrello albolimbato,Pipistrello albolimbato,MAMMALIA_Vespertilionidae,4
 "MAMMALIA_Vespertilionidae_Pipistrello albolimbato_Pipistrellus kuhli (Kuhl, 1817)","Pipistrellus kuhli (Kuhl, 1817)",MAMMALIA_Vespertilionidae_Pipistrello albolimbato,4
 MAMMALIA_Vespertilionidae_Pipistrello di Nathusius,Pipistrello di Nathusius,MAMMALIA_Vespertilionidae,4
 "MAMMALIA_Vespertilionidae_Pipistrello di Nathusius_Pipistrellus nathusii (Keyserling & Blasius, 1839)","Pipistrellus nathusii (Keyserling & Blasius, 1839)",MAMMALIA_Vespertilionidae_Pipistrello di Nathusius,4
 MAMMALIA_Vespertilionidae_Pipistrello di Savi,Pipistrello di Savi,MAMMALIA_Vespertilionidae,4
 "MAMMALIA_Vespertilionidae_Pipistrello di Savi_Hypsugo savii (Bonaparte, 1837)","Hypsugo savii (Bonaparte, 1837)",MAMMALIA_Vespertilionidae_Pipistrello di Savi,4
+MAMMALIA_Vespertilionidae_Pipistrello nano,Pipistrello nano,MAMMALIA_Vespertilionidae,4
+"MAMMALIA_Vespertilionidae_Pipistrello nano_Pipistrellus pipistrellus (Schreber, 1774)","Pipistrellus pipistrellus (Schreber, 1774)",MAMMALIA_Vespertilionidae_Pipistrello nano,4
 MAMMALIA_Vespertilionidae_Pipistrello pigmeo,Pipistrello pigmeo,MAMMALIA_Vespertilionidae,4
 "MAMMALIA_Vespertilionidae_Pipistrello pigmeo_Pipistrellus pygmaeus (Leach, 1825)","Pipistrellus pygmaeus (Leach, 1825)",MAMMALIA_Vespertilionidae_Pipistrello pigmeo,4
 MAMMALIA_Vespertilionidae_Serotino bicolore,Serotino bicolore,MAMMALIA_Vespertilionidae,4
@@ -1781,10 +1642,10 @@ REPTILIA_Gekkonidae_Tarantolino,Tarantolino,REPTILIA_Gekkonidae,6
 "REPTILIA_Gekkonidae_Tarantolino_Euleptes europaea (Gené, 1838)","Euleptes europaea (Gené, 1838)",REPTILIA_Gekkonidae_Tarantolino,3
 "REPTILIA_Gekkonidae_Tarantolino_Phyllodactylus europaeus Gené, 1830","Phyllodactylus europaeus Gené, 1830",REPTILIA_Gekkonidae_Tarantolino,3
 REPTILIA_Lacertidae,Lacertidae,REPTILIA_,33
-REPTILIA_Lacertidae_Algiroide Non precisatoo,Algiroide Non precisatoo,REPTILIA_Lacertidae,3
-"REPTILIA_Lacertidae_Algiroide Non precisatoo_Algyroides fitzingeri (Wiegmann, 1834)","Algyroides fitzingeri (Wiegmann, 1834)",REPTILIA_Lacertidae_Algiroide Non precisatoo,3
 REPTILIA_Lacertidae_Algiroide magnifico,Algiroide magnifico,REPTILIA_Lacertidae,2
 "REPTILIA_Lacertidae_Algiroide magnifico_Algyroides nigropunctatus (Duméril & Bibron, 1839)","Algyroides nigropunctatus (Duméril & Bibron, 1839)",REPTILIA_Lacertidae_Algiroide magnifico,2
+REPTILIA_Lacertidae_Algiroide nano,Algiroide nano,REPTILIA_Lacertidae,3
+"REPTILIA_Lacertidae_Algiroide nano_Algyroides fitzingeri (Wiegmann, 1834)","Algyroides fitzingeri (Wiegmann, 1834)",REPTILIA_Lacertidae_Algiroide nano,3
 REPTILIA_Lacertidae_Lucertola adriatica,Lucertola adriatica,REPTILIA_Lacertidae,2
 "REPTILIA_Lacertidae_Lucertola adriatica_Podarcis melisellensis (Braun, 1877)","Podarcis melisellensis (Braun, 1877)",REPTILIA_Lacertidae_Lucertola adriatica,2
 REPTILIA_Lacertidae_Lucertola campestre,Lucertola campestre,REPTILIA_Lacertidae,2
@@ -1837,12 +1698,3 @@ REPTILIA_Viperidae_Vipera dal corno,Vipera dal corno,REPTILIA_Viperidae,2
 "REPTILIA_Viperidae_Vipera dal corno_Vipera ammodytes (Linnaeus, 1758) ","Vipera ammodytes (Linnaeus, 1758) ",REPTILIA_Viperidae_Vipera dal corno,2
 REPTILIA_Viperidae_Vipera dell'Orsini,Vipera dell'Orsini,REPTILIA_Viperidae,4
 "REPTILIA_Viperidae_Vipera dell'Orsini_Vipera ursinii (Bonaparte, 1835)","Vipera ursinii (Bonaparte, 1835)",REPTILIA_Viperidae_Vipera dell'Orsini,4
-STELLEROIDEA_,STELLEROIDEA,,2
-STELLEROIDEA_Ophidiasteridae,Ophidiasteridae,STELLEROIDEA_,2
-STELLEROIDEA_Ophidiasteridae_Non precisato,Non precisato,STELLEROIDEA_Ophidiasteridae,2
-"STELLEROIDEA_Ophidiasteridae_Non precisato_Asterina pancerii  (Gasco, 1860)","Asterina pancerii  (Gasco, 1860)",STELLEROIDEA_Ophidiasteridae_Non precisato,1
-"STELLEROIDEA_Ophidiasteridae_Non precisato_Ophidiaster ophidianus  (Lamarck, 1816)","Ophidiaster ophidianus  (Lamarck, 1816)",STELLEROIDEA_Ophidiasteridae_Non precisato,1
-STENOLAEMATA_,STENOLAEMATA,,1
-STENOLAEMATA_Horneridae,Horneridae,STENOLAEMATA_,1
-STENOLAEMATA_Horneridae_Non precisato,Non precisato,STENOLAEMATA_Horneridae,1
-STENOLAEMATA_Horneridae_Non precisato_Hornera lichenoides,Hornera lichenoides,STENOLAEMATA_Horneridae_Non precisato,1

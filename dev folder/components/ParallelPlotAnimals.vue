@@ -9,9 +9,11 @@ export default {
   },
   data() {
     return {
+
+      sel_info:'Categoria',
           Periodo: [],
         Tipo: [],
-
+        Famiglia:[],
     Istanze: [],
    
     start: true,
@@ -27,6 +29,7 @@ export default {
       console.log(csvs[0])
       this.Periodo=csvs[0].map(d=>d.Periodo)
       this.Tipo=csvs[0].map(d=>d.Tipo)
+      this.Famiglia=csvs[0].map(d=>d.Famiglia)
       this.Istanze=csvs[0].map(d=>d.Istanze)
 
     })
@@ -52,8 +55,8 @@ export default {
       ];
       var trace1 = {
         type: "parcats",
-        hoveron: "color",
-        //hoverinfo: "count+probability",
+        hoveron: this.sel_info=='Categoria' ?"category" :'color',
+        hoverinfo: "all",
         dimensions: [
           {
             label: "Periodo",
@@ -61,12 +64,18 @@ export default {
             categoryorder: "category ascending",
           },
           {
-            label: "Tipo",
+            label: 'Classe',
+            values: this.Famiglia.map(String),
+            categoryorder:'category ascending'
+          }
+          ,
+          {
+            label: "Famiglia",
             values: this.Tipo.map(String),
             categoryorder: "category ascending",
           },
           {
-            label: "Istanze",
+            label: "Specie",
             values: this.Istanze.map(String),
             categoryorder: "category ascending",
           }
@@ -95,7 +104,7 @@ export default {
         height_ = 1500;
       }
 */
-      var layout = { width: window.innerWidth,margin:{l:400,r:500}}
+      var layout = { width: parent.innerWidth/1.3,margin:{l:400,r:200,t:0}}
 
       Plotly.newPlot("parallel_", data, layout, {displayModeBar: false,});
 
@@ -122,19 +131,34 @@ export default {
       this.data_length = this.Periodo.length;
       this.parallelCoords();
     },
+    sel_info:function(){
+      this.parallelCoords()
+    }
   },
 };
 </script>
 
 <template>
+<b-container>
+  <b-row>
+    <b-col>
+      <b-form-group id="" v-slot="{ariaDescribedby}">
+      <b-form-radio-group id="" v-model="sel_info" :options="['Categoria','Colore']" :aria-describedby="ariaDescribedby"></b-form-radio-group>
+      </b-form-group>
+    </b-col>
+  </b-row>
+  <b-row>
+    <b-col>
   <div id="parallel_"></div>
+  </b-col>
+  </b-row>
+</b-container>
 </template>
 
 <style>
 #parallel_{
-  display: block;
   height: 1000px;
   width:90vw;
-  margin-left:-13%
+  margin-left:-13%;
 }
 </style>

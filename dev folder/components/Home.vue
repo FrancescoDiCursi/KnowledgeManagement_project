@@ -64,7 +64,6 @@ export default {
       <MapItalyRiserve></MapItalyRiserve>
       <ItalyRiserveHeat></ItalyRiserveHeat>
 
-      <ScatterAnimals></ScatterAnimals>
 
   </b-container>
 </template>
