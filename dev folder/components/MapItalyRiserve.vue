@@ -191,12 +191,12 @@ console.log(scale_els_points)
         .enter()
         .append("circle")
         .attr("class", "riserve")
-        .attr("r", (d) => Math.sqrt(+d["Dimensioni"]) / 2.5)
+        .attr("r", (d) => Math.sqrt(+d["Dimensioni"])/2)
         .attr("cx", (d) => proj_([+d.Long, +d.Lat])[0])
         .attr("cy", (d) => proj_([+d.Long, +d.Lat])[1])
-        .attr("stroke", "white")
+        .attr("stroke", "black")
         .attr("fill", (d) => colors_points(+d["N animali"]))
-        .attr("opacity", 0.6)
+        .attr("opacity", 0.5)
         .on('click',function(){ //CONTINUA DA QUI: cliccando sulla riserva, al lato della mappa descrizione riserva
           console.log(this)
         })
@@ -220,7 +220,7 @@ console.log(scale_els_points)
       }
 
 
-
+/*
       svg
         .selectAll(".riserve_txt")
         .data(this.riserve_csv)
@@ -232,6 +232,7 @@ console.log(scale_els_points)
         .attr("fill", "white")
         .text((d) => d.Regione[0])
         .attr("font-size", 15);
+*/
     },
     sleep(ms) {
       return new Promise((resolve) => setTimeout(resolve, ms));
