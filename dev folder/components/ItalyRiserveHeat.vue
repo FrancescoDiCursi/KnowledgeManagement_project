@@ -166,7 +166,9 @@ export default {
          <div id="riserve_it_marginaly"></div>
          </b-col>
       </b-row>
-
+      <br/>
+      <b-row>    <span class="credits_" >Fonte: <a href="https://www.turismovenatorio.it/ita/">Turismo Venatorio</a></span>
+</b-row>
    </b-container>
 </template>
 

@@ -155,7 +155,7 @@ export default {
           id="circles_associazioni"
           width="35rem"
           height="700px"
-          viewBox="-10 100 500 500"
+          viewBox="-30 100 500 500"
         >
           <defs>
             <pattern id="image1" x="0" y="0" height="1" width="1">
@@ -239,6 +239,6 @@ export default {
   width: 35rem;
   margin-left: 5rem;
   position: relative;
-  float:bottom
+  float:bottom;
 }
 </style>

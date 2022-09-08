@@ -155,6 +155,9 @@ export default {
           //size: 18,
           color: "black",
         },
+        margin:{
+          b:0,
+        },
         xaxis: {
           autorange: true,
           rangeselector: {
@@ -272,14 +275,23 @@ export default {
 </script>
 
 <template>
-<span>
-
+<b-container>
+  <b-row>
   <div id="line_macellazioni"></div>
-</span>
+
+  </b-row>
+  <b-row>
+    <span class="credits_">Fonte: <a href="https://seriestoriche.istat.it/index.php?id=1&no_cache=1&tx_usercento_centofe%5Bcategoria%5D=13&tx_usercento_centofe%5Baction%5D=show&tx_usercento_centofe%5Bcontroller%5D=Categoria&cHash=e3503d8195dd4231ff53ba078ad5c124">ISTAT, serie storiche</a></span>
+    <span class="data_path"> (Zootecnia e pesca => Bestiame macellato serie )</span>
+  </b-row>
+</b-container>
+
+
 </template>
 
 <style>
 .selector-text{
     fill: black !important
 }
+
 </style>

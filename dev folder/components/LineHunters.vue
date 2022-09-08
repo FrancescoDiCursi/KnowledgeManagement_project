@@ -42,6 +42,13 @@ export default {
       traces.push(trace);
       traces.push(text);
       var layout = {
+        margin:{
+          b:0,
+          t:0
+        },
+        xaxis:{
+          automargin:true
+        },
         shapes: [
           {
             type: "line",
@@ -74,8 +81,17 @@ export default {
 </script>
 
 <template>
+  <b-container>
+    <b-row>
   <div id="line_n_hunters"></div>
+    </b-row>
+    <b-row>
+      <span class="credits_">Fonte: <a href='https://www.cacciailcacciatore.org/info/opposizione.html'>cacciailcacciatore (ISTAT) </a></span>
+    </b-row>
+  </b-container>
+
 </template>
 
 <style>
+
 </style>

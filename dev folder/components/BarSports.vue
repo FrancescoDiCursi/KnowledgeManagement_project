@@ -95,10 +95,12 @@ export default {
         xaxis:{
             type:'category',
             categoryorder:'category ascending',
+            automargin:true
+
         },
         height:600,
         margin:{
-            b:300,
+            b:0,
             t:10
         },
         shapes:[
@@ -133,7 +135,11 @@ export default {
 </script>
 
 <template>
-  <div id="bar_sport"></div>
+<b-container>
+  <b-row>  <div id="bar_sport"></div>
+</b-row>
+  <b-row><span class='credits_'>Fonte: <a href='https://www.istat.it/it/archivio/204663'>ISTAT</a></span></b-row>
+</b-container>
 </template>
 
 <style>

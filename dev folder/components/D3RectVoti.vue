@@ -355,11 +355,14 @@ export default {
 </script>
 
 <template>
-  <svg id="rects_votes" width="1000" height="400" viewBox="150 -50 50 870"></svg>
+<b-container>
+  <b-row>  <svg id="rects_votes"  height="400" viewBox="-500 100 1500 100"></svg>
+</b-row>
+  <b-row><span class='credits_'>Fonte: <a href='https://it.wikipedia.org/wiki/Referendum_abrogativi_in_Italia_del_1990#Disciplina_della_caccia'>Wikipedia</a></span></b-row>
+</b-container>
 </template>
 
 <style scoped>
 #rects_votes{
-width:40rem
 }
 </style>

@@ -21,7 +21,7 @@ export default {
       console.log(animals);
       for (var animal of animals) {
         console.log(animal);
-        var vals = this.price_df.map((d) =>d[animal]/100);
+        var vals = this.price_df.map((d) =>d[animal]);
         console.log(vals)
         var trace = {
           type: "markers",
@@ -49,7 +49,10 @@ export default {
       traces.push(text)*/
       var layout = {
         margin: {
-          r: 200,
+          b:0,
+          t:0
+        },        xaxis:{
+          automargin:true
         },
         /*shapes:[
             {
@@ -83,7 +86,11 @@ export default {
 </script>
 
 <template>
-  <div id="line_prices"></div>
+<b-container>
+  <b-row>  <div id="line_prices"></div>
+</b-row>
+  <b-row><span class='credits_'>Fonte: <a href="https://www.istat.it/it/files//2019/03/cap_21.pdf">ISTAT</a></span></b-row>
+</b-container>
 </template>
 
 <style>

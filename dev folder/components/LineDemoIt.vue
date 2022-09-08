@@ -41,7 +41,12 @@ export default {
       traces.push(text)
       var layout = {
         margin:{
-            r:200
+            //r:200,
+            t:0,
+            b:0
+        },
+                xaxis:{
+          automargin:true
         },
         shapes:[
             {
@@ -76,7 +81,13 @@ export default {
 </script>
 
 <template>
-  <div id="line_demoIt"></div>
+<b-container>
+  <b-row>  <div id="line_demoIt"></div>
+</b-row>
+  <b-row>
+    <span class="credits_">Fonte: <a href='https://italiaindati.com/demografia/'>ItaliaInDati</a></span>
+  </b-row>
+</b-container>
 </template>
 
 <style>

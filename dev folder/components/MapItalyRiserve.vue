@@ -427,6 +427,7 @@ console.log(scale_els_points)
         />
       </g>
     </svg>
+    <div class="credits_">Fonte: <a href="https://www.turismovenatorio.it/ita/">Turismo Venatorio</a></div>
   </span>
 </template>
 

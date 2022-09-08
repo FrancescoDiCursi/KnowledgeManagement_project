@@ -60,7 +60,8 @@ export default {
         height:window.innerHeight,
         margin:{
             l:l_,
-            r:r_
+            r:r_,
+            b:0
         }
     }
 
@@ -92,6 +93,10 @@ Plotly.newPlot(html_target, data,layout,{displayModeBar:false});
                 <b-col cols="6">
                     <div id="tree_animals2"></div>
                 </b-col>
+            </b-row>
+            <b-row>
+                <span class="credits_">Fonte: <a href="https://www.mite.gov.it/pagina/repertorio-della-fauna-italiana-protetta">MITE</a></span>
+                <span class="data_path">(repertorio della fauna italiana)</span>
             </b-row>
         </b-container>
 

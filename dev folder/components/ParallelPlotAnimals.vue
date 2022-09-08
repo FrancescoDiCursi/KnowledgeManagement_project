@@ -104,7 +104,7 @@ export default {
         height_ = 1500;
       }
 */
-      var layout = { width: parent.innerWidth/1.3,margin:{l:400,r:200,t:0}}
+      var layout = { width: parent.innerWidth/1.3,margin:{l:400,r:200,t:0,b:0}}
 
       Plotly.newPlot("parallel_", data, layout, {displayModeBar: false,});
 
@@ -151,6 +151,10 @@ export default {
     <b-col>
   <div id="parallel_"></div>
   </b-col>
+  </b-row>
+  <b-row>
+    <span id="credits_">Fonte: <a href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-11;157~art18!vig=">Normattiva</a></span>
+    <span id="data_path">(legge 11 febbraio 1992, n.157, articolo 18, comma 1)</span>
   </b-row>
 </b-container>
 </template>

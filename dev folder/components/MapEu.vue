@@ -609,6 +609,10 @@ export default {
         </svg>
       </b-col>
     </b-row>
+    <b-row>
+      <span class="credits_"> Fonte: <a href='https://www.face.eu/sites/default/files/attachments/data_hunters-region_sept_2010.pdf'>FACE</a></span>
+    </b-row>
+
   </b-container>
 </template>
 
@@ -632,4 +636,5 @@ svg {
 b-row {
   display: block;
 }
+
 </style>

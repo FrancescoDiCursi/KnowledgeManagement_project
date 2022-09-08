@@ -719,7 +719,7 @@ var colors_=[          "red",
 </script>
 
 <template>
-  <b-container id="MapEu" fluid>
+  <b-container id="Map_it" fluid>
     <b-row style="background-color: whitesmoke">
       <b-col>
         <b-form-group id="attributi_it" v-slot="{ ariaDescribedby }">
@@ -976,6 +976,10 @@ var colors_=[          "red",
         </svg>
       </b-col>
       <b-col><div id="bar_tables"></div></b-col>
+    </b-row>
+    <b-row>
+      <span class="credits_">Fonte: <a href='http://dati.istat.it/Index.aspx?DataSetCode=DCSP_MACELLAZIONI'>ISTAT</a></span>
+      <span class="data_path">(foreste, caccia, pesca => Caccia serie interrotte 2001-2008)</span>
     </b-row>
   </b-container>
 </template>
