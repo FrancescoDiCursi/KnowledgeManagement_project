@@ -1136,9 +1136,12 @@ Si nota, dunque, come periodi critici per gli uccelli (almeno stando alla legge)
     position: fixed;
     left:0;
     top:3.5rem;
-    z-index: 9999;
+    z-index: 999;
   }
   .idx_els{
     width:100%
+  }
+  #sidebar-footer{
+    z-index: 1000;
   }
 </style>
