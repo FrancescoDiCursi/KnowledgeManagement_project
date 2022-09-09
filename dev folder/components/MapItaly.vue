@@ -794,7 +794,7 @@ var colors_=[          "red",
     </div>
 
     <b-row>
-      <b-col>
+      <b-col cols="12">
         <div id="hist_line_tables"></div>
       </b-col>
     </b-row>
@@ -994,6 +994,7 @@ svg {
 #svg_it {
   background-color: rgba(0, 105, 1048, 0.4);
   width: 30rem;
+
 }
 #bar_tables {
   position: absolute;

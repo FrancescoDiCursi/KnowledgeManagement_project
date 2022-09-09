@@ -35,7 +35,7 @@ export default {
         setTimeout(() => {
           AOS.refresh();
         }, 500);
-        AOS.init({ offset: 130, duration: 1000 });
+        AOS.init({ offset: 180, duration: 2000 });
 
         this.other = false;
       } else if (this.target_page == "Other") {
@@ -58,7 +58,10 @@ export default {
         <!-- Navbar dropdowns -->
       </b-navbar-nav>
       </b-navbar>
+      <b-img src="./static/imgs/bird_header3_ps.png" style="width:100%"></b-img>
     <div id="app">
+    
+
 
     <Home v-if="home"></Home>
 
@@ -85,4 +88,6 @@ body {
 	width: 100% !important;
   display:block !important;
 }
+
+
 </style>

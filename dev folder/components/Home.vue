@@ -17,6 +17,12 @@ import CarouselAssociazioni from "./CarouselAssociazioni.vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+AOS.init()
+setTimeout(() => {
+          AOS.refresh();
+        }, 500);
+        AOS.init({ offset: 180, duration: 1800 });
+
 export default {
   name: "Home",
   props: {},
@@ -171,7 +177,7 @@ export default {
 
 
     <h3 class="title_section" id="first_section">Dati e criticità</h3>
-    <div class="body_section">
+    <div class="body_section" data-aos="fade-up">
       I dati riguardanti la caccia sono, tanto a livello europeo quanto a
       livello italiano, distribuiti in maniera altamente eterogenea. La mancanza
       di un database centralizzato che consenta di consultare i dati in maniera
@@ -256,8 +262,8 @@ export default {
       dunque, rivolti al mercato del turismo venatorio).
     </div>
     <h3 class="title_section" id="second_section">La caccia in Europa</h3>
-    <MapEu></MapEu>
-    <div class="body_section">
+    <MapEu data-aos="flip-left"></MapEu>
+    <div class="body_section" data-aos="fade-up">
       Secondo il
       <a
         href="https://www.face.eu/sites/default/files/attachments/data_hunters-region_sept_2010.pdf"
@@ -334,8 +340,8 @@ export default {
     </div>
 
     <h3 class="title_section" id="third_section">La caccia in Italia</h3>
-    <LineHunters></LineHunters>
-    <div class="body_section">
+    <LineHunters data-aos="flip-right"></LineHunters>
+    <div class="body_section" data-aos="flip-up">
       La percezione della caccia come espediente ricreativo ha iniziato a
       indebolirsi a partire dagli anni 70/80, quando generazioni sempre più
       scolarizzate hanno iniziato ad affrancarsi dalle tradizioni, immersi
@@ -373,9 +379,9 @@ export default {
       mila). Il picco minimo viene raggiunto nel 2007 (700mila circa) mostrando
       tuttavia una lieve ripresa post 2007.
     </div>
-    <LineDemoIt></LineDemoIt>
+    <LineDemoIt data-aos="flip-left"></LineDemoIt>
 
-    <div class="body_section">
+    <div class="body_section" data-aos="fade-up">
       Come detto in precedenza, la caccia perde d’attrattiva fra i giovani a
       partire dagli anni 80, stessi anni in cui
       <a href="https:/italiaindati.com/demografia/"
@@ -383,8 +389,8 @@ export default {
       >, indice di un cambiamento radicale nello stile di vita delle famiglie di
       fine millennio.
     </div>
-    <LineMacellazioni></LineMacellazioni>
-    <div class="body_section">
+    <LineMacellazioni data-aos="flip-right"></LineMacellazioni>
+    <div class="body_section" data-aos="flip-up">
       Come è possibile notare dai
       <a
         href="https://seriestoriche.istat.it/index.php?id=1&no_cache=1&tx_usercento_centofe%5Bcategoria%5D=13&tx_usercento_centofe%5Baction%5D=show&tx_usercento_centofe%5Bcontroller%5D=Categoria&cHash=e3503d8195dd4231ff53ba078ad5c124"
@@ -457,8 +463,8 @@ export default {
       su bracconaggio e commercio illegale di piccoli volatili (anche specie
       protette).
     </div>
-    <BarSports></BarSports>
-    <div class="body_section">
+    <BarSports data-aos="flip-left"></BarSports>
+    <div class="body_section" data-aos="fade-up">
       Questo tipo di dinamica rimane essenzialmente legata alla tradizione e
       alla incapacità delle vecchie generazioni di comprendere come molte delle
       tradizioni siano ormai incompatibili con la modernità. Considerando che la
@@ -490,10 +496,10 @@ export default {
       via del basso costo di polli e suini, questi quasi mai oltre,
       rispettivamente, i 100 e i 200 euro al quintale).
     </div>
-    <LinePrezzi></LinePrezzi>
+    <LinePrezzi data-aos="flip-right"></LinePrezzi>
 
-    <D3RectVoti></D3RectVoti>
-    <div class="body_section">
+    <D3RectVoti data-aos="flip-left"></D3RectVoti>
+    <div class="body_section" data-aos="flip-up">
       Il 3 giugno del 1990 la popolazione italiana fu chiamata alle urne per 3
       quesiti referendari abrogativi aventi come tema, rispettivamente: la
       disciplina sulla caccia, l’accesso dei cacciatori a fondi privati e l’uso
@@ -667,8 +673,9 @@ export default {
       Giulia e Veneto (rispettivamente 51.4%, 52.4% e 55%).
     </div>
 
-    <MapItaly></MapItaly>
-    <div class="body_section">
+    <MapItaly data-aos="flip-right"></MapItaly>
+    
+    <div class="body_section" data-aos="fade-up">
       Riguardo i dati ISTAT relativi alla caccia, si tratta di quattro tavole:
       <ol>
         <li>
@@ -927,8 +934,8 @@ export default {
         </li>
       </ol>
     </div>
-    <D3CirclesAssociazioni></D3CirclesAssociazioni>
-    <div class="body_section">
+    <D3CirclesAssociazioni data-aos="flip-left"></D3CirclesAssociazioni>
+    <div class="body_section" data-aos="flip-up">
       Le associazioni venatorie riconosciute ai sensi della
       <a
         href="https://www.gazzettaufficiale.it/eli/id/1992/02/25/092G0211/sg#:~:text=La%20fauna%20selvatica%20e'%20patrimonio,danno%20effettivo%20alle%20produzioni%20agricole."
@@ -968,9 +975,9 @@ export default {
       disposizioni regionali in materia di caccia (come ad esempio i calendari
       venatori).
     </div>
-    <CarouselAssociazioni></CarouselAssociazioni>
+    <CarouselAssociazioni data-aos="flip-right"></CarouselAssociazioni>
     <br />
-    <div class="body_section">
+    <div class="body_section" data-aos="fade-up">
       Nell’articolo 10, comma 1, si legge che “tutto il territorio
       agro-silvo-pastorale è soggetto a pianificazione fuanistico-venatoria” ai
       fini della conservazione e contenimento delle fauna. Nel comma 2 si
@@ -996,9 +1003,9 @@ export default {
       faunistico-venatorio (articolo 27, comma 1, b).
     </div>
 
-    <TreemapAnimals></TreemapAnimals>
+    <TreemapAnimals data-aos='flip-left'></TreemapAnimals>
     <br />
-    <div class="body_section">
+    <div class="body_section" data-aos="flip-up">
       Consultando i dati del Ministero della Transizione Ecologica (MITE)
       riguardo il
       <a
@@ -1070,9 +1077,9 @@ export default {
       internazionali e/o Presidente del Consiglio (fra cui quelle segnalate
       nelle due treemap).
     </div>
-    <ParallelPlotAnimals></ParallelPlotAnimals>
+    <ParallelPlotAnimals data-aos="flip-right"></ParallelPlotAnimals>
     <br/>
-    <div class="body_section">
+    <div class="body_section" data-aos="fade-up">
       Osservando prima dall’asse per famiglie all’asse delle specie e controllando, per famiglia, le specie nelle due treemap, si può comprendere se ad essere cacciate sono specie anche solo potenzialmente a rischio.
 <ul>
   <li>nel grafico a sinistra: fra gli anatidi cacciabili figurano alzavola (4), canapiglia (3), codone (4), germano reale (4), marzaiola (3), mestolone (4), moretta (4) e moriglione (4). Praticamente tutte tranne il fischione; fra i bovidi appare il camoscio alpino (3)e la sottospecie sarda del muflone (4); fra i caradriidi la pavoncella (3); fra i cervidi il capriolo (1), il cervo (1) e il daino (1), praticamente tutti; fra i columbidi colombaccio (2) e tortora (2, sebbene con differenza di nome latino); fra i rallidi folaga (4), gallinella d’acqua (2), porciglione (2), praticamente tutti; fra gli scolopacidi beccaccia (4), beccaccino (4) e Frullino(4), anche qui tutti; fra i suidi la sottospecie meridionale del cinghiale (2); fra i turdidi cesena (2), merlo (2), tordo bottaccio (2), tordo sassello (2), anche qui tutti. Infine, per quanto riguarda i lagomorfi, occorre vedere la famiglia leprideae, in cui figura la lepre sarda (2);</li>
@@ -1091,14 +1098,15 @@ Osservando l’asse dei periodi, la stagione venatoria si apre la terza domenica
 Si nota, dunque, come periodi critici per gli uccelli (almeno stando alla legge) siano il periodo a e b (rispettivamente 64% e 72% degli uccelli cacciabili) e in minima parte il periodo c (8%). Per i mammiferi invece, periodi critici risultano il periodo a e c (rispettivamente 33% e 50%) e in minima parte i periodi b (4%) e d (caccia esclusivamente al cinghiale). Inoltre, essendo le specie cacciabili da tutelare per lo più uccelli,<b> possiamo concludere che i periodi più critici siano dunque, in particolar modo, il periodo a e b</b>.
     </div>
 
-    <MapItalyRiserve></MapItalyRiserve>
-    <div class="body_section">
+    <MapItalyRiserve data-aos="zoom-in"></MapItalyRiserve>
+    <div class="body_section" data-aos="flip-up">
       La mappa delle riserve sponsorizzate sul <a href="https://www.turismovenatorio.it/ita/">sito per il turismo venatorio</a> è provvista di due legende: la prima per quanto riguarda le regioni e riguarda l’estensione territoriale delle riserve; la seconda per quanto riguarda le singole riserve e riguarda il numero di specie cacciabili (mentre la grandezza dei punti riguarda l’estensione delle singole riserve). Osservandola si evince che le riserve più estese si trovino in Piemonte e Marche, mentre numerose e dall’estensione intermedia nel sud della Toscana e nel nord Lazio, mentre ce ne sono 2 mediamente estese in Sardegna. In generale, Piemonte, Toscana, Marche e Lazio hanno più offerta in numero di riserve, estensione e numero di specie cacciabili. Per il numero di specie, in ognuna delle 4 riserve si caccia la quasi totalità delle specie offerte da tutte le riserve. Seguono Marche (con una riserva avente quasi numero massimo e un’altra con valori oltre la media) e 5 in toscana con valori oltre la media. 
     </div>
-    <ItalyRiserveHeat></ItalyRiserveHeat>
-    <div class="body_section">
+    <ItalyRiserveHeat data-aos="flip-right"></ItalyRiserveHeat>
+    <div class="body_section" data-aos="fade-up">
       Nella heatmap è possibile osservare il numero di riserve che permettono di cacciare una certa specie in un certo luogo. Si nota come in Piemonte, 3 riserve permettano la caccia alla pernice rossa, due riserve beccaccia, fagiano, quaglia, starna e tordi mentre solo una per allodola e cinghiale. Di tutte le specie cacciabili nelle riserve piemontesi, solo il cinghiale appartiene all’ordine dei mammiferi. Osservando valori diversi da uno ad eslcusione del Piemonte: nelle Marche due riserve offrono la caccia alla starna mentre 2 in Toscana alla beccaccia. Anche qui, si tratta esclusivamente di uccelli. In verità, considerando tutte le specie cacciabili in tutte le riserve, si tratta per lo più di uccelli (ad esclusione di capriolo, cervo, cinghiale, coniglio, daino, lepre, lepre sarda e muflone). Suddividendo per ordine di appartenenza: le regioni che offrono più caccia a mammiferi sono Campania, Lazio e in particolare Toscana, mentre c’è prevalentemente caccia agli uccelli nelle Marche, Puglia e Sardegna. In generale, invece, le regioni con più specie cacciabili sono: Toscana, Marche e Lazio.
     </div>
+    <br/><br/>
   </b-container>
 </template>
 
@@ -1127,7 +1135,8 @@ Si nota, dunque, come periodi critici per gli uccelli (almeno stando alla legge)
     opacity: 0.8;
     position: fixed;
     left:0;
-    top:5rem
+    top:3.5rem;
+    z-index: 9999;
   }
   .idx_els{
     width:100%
