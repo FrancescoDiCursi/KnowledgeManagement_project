@@ -206,8 +206,8 @@ export default {
             gridcolor:'rgba(196, 164, 132,0.5)'
 
           },
-          width: 400,
-          height: 630,
+          width: 300,
+          height: 500,
           margin: {
             t: 0,
           },
@@ -1009,14 +1009,15 @@ var colors_=[          "red",
 <style>
 #attributi_it {
   background-color: rgba(196, 164, 132,0) !important;
+  color: black !important
 
 }
 svg {
-  
+
 }
 #svg_it {
   background-color: rgba(0, 105, 1048, 0.4);
-  width: 30rem;
+  width: 24rem;
 
 }
 #bar_tables {

@@ -68,7 +68,7 @@ export default {
             l:l_,
             r:r_,
             b:0,
-            t:30
+            t:50
         }
     }
 
@@ -77,8 +77,8 @@ Plotly.newPlot(html_target, data,layout,{displayModeBar:false});
     },
     watch:{
         values:function(newVal){
-            this.draw_treemap(this.values, this.ids,this.labels,this.parents,'tree_animals1',0,6, 'Menzioni nelle carte internazionali')
-            this.draw_treemap(this.values_iucn, this.ids_iucn,this.labels_iucn,this.parents_iucn,'tree_animals2',10,0, 'Categorie IUCN')
+            this.draw_treemap(this.values, this.ids,this.labels,this.parents,'tree_animals1',0,15, 'Menzioni nelle carte internazionali')
+            this.draw_treemap(this.values_iucn, this.ids_iucn,this.labels_iucn,this.parents_iucn,'tree_animals2',15,0, 'Categorie IUCN')
 
         },
         window_width:function(newVal){
@@ -111,5 +111,5 @@ Plotly.newPlot(html_target, data,layout,{displayModeBar:false});
 </template>
 
 <style>
-#tree_animals1{margin-left: 5rem;margin-right:auto;width:30rem}
+#tree_animals1{margin-left: 1rem;margin-right:auto;width:30rem}
 </style>

@@ -236,8 +236,7 @@ export default {
 
 <style>
 #circles_associazioni {
-  width: 35rem;
-  margin-left: 5rem;
+  width: 30rem;
   position: relative;
   float:bottom;
 }

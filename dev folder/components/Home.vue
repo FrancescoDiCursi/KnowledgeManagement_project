@@ -1138,10 +1138,12 @@ Si nota, dunque, come periodi critici per gli uccelli (almeno stando alla legge)
 .credits_ {
   font-weight: bold;
   margin-bottom: 1rem;
+  color:'black'
 }
 .data_path {
   margin-top: -1rem;
   font-size: 12px;
+  color:'black'
 }
  #menu_toggle {
     font-size: 10px;
@@ -1172,6 +1174,7 @@ Si nota, dunque, come periodi critici per gli uccelli (almeno stando alla legge)
   .title_section{
     margin-top:2rem;
     margin-bottom: 3rem;
+    color:black
   }
   hr{
     border:solid black 2px
@@ -1193,5 +1196,9 @@ Si nota, dunque, come periodi critici per gli uccelli (almeno stando alla legge)
   #hide_index_btn{
     margin-left:35%;
     width:100%;
+  }
+
+  p{
+    color:'black' !important
   }
 </style>

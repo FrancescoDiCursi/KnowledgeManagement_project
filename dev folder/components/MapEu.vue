@@ -620,7 +620,6 @@ export default {
 #attributi_eu {
 }
 svg {
-  margin-left: -1rem;
 }
 #svg_eu {
   background-color: rgba(0, 105, 1048, 0.4);
