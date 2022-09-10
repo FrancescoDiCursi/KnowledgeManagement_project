@@ -673,7 +673,7 @@ export default {
       39.57%. Le regioni più partecipative sono state: Piemonte, Friuli-Venezia
       Giulia e Veneto (rispettivamente 51.4%, 52.4% e 55%).
     </div>
-    <p >Tavole ISTAT sulla caccia</p>
+    <p class="secondary_title" >Tavole ISTAT sulla caccia</p>
 
     <MapItaly data-aos="flip-right"></MapItaly>
     
@@ -936,7 +936,7 @@ export default {
         </li>
       </ol>
     </div>
-    <p>Associazioni venatorie</p>
+    <p class="secondary_title">Associazioni venatorie</p>
 
     <D3CirclesAssociazioni data-aos="flip-left"></D3CirclesAssociazioni>
     <div class="body_section" data-aos="flip-up">
@@ -1006,7 +1006,7 @@ export default {
       dal Ministero dell’ambiente o presenti nel Comitato tecnico
       faunistico-venatorio (articolo 27, comma 1, b).
     </div>
-    <p>Fauna protetta</p>
+    <p class="secondary_title">Fauna protetta</p>
     <TreemapAnimals data-aos='flip-left'></TreemapAnimals>
     <br />
     <div class="body_section" data-aos="flip-up">
@@ -1081,9 +1081,9 @@ export default {
       internazionali e/o Presidente del Consiglio (fra cui quelle segnalate
       nelle due treemap).
     </div>
-    <p>Calendario venatorio nazionale</p>
+    <p class="secondary_title">Calendario venatorio nazionale</p>
 
-    <ParallelPlotAnimals data-aos="flip-right"></ParallelPlotAnimals>
+    <p class="secondary_title"arallelPlotAnimals data-aos="flip-right"></ParallelPlotAnimals>
     <br/>
     <div class="body_section" data-aos="fade-up">
       Osservando prima dall’asse per famiglie all’asse delle specie e controllando, per famiglia, le specie nelle due treemap, si può comprendere se ad essere cacciate sono specie anche solo potenzialmente a rischio.
@@ -1103,13 +1103,13 @@ Osservando l’asse dei periodi, la stagione venatoria si apre la terza domenica
 </ul>   
 Si nota, dunque, come periodi critici per gli uccelli (almeno stando alla legge) siano il periodo a e b (rispettivamente 64% e 72% degli uccelli cacciabili) e in minima parte il periodo c (8%). Per i mammiferi invece, periodi critici risultano il periodo a e c (rispettivamente 33% e 50%) e in minima parte i periodi b (4%) e d (caccia esclusivamente al cinghiale). Inoltre, essendo le specie cacciabili da tutelare per lo più uccelli,<b> possiamo concludere che i periodi più critici siano dunque, in particolar modo, il periodo a e b</b>.
     </div>
-    <p>Riserve di caccia</p>
+    <p class="secondary_title">Riserve di caccia</p>
 
     <MapItalyRiserve data-aos="zoom-in"></MapItalyRiserve>
     <div class="body_section" data-aos="flip-up">
       La mappa delle riserve sponsorizzate sul <a href="https://www.turismovenatorio.it/ita/">sito per il turismo venatorio</a> è provvista di due legende: la prima per quanto riguarda le regioni e riguarda l’estensione territoriale delle riserve; la seconda per quanto riguarda le singole riserve e riguarda il numero di specie cacciabili (mentre la grandezza dei punti riguarda l’estensione delle singole riserve). Osservandola si evince che le riserve più estese si trovino in Piemonte e Marche, mentre numerose e dall’estensione intermedia nel sud della Toscana e nel nord Lazio, mentre ce ne sono 2 mediamente estese in Sardegna. In generale, Piemonte, Toscana, Marche e Lazio hanno più offerta in numero di riserve, estensione e numero di specie cacciabili. Per il numero di specie, in ognuna delle 4 riserve si caccia la quasi totalità delle specie offerte da tutte le riserve. Seguono Marche (con una riserva avente quasi numero massimo e un’altra con valori oltre la media) e 5 in toscana con valori oltre la media. 
     </div>
-    <p>Animali cacciabili (numero riserve per regione)</p>
+    <p class="secondary_title">Animali cacciabili (numero riserve per regione)</p>
     <ItalyRiserveHeat data-aos="flip-right"></ItalyRiserveHeat>
     <div class="body_section" data-aos="fade-up">
       Nella heatmap è possibile osservare il numero di riserve che permettono di cacciare una certa specie in un certo luogo. Si nota come in Piemonte, 3 riserve permettano la caccia alla pernice rossa, due riserve beccaccia, fagiano, quaglia, starna e tordi mentre solo una per allodola e cinghiale. Di tutte le specie cacciabili nelle riserve piemontesi, solo il cinghiale appartiene all’ordine dei mammiferi. Osservando valori diversi da uno ad eslcusione del Piemonte: nelle Marche due riserve offrono la caccia alla starna mentre 2 in Toscana alla beccaccia. Anche qui, si tratta esclusivamente di uccelli. In verità, considerando tutte le specie cacciabili in tutte le riserve, si tratta per lo più di uccelli (ad esclusione di capriolo, cervo, cinghiale, coniglio, daino, lepre, lepre sarda e muflone). Suddividendo per ordine di appartenenza: le regioni che offrono più caccia a mammiferi sono Campania, Lazio e in particolare Toscana, mentre c’è prevalentemente caccia agli uccelli nelle Marche, Puglia e Sardegna. In generale, invece, le regioni con più specie cacciabili sono: Toscana, Marche e Lazio.
@@ -1138,12 +1138,12 @@ Si nota, dunque, come periodi critici per gli uccelli (almeno stando alla legge)
 .credits_ {
   font-weight: bold;
   margin-bottom: 1rem;
-  color:'black' !important
+  color:black !important
 }
 .data_path {
   margin-top: -1rem;
   font-size: 12px;
-  color:'black' !important
+  color:black !important
 }
  #menu_toggle {
     font-size: 10px;
@@ -1198,12 +1198,12 @@ Si nota, dunque, come periodi critici per gli uccelli (almeno stando alla legge)
     width:100%;
   }
 
-  p{
-    color:'black' !important;
+  .secondary_title{
+    color:black !important;
     font-size:20px;
     margin-top:2rem;
-    width:100%
-    ;background-color:transparent !important
+    width:100%;
+    background-color:transparent !important
     
   }
 </style>
