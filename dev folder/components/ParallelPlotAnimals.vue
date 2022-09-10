@@ -166,8 +166,8 @@ export default {
   </b-col>
   </b-row>
   <b-row>
-    <span id="credits_">Fonte: <a href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-11;157~art18!vig=">Normattiva</a></span>
-    <span id="data_path">(legge 11 febbraio 1992, n.157, articolo 18, comma 1)</span>
+    <span class="credits_">Fonte: <a href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-11;157~art18!vig=">Normattiva</a></span>
+    <span class="data_path">(legge 11 febbraio 1992, n.157, articolo 18, comma 1)</span>
   </b-row>
 </b-container>
 </template>
@@ -175,8 +175,8 @@ export default {
 <style>
 #parallel_{
   height: 1000px;
-  width:90vw;
-  margin-left:-10%;
+  width:100vw;
+  margin-left:-20%;
 }
 #type_filt_parallel{
   background-color: rgba(196, 164, 132,0.3);
