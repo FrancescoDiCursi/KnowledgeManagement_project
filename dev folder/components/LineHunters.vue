@@ -15,6 +15,12 @@ export default {
     });
   },
   methods: {
+    HexCode(color){
+        const rgba = color.replace(/^rgba?\(|\s+|\)$/g, '').split(',');
+        const hex = `#${((1 << 24) + (parseInt(rgba[0]) << 16) + (parseInt(rgba[1]) << 8) + parseInt(rgba[2])).toString(16).slice(1)}`;
+        
+        return hex;
+    },
     linechart() {
       var traces = [];
       var trace = {
@@ -42,13 +48,22 @@ export default {
       traces.push(trace);
       traces.push(text);
       var layout = {
+        paper_bgcolor:'rgba(196, 164, 132,0)',
+        plot_bgcolor:'rgba(196, 164, 132,0)',
         margin:{
           b:0,
-          t:0
         },
         xaxis:{
-          automargin:true
+          automargin:true,
+          gridcolor:'rgba(196, 164, 132,0.5)'
         },
+        yaxis:{
+          gridcolor:'rgba(196, 164, 132,0.5)'
+        },
+        font:{
+          color:'black'
+        },
+        title:'Licenze cacciatori in Italia',
         shapes: [
           {
             type: "line",

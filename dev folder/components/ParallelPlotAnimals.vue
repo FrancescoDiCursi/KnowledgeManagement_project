@@ -104,7 +104,20 @@ export default {
         height_ = 1500;
       }
 */
-      var layout = { width: parent.innerWidth/1.3,margin:{l:400,r:200,t:0,b:0}}
+      var layout = {
+        paper_bgcolor:'rgba(196, 164, 132,0)',
+        plot_bgcolor:'rgba(196, 164, 132,0)',
+        font:{
+          color:'black'
+        },
+         width: parent.innerWidth/1.3,
+         margin:{
+
+          l:400,
+          r:200,
+          b:0
+        }
+        }
 
       Plotly.newPlot("parallel_", data, layout, {displayModeBar: false,});
 
@@ -143,7 +156,7 @@ export default {
   <b-row>
     <b-col>
       <b-form-group id="" v-slot="{ariaDescribedby}">
-      <b-form-radio-group id="" v-model="sel_info" :options="['Categoria','Colore']" :aria-describedby="ariaDescribedby"></b-form-radio-group>
+      <b-form-radio-group id="type_filt_parallel" v-model="sel_info" :options="['Categoria','Colore']" :aria-describedby="ariaDescribedby"></b-form-radio-group>
       </b-form-group>
     </b-col>
   </b-row>
@@ -163,6 +176,10 @@ export default {
 #parallel_{
   height: 1000px;
   width:90vw;
-  margin-left:-13%;
+  margin-left:-10%;
+}
+#type_filt_parallel{
+  background-color: rgba(196, 164, 132,0.3);
+
 }
 </style>

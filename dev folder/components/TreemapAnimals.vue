@@ -43,7 +43,7 @@ export default {
     },
     methods:{
 
-        draw_treemap(vals_,ids_,labels_,parents_,html_target,l_,r_){
+        draw_treemap(vals_,ids_,labels_,parents_,html_target,l_,r_,title_){
             var data = [{
       type: "treemap",
       values:vals_,
@@ -56,12 +56,19 @@ export default {
     }];
 
     var layout={
+        title:title_,
+        paper_bgcolor:'beige',
+        plot_bgcolor:'beige',
+        font:{
+            color:'black'
+        },
         width:window.innerWidth/3.5,
         height:window.innerHeight,
         margin:{
             l:l_,
             r:r_,
-            b:0
+            b:0,
+            t:30
         }
     }
 
@@ -70,8 +77,8 @@ Plotly.newPlot(html_target, data,layout,{displayModeBar:false});
     },
     watch:{
         values:function(newVal){
-            this.draw_treemap(this.values, this.ids,this.labels,this.parents,'tree_animals1',0,6)
-            this.draw_treemap(this.values_iucn, this.ids_iucn,this.labels_iucn,this.parents_iucn,'tree_animals2',6,0)
+            this.draw_treemap(this.values, this.ids,this.labels,this.parents,'tree_animals1',0,6, 'Menzioni nelle carte internazionali')
+            this.draw_treemap(this.values_iucn, this.ids_iucn,this.labels_iucn,this.parents_iucn,'tree_animals2',10,0, 'Categorie IUCN')
 
         },
         window_width:function(newVal){

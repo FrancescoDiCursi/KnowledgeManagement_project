@@ -51,7 +51,7 @@ export default {
 
 <template >
 <span>
- <b-navbar type="dark" variant="dark" id="navbar">
+ <b-navbar type="dark" variant="success" id="navbar">
       <b-navbar-nav>
         <b-nav-item  @click="update_page('Home')">Home</b-nav-item>
         <b-nav-item @click="update_page('Other')">Altro</b-nav-item>
@@ -78,7 +78,6 @@ export default {
   padding:0% !important
 }
 #navbar {
-	background-color: #009fe3;
 	width: 100%;
 	box-sizing: content-box;
 	}
@@ -87,6 +86,7 @@ body {
   margin:0 !important;
 	width: 100% !important;
   display:block !important;
+  background-color:beige !important;
 }
 
 

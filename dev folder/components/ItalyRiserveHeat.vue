@@ -48,6 +48,11 @@ export default {
 
 
             var layout={
+                paper_bgcolor:'rgba(196, 164, 132,0)',
+                plot_bgcolor:'rgba(196, 164, 132,0)',
+                font:{
+                    color:'black'
+                },
                 height:500,
                 width:700,
                 yaxis:{
@@ -61,7 +66,8 @@ export default {
                 annotations:[],
                 margin:{
                 t:0,
-                r:150
+                r:150,
+                l:0
                 }
             }
 
@@ -100,13 +106,25 @@ export default {
                 type:'bar'
             }
                 var layout={
+                    paper_bgcolor:'rgba(196, 164, 132,0)',
+                    plot_bgcolor:'rgba(196, 164, 132,0)',
                     width:485,
                     height:200,
                     margin:{
                         r:0,
                         b:0,
                         l:95
-                    }
+                    },
+                    xaxis:{
+          //automargin:true,
+          gridcolor:'rgba(196, 164, 132,0.5)'
+        },
+        yaxis:{
+          gridcolor:'rgba(196, 164, 132,0.5)'
+        },
+        font:{
+            color:'black'
+        },
                 }
                 
             var config={
@@ -122,12 +140,18 @@ export default {
                 orientation:'h'
             }
                 var layout={
+                    paper_bgcolor:'rgba(196, 164, 132,0)',
+        plot_bgcolor:'rgba(196, 164, 132,0)',
                     height:475,
                     width:200,
                     yaxis:{
-                        visible:false,
+                        //visible:false,
                         type:'category',
-                        categoryorder:'category descending'
+                        categoryorder:'category descending',
+                        gridcolor:'rgba(196, 164, 132,0.5)'
+                    },
+                    xaxis:{
+                        gridcolor:'rgba(196, 164, 132,0.5)'
                     },
                     margin:{
                         t:0,
@@ -175,6 +199,7 @@ export default {
 <style >
 #riserve_it_heat{
     position:absolute;
+    z-index:998;
 }
 #riserve_it_marginalx{
     width: 100%;
@@ -183,12 +208,14 @@ export default {
 #riserve_it_marginaly{
     position: relative;
     float:right;
-    left:13.35rem
+    left:13.35rem;
+    z-index:998
 }
 #meta_riserve_it_heat{
     width:35rem;
     margin-left:auto;
-    margin-right:auto
+    margin-right:auto;
+    margin-top:-5rem;
 }
 
 </style>

@@ -48,11 +48,18 @@ export default {
 
       traces.push(text)*/
       var layout = {
+        title:'Prezzo carni (euro per quintale)',
+        paper_bgcolor:'rgba(196, 164, 132,0)',
+        plot_bgcolor:'rgba(196, 164, 132,0)',
         margin: {
           b:0,
-          t:0
+
         },        xaxis:{
-          automargin:true
+          automargin:true,
+          gridcolor:'rgba(196, 164, 132,0.5)'
+        },
+        yaxis:{
+          gridcolor:'rgba(196, 164, 132,0.5)'
         },
         /*shapes:[
             {

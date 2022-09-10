@@ -193,12 +193,18 @@ export default {
         }
         var layout = {
           barmode: "stack",
+          paper_bgcolor:'rgba(196, 164, 132,0)',
+        plot_bgcolor:'rgba(196, 164, 132,0)',
           yaxis: {
             automargin: true,
-            categoryorder:'category descending'
+            categoryorder:'category descending',
+            gridcolor:'rgba(196, 164, 132,0.5)'
+
           },
           xaxis:{
-            range:[min_,max_]
+            range:[min_,max_],
+            gridcolor:'rgba(196, 164, 132,0.5)'
+
           },
           width: 400,
           height: 630,
@@ -370,6 +376,21 @@ var colors_=[          "red",
         console.log(traces)
 
         var layout = {
+          paper_bgcolor:'rgba(196, 164, 132,0)',
+        plot_bgcolor:'rgba(196, 164, 132,0)',
+        margin:{
+          b:0,
+        },
+        xaxis:{
+          automargin:true,
+          gridcolor:'rgba(196, 164, 132,0.5)'
+        },
+        yaxis:{
+          gridcolor:'rgba(196, 164, 132,0.5)'
+        },
+        font:{
+          color:'black'
+        },
           barmode: "stack",
           height: 300,
         };
@@ -719,10 +740,11 @@ var colors_=[          "red",
 </script>
 
 <template>
+  
   <b-container id="Map_it" fluid>
-    <b-row style="background-color: whitesmoke">
+    <b-row id="attributi_it">
       <b-col>
-        <b-form-group id="attributi_it" v-slot="{ ariaDescribedby }">
+        <b-form-group  v-slot="{ ariaDescribedby }">
           {{/*capire dove piazzare i bottoni, cambiare v-model con singoli  bottoni */}}
           <b-form-radio-group
             id="radio_group_it_tables"
@@ -800,7 +822,7 @@ var colors_=[          "red",
     </b-row>
     <b-row>
       <b-row>
-        <b-col cols="12" style="background-color: whitesmoke">
+        <b-col cols="12">
           <b-button @click="time_animation()" id="animation_btn"
             >Serie temporale</b-button
           >
@@ -985,10 +1007,11 @@ var colors_=[          "red",
 </template>
 
 <style>
-#attributi_it_tables {
+#attributi_it {
+  background-color: rgba(196, 164, 132,0) !important;
+
 }
 svg {
-  margin-left: -1rem;
   
 }
 #svg_it {
@@ -1002,17 +1025,23 @@ svg {
 }
 .form-check {
   padding: 1;
-  background-color: whitesmoke;
   width: 30rem;
   text-align: left;
   color: black !important;
 }
 #it_info {
   text-align: left;
-  background-color: whitesmoke;
+  background-color: rgba(196, 164, 132,0) !important;
   color: black;
 }
 #animation_btn {
-  width: 10rem;
+  width: 100% !important;
+  background-color: rgba(196, 164, 132,1) !important;
+  color:'black'
+
+}
+#Map_it{
+  background-color: rgba(196, 164, 132,0.3) !important;
+  margin-bottom:2rem
 }
 </style>

@@ -92,16 +92,26 @@ export default {
       console.log(traces);
 
       var layout = {
+        title:'Sport in Italia (asse y scalato per radice quadrata)',
+        paper_bgcolor:'rgba(196, 164, 132,0)',
+        plot_bgcolor:'rgba(196, 164, 132,0)',
+        font:{
+          color:'black'
+        },
         xaxis:{
             type:'category',
             categoryorder:'category ascending',
-            automargin:true
+            automargin:true,
+            gridcolor:'rgba(196, 164, 132,0.5)'
 
+        },
+        yaxis:{
+          gridcolor:'rgba(196, 164, 132,0.5)'
         },
         height:600,
         margin:{
             b:0,
-            t:10
+
         },
         shapes:[
           {type:'rect',

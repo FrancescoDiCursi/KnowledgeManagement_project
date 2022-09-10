@@ -24,16 +24,17 @@ export default {
       :interval="4000"
       controls
       indicators
-      background="#ababab"
+      background="transparent"
+      variant='dark'
       img-width="1024"
       img-height="480"
-      style="text-shadow: 1px 1px 2px #333"
+      style="text-shadow: 1px 1px 10px black;text"
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
     >
       <!-- Text slides with image -->
       <b-carousel-slide
-        img-src="./static/imgs/back.webp"
+        img-src="./static/imgs/back.jpeg"
         class="w-100"
         alt="image"
         style="height: 30rem"
@@ -64,7 +65,7 @@ export default {
       >
 
       <b-carousel-slide
-        img-src="./static/imgs/back.webp"
+        img-src="./static/imgs/back.jpeg"
         class="w-100"
         alt="image"
         style="height: 30rem"
@@ -98,7 +99,7 @@ export default {
       >
 
             <b-carousel-slide
-        img-src="./static/imgs/back.webp"
+        img-src="./static/imgs/back.jpeg"
         class="w-100"
         alt="image"
         style="height: 30rem"
@@ -116,7 +117,7 @@ Dalla sua costituzione L’Enalcaccia ha aderito allo C.S.A.IN. (Centri Sportivi
       >
 
             <b-carousel-slide
-        img-src="./static/imgs/back.webp"
+        img-src="./static/imgs/back.jpeg"
         class="w-100"
         alt="image"
         style="height: 30rem"
@@ -134,7 +135,7 @@ L’Associazione autonoma, indipendente e pluralista è aperta all’adesione di
       >
 
                   <b-carousel-slide
-        img-src="./static/imgs/back.webp"
+        img-src="./static/imgs/back.jpeg"
         class="w-100"
         alt="image"
         style="height: 30rem"
@@ -153,7 +154,7 @@ A livello comunitario aderisce alla FACE/Federazione delle Associazioni dei Cacc
 
 
                   <b-carousel-slide
-        img-src="./static/imgs/back.webp"
+        img-src="./static/imgs/back.jpeg"
         class="w-100"
         alt="image"
         style="height: 30rem"
@@ -172,7 +173,7 @@ La tutela della fauna selvatica è un impegno che può essere assolto dal mondo 
       >
 
                         <b-carousel-slide
-        img-src="./static/imgs/back.webp"
+        img-src="./static/imgs/back.jpeg"
         class="w-100"
         alt="image"
         style="height: 30rem"
@@ -193,3 +194,7 @@ L’Ente Produttori Selvaggina (EPS) si propone di diffondere il concetto di cac
     
   </div>
 </template>
+
+<style>
+
+</style>

@@ -628,7 +628,7 @@ svg {
 }
 .form-check {
   padding: 1;
-  background-color: whitesmoke;
+  background-color: rgba(196, 164, 132,0.3) !important;
   width: 30rem;
   text-align: left;
   color: black !important;

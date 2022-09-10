@@ -40,13 +40,21 @@ export default {
       traces.push(trace);
       traces.push(text)
       var layout = {
+        paper_bgcolor:'rgba(196, 164, 132,0)',
+        plot_bgcolor:'rgba(196, 164, 132,0)',
         margin:{
-            //r:200,
-            t:0,
-            b:0
+          b:0,
         },
-                xaxis:{
-          automargin:true
+        xaxis:{
+          automargin:true,
+          gridcolor:'rgba(196, 164, 132,0.5)'
+        },
+        yaxis:{
+          gridcolor:'rgba(196, 164, 132,0.5)'
+        },
+        title:'Crescita demografica Italia',
+        font:{
+          color:'black'
         },
         shapes:[
             {

@@ -356,7 +356,8 @@ export default {
 
 <template>
 <b-container>
-  <b-row>  <svg id="rects_votes"  height="400" viewBox="-500 100 1500 100"></svg>
+  <p style="font-size:20px;margin-top:2rem;margin-bottom:-3rem">Referendum 1990</p>
+  <b-row>  <svg id="rects_votes"  height="400" viewBox="-800 100 2000 100"></svg>
 </b-row>
   <b-row><span class='credits_'>Fonte: <a href='https://it.wikipedia.org/wiki/Referendum_abrogativi_in_Italia_del_1990#Disciplina_della_caccia'>Wikipedia</a></span></b-row>
 </b-container>

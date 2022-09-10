@@ -138,7 +138,7 @@ export default {
         title_+=', valori assoluti'
       }
       else{
-        title_+=', valori scalati per radice quadrata'
+        title_+=', asse y scalato per radice quadrata'
       }
       var layout = {
         title:
@@ -148,8 +148,8 @@ export default {
           bgcolor: "rgba(0,0,0,0.8)",
           font: { color: "white" },
         },
-        //paper_bgcolor: "rgba(0,0,0,0)",
-        //plot_bgcolor: "rgba(0,0,0,0)",
+        paper_bgcolor:'rgba(196, 164, 132,0)',
+        plot_bgcolor:'rgba(196, 164, 132,0)',
         font: {
           //family: 'Courier New, monospace',
           //size: 18,
@@ -158,7 +158,11 @@ export default {
         margin:{
           b:0,
         },
+        yaxis:{
+          gridcolor:'rgba(196, 164, 132,0.5)'
+        },
         xaxis: {
+          gridcolor:'rgba(196, 164, 132,0.5)',
           autorange: true,
           rangeselector: {
             buttons: [
