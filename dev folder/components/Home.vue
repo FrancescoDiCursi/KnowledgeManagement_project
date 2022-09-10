@@ -1083,7 +1083,7 @@ export default {
     </div>
     <p class="secondary_title">Calendario venatorio nazionale</p>
 
-    <p class="secondary_title"arallelPlotAnimals data-aos="flip-right"></ParallelPlotAnimals>
+    <ParallelPlotAnimals data-aos="flip-right"></ParallelPlotAnimals>
     <br/>
     <div class="body_section" data-aos="fade-up">
       Osservando prima dall’asse per famiglie all’asse delle specie e controllando, per famiglia, le specie nelle due treemap, si può comprendere se ad essere cacciate sono specie anche solo potenzialmente a rischio.

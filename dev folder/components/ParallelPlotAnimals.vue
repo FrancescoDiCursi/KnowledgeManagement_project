@@ -177,7 +177,6 @@ export default {
   height: 1000px;
   width:90vw;
   margin-left:-10%;
-  color:black !important
 }
 #type_filt_parallel{
   background-color: rgba(196, 164, 132,0.3);
