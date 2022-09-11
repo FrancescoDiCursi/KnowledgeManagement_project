@@ -141,6 +141,7 @@ export default {
         title_+=', asse y scalato per radice quadrata'
       }
       var layout = {
+        showlegend:true,
         title:
           `Macellazioni (${title_})`,
         hovermode: "x unified",

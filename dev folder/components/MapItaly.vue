@@ -192,6 +192,7 @@ export default {
           traces.push(temp_trace);
         }
         var layout = {
+          showlegend:true,
           barmode: "stack",
           paper_bgcolor:'rgba(196, 164, 132,0)',
         plot_bgcolor:'rgba(196, 164, 132,0)',
@@ -215,13 +216,13 @@ export default {
         Plotly.newPlot("bar_tables", traces, layout, {displayModeBar:false});
       } else if (this.table_selection == "Tavola 4") {
         var target_names = ['Superficie territoriale','Superficie aziendale agro-forestale','Cacciatori','Densità venatoria per 1000 ha','Agenti venatori','Guardie volontarie','Vigilanza venatoria: numero agenti e/o guardie per 1000 ha'];
-                var legend_names=[          "Superficie territoriale",
-          "Superficie aziendale<br>agro-forestale",
+                var legend_names=[          "Superficie<br>territoriale",
+          "Superficie<br>aziendale<br>agro-forestale",
           "Cacciatori",
-          "Densità venatoria<br>per 1000 ha",
-          "Agenti venatori",
-          "Guardie volontarie",
-          "Vigilanza venatoria:<br>numero agenti e/o guardie<br>per 1000 ha",]
+          "Densità<br>venatoria<br>per<br>1000 ha",
+          "Agenti<br>venatori",
+          "Guardie<br>volontarie",
+          "Vigilanza<br>venatoria:<br>numero<br>agenti<br>e/o guardie<br>per 1000 ha",]
               var filt_temp_table2 = temp_table.map((d) =>
         Object.entries(d)
       );
@@ -268,16 +269,28 @@ var colors_=[          "red",
           traces.push(temp_trace);
         
         var layout = {
+          showlegend:true,
+          legend:{
+            font:{
+              size:10
+            }
+          },
+          paper_bgcolor:'rgba(196, 164, 132,0)',
+          plot_bgcolor:'rgba(196, 164, 132,0)',
           barmode: "stack",
           yaxis: {
             automargin: true,
-            categoryorder:'category descending'
+            categoryorder:'category descending',
+            gridcolor:'rgba(196, 164, 132,0.5)'
+
           },
           xaxis:{
-            range:[0,max_]
+            range:[0,max_],
+            gridcolor:'rgba(196, 164, 132,0.5)'
+
           },
-          width: 400,
-          height: 630,
+          width:300,
+          height: 500,
           margin: {
             t: 0,
           },
@@ -376,6 +389,7 @@ var colors_=[          "red",
         console.log(traces)
 
         var layout = {
+          showlegend:true,
           paper_bgcolor:'rgba(196, 164, 132,0)',
         plot_bgcolor:'rgba(196, 164, 132,0)',
         margin:{
@@ -446,8 +460,28 @@ var colors_=[          "red",
           };
           traces.push(temp_trace);
           console.log(traces)
+          var layout_ = {
+            showlegend:true,
+          paper_bgcolor:'rgba(196, 164, 132,0)',
+        plot_bgcolor:'rgba(196, 164, 132,0)',
+        margin:{
+          b:0,
+        },
+        xaxis:{
+          automargin:true,
+          gridcolor:'rgba(196, 164, 132,0.5)'
+        },
+        yaxis:{
+          gridcolor:'rgba(196, 164, 132,0.5)'
+        },
+        font:{
+          color:'black'
+        },
+          barmode: "stack",
+          height: 300,
+        };
     
-        Plotly.newPlot("hist_line_tables", traces,{},{displayModeBar:false});
+        Plotly.newPlot("hist_line_tables", traces,layout_,{displayModeBar:false});
       }
     },
     color_map(type_, legend_values) {

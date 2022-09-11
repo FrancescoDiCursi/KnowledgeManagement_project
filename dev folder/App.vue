@@ -46,6 +46,8 @@ export default {
   },
   watch: {},
 };
+window.onresize = function(){ location.reload(); }
+
 </script>
 
 

@@ -93,6 +93,7 @@ export default {
 
       var layout = {
         title:'Sport in Italia (asse y scalato per radice quadrata)',
+        showlegend:true,
         paper_bgcolor:'rgba(196, 164, 132,0)',
         plot_bgcolor:'rgba(196, 164, 132,0)',
         font:{
